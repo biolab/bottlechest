@@ -24,13 +24,13 @@ License
 =======
 
 Bottlechest is distributed under a Simplified BSD license. Parts of NumPy,
-Scipy, numpydoc and bottlechest, all of which have BSD licenses, are included in
+Scipy, numpydoc and bottleneck, all of which have BSD licenses, are included in
 Bottleneck. See the LICENSE file, which is distributed with Bottlechest, for
 details.
 
 
 Install
-=======
+h=======
 
 Requirements:
 
