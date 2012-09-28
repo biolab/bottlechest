@@ -223,7 +223,7 @@ def nanequal_selector(arr1, arr2, axis):
     else:
         a2 = np.array(arr2, copy=False)
     cdef int ndim = PyArray_NDIM(a1)
-    cdef int ndim2 = PyArray_NDIM(a1)
+    cdef int ndim2 = PyArray_NDIM(a2)
     if ndim != ndim2:
         raise ValueError("arrays have different dimensions, %i != %i" %
                          (ndim, ndim2))
