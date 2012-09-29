@@ -22,6 +22,7 @@ from .replace import replace
 from .anynan import anynan
 from .allnan import allnan
 from .nanequal import nanequal
+from .bincount import bincount
 
 funcs = {}
 funcs['median'] = median
@@ -42,6 +43,8 @@ funcs['replace'] = replace
 funcs['anynan'] = anynan
 funcs['allnan'] = allnan
 funcs['nanequal'] = nanequal
+funcs['bincount'] = bincount
+
 
 header = """#cython: embedsignature=True
 
@@ -56,7 +59,8 @@ from numpy cimport (PyArray_EMPTY, PyArray_TYPE, PyArray_NDIM,
                     PyArray_SIZE, PyArray_DIMS, import_array,
                     PyArray_ArgSort, NPY_QUICKSORT, NPY_CORDER, 
                     PyArray_Ravel, PyArray_FillWithScalar, PyArray_Copy,
-                    NPY_BOOL)
+                    NPY_BOOL,
+                    PyArray_ZEROS)
 
 # NPY_INTP is missing from numpy.pxd in cython 0.14.1 and earlier
 cdef extern from "numpy/arrayobject.h":
@@ -113,6 +117,7 @@ include "replace.pyx"
 include "anynan.pyx"
 include "allnan.pyx"
 include "nanequal.pyx"
+include "bincount.pyx"
 """
 
 def funcpyx(funcs=funcs, bits=None):

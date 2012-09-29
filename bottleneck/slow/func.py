@@ -4,7 +4,8 @@ import numpy as np
 __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
            'nanmin', 'nanmax', 'nanargmin', 'nanargmax', 'rankdata',
            'nanrankdata', 'ss', 'nn', 'partsort', 'argpartsort', 'replace',
-           'anynan', 'allnan']
+           'anynan', 'allnan',
+           'bincount']
 
 def median(arr, axis=None):
     "Slow median function used for unaccelerated ndim/dtype combinations."
@@ -212,6 +213,34 @@ def nanequal(arr1, arr2, axis=None):
         return arr1 == arr2 or arr1 != arr1 or arr2 != arr2
     return np.apply_along_axis(lambda x:nanequal(x["f0"], x["f1"]), axis,
                                np.core.records.fromarrays([arr1, arr2]))
+
+
+def bincount(arr, max_val, weights=None):
+    "Slow bincount"
+    if arr.ndim == 1:
+        out = np.zeros((max_val+1, ), float)
+        nans = 0.0
+        for i, ai in enumerate(arr):
+            if ai != ai:
+                nans += 1 if weights is None else weights[i]
+                continue
+            ain = int(ai+0.1)
+            if abs(ain - ai) > 1e-6:
+                raise ValueError("%f is not integer" % ain)
+            if ain < 0:
+                raise ValueError("negative value in bincount")
+            if ain > max_val:
+                raise ValueError("value %i is greater than max_val (%i)" %
+                                  (ain, max_val))
+            out[ain] += 1 if weights is None else weights[i]
+    elif arr.ndim == 2:
+        out = np.zeros((arr.shape[1], max_val+1), float)
+        nans = np.zeros((arr.shape[1], ), float)
+        for i in range(arr.shape[1]):
+            out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
+    else:
+        raise ValueError("bincount expects 1- or 2-dimensional array")
+    return out, nans
 
 # ---------------------------------------------------------------------------
 #
