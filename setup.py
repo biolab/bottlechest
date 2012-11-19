@@ -72,11 +72,6 @@ elif np.int_ == np.int64:
 else:
     raise ValueError("Your OS does not appear to be 32 or 64 bits.")
 
-# Ugly, but we need to be able to install with pip
-if not os.path.exists("bottleneck/src/func/%sbit/func.c" % bits):
-	import subprocess
-	subprocess.call(["make", "pyx", "cfiles"])
-
 setup(name=NAME,
       maintainer=MAINTAINER,
       maintainer_email=MAINTAINER_EMAIL,
