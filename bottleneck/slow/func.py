@@ -5,7 +5,7 @@ __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
            'nanmin', 'nanmax', 'nanargmin', 'nanargmax', 'rankdata',
            'nanrankdata', 'ss', 'nn', 'partsort', 'argpartsort', 'replace',
            'anynan', 'allnan',
-           'bincount']
+           'bincount', 'valuecount']
 
 def median(arr, axis=None):
     "Slow median function used for unaccelerated ndim/dtype combinations."
@@ -163,7 +163,7 @@ def nn(arr, arr0, axis=1):
         raise ValueError("`axis` must be 0 or 1.")
     d = d.sum(axis)
     idx = np.argmin(d)
-    return np.sqrt(d[idx]), idx    
+    return np.sqrt(d[idx]), idx
 
 def partsort(arr, n, axis=-1):
     "Slow partial sort used for unaccelerated ndim/dtype combinations."
@@ -241,6 +241,23 @@ def bincount(arr, max_val, weights=None):
     else:
         raise ValueError("bincount expects 1- or 2-dimensional array")
     return out, nans
+
+
+def valuecount(arr):
+    "slow valuecount"
+    if arr.ndim != 2 or arr.shape[0] != 2:
+        raise ValueError("valuecount expects an array with shape (2, N)")
+    N = arr.shape[1]
+    dst = 0
+    for src in range(1, N):
+        if arr[0, src] != arr[0, src]:
+            break
+        if arr[0, src] == arr[0, dst]:
+            arr[1, dst] += arr[1, src]
+        else:
+            dst += 1
+            arr[:, dst] = arr[:, src]
+    return arr[:, :dst + 1]
 
 # ---------------------------------------------------------------------------
 #
@@ -429,7 +446,7 @@ def scipy_nanmedian(x, axis=0):
     shape.pop(axis)
     if 0 in shape:
         x = np.empty(shape)
-    else:    
+    else:
         x = x.copy()
         x = np.apply_along_axis(_nanmedian, axis, x)
         if x.ndim == 0:
