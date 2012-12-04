@@ -5,7 +5,7 @@ __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
            'nanmin', 'nanmax', 'nanargmin', 'nanargmax', 'rankdata',
            'nanrankdata', 'ss', 'nn', 'partsort', 'argpartsort', 'replace',
            'anynan', 'allnan',
-           'bincount', 'valuecount']
+           'bincount', 'valuecount', 'countnans']
 
 def median(arr, axis=None):
     "Slow median function used for unaccelerated ndim/dtype combinations."
@@ -258,6 +258,22 @@ def valuecount(arr):
             dst += 1
             arr[:, dst] = arr[:, src]
     return arr[:, :dst + 1]
+
+
+def countnans(arr, weights=None, axis=None):
+    if axis is None:
+        if weights is None:
+            return np.sum(np.isnan(arr))
+        else:
+            return np.sum(np.isnan(arr)*weights)
+    else:
+        if weights is not None:
+            if arr.shape[axis] != len(weights):
+                raise ValueError("shape of weights does not match the data")
+            return np.apply_along_axis(lambda a: np.sum(np.isnan(a)*weights),
+                                       axis, arr)
+        else:
+            return np.sum(np.isnan(arr), axis=axis)
 
 # ---------------------------------------------------------------------------
 #

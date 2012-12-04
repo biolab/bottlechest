@@ -9,7 +9,7 @@ from numpy cimport NPY_FLOAT32 as NPY_float32
 from numpy cimport NPY_FLOAT64 as NPY_float64
 from numpy cimport (PyArray_EMPTY, PyArray_TYPE, PyArray_NDIM,
                     PyArray_SIZE, PyArray_DIMS, import_array,
-                    PyArray_ArgSort, NPY_QUICKSORT, NPY_CORDER, 
+                    PyArray_ArgSort, NPY_QUICKSORT, NPY_CORDER,
                     PyArray_Ravel, PyArray_FillWithScalar, PyArray_Copy,
                     NPY_BOOL,
                     PyArray_ZEROS)
@@ -48,8 +48,8 @@ else:
 
 cdef extern from "math.h":
     double sqrt(double x)
-    
-PARTSORT_ERR_MSG = "`n` (=%d) must be between 1 and %d, inclusive." 
+
+PARTSORT_ERR_MSG = "`n` (=%d) must be between 1 and %d, inclusive."
 
 include "nanmax.pyx"
 include "nanmin.pyx"
@@ -70,3 +70,5 @@ include "anynan.pyx"
 include "allnan.pyx"
 include "nanequal.pyx"
 include "bincount.pyx"
+include "valuecount.pyx"
+include "countnans.pyx"
