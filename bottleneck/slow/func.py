@@ -1,4 +1,4 @@
-
+import math
 import numpy as np
 
 __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
@@ -250,7 +250,7 @@ def valuecount(arr):
     N = arr.shape[1]
     dst = 0
     for src in range(1, N):
-        if arr[0, src] != arr[0, src]:
+        if math.isnan(arr[0, src]):
             break
         if arr[0, src] == arr[0, dst]:
             arr[1, dst] += arr[1, src]
