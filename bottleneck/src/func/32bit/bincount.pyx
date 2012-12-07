@@ -43,17 +43,26 @@ def bincount(arr, max_val, weights=None):
     func, a = bincount_selector(arr, max_val, weights)
     return func(a, max_val, weights)
 
-def bincount_selector(arr, max_val, weights):
-    cdef np.ndarray a
-    if type(arr) is np.ndarray:
-        a = arr
-    else:    
-        a = np.array(arr, copy=False)
 
-    cdef int ndim = PyArray_NDIM(a)
-    cdef int dtype = PyArray_TYPE(a)
-    cdef int i
-    cdef tuple key = (ndim, dtype, None)
+
+
+def bincount_selector(arr, max_val, weights):
+    cdef int dtype
+    cdef tuple key
+    if sp.issparse(arr):
+        a = arr
+        dtype = PyArray_TYPE(arr.data)
+        ndim = 0
+        key = (0, dtype, None)
+    else:
+        if type(arr) is np.ndarray:
+            a = arr
+        else:
+            a = np.array(arr, copy=False)
+
+        dtype = PyArray_TYPE(arr)
+        ndim = PyArray_NDIM(a)
+        key = (ndim, dtype, None)
     try:
         func = bincount_dict[key]
         return func, a,
@@ -186,6 +195,70 @@ def bincount_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a,
                                  % (ai, max_val))
             y[i1, ai] += 1 if w is None else w[i0]
     return y, nans
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def bincount_0d_int32_axisNone(object a, int max_val,
+                      np.ndarray[np.float_t, ndim=1] w = None):
+    '''Bincount that can handle floats (casts to int), handles NaNs and needs to
+     be specified a fixed number of values'''
+
+    cdef:
+        Py_ssize_t n_rows = a.shape[0]
+        Py_ssize_t n_cols = a.shape[1]
+
+    if w is not None and len(w) != n_rows:
+        raise ValueError("invalid length of the weight vector")
+
+    cdef:
+        np.npy_intp *dims = [n_cols, max_val+1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] nans = PyArray_ZEROS(1, dims, NPY_float64, 0)
+        float wt
+
+        np.ndarray[np.int32_t, ndim=1] data = a.data
+        np.ndarray[int, ndim=1] indices = a.indices
+        np.ndarray[int, ndim=1] indptr = a.indptr
+        int ri, i
+    for ri in range(a.shape[0]):
+        wt = 1 if w is None else w[ri]
+        for i in range(indptr[ri], indptr[ri + 1]):
+            y[indices[i], data[i]] += wt
+    return y, nans
+
+
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def bincount_0d_int64_axisNone(object a, int max_val,
+                      np.ndarray[np.float_t, ndim=1] w = None):
+    '''Bincount that can handle floats (casts to int), handles NaNs and needs to
+     be specified a fixed number of values'''
+
+    cdef:
+        Py_ssize_t n_rows = a.shape[0]
+        Py_ssize_t n_cols = a.shape[1]
+
+    if w is not None and len(w) != n_rows:
+        raise ValueError("invalid length of the weight vector")
+
+    cdef:
+        np.npy_intp *dims = [n_cols, max_val+1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] nans = PyArray_ZEROS(1, dims, NPY_float64, 0)
+        float wt
+
+        np.ndarray[np.int64_t, ndim=1] data = a.data
+        np.ndarray[int, ndim=1] indices = a.indices
+        np.ndarray[int, ndim=1] indptr = a.indptr
+        int ri, i
+    for ri in range(a.shape[0]):
+        wt = 1 if w is None else w[ri]
+        for i in range(indptr[ri], indptr[ri + 1]):
+            y[indices[i], data[i]] += wt
+    return y, nans
+
+
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -341,6 +414,94 @@ def bincount_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,
             y[i1, ain] += wt
     return y, nans
 
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def bincount_0d_float32_axisNone(object a, int max_val,
+                      np.ndarray[np.float_t, ndim=1] w = None):
+    '''Bincount that can handle floats (casts to int), handles NaNs and needs to
+     be specified a fixed number of values'''
+
+    cdef:
+        Py_ssize_t n_rows = a.shape[0]
+        Py_ssize_t n_cols = a.shape[1]
+
+    if w is not None and len(w) != n_rows:
+        raise ValueError("invalid length of the weight vector")
+
+    cdef:
+        np.npy_intp *dims = [n_cols, max_val+1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] nans = PyArray_ZEROS(1, dims, NPY_float64, 0)
+        float wt
+
+        np.ndarray[np.float32_t, ndim=1] data = a.data
+        np.ndarray[int, ndim=1] indices = a.indices
+        np.ndarray[int, ndim=1] indptr = a.indptr
+        int ri, i
+        np.float32_t ai
+        int ain
+    for ri in range(a.shape[0]):
+        wt = 1 if w is None else w[ri]
+        for i in range(indptr[ri], indptr[ri + 1]):
+            ai = data[i]
+            if ai != ai:
+                nans[indices[i]] += wt
+                continue
+            ain = int(ai + 0.1)
+            if not -1e-6 < ain - ai < 1e-6:
+                raise ValueError("%f is not an integer value" % ai)
+            if ain > max_val:
+                raise ValueError("value %i is greater than max_val (%i)" %
+                                 (ain, max_val))
+            y[indices[i], ain] += wt
+    return y, nans
+
+
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def bincount_0d_float64_axisNone(object a, int max_val,
+                      np.ndarray[np.float_t, ndim=1] w = None):
+    '''Bincount that can handle floats (casts to int), handles NaNs and needs to
+     be specified a fixed number of values'''
+
+    cdef:
+        Py_ssize_t n_rows = a.shape[0]
+        Py_ssize_t n_cols = a.shape[1]
+
+    if w is not None and len(w) != n_rows:
+        raise ValueError("invalid length of the weight vector")
+
+    cdef:
+        np.npy_intp *dims = [n_cols, max_val+1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] nans = PyArray_ZEROS(1, dims, NPY_float64, 0)
+        float wt
+
+        np.ndarray[np.float64_t, ndim=1] data = a.data
+        np.ndarray[int, ndim=1] indices = a.indices
+        np.ndarray[int, ndim=1] indptr = a.indptr
+        int ri, i
+        np.float64_t ai
+        int ain
+    for ri in range(a.shape[0]):
+        wt = 1 if w is None else w[ri]
+        for i in range(indptr[ri], indptr[ri + 1]):
+            ai = data[i]
+            if ai != ai:
+                nans[indices[i]] += wt
+                continue
+            ain = int(ai + 0.1)
+            if not -1e-6 < ain - ai < 1e-6:
+                raise ValueError("%f is not an integer value" % ai)
+            if ain > max_val:
+                raise ValueError("value %i is greater than max_val (%i)" %
+                                 (ain, max_val))
+            y[indices[i], ain] += wt
+    return y, nans
+
+
+
 cdef dict bincount_dict = {}
 bincount_dict[(1, NPY_int32, 0)] = bincount_1d_int32_axisNone
 bincount_dict[(1, NPY_int32, None)] = bincount_1d_int32_axisNone
@@ -348,12 +509,16 @@ bincount_dict[(1, NPY_int64, 0)] = bincount_1d_int64_axisNone
 bincount_dict[(1, NPY_int64, None)] = bincount_1d_int64_axisNone
 bincount_dict[(2, NPY_int32, None)] = bincount_2d_int32_axisNone
 bincount_dict[(2, NPY_int64, None)] = bincount_2d_int64_axisNone
+bincount_dict[(0, NPY_int32, None)] = bincount_0d_int32_axisNone
+bincount_dict[(0, NPY_int64, None)] = bincount_0d_int64_axisNone
 bincount_dict[(1, NPY_float32, 0)] = bincount_1d_float32_axisNone
 bincount_dict[(1, NPY_float32, None)] = bincount_1d_float32_axisNone
 bincount_dict[(1, NPY_float64, 0)] = bincount_1d_float64_axisNone
 bincount_dict[(1, NPY_float64, None)] = bincount_1d_float64_axisNone
 bincount_dict[(2, NPY_float32, None)] = bincount_2d_float32_axisNone
 bincount_dict[(2, NPY_float64, None)] = bincount_2d_float64_axisNone
+bincount_dict[(0, NPY_float32, None)] = bincount_0d_float32_axisNone
+bincount_dict[(0, NPY_float64, None)] = bincount_0d_float64_axisNone
 
 def bincount_slow_axis0(arr, max_val, weights):
     "Unaccelerated (slow) bincount along axis 0."

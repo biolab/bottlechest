@@ -27,6 +27,7 @@ def NAME_NDIMd_DTYPE_axisAXIS(np.ndarray[np.DTYPE_t, ndim=NDIM] a,
 """
 
 loop = {}
+
 loop[1] = """\
     if w is not None and len(w) != n0:
         raise ValueError("invalid length of the weight vector")
@@ -85,13 +86,57 @@ loop[2] = """\
     return y, nans
 """
 
-floats['loop'] = loop
+sparse = """
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def SPARSE(object a, int max_val,
+                      np.ndarray[np.float_t, ndim=1] w = None):
+    '''Bincount that can handle floats (casts to int), handles NaNs and needs to
+     be specified a fixed number of values'''
 
+    cdef:
+        Py_ssize_t n_rows = a.shape[0]
+        Py_ssize_t n_cols = a.shape[1]
+
+    if w is not None and len(w) != n_rows:
+        raise ValueError("invalid length of the weight vector")
+
+    cdef:
+        np.npy_intp *dims = [n_cols, max_val+1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] nans = PyArray_ZEROS(1, dims, NPY_float64, 0)
+        float wt
+
+        np.ndarray[np.DTYPE_t, ndim=1] data = a.data
+        np.ndarray[int, ndim=1] indices = a.indices
+        np.ndarray[int, ndim=1] indptr = a.indptr
+        int ri, i
+        np.DTYPE_t ai
+        int ain
+    for ri in range(a.shape[0]):
+        wt = 1 if w is None else w[ri]
+        for i in range(indptr[ri], indptr[ri + 1]):
+            ai = data[i]
+            if ai != ai:
+                nans[indices[i]] += wt
+                continue
+            ain = int(ai + 0.1)
+            if not -1e-6 < ain - ai < 1e-6:
+                raise ValueError("%f is not an integer value" % ai)
+            if ain > max_val:
+                raise ValueError("value %i is greater than max_val (%i)" %
+                                 (ain, max_val))
+            y[indices[i], ain] += wt
+    return y, nans
+"""
+
+floats['loop'] = loop
+floats['sparse'] = sparse
 
 # Int dtypes (not axis=None) ------------------------------------------------
 
 ints = deepcopy(floats)
-ints['dtypes'] = INT_DTYPES 
+ints['dtypes'] = INT_DTYPES
 
 loop = {}
 loop[1] = """\
@@ -135,7 +180,41 @@ loop[2] = """\
     return y, nans
 """
 
+sparse = """
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def SPARSE(object a, int max_val,
+                      np.ndarray[np.float_t, ndim=1] w = None):
+    '''Bincount that can handle floats (casts to int), handles NaNs and needs to
+     be specified a fixed number of values'''
+
+    cdef:
+        Py_ssize_t n_rows = a.shape[0]
+        Py_ssize_t n_cols = a.shape[1]
+
+    if w is not None and len(w) != n_rows:
+        raise ValueError("invalid length of the weight vector")
+
+    cdef:
+        np.npy_intp *dims = [n_cols, max_val+1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] nans = PyArray_ZEROS(1, dims, NPY_float64, 0)
+        float wt
+
+        np.ndarray[np.DTYPE_t, ndim=1] data = a.data
+        np.ndarray[int, ndim=1] indices = a.indices
+        np.ndarray[int, ndim=1] indptr = a.indptr
+        int ri, i
+    for ri in range(a.shape[0]):
+        wt = 1 if w is None else w[ri]
+        for i in range(indptr[ri], indptr[ri + 1]):
+            y[indices[i], data[i]] += wt
+    return y, nans
+"""
+
 ints['loop'] = loop
+ints['sparse'] = sparse
+
 
 
 # Slow, unaccelerated ndim/dtype --------------------------------------------
@@ -152,6 +231,7 @@ bincount['name'] = 'bincount'
 bincount['is_reducing_function'] = False
 bincount['cdef_output'] = False
 bincount['slow'] = slow
+bincount['sparse'] = {}
 bincount['templates'] = {}
 bincount['templates']['float_None'] = floats
 bincount['templates']['int_None'] = ints
@@ -201,17 +281,26 @@ def bincount(arr, max_val, weights=None):
     func, a = bincount_selector(arr, max_val, weights)
     return func(a, max_val, weights)
 
-def bincount_selector(arr, max_val, weights):
-    cdef np.ndarray a
-    if type(arr) is np.ndarray:
-        a = arr
-    else:    
-        a = np.array(arr, copy=False)
 
-    cdef int ndim = PyArray_NDIM(a)
-    cdef int dtype = PyArray_TYPE(a)
-    cdef int i
-    cdef tuple key = (ndim, dtype, None)
+
+
+def bincount_selector(arr, max_val, weights):
+    cdef int dtype
+    cdef tuple key
+    if sp.issparse(arr):
+        a = arr
+        dtype = PyArray_TYPE(arr.data)
+        ndim = 0
+        key = (0, dtype, None)
+    else:
+        if type(arr) is np.ndarray:
+            a = arr
+        else:
+            a = np.array(arr, copy=False)
+
+        dtype = PyArray_TYPE(arr)
+        ndim = PyArray_NDIM(a)
+        key = (ndim, dtype, None)
     try:
         func = bincount_dict[key]
         return func, a,
@@ -224,4 +313,4 @@ def bincount_selector(arr, max_val, weights):
         tup = (str(ndim), str(a.dtype))
         raise TypeError("Unsupported ndim/dtype (%s/%s)." % tup)
     return func, a
-'''   
+'''
