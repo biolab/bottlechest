@@ -54,6 +54,7 @@ header = """#cython: embedsignature=True
 
 import numpy as np
 cimport numpy as np
+import scipy.sparse as sp
 import cython
 from numpy cimport NPY_INT32 as NPY_int32
 from numpy cimport NPY_INT64 as NPY_int64

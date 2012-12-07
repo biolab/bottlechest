@@ -21,7 +21,13 @@ def template(func, bits):
                            cdef_output=func['cdef_output'],
                            select=select,
                            bits=bits)
-        codes.append(code)    
+        codes.append(code)
+        if 'sparse' in f:
+            code = sparsetemplate(name=func['name'],
+                                  template=f['sparse'],
+                                  dtypes=f['dtypes'],
+                                  select=select)
+            codes.append(code)
     codes.append('\n' + str(select))
     if 'slow' in func:
         if func['slow'] is not None:
@@ -36,6 +42,20 @@ def template(func, bits):
     fid = open(os.path.join(modpath, '..', func['pyx_file']) % str(bits), 'w')
     fid.write(''.join(codes))
     fid.close()
+
+
+def sparsetemplate(name, template, dtypes, select):
+    funcs = []
+    for dtype in dtypes:
+        func = template + "\n\n"
+        func = func.replace('SPARSE', 'NAME_NDIMd_DTYPE_axisAXIS')
+        func = func.replace('NAME', name)
+        func = func.replace('DTYPE', dtype)
+        func = func.replace('NDIM', '0')
+        func = func.replace('AXIS', "None")
+        funcs.append(func)
+        select.append(0, dtype, None)
+    return ''.join(funcs)
 
 def subtemplate(name, top, loop, axisNone, dtypes, force_output_dtype,
                 reuse_non_nan_func, is_reducing_function, cdef_output, select,
@@ -55,11 +75,11 @@ def subtemplate(name, top, loop, axisNone, dtypes, force_output_dtype,
 
                     select.append(ndim, dtype, axis, True)
 
-                else:   
+                else:
 
                     # Code template
                     func = top
-                    
+
                     # loop
                     if force_output_dtype is not False:
                         ydtype = force_output_dtype
@@ -77,7 +97,7 @@ def subtemplate(name, top, loop, axisNone, dtypes, force_output_dtype,
 
                     funcs.append(func)
                     select.append(ndim, dtype, axis)
-    
+
     return ''.join(funcs)
 
 def looper(loop, ndim, axis):
@@ -125,7 +145,7 @@ def looper(loop, ndim, axis):
     .... '''
 
     Import the looper function:
-    
+
     >>> from bottleneck.src.template.template import looper
 
     Make a loop over axis=0:
@@ -165,7 +185,7 @@ def looper(loop, ndim, axis):
             y[i0, i1] = amin
 
     """
-    
+
     if ndim < 1:
         raise ValueError("ndim(=%d) must be and integer greater than 0" % ndim)
     if axis is not None:
@@ -173,11 +193,11 @@ def looper(loop, ndim, axis):
             raise ValueError("`axis` must be a non-negative integer or None")
         elif axis >= ndim:
             raise ValueError("`axis` must be less then `ndim`")
-  
+
     # INDEXALL
     INDEXALL = ', '.join('i' + str(i) for i in range(ndim))
     code = loop.replace('INDEXALL', INDEXALL)
-    
+
     # INDEXPOP
     idx = list(range(ndim))
     if axis is not None:
@@ -194,12 +214,12 @@ def looper(loop, ndim, axis):
         code = code.replace('INDEX%d' % i, '%d' % j)
 
     # INDEXREPLACE|x|
-    mark = 'INDEXREPLACE|' 
+    mark = 'INDEXREPLACE|'
     nreplace = code.count(mark)
     if (nreplace > 0) and (axis is None):
         raise ValueError("`INDEXREPLACE` cannot be used when axis is None.")
     while mark in code:
-        idx0 = code.index(mark) 
+        idx0 = code.index(mark)
         idx1 = idx0 + len(mark)
         idx2 = idx1 + code[idx1:].index('|')
         if (idx0 >= idx1) or (idx1 >= idx2):
@@ -211,11 +231,11 @@ def looper(loop, ndim, axis):
         code = code[:idx0] + idx + code[idx2+1:]
 
     # NREPLACE|x|
-    mark = 'NREPLACE|' 
+    mark = 'NREPLACE|'
     nreplace = code.count(mark)
     # TODO: reuse while loop above, only difference is 'i' --> 'n'
     while mark in code:
-        idx0 = code.index(mark) 
+        idx0 = code.index(mark)
         idx1 = idx0 + len(mark)
         idx2 = idx1 + code[idx1:].index('|')
         if (idx0 >= idx1) or (idx1 >= idx2):
@@ -247,7 +267,7 @@ def loop_cdef(ndim, dtype, axis, is_reducing_function, cdef_output=True):
     axis : {int, None}
         If `is_reducing_function` is True then remove the dimension given
         by `axis` when initializing the output array, `y`.
-    is_reducing_function : bool    
+    is_reducing_function : bool
         If True then remove the dimension given by `axis` when initializing
         the output array, `y`.
     cdef_output : bool, optional
@@ -284,10 +304,10 @@ def loop_cdef(ndim, dtype, axis, is_reducing_function, cdef_output=True):
         cdef np.npy_intp *dims = [n0, n2]
         cdef np.ndarray[np.float64_t, ndim=2] y = PyArray_EMPTY(2, dims,
                                                   NPY_float64, 0)
-    
+
     Repeat, but this time make the output non-reducing:
 
-    >>> is_reducing_function = False     
+    >>> is_reducing_function = False
     >>> print(loop_cdef(ndim, dtype, axis, is_reducing_function))
         cdef Py_ssize_t i0, i1, i2
         cdef np.npy_intp *dim
@@ -315,13 +335,13 @@ def loop_cdef(ndim, dtype, axis, is_reducing_function, cdef_output=True):
     # cdef loop indices
     idx = ', '.join('i'+str(i) for i in range(ndim))
     cdefs.append(tab + 'cdef Py_ssize_t ' + idx)
-    
+
     # Length along each dimension
     cdefs.append(tab + "cdef np.npy_intp *dim")
     cdefs.append(tab + "dim = PyArray_DIMS(a)")
     for dim in range(ndim):
         cdefs.append(tab + "cdef Py_ssize_t n%d = dim[%d]" % (dim, dim))
-    
+
     if not cdef_output:
         return '\n'.join(cdefs) + '\n'
 
@@ -337,7 +357,7 @@ def loop_cdef(ndim, dtype, axis, is_reducing_function, cdef_output=True):
                 y += "y = PyArray_EMPTY(%d, dims,"
                 y += "\n\t\tNPY_BOOL, 0)"
                 cdefs.append(y % (tab, ndim-1, ndim-1))
-            else:    
+            else:
                 y = "%scdef np.ndarray[np.%s_t, ndim=%d] "
                 y += "y = PyArray_EMPTY(%d, dims,"
                 y += "\n\t\tNPY_%s, 0)"
@@ -361,7 +381,7 @@ def loop_cdef(ndim, dtype, axis, is_reducing_function, cdef_output=True):
 
 class Selector(object):
     "String of code for dictionary that maps dtype to cython function."
-    
+
     def __init__(self, name):
         self.name = name
         self.data = []
@@ -369,7 +389,7 @@ class Selector(object):
     def append(self, ndim, dtype, axis, reuse=False):
         self.data.append((ndim, dtype, axis, reuse))
 
-    def __str__(self):    
+    def __str__(self):
         fmt = "%s_dict[(%s, NPY_%s, %s)] = %s_%sd_%s_axis%s"
         src = []
         src.append("cdef dict %s_dict = {}" % self.name)
@@ -382,7 +402,7 @@ class Selector(object):
                        name, str(ndim), str(dtype), str(axis))
                 src.append(fmt % tup)
             tup = (self.name, str(ndim), str(dtype), str(axis),
-                   name, str(ndim), str(dtype), str(axis))  
+                   name, str(ndim), str(dtype), str(axis))
             src.append(fmt % tup)
         return '\n'.join(src)
 
@@ -393,7 +413,7 @@ def slow_selector(name, maxaxis=32):
     src.append("cdef dict %s_slow_dict = {}" % name)
     fmt = "%s_slow_dict[%s] = %s_slow_axis%s"
     for axis in axes:
-        tup = 2 * (name, str(axis)) 
+        tup = 2 * (name, str(axis))
         src.append(fmt % tup)
     return '\n'.join(src)
 
@@ -406,9 +426,9 @@ def slow_functions(name, signature, func, maxaxis=32):
     function = "%sreturn %s\n"
     src = ['\n']
     for axis in axes:
-        
+
         axis = str(axis)
-        
+
         # signature
         code = sig % (name, axis, signature)
         code = code.replace('AXIS', axis)
@@ -418,10 +438,10 @@ def slow_functions(name, signature, func, maxaxis=32):
         code = doc % (tab, name, axis)
         code = code.replace('AXIS', axis)
         src.append(code)
-        
+
         # function
         code = function % (tab, func)
         code = code.replace('AXIS', axis)
         src.append(code)
-    
+
     return '\n'.join(src)
