@@ -52,6 +52,7 @@ def bincount(arr, max_val, weights=None, mask=None):
 def bincount_selector(arr, max_val, weights, mask):
     cdef int dtype
     cdef tuple key
+
     if sp.issparse(arr):
         a = arr
         dtype = PyArray_TYPE(arr.data)
@@ -62,22 +63,23 @@ def bincount_selector(arr, max_val, weights, mask):
             a = arr
         else:
             a = np.array(arr, copy=False)
-        if weights is not None and (
-                type(weights) is not np.ndarray or
-                weights.dtype is not np.float):
-            weights = np.array(weights, copy=False, dtype=np.float)
-        if type(mask) is np.ndarray:
-            if mask.dtype is not np.int8:
-                if mask.dtype.itemsize == 1:
-                    mask = np.frombuffer(mask, dtype=np.int8)
-                else:
-                    mask = np.array(mask, copy=False, dtype=np.int8)
-        elif mask is not None:
-            mask = np.array(mask, copy=False, dtype=np.int8)
-
         dtype = PyArray_TYPE(arr)
         ndim = PyArray_NDIM(a)
         key = (ndim, dtype, None)
+
+    if weights is not None and (
+            type(weights) is not np.ndarray or
+            weights.dtype is not np.float):
+        weights = np.array(weights, copy=False, dtype=np.float)
+    if type(mask) is np.ndarray:
+        if mask.dtype is not np.int8:
+            if mask.dtype.itemsize == 1:
+                mask = np.frombuffer(mask, dtype=np.int8)
+            else:
+                mask = np.array(mask, copy=False, dtype=np.int8)
+    elif mask is not None:
+        mask = np.array(mask, copy=False, dtype=np.int8)
+
     try:
         func = bincount_dict[key]
         return func, a, weights, mask
