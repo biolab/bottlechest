@@ -8,6 +8,8 @@ import scipy.sparse as sp
 
 
 class TestBinCount(unittest.TestCase):
+    # TODO: tests for 1-d arrays
+
     def test_simple_int(self):
         data = np.array([[0, 1, 1, 2, 1],
                          [1, 1, 1, 0, 1],
