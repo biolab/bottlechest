@@ -142,6 +142,62 @@ def nanequal_selector(arr1, arr2, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,
+                              np.ndarray[np.int8_t, ndim=2] b):
+    "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+    cdef int f = 1
+    cdef np.int8_t ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+		NPY_BOOL, 0)
+    for i1 in range(n1):
+        f = 1
+        for i0 in range(n0):
+            ai = a[i0, i1]
+            bi = b[i0, i1]
+            if ai != bi:
+                y[i1] = 0
+                f = 0
+                break
+        if f == 1:
+            y[i1] = 1
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,
+                              np.ndarray[np.int8_t, ndim=2] b):
+    "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
+    cdef int f = 1
+    cdef np.int8_t ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+		NPY_BOOL, 0)
+    for i0 in range(n0):
+        f = 1
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            bi = b[i0, i1]
+            if ai != bi:
+                y[i0] = 0
+                f = 0
+                break
+        if f == 1:
+            y[i0] = 1
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,
                               np.ndarray[np.int32_t, ndim=2] b):
     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
@@ -441,6 +497,8 @@ def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,
     return y
 
 cdef dict nanequal_dict = {}
+nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
+nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
 nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
 nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
 nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0

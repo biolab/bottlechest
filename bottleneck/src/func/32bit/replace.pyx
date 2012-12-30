@@ -107,6 +107,29 @@ def replace_selector(arr):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def replace_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a,
+    double old, double new):
+    "replace (inplace) specified elements of 1d array of dtype=int8."
+    cdef np.int8_t asum = 0, ai
+    cdef np.int8_t oldint, newint
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    if old == old:
+        oldint = <np.int8_t>old
+        newint = <np.int8_t>new
+        if oldint != old:
+            raise ValueError("Cannot safely cast `old` to int.")
+        if newint != new:
+            raise ValueError("Cannot safely cast `new` to int.")
+        for i0 in range(n0):
+            ai = a[i0]
+            if ai == oldint:
+                a[i0] = newint
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def replace_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a,
     double old, double new):
     "replace (inplace) specified elements of 1d array of dtype=int32."
@@ -150,6 +173,31 @@ def replace_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a,
             ai = a[i0]
             if ai == oldint:
                 a[i0] = newint
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def replace_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a,
+    double old, double new):
+    "replace (inplace) specified elements of 2d array of dtype=int8."
+    cdef np.int8_t asum = 0, ai
+    cdef np.int8_t oldint, newint
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    if old == old:
+        oldint = <np.int8_t>old
+        newint = <np.int8_t>new
+        if oldint != old:
+            raise ValueError("Cannot safely cast `old` to int.")
+        if newint != new:
+            raise ValueError("Cannot safely cast `new` to int.")
+        for i0 in range(n0):
+            for i1 in range(n1):
+                ai = a[i0, i1]
+                if ai == oldint:
+                    a[i0, i1] = newint
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -292,10 +340,13 @@ def replace_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,
                     a[i0, i1] = new
 
 cdef dict replace_dict = {}
+replace_dict[(1, NPY_int8, 0)] = replace_1d_int8_axisNone
+replace_dict[(1, NPY_int8, None)] = replace_1d_int8_axisNone
 replace_dict[(1, NPY_int32, 0)] = replace_1d_int32_axisNone
 replace_dict[(1, NPY_int32, None)] = replace_1d_int32_axisNone
 replace_dict[(1, NPY_int64, 0)] = replace_1d_int64_axisNone
 replace_dict[(1, NPY_int64, None)] = replace_1d_int64_axisNone
+replace_dict[(2, NPY_int8, None)] = replace_2d_int8_axisNone
 replace_dict[(2, NPY_int32, None)] = replace_2d_int32_axisNone
 replace_dict[(2, NPY_int64, None)] = replace_2d_int64_axisNone
 replace_dict[(1, NPY_float32, 0)] = replace_1d_float32_axisNone

@@ -116,6 +116,48 @@ def ss_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def ss_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Sum of squares of 2d array with dtype=int8 along axis=0."
+    cdef np.int8_t ssum = 0, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    for i1 in range(n1):
+        ssum = 0
+        for i0 in range(n0):
+            ai = a[i0, i1]
+            ssum += ai * ai
+        y[i1] = ssum
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def ss_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Sum of squares of 2d array with dtype=int8 along axis=1."
+    cdef np.int8_t ssum = 0, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    for i0 in range(n0):
+        ssum = 0
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            ssum += ai * ai
+        y[i0] = ssum
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def ss_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
     "Sum of squares of 2d array with dtype=int32 along axis=0."
     cdef np.int32_t ssum = 0, ai
@@ -344,6 +386,20 @@ def ss_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def ss_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):
+    "Sum of squares of 1d array with dtype=int8 along axis=None."
+    cdef np.int8_t ssum = 0, ai
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    for i0 in range(n0):
+        ai = a[i0]
+        ssum += ai * ai
+    return np.int8(ssum)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def ss_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):
     "Sum of squares of 1d array with dtype=int32 along axis=None."
     cdef np.int32_t ssum = 0, ai
@@ -369,6 +425,22 @@ def ss_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):
         ai = a[i0]
         ssum += ai * ai
     return np.int64(ssum)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def ss_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):
+    "Sum of squares of 2d array with dtype=int8 along axis=None."
+    cdef np.int8_t ssum = 0, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    for i0 in range(n0):
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            ssum += ai * ai
+    return np.int8(ssum)
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -403,6 +475,8 @@ def ss_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):
     return np.int64(ssum)
 
 cdef dict ss_dict = {}
+ss_dict[(2, NPY_int8, 0)] = ss_2d_int8_axis0
+ss_dict[(2, NPY_int8, 1)] = ss_2d_int8_axis1
 ss_dict[(2, NPY_int32, 0)] = ss_2d_int32_axis0
 ss_dict[(2, NPY_int32, 1)] = ss_2d_int32_axis1
 ss_dict[(2, NPY_int64, 0)] = ss_2d_int64_axis0
@@ -417,10 +491,13 @@ ss_dict[(2, NPY_float32, 0)] = ss_2d_float32_axis0
 ss_dict[(2, NPY_float32, 1)] = ss_2d_float32_axis1
 ss_dict[(2, NPY_float64, 0)] = ss_2d_float64_axis0
 ss_dict[(2, NPY_float64, 1)] = ss_2d_float64_axis1
+ss_dict[(1, NPY_int8, 0)] = ss_1d_int8_axisNone
+ss_dict[(1, NPY_int8, None)] = ss_1d_int8_axisNone
 ss_dict[(1, NPY_int32, 0)] = ss_1d_int32_axisNone
 ss_dict[(1, NPY_int32, None)] = ss_1d_int32_axisNone
 ss_dict[(1, NPY_int64, 0)] = ss_1d_int64_axisNone
 ss_dict[(1, NPY_int64, None)] = ss_1d_int64_axisNone
+ss_dict[(2, NPY_int8, None)] = ss_2d_int8_axisNone
 ss_dict[(2, NPY_int32, None)] = ss_2d_int32_axisNone
 ss_dict[(2, NPY_int64, None)] = ss_2d_int64_axisNone
 

@@ -542,8 +542,11 @@ def nanmedian_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
     return y
 
 cdef dict nanmedian_dict = {}
+nanmedian_dict[(1, NPY_int8, 0)] = median_1d_int8_axis0
 nanmedian_dict[(1, NPY_int32, 0)] = median_1d_int32_axis0
 nanmedian_dict[(1, NPY_int64, 0)] = median_1d_int64_axis0
+nanmedian_dict[(2, NPY_int8, 0)] = median_2d_int8_axis0
+nanmedian_dict[(2, NPY_int8, 1)] = median_2d_int8_axis1
 nanmedian_dict[(2, NPY_int32, 0)] = median_2d_int32_axis0
 nanmedian_dict[(2, NPY_int32, 1)] = median_2d_int32_axis1
 nanmedian_dict[(2, NPY_int64, 0)] = median_2d_int64_axis0

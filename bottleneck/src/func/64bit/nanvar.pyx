@@ -147,6 +147,64 @@ def nanvar_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanvar_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a, int ddof):
+    "Valriance of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+    cdef np.float64_t asum = 0, amean, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_float64, 0)
+    if n0 == 0:
+        PyArray_FillWithScalar(y, NAN)
+    else:
+        for i1 in range(n1):
+            asum = 0
+            for i0 in range(n0):
+                asum += a[i0, i1]
+            amean = asum / n0
+            asum = 0
+            for i0 in range(n0):
+                ai = a[i0, i1]
+                ai -= amean
+                asum += (ai * ai)
+            y[i1] = asum / (n0 - ddof)
+    return y 
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanvar_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a, int ddof):
+    "Valriance of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+    cdef np.float64_t asum = 0, amean, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_float64, 0)
+    if n1 == 0:
+        PyArray_FillWithScalar(y, NAN)
+    else:
+        for i0 in range(n0):
+            asum = 0
+            for i1 in range(n1):
+                asum += a[i0, i1]
+            amean = asum / n1
+            asum = 0
+            for i1 in range(n1):
+                ai = a[i0, i1]
+                ai -= amean
+                asum += (ai * ai)
+            y[i0] = asum / (n1 - ddof)
+    return y 
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanvar_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a, int ddof):
     "Valriance of 2d array with dtype=int32 along axis=0 ignoring NaNs."
     cdef np.float64_t asum = 0, amean, ai
@@ -517,6 +575,35 @@ def nanvar_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a, int ddof):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanvar_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a, int ddof):
+    "Valriance of 1d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef np.float64_t asum = 0, amean, ai
+    cdef Py_ssize_t size
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    size = n0    
+    if size == 0:
+        return np.float64(NAN)
+    for i0 in range(n0):
+        ai = a[i0]
+        if ai == ai:
+            asum += ai
+    amean = asum / size
+    asum = 0
+    for i0 in range(n0):
+        ai = a[i0]
+        if ai == ai:
+            ai -= amean
+            asum += (ai * ai)
+    if size > ddof:        
+        return np.float64(asum / (size - ddof))
+    else:
+        return np.float64(NAN)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanvar_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a, int ddof):
     "Valriance of 1d array with dtype=int32 along axis=None ignoring NaNs."
     cdef np.float64_t asum = 0, amean, ai
@@ -566,6 +653,35 @@ def nanvar_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a, int ddof):
     for i0 in range(n0):
         ai = a[i0]
         if ai == ai:
+            ai -= amean
+            asum += (ai * ai)
+    if size > ddof:        
+        return np.float64(asum / (size - ddof))
+    else:
+        return np.float64(NAN)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanvar_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a, int ddof):
+    "Valriance of 2d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef np.float64_t asum = 0, amean, ai
+    cdef Py_ssize_t size
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    size = n0 * n1
+    if size == 0:
+        return np.float64(NAN)
+    for i0 in range(n0):
+        for i1 in range(n1):
+            asum += a[i0, i1]
+    amean = asum / size
+    asum = 0
+    for i0 in range(n0):
+        for i1 in range(n1):
+            ai = a[i0, i1]
             ai -= amean
             asum += (ai * ai)
     if size > ddof:        
@@ -632,6 +748,8 @@ def nanvar_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a, int ddof):
         return np.float64(NAN)
 
 cdef dict nanvar_dict = {}
+nanvar_dict[(2, NPY_int8, 0)] = nanvar_2d_int8_axis0
+nanvar_dict[(2, NPY_int8, 1)] = nanvar_2d_int8_axis1
 nanvar_dict[(2, NPY_int32, 0)] = nanvar_2d_int32_axis0
 nanvar_dict[(2, NPY_int32, 1)] = nanvar_2d_int32_axis1
 nanvar_dict[(2, NPY_int64, 0)] = nanvar_2d_int64_axis0
@@ -646,10 +764,13 @@ nanvar_dict[(2, NPY_float32, 0)] = nanvar_2d_float32_axis0
 nanvar_dict[(2, NPY_float32, 1)] = nanvar_2d_float32_axis1
 nanvar_dict[(2, NPY_float64, 0)] = nanvar_2d_float64_axis0
 nanvar_dict[(2, NPY_float64, 1)] = nanvar_2d_float64_axis1
+nanvar_dict[(1, NPY_int8, 0)] = nanvar_1d_int8_axisNone
+nanvar_dict[(1, NPY_int8, None)] = nanvar_1d_int8_axisNone
 nanvar_dict[(1, NPY_int32, 0)] = nanvar_1d_int32_axisNone
 nanvar_dict[(1, NPY_int32, None)] = nanvar_1d_int32_axisNone
 nanvar_dict[(1, NPY_int64, 0)] = nanvar_1d_int64_axisNone
 nanvar_dict[(1, NPY_int64, None)] = nanvar_1d_int64_axisNone
+nanvar_dict[(2, NPY_int8, None)] = nanvar_2d_int8_axisNone
 nanvar_dict[(2, NPY_int32, None)] = nanvar_2d_int32_axisNone
 nanvar_dict[(2, NPY_int64, None)] = nanvar_2d_int64_axisNone
 

@@ -116,6 +116,58 @@ def nanmax_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amax, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    if n0 == 0:
+        msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+        raise ValueError(msg)
+    for i1 in range(n1):
+        amax = MINint8
+        for i0 in range(n0):
+            ai = a[i0, i1]
+            if ai >= amax:
+                amax = ai
+        y[i1] = amax
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amax, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    if n1 == 0:
+        msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+        raise ValueError(msg)
+    for i0 in range(n0):
+        amax = MINint8
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            if ai >= amax:
+                amax = ai
+        y[i0] = amax
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
     cdef int allnan = 1
@@ -444,6 +496,26 @@ def nanmax_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanmax_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):
+    "Maximum of 1d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amax, ai
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    if n0 == 0:
+        m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+        raise ValueError(m)
+    amax = MINint8
+    for i0 in range(n0):
+        ai = a[i0]
+        if ai >= amax:
+            amax = ai
+    return np.int8(amax)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanmax_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):
     "Maximum of 1d array with dtype=int32 along axis=None ignoring NaNs."
     cdef int allnan = 1
@@ -481,6 +553,28 @@ def nanmax_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):
         if ai >= amax:
             amax = ai
     return np.int64(amax)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanmax_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):
+    "Maximum of 2d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amax, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    if n0 * n1 == 0:
+        m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+        raise ValueError(m)
+    amax = MINint8
+    for i0 in range(n0):
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            if ai >= amax:
+                amax = ai
+    return np.int8(amax)
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -527,6 +621,8 @@ def nanmax_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):
     return np.int64(amax)
 
 cdef dict nanmax_dict = {}
+nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
+nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
 nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
 nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
 nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
@@ -541,10 +637,13 @@ nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
 nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
 nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
 nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
+nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
+nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
 nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
 nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
 nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
 nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
+nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
 nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
 nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
 

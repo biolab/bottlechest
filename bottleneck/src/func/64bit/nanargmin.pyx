@@ -119,6 +119,28 @@ def nanargmin_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanargmin_1d_int8_axis0(np.ndarray[np.int8_t, ndim=1] a):
+    "Index of max of 1d, int8 array along axis=0 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t idx = 0
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    if n0 == 0:
+        msg = "numpy.nanargmin raises on a.shape[axis]==0; Bottleneck too."
+        raise ValueError(msg)
+    amin = MAXint8
+    for i0 in range(n0):
+        ai = a[i0]
+        if ai <= amin:
+            amin = ai
+            idx = i0
+    return np.intp(idx)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanargmin_1d_int32_axis0(np.ndarray[np.int32_t, ndim=1] a):
     "Index of max of 1d, int32 array along axis=0 ignoring NaNs."
     cdef int allnan = 1
@@ -160,6 +182,62 @@ def nanargmin_1d_int64_axis0(np.ndarray[np.int64_t, ndim=1] a):
             amin = ai
             idx = i0
     return np.intp(idx)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanargmin_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Index of max of 2d, int8 array along axis=0 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t idx = 0
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.intp_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_intp, 0)
+    if n0 == 0:
+        msg = "numpy.nanargmin raises on a.shape[axis]==0; Bottleneck too."
+        raise ValueError(msg)
+    for i1 in range(n1 - 1, -1, -1):
+        amin = MAXint8
+        for i0 in range(n0 - 1, -1, -1):
+            ai = a[i0, i1]
+            if ai <= amin:
+                amin = ai
+                idx = i0
+        y[i1] = idx
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanargmin_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Index of max of 2d, int8 array along axis=1 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t idx = 0
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.intp_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_intp, 0)
+    if n1 == 0:
+        msg = "numpy.nanargmin raises on a.shape[axis]==0; Bottleneck too."
+        raise ValueError(msg)
+    for i0 in range(n0 - 1, -1, -1):
+        amin = MAXint8
+        for i1 in range(n1 - 1, -1, -1):
+            ai = a[i0, i1]
+            if ai <= amin:
+                amin = ai
+                idx = i1
+        y[i0] = idx
+    return y
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -458,8 +536,11 @@ def nanargmin_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
     return y
 
 cdef dict nanargmin_dict = {}
+nanargmin_dict[(1, NPY_int8, 0)] = nanargmin_1d_int8_axis0
 nanargmin_dict[(1, NPY_int32, 0)] = nanargmin_1d_int32_axis0
 nanargmin_dict[(1, NPY_int64, 0)] = nanargmin_1d_int64_axis0
+nanargmin_dict[(2, NPY_int8, 0)] = nanargmin_2d_int8_axis0
+nanargmin_dict[(2, NPY_int8, 1)] = nanargmin_2d_int8_axis1
 nanargmin_dict[(2, NPY_int32, 0)] = nanargmin_2d_int32_axis0
 nanargmin_dict[(2, NPY_int32, 1)] = nanargmin_2d_int32_axis1
 nanargmin_dict[(2, NPY_int64, 0)] = nanargmin_2d_int64_axis0

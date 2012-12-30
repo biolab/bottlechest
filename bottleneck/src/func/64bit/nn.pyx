@@ -175,6 +175,68 @@ def nn_selector(arr, arr0, int axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nn_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,
+                              np.ndarray[np.int8_t, ndim=1] a0):
+    "Nearest neighbor of 1d `a0` in 2d `a` with dtype=int8, axis=0."
+    cdef:
+        np.float64_t xsum = 0, d, xsummin=np.inf, dist
+        Py_ssize_t imin = -1, n, a0size
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    a0size = PyArray_SIZE(a0)
+    if n0 != a0size:
+        raise ValueError("`a0` must match size of `a` along specified axis")
+    for i1 in range(n1):
+        xsum = 0
+        for i0 in range(n0):
+            d = a[i0, i1] - a0[i0]
+            xsum += d * d
+        if xsum < xsummin:
+            xsummin = xsum
+            imin = i1
+    if imin == -1:
+        dist = NAN
+        imin = 0
+    else:    
+        dist = sqrt(xsummin)        
+    return dist, imin
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nn_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,
+                              np.ndarray[np.int8_t, ndim=1] a0):
+    "Nearest neighbor of 1d `a0` in 2d `a` with dtype=int8, axis=1."
+    cdef:
+        np.float64_t xsum = 0, d, xsummin=np.inf, dist
+        Py_ssize_t imin = -1, n, a0size
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    a0size = PyArray_SIZE(a0)
+    if n1 != a0size:
+        raise ValueError("`a0` must match size of `a` along specified axis")
+    for i0 in range(n0):
+        xsum = 0
+        for i1 in range(n1):
+            d = a[i0, i1] - a0[i1]
+            xsum += d * d
+        if xsum < xsummin:
+            xsummin = xsum
+            imin = i0
+    if imin == -1:
+        dist = NAN
+        imin = 0
+    else:    
+        dist = sqrt(xsummin)        
+    return dist, imin
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nn_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,
                               np.ndarray[np.int32_t, ndim=1] a0):
     "Nearest neighbor of 1d `a0` in 2d `a` with dtype=int32, axis=0."
@@ -422,6 +484,8 @@ def nn_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,
     return dist, imin
 
 cdef dict nn_dict = {}
+nn_dict[(2, NPY_int8, 0)] = nn_2d_int8_axis0
+nn_dict[(2, NPY_int8, 1)] = nn_2d_int8_axis1
 nn_dict[(2, NPY_int32, 0)] = nn_2d_int32_axis0
 nn_dict[(2, NPY_int32, 1)] = nn_2d_int32_axis1
 nn_dict[(2, NPY_int64, 0)] = nn_2d_int64_axis0

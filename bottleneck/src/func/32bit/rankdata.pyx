@@ -120,6 +120,44 @@ def rankdata_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def rankdata_1d_int8_axis0(np.ndarray[np.int8_t, ndim=1] a):
+    "Ranks n1d array with dtype=int8 along axis=0, dealing with ties." 
+    cdef dupcount = 0
+    cdef Py_ssize_t j, k, idx
+    cdef np.ndarray[np.intp_t, ndim=1] ivec = PyArray_ArgSort(a, 0, NPY_QUICKSORT)
+    cdef np.float64_t old, new, averank, sumranks = 0
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_float64, 0)
+    if n0 == 0:
+        PyArray_FillWithScalar(y, NAN)
+        return y
+    old = a[ivec[0]]
+    for i0 in xrange(n0-1):
+        sumranks += i0
+        dupcount += 1
+        k = i0 + 1
+        new = a[ivec[k]]
+        if old != new:
+            averank = sumranks / dupcount + 1
+            for j in xrange(k - dupcount, k):
+                y[ivec[j]] = averank
+            sumranks = 0
+            dupcount = 0
+        old = new    
+    sumranks += (n0 - 1)
+    dupcount += 1 
+    averank = sumranks / dupcount + 1
+    for j in xrange(n0 - dupcount, n0):
+        y[ivec[j]] = averank
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def rankdata_1d_int32_axis0(np.ndarray[np.int32_t, ndim=1] a):
     "Ranks n1d array with dtype=int32 along axis=0, dealing with ties." 
     cdef dupcount = 0
@@ -192,6 +230,98 @@ def rankdata_1d_int64_axis0(np.ndarray[np.int64_t, ndim=1] a):
     averank = sumranks / dupcount + 1
     for j in xrange(n0 - dupcount, n0):
         y[ivec[j]] = averank
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def rankdata_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Ranks n2d array with dtype=int8 along axis=0, dealing with ties." 
+    cdef dupcount = 0
+    cdef Py_ssize_t j, k, idx
+    cdef np.ndarray[np.intp_t, ndim=2] ivec = PyArray_ArgSort(a, 0, NPY_QUICKSORT)
+    cdef np.float64_t old, new, averank, sumranks = 0
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0, n1]
+    cdef np.ndarray[np.float64_t, ndim=2] y = PyArray_EMPTY(2, dims,
+		NPY_float64, 0)
+    if n0 == 0:
+        PyArray_FillWithScalar(y, NAN)
+        return y
+    for i1 in xrange(n1):
+        idx = ivec[0, i1]
+        old = a[idx, i1]
+        sumranks = 0
+        dupcount = 0
+        for i0 in xrange(n0-1):
+            sumranks += i0
+            dupcount += 1
+            k = i0 + 1
+            idx = ivec[k, i1]
+            new = a[idx, i1]
+            if old != new:
+                averank = sumranks / dupcount + 1
+                for j in xrange(k - dupcount, k):
+                    idx = ivec[j, i1]
+                    y[idx, i1] = averank
+                sumranks = 0
+                dupcount = 0
+            old = new    
+        sumranks += (n0 - 1)
+        dupcount += 1
+        averank = sumranks / dupcount + 1
+        for j in xrange(n0 - dupcount, n0):
+            idx = ivec[j, i1]
+            y[idx, i1] = averank
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def rankdata_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Ranks n2d array with dtype=int8 along axis=1, dealing with ties." 
+    cdef dupcount = 0
+    cdef Py_ssize_t j, k, idx
+    cdef np.ndarray[np.intp_t, ndim=2] ivec = PyArray_ArgSort(a, 1, NPY_QUICKSORT)
+    cdef np.float64_t old, new, averank, sumranks = 0
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0, n1]
+    cdef np.ndarray[np.float64_t, ndim=2] y = PyArray_EMPTY(2, dims,
+		NPY_float64, 0)
+    if n1 == 0:
+        PyArray_FillWithScalar(y, NAN)
+        return y
+    for i0 in xrange(n0):
+        idx = ivec[i0, 0]
+        old = a[i0, idx]
+        sumranks = 0
+        dupcount = 0
+        for i1 in xrange(n1-1):
+            sumranks += i1
+            dupcount += 1
+            k = i1 + 1
+            idx = ivec[i0, k]
+            new = a[i0, idx]
+            if old != new:
+                averank = sumranks / dupcount + 1
+                for j in xrange(k - dupcount, k):
+                    idx = ivec[i0, j]
+                    y[i0, idx] = averank
+                sumranks = 0
+                dupcount = 0
+            old = new    
+        sumranks += (n1 - 1)
+        dupcount += 1
+        averank = sumranks / dupcount + 1
+        for j in xrange(n1 - dupcount, n1):
+            idx = ivec[i0, j]
+            y[i0, idx] = averank
     return y
 
 @cython.boundscheck(False)
@@ -639,8 +769,11 @@ def rankdata_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
     return y
 
 cdef dict rankdata_dict = {}
+rankdata_dict[(1, NPY_int8, 0)] = rankdata_1d_int8_axis0
 rankdata_dict[(1, NPY_int32, 0)] = rankdata_1d_int32_axis0
 rankdata_dict[(1, NPY_int64, 0)] = rankdata_1d_int64_axis0
+rankdata_dict[(2, NPY_int8, 0)] = rankdata_2d_int8_axis0
+rankdata_dict[(2, NPY_int8, 1)] = rankdata_2d_int8_axis1
 rankdata_dict[(2, NPY_int32, 0)] = rankdata_2d_int32_axis0
 rankdata_dict[(2, NPY_int32, 1)] = rankdata_2d_int32_axis1
 rankdata_dict[(2, NPY_int64, 0)] = rankdata_2d_int64_axis0

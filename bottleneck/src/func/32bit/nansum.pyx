@@ -134,6 +134,46 @@ def nansum_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nansum_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Sum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+    cdef np.int8_t asum = 0, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    for i1 in range(n1):
+        asum = 0
+        for i0 in range(n0):
+            asum += a[i0, i1]
+        y[i1] = asum
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nansum_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Sum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+    cdef np.int8_t asum = 0, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    for i0 in range(n0):
+        asum = 0
+        for i1 in range(n1):
+            asum += a[i0, i1]
+        y[i0] = asum
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nansum_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
     "Sum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
     cdef np.int32_t asum = 0, ai
@@ -410,6 +450,21 @@ def nansum_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nansum_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):
+    "Sum of 1d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef np.int8_t asum = 0, ai
+    cdef Py_ssize_t size
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    size = n0
+    for i0 in range(n0):
+        asum += a[i0]
+    return np.int8(asum)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nansum_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):
     "Sum of 1d array with dtype=int32 along axis=None ignoring NaNs."
     cdef np.int32_t asum = 0, ai
@@ -437,6 +492,23 @@ def nansum_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):
     for i0 in range(n0):
         asum += a[i0]
     return np.int64(asum)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nansum_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):
+    "Sum of 2d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef np.int8_t asum = 0, ai
+    cdef Py_ssize_t size
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    size = n0 * n1    
+    for i0 in range(n0):
+        for i1 in range(n1):
+            asum += a[i0, i1]
+    return np.int8(asum)
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -473,6 +545,8 @@ def nansum_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):
     return np.int64(asum)
 
 cdef dict nansum_dict = {}
+nansum_dict[(2, NPY_int8, 0)] = nansum_2d_int8_axis0
+nansum_dict[(2, NPY_int8, 1)] = nansum_2d_int8_axis1
 nansum_dict[(2, NPY_int32, 0)] = nansum_2d_int32_axis0
 nansum_dict[(2, NPY_int32, 1)] = nansum_2d_int32_axis1
 nansum_dict[(2, NPY_int64, 0)] = nansum_2d_int64_axis0
@@ -487,10 +561,13 @@ nansum_dict[(2, NPY_float32, 0)] = nansum_2d_float32_axis0
 nansum_dict[(2, NPY_float32, 1)] = nansum_2d_float32_axis1
 nansum_dict[(2, NPY_float64, 0)] = nansum_2d_float64_axis0
 nansum_dict[(2, NPY_float64, 1)] = nansum_2d_float64_axis1
+nansum_dict[(1, NPY_int8, 0)] = nansum_1d_int8_axisNone
+nansum_dict[(1, NPY_int8, None)] = nansum_1d_int8_axisNone
 nansum_dict[(1, NPY_int32, 0)] = nansum_1d_int32_axisNone
 nansum_dict[(1, NPY_int32, None)] = nansum_1d_int32_axisNone
 nansum_dict[(1, NPY_int64, 0)] = nansum_1d_int64_axisNone
 nansum_dict[(1, NPY_int64, None)] = nansum_1d_int64_axisNone
+nansum_dict[(2, NPY_int8, None)] = nansum_2d_int8_axisNone
 nansum_dict[(2, NPY_int32, None)] = nansum_2d_int32_axisNone
 nansum_dict[(2, NPY_int64, None)] = nansum_2d_int64_axisNone
 

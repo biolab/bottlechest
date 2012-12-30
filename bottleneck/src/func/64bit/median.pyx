@@ -140,6 +140,49 @@ def median_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def median_1d_int8_axis0(np.ndarray[np.int8_t, ndim=1] a):
+    "Median of 1d array with dtype=int8 along axis=0."
+    cdef np.npy_intp i, j = 0, l, r, k 
+    cdef np.int8_t x, tmp, amax, ai
+    cdef np.ndarray[np.int8_t, ndim=1] b = PyArray_Copy(a)
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    if n0 == 0:
+        return np.float64(NAN)
+    k = n0 >> 1
+    l = 0
+    r = n0 - 1 
+    with nogil:       
+        while l < r:
+            x = b[k]
+            i = l
+            j = r
+            while 1:
+                while b[i] < x: i += 1
+                while x < b[j]: j -= 1
+                if i <= j:
+                    tmp = b[i]
+                    b[i] = b[j]
+                    b[j] = tmp
+                    i += 1
+                    j -= 1
+                if i > j: break
+            if j < k: l = i
+            if k < i: r = j
+    if n0 % 2 == 0:        
+        amax = MINint8
+        for i in range(k):
+            ai = b[i]
+            if ai >= amax:
+                amax = ai
+        return np.float64(0.5 * (b[k] + amax))
+    else:
+        return np.float64(b[k])
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def median_1d_int32_axis0(np.ndarray[np.int32_t, ndim=1] a):
     "Median of 1d array with dtype=int32 along axis=0."
     cdef np.npy_intp i, j = 0, l, r, k 
@@ -223,6 +266,104 @@ def median_1d_int64_axis0(np.ndarray[np.int64_t, ndim=1] a):
         return np.float64(0.5 * (b[k] + amax))
     else:
         return np.float64(b[k])
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def median_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Median of 2d array with dtype=int8 along axis=0."
+    cdef np.npy_intp i, j = 0, l, r, k 
+    cdef np.int8_t x, tmp, amax, ai
+    cdef np.ndarray[np.int8_t, ndim=2] b = PyArray_Copy(a)
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_float64, 0)
+    if n0 == 0:
+        PyArray_FillWithScalar(y, NAN)
+        return y
+    for i1 in range(n1): 
+        k = n0 >> 1
+        l = 0
+        r = n0 - 1
+        while l < r:
+            x = b[k, i1]
+            i = l
+            j = r
+            while 1:
+                while b[i, i1] < x: i += 1
+                while x < b[j, i1]: j -= 1
+                if i <= j:
+                    tmp = b[i, i1]
+                    b[i, i1] = b[j, i1]
+                    b[j, i1] = tmp
+                    i += 1
+                    j -= 1
+                if i > j: break
+            if j < k: l = i
+            if k < i: r = j
+        if n0 % 2 == 0:        
+            amax = MINint8
+            for i in range(k):
+                ai = b[i, i1]
+                if ai >= amax:
+                    amax = ai
+            y[i1] = 0.5 * (b[k, i1] + amax)
+        else:
+            y[i1] = <np.float64_t> b[k, i1]         
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def median_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Median of 2d array with dtype=int8 along axis=1."
+    cdef np.npy_intp i, j = 0, l, r, k 
+    cdef np.int8_t x, tmp, amax, ai
+    cdef np.ndarray[np.int8_t, ndim=2] b = PyArray_Copy(a)
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_float64, 0)
+    if n1 == 0:
+        PyArray_FillWithScalar(y, NAN)
+        return y
+    for i0 in range(n0): 
+        k = n1 >> 1
+        l = 0
+        r = n1 - 1
+        while l < r:
+            x = b[i0, k]
+            i = l
+            j = r
+            while 1:
+                while b[i0, i] < x: i += 1
+                while x < b[i0, j]: j -= 1
+                if i <= j:
+                    tmp = b[i0, i]
+                    b[i0, i] = b[i0, j]
+                    b[i0, j] = tmp
+                    i += 1
+                    j -= 1
+                if i > j: break
+            if j < k: l = i
+            if k < i: r = j
+        if n1 % 2 == 0:        
+            amax = MINint8
+            for i in range(k):
+                ai = b[i0, i]
+                if ai >= amax:
+                    amax = ai
+            y[i0] = 0.5 * (b[i0, k] + amax)
+        else:
+            y[i0] = <np.float64_t> b[i0, k]         
+    return y
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -703,8 +844,11 @@ def median_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
     return y
 
 cdef dict median_dict = {}
+median_dict[(1, NPY_int8, 0)] = median_1d_int8_axis0
 median_dict[(1, NPY_int32, 0)] = median_1d_int32_axis0
 median_dict[(1, NPY_int64, 0)] = median_1d_int64_axis0
+median_dict[(2, NPY_int8, 0)] = median_2d_int8_axis0
+median_dict[(2, NPY_int8, 1)] = median_2d_int8_axis1
 median_dict[(2, NPY_int32, 0)] = median_2d_int32_axis0
 median_dict[(2, NPY_int32, 1)] = median_2d_int32_axis1
 median_dict[(2, NPY_int64, 0)] = median_2d_int64_axis0

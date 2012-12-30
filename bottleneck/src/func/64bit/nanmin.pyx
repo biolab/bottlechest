@@ -116,6 +116,58 @@ def nanmin_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanmin_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Minimum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    if n0 == 0:
+        msg = "numpy.nanmin raises on a.shape[axis]==0; so Bottleneck does."
+        raise ValueError(msg)
+    for i1 in range(n1):
+        amin = MAXint8
+        for i0 in range(n0):
+            ai = a[i0, i1]
+            if ai <= amin:
+                amin = ai
+        y[i1] = amin
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanmin_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Minimum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+		NPY_int8, 0)
+    if n1 == 0:
+        msg = "numpy.nanmin raises on a.shape[axis]==0; so Bottleneck does."
+        raise ValueError(msg)
+    for i0 in range(n0):
+        amin = MAXint8
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            if ai <= amin:
+                amin = ai
+        y[i0] = amin
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanmin_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
     "Minimum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
     cdef int allnan = 1
@@ -444,6 +496,26 @@ def nanmin_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def nanmin_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):
+    "Minimum of 1d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    if n0 == 0:
+        m = "numpy.nanmin raises on a.size==0 and axis=None; Bottleneck too."
+        raise ValueError(m)
+    amin = MAXint8
+    for i0 in range(n0):
+        ai = a[i0]
+        if ai <= amin:
+            amin = ai
+    return np.int8(amin)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def nanmin_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):
     "Minimum of 1d array with dtype=int32 along axis=None ignoring NaNs."
     cdef int allnan = 1
@@ -481,6 +553,28 @@ def nanmin_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):
         if ai <= amin:
             amin = ai
     return np.int64(amin)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def nanmin_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):
+    "Minimum of 2d array with dtype=int8 along axis=None ignoring NaNs."
+    cdef int allnan = 1
+    cdef np.int8_t amin, ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    if n0 * n1 == 0:
+        m = "numpy.nanmin raises on a.size==0 and axis=None; Bottleneck too."
+        raise ValueError(m)
+    amin = MAXint8
+    for i0 in range(n0):
+        for i1 in range(n1):
+            ai = a[i0, i1]
+            if ai <= amin:
+                amin = ai
+    return np.int8(amin)
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
@@ -527,6 +621,8 @@ def nanmin_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):
     return np.int64(amin)
 
 cdef dict nanmin_dict = {}
+nanmin_dict[(2, NPY_int8, 0)] = nanmin_2d_int8_axis0
+nanmin_dict[(2, NPY_int8, 1)] = nanmin_2d_int8_axis1
 nanmin_dict[(2, NPY_int32, 0)] = nanmin_2d_int32_axis0
 nanmin_dict[(2, NPY_int32, 1)] = nanmin_2d_int32_axis1
 nanmin_dict[(2, NPY_int64, 0)] = nanmin_2d_int64_axis0
@@ -541,10 +637,13 @@ nanmin_dict[(2, NPY_float32, 0)] = nanmin_2d_float32_axis0
 nanmin_dict[(2, NPY_float32, 1)] = nanmin_2d_float32_axis1
 nanmin_dict[(2, NPY_float64, 0)] = nanmin_2d_float64_axis0
 nanmin_dict[(2, NPY_float64, 1)] = nanmin_2d_float64_axis1
+nanmin_dict[(1, NPY_int8, 0)] = nanmin_1d_int8_axisNone
+nanmin_dict[(1, NPY_int8, None)] = nanmin_1d_int8_axisNone
 nanmin_dict[(1, NPY_int32, 0)] = nanmin_1d_int32_axisNone
 nanmin_dict[(1, NPY_int32, None)] = nanmin_1d_int32_axisNone
 nanmin_dict[(1, NPY_int64, 0)] = nanmin_1d_int64_axisNone
 nanmin_dict[(1, NPY_int64, None)] = nanmin_1d_int64_axisNone
+nanmin_dict[(2, NPY_int8, None)] = nanmin_2d_int8_axisNone
 nanmin_dict[(2, NPY_int32, None)] = nanmin_2d_int32_axisNone
 nanmin_dict[(2, NPY_int64, None)] = nanmin_2d_int64_axisNone
 

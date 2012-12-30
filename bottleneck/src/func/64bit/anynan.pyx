@@ -115,6 +115,42 @@ def anynan_selector(arr, axis):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def anynan_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+    "Check for NaNs in 2d array with dtype=int8 along axis=0."
+    cdef int f = 1
+    cdef np.int8_t ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n1]
+    cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+		NPY_BOOL, 0)
+    for i1 in range(n1):
+        y[i1] = 0
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def anynan_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+    "Check for NaNs in 2d array with dtype=int8 along axis=1."
+    cdef int f = 1
+    cdef np.int8_t ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
+    cdef np.npy_intp *dims = [n0]
+    cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+		NPY_BOOL, 0)
+    for i0 in range(n0):
+        y[i0] = 0
+    return y
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def anynan_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
     "Check for NaNs in 2d array with dtype=int32 along axis=0."
     cdef int f = 1
@@ -359,6 +395,18 @@ def anynan_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def anynan_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):
+    "Check for NaNs in 1d array with dtype=int8 along axis=None."
+    cdef int f = 1
+    cdef np.int8_t ai
+    cdef Py_ssize_t i0
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    return np.bool_(False)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def anynan_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):
     "Check for NaNs in 1d array with dtype=int32 along axis=None."
     cdef int f = 1
@@ -379,6 +427,19 @@ def anynan_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):
     cdef np.npy_intp *dim
     dim = PyArray_DIMS(a)
     cdef Py_ssize_t n0 = dim[0]
+    return np.bool_(False)
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+def anynan_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):
+    "Check for NaNs in 2d array with dtype=int8 along axis=None."
+    cdef int f = 1
+    cdef np.int8_t ai
+    cdef Py_ssize_t i0, i1
+    cdef np.npy_intp *dim
+    dim = PyArray_DIMS(a)
+    cdef Py_ssize_t n0 = dim[0]
+    cdef Py_ssize_t n1 = dim[1]
     return np.bool_(False)
 
 @cython.boundscheck(False)
@@ -408,6 +469,8 @@ def anynan_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):
     return np.bool_(False)
 
 cdef dict anynan_dict = {}
+anynan_dict[(2, NPY_int8, 0)] = anynan_2d_int8_axis0
+anynan_dict[(2, NPY_int8, 1)] = anynan_2d_int8_axis1
 anynan_dict[(2, NPY_int32, 0)] = anynan_2d_int32_axis0
 anynan_dict[(2, NPY_int32, 1)] = anynan_2d_int32_axis1
 anynan_dict[(2, NPY_int64, 0)] = anynan_2d_int64_axis0
@@ -422,10 +485,13 @@ anynan_dict[(2, NPY_float32, 0)] = anynan_2d_float32_axis0
 anynan_dict[(2, NPY_float32, 1)] = anynan_2d_float32_axis1
 anynan_dict[(2, NPY_float64, 0)] = anynan_2d_float64_axis0
 anynan_dict[(2, NPY_float64, 1)] = anynan_2d_float64_axis1
+anynan_dict[(1, NPY_int8, 0)] = anynan_1d_int8_axisNone
+anynan_dict[(1, NPY_int8, None)] = anynan_1d_int8_axisNone
 anynan_dict[(1, NPY_int32, 0)] = anynan_1d_int32_axisNone
 anynan_dict[(1, NPY_int32, None)] = anynan_1d_int32_axisNone
 anynan_dict[(1, NPY_int64, 0)] = anynan_1d_int64_axisNone
 anynan_dict[(1, NPY_int64, None)] = anynan_1d_int64_axisNone
+anynan_dict[(2, NPY_int8, None)] = anynan_2d_int8_axisNone
 anynan_dict[(2, NPY_int32, None)] = anynan_2d_int32_axisNone
 anynan_dict[(2, NPY_int64, None)] = anynan_2d_int64_axisNone
 
