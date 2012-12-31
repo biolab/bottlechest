@@ -243,6 +243,10 @@ def bincount(arr, max_val, weights=None):
     return out, nans
 
 
+def contingency(arr, b, max_val, max_val2, weights=None, mask=None):
+    raise NotImplemented("bottleneck.slow.contingency is not implemented yet")
+
+
 def valuecount(arr):
     "slow valuecount"
     if arr.ndim != 2 or arr.shape[0] != 2:

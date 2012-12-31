@@ -25,6 +25,7 @@ from .nanequal import nanequal
 from .bincount import bincount
 from .valuecount import valuecount
 from .countnans import countnans
+from .contingency import contingency
 
 funcs = {}
 funcs['median'] = median
@@ -48,6 +49,7 @@ funcs['nanequal'] = nanequal
 funcs['bincount'] = bincount
 funcs['valuecount'] = valuecount
 funcs['countnans'] = countnans
+funcs['contingency'] = contingency
 
 
 header = """#cython: embedsignature=True
@@ -129,6 +131,7 @@ include "nanequal.pyx"
 include "bincount.pyx"
 include "valuecount.pyx"
 include "countnans.pyx"
+include "contingency.pyx"
 """
 
 def funcpyx(funcs=funcs, bits=None):
