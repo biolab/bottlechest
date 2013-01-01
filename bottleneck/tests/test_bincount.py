@@ -8,12 +8,57 @@ import scipy.sparse as sp
 
 
 class TestBinCount(unittest.TestCase):
-    # TODO: tests for 1-d arrays
+    def test_1d_int(self):
+        data = np.array([0, 1, 1, 2, 1])
+        count, nans = bn.bincount(data, 2)
+        np.testing.assert_equal(count, [1, 3, 1])
+        self.assertEqual(nans, 0)
+
+    def test_1d_float(self):
+        nan = float("nan")
+        data = np.array([0, nan, nan, 2, 2, 1], dtype=float)
+        count, nans = bn.bincount(data, 2)
+        np.testing.assert_equal(count, [1, 1, 2])
+        self.assertEqual(nans, 2)
+
+    def test_1d_mask_int(self):
+        data = np.array([0, 1, 1, 2, 1])
+        count, nans = bn.bincount(data, 2, mask=[1])
+        np.testing.assert_equal(count, [1, 3, 1])
+        self.assertEqual(nans, 0)
+
+        count, nans = bn.bincount(data, 2, mask=[0])
+        np.testing.assert_equal(count, [0, 0, 0])
+        self.assertEqual(nans, 0)
+
+    def test_1d_mask_float(self):
+        nan = float("nan")
+        data = np.array([0, nan, nan, 2, 2, 1], dtype=float)
+        count, nans = bn.bincount(data, 2, mask=[1])
+        np.testing.assert_equal(count, [1, 1, 2])
+        self.assertEqual(nans, 2)
+
+        count, nans = bn.bincount(data, 2, mask=[0])
+        np.testing.assert_equal(count, [0, 0, 0])
+        self.assertEqual(nans, 0)
+
+    def test_1d_weighted_int(self):
+        data = np.array([0, 1, 1, 2, 1])
+        count, nans = bn.bincount(data, 2, weights=np.arange(5))
+        np.testing.assert_equal(count, [0, 7, 3])
+        self.assertEqual(nans, 0)
+
+    def test_1d_weighted_float(self):
+        nan = float("nan")
+        data = np.array([0, nan, nan, 2, 2, 1], dtype=float)
+        count, nans = bn.bincount(data, 2, weights=np.arange(6))
+        np.testing.assert_equal(count, [0, 5, 7])
+        self.assertEqual(nans, 3)
 
     def test_simple_int(self):
         data = np.array([[0, 1, 1, 2, 1],
                          [1, 1, 1, 0, 1],
-                         [0, 0, 3, 0, 0]], dtype=float)
+                         [0, 0, 3, 0, 0]], dtype=int)
         counts, nans = bn.bincount(data, 3)
         np.testing.assert_almost_equal(counts, [[2, 1, 0, 0], [1, 2, 0, 0], [0, 2, 0, 1], [2, 0, 1, 0], [1, 2, 0, 0]])
         np.testing.assert_almost_equal(nans, [0, 0, 0, 0, 0])
@@ -31,7 +76,7 @@ class TestBinCount(unittest.TestCase):
         data = np.array([[0, 1, 1, 2, 1],
                          [1, 1, 1, 0, 1],
                          [0, 0, 3, 0, 0]], dtype=float)
-        counts, nans = bn.bincount(data, 3, np.array([1, 2, 3], dtype=float))
+        counts, nans = bn.bincount(data, 3, np.array([1, 2, 3], dtype=int))
         print(counts)
         np.testing.assert_almost_equal(counts, [[4, 2, 0, 0], [3, 3, 0, 0], [0, 3, 0, 3], [5, 0, 1, 0], [3, 3, 0, 0]])
         np.testing.assert_almost_equal(nans, [0, 0, 0, 0, 0])
