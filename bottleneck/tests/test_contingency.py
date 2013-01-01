@@ -8,7 +8,61 @@ import scipy.sparse as sp
 
 
 class TestContingency(unittest.TestCase):
-    # TODO: tests for 1d arrays
+    def test_1d_int(self):
+        data = np.array([0, 1, 1, 2, 1])
+        bb = [0, 1, 1, 0, 0]
+        for b in [bb, np.array(bb, dtype=np.int8), np.array(bb, dtype=float)]:
+            counts, nans = bn.contingency(data, b, 2, 1)
+            np.testing.assert_almost_equal(counts, [[1, 0], [1, 2], [1, 0]])
+            np.testing.assert_almost_equal(nans, np.zeros(2))
+
+    def test_1d_float(self):
+        nan = float("nan")
+        data = np.array([0, 1, nan, 2, 1], dtype=float)
+        bb = [0, 1, 1, 0, 0]
+        for b in [bb, np.array(bb, dtype=np.int8), np.array(bb, dtype=float)]:
+            counts, nans = bn.contingency(data, b, 2, 1)
+            np.testing.assert_almost_equal(counts, [[1, 0], [1, 1], [1, 0]])
+            np.testing.assert_almost_equal(nans, [0, 1])
+
+    def test_1d_mask_int(self):
+        data = np.array([0, 1, 1, 2, 1])
+        bb = [0, 1, 1, 0, 0]
+        counts, nans = bn.contingency(data, bb, 2, 1, mask=[1])
+        np.testing.assert_almost_equal(counts, [[1, 0], [1, 2], [1, 0]])
+        np.testing.assert_almost_equal(nans, [0, 0])
+
+        counts, nans = bn.contingency(data, bb, 2, 1, mask=[0])
+        np.testing.assert_almost_equal(counts, np.zeros((3, 2)))
+        np.testing.assert_almost_equal(nans, [0, 0])
+
+    def test_1d_mask_float(self):
+        nan = float("nan")
+        data = np.array([0, 1, nan, 2, 1], dtype=float)
+        bb = [0, 1, 1, 0, 0]
+        counts, nans = bn.contingency(data, bb, 2, 1, mask=[1])
+        np.testing.assert_almost_equal(counts, [[1, 0], [1, 1], [1, 0]])
+        np.testing.assert_almost_equal(nans, [0, 1])
+
+        counts, nans = bn.contingency(data, bb, 2, 1, mask=[0])
+        np.testing.assert_almost_equal(counts, np.zeros((3, 2)))
+        np.testing.assert_almost_equal(nans, [0, 0])
+
+    def test_1d_weighted_int(self):
+        data = np.array([0, 1, 1, 2, 1])
+        bb = [0, 1, 1, 0, 0]
+        counts, nans = bn.contingency(data, bb, 2, 1, weights=[1, 2, 3, 4, 5])
+        np.testing.assert_almost_equal(counts, [[1, 0], [5, 3], [3, 0]])
+        np.testing.assert_almost_equal(nans, np.zeros(2))
+
+    def test_1d_weighted_int(self):
+        nan = float("nan")
+        data = np.array([0, 1, nan, 2, 1], dtype=float)
+        bb = [0, 1, 1, 0, 0]
+        for b in [bb, np.array(bb, dtype=np.int8), np.array(bb, dtype=float)]:
+            counts, nans = bn.contingency(data, b, 2, 1, weights=[1, 2, 3, 4, 5])
+            np.testing.assert_almost_equal(counts, [[1, 0], [5, 2], [4, 0]])
+            np.testing.assert_almost_equal(nans, [0, 3])
 
     def test_simple_int(self):
         data = np.array([[0, 1, 1, 2, 1],

@@ -194,9 +194,9 @@ loop[1] = """\
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-        np.npy_intp *dims = [max_val+1]
-        np.ndarray[np.float64_t, ndim=1] y = PyArray_ZEROS(1, dims, NPY_float64, 0)
-        np.npy_intp *nandims = [max_val2+1]
+        np.npy_intp *dims = [max_val + 1, max_val2 + 1]
+        np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.npy_intp *nandims = [max_val2 + 1]
         np.ndarray[np.float_t, ndim=1] nans = PyArray_ZEROS(1, nandims, NPY_float64, 0)
         int ai
         char bin
