@@ -37,9 +37,9 @@ loop[1] = """\
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-        np.npy_intp *dims = [max_val+1, max_val2+1]
+        np.npy_intp *dims = [max_val2 + 1, max_val + 1]
         np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
-        np.npy_intp *nandims = [max_val2+1]
+        np.npy_intp *nandims = [max_val2 + 1]
         np.ndarray[np.float_t, ndim=1] nans = PyArray_ZEROS(1, nandims, NPY_float64, 0)
         int ain
         char bin
@@ -64,7 +64,7 @@ loop[1] = """\
             if ain > max_val:
                 raise ValueError("value %i is greater than max_val (%i)" %
                                  (ain, max_val))
-            y[ain, bin] += 1
+            y[bin, ain] += 1
     else:
         for iINDEX0 in range(nINDEX0):
             wt = w[iINDEX0]
@@ -81,7 +81,7 @@ loop[1] = """\
             if bin > max_val2:
                 raise ValueError("value %i is greater than max_val2 (%i)" %
                                  (bin, max_val2))
-            y[ain, bin] += wt
+            y[bin, ain] += wt
     return y, nans
 """
 
@@ -92,9 +92,9 @@ loop[2] = """\
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-       np.npy_intp *dims = [n1, max_val+1, max_val2+1]
+       np.npy_intp *dims = [n1, max_val2 + 1, max_val + 1]
        np.ndarray[np.float64_t, ndim=3] y = PyArray_ZEROS(3, dims, NPY_float64, 0)
-       np.npy_intp *nandims = [n1, max_val2+1]
+       np.npy_intp *nandims = [n1, max_val2 + 1]
        np.ndarray[np.float_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
        int ain
        char bin
@@ -119,7 +119,7 @@ loop[2] = """\
                 if ain > max_val:
                     raise ValueError("value %i is greater than max_val (%i)" %
                                      (ain, max_val))
-                y[iINDEX1, ain, bin] += wt
+                y[iINDEX1, bin, ain] += wt
     return y, nans
 """
 
@@ -144,9 +144,9 @@ def SPARSE(object a,
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-        np.npy_intp *dims = [n_cols, max_val+1, max_val2+1]
+        np.npy_intp *dims = [n_cols, max_val2 + 1, max_val + 1]
         np.ndarray[np.float64_t, ndim=3] y = PyArray_ZEROS(3, dims, NPY_float64, 0)
-        np.npy_intp *nandims = [n_cols, max_val2+1]
+        np.npy_intp *nandims = [n_cols, max_val2 + 1]
         np.ndarray[np.float_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
         float wt
 
@@ -176,7 +176,7 @@ def SPARSE(object a,
                 if ain > max_val:
                     raise ValueError("value %i is greater than max_val (%i)" %
                                      (ain, max_val))
-                y[ci, ain, bin] += wt
+                y[ci, bin, ain] += wt
     return y, nans
 """
 
@@ -194,7 +194,7 @@ loop[1] = """\
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-        np.npy_intp *dims = [max_val + 1, max_val2 + 1]
+        np.npy_intp *dims = [max_val2 + 1, max_val + 1]
         np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
         np.npy_intp *nandims = [max_val2 + 1]
         np.ndarray[np.float_t, ndim=1] nans = PyArray_ZEROS(1, nandims, NPY_float64, 0)
@@ -214,7 +214,7 @@ loop[1] = """\
             if bin > max_val2:
                 raise ValueError("value %i is greater than max_val2 (%i)" %
                                  (bin, max_val2))
-            y[ai, bin] += 1
+            y[bin, ai] += 1
     else:
         for iINDEX0 in range(nINDEX0):
             ai = a[INDEXALL]
@@ -227,7 +227,7 @@ loop[1] = """\
             if bin > max_val2:
                 raise ValueError("value %i is greater than max_val2 (%i)" %
                                  (bin, max_val2))
-            y[ai, bin] += w[iINDEX0]
+            y[bin, ai] += w[iINDEX0]
     return y, nans
 """
 
@@ -236,7 +236,7 @@ loop[2] = """\
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-       np.npy_intp *dims = [n1, max_val+1, max_val2+1]
+       np.npy_intp *dims = [n1, max_val2 + 1, max_val + 1]
        np.ndarray[np.float_t, ndim=3] y = PyArray_ZEROS(3, dims, NPY_float64, 0)
        np.npy_intp *nandims = [n1, max_val2+1]
        np.ndarray[np.float64_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
@@ -257,7 +257,7 @@ loop[2] = """\
                 if ai > max_val:
                     raise ValueError("value %i is greater than max_val (%i)"
                                      % (ai, max_val))
-                y[iINDEX1, ai, bin] += wt
+                y[iINDEX1, bin, ai] += wt
     return y, nans
 """
 
@@ -280,7 +280,7 @@ def SPARSE(object a,
         raise ValueError("invalid length of the weight vector")
 
     cdef:
-        np.npy_intp *dims = [n_cols, max_val+1, max_val2+1]
+        np.npy_intp *dims = [n_cols, max_val2 + 1, max_val + 1]
         np.ndarray[np.float64_t, ndim=3] y = PyArray_ZEROS(3, dims, NPY_float64, 0)
         np.npy_intp *nandims = [n_cols, max_val2+1]
         np.ndarray[np.float_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
@@ -300,7 +300,7 @@ def SPARSE(object a,
         for i in range(indptr[ri], indptr[ri + 1]):
             ci = indices[i]
             if mask is None or mask[ci]:
-                y[ci, data[i], bin] += wt
+                y[ci, bin, data[i]] += wt
     return y, nans
 """
 
@@ -368,7 +368,7 @@ def contingency(arr, b, max_val, max_val2, weights=None, mask=None):
     -------
     out : ndarray of ints, 1- or 2-dimensional
         The result of binning the input array.
-    nans: the number of NaNs; a 1-d vector of length `max_val`, or 2-d array `(x.shape[1], max_val2)`
+    nans: the number of NaNs; a 1-d vector of length `max_val`, or 2-d array `(max_val2, x.shape[1])`
 
     Raises
     ------
