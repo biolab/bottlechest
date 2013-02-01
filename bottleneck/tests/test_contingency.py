@@ -6,7 +6,6 @@ import bottleneck as bn
 import numpy as np
 import scipy.sparse as sp
 
-
 class TestContingency(unittest.TestCase):
     def test_1d_int(self):
         data = np.array([0, 1, 1, 2, 1])

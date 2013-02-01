@@ -1,11 +1,12 @@
 import math
 import numpy as np
+import scipy.sparse as sp
 
 __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
            'nanmin', 'nanmax', 'nanargmin', 'nanargmax', 'rankdata',
            'nanrankdata', 'ss', 'nn', 'partsort', 'argpartsort', 'replace',
            'anynan', 'allnan',
-           'bincount', 'valuecount', 'countnans']
+           'bincount', 'valuecount', 'countnans', 'stats']
 
 def median(arr, axis=None):
     "Slow median function used for unaccelerated ndim/dtype combinations."
@@ -278,6 +279,40 @@ def countnans(arr, weights=None, axis=None):
                                        axis, arr)
         else:
             return np.sum(np.isnan(arr), axis=axis)
+
+
+def stats(arr, weights=None):
+    if not 1 <= arr.ndim <= 2:
+        raise ValueError("bottleneck.stats handles only 1-d and 2-d arrays")
+    if arr.ndim == 1:
+        a_min, a_max = np.nanmin(arr), np.nanmax(arr)
+        if weights is None:
+            nans = np.sum(np.isnan(arr))
+            non_nans = len(arr) - nans
+            mean = np.nansum(arr) / non_nans
+        else:
+            tot_w = np.sum(weights)
+            nans = np.sum(np.isnan(arr) * weights)
+            non_nans = tot_w - nans
+            mean = np.nansum(arr * weights) / non_nans
+        return a_min, a_max, mean, 0, nans, non_nans
+
+    if sp.issparse(arr):
+        arr = arr.todense()
+    y = np.zeros((arr.shape[1], 6), dtype=float)
+    y[:, 0] = nanmin(arr, 0)
+    y[:, 1] = nanmax(arr, 0)
+    if weights:
+        tot_w = np.sum(weights)
+        y[:, 4] = countnans(arr, weights, 0)
+        y[:, 5] = tot_w - y[:, 4]
+        y[:, 2] = nanmean(arr * weights, 0) / y[:, 4]
+    else:
+        y[:, 4] = countnans(arr, axis=0)
+        y[:, 5] = arr.shape[0] - y[:, 4]
+        y[:, 2] = nanmean(arr, 0) / y[:, 4]
+    y[:, 2][np.isinf(y[:, 2])] = 0
+    return y
 
 # ---------------------------------------------------------------------------
 #
@@ -580,3 +615,5 @@ def scipy_ss(a, axis=0):
     """
     a, axis = _chk_asarray(a, axis)
     return np.sum(a*a, axis)
+
+

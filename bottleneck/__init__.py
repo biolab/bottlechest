@@ -13,7 +13,8 @@ try:
     from .func import (nansum, nanmax, nanmin, nanmean, nanstd, nanvar, median,
                       nanmedian, nanargmin, nanargmax, rankdata, nanrankdata,
                       ss, nn, replace, anynan, allnan,
-                      nanequal, bincount, valuecount, countnans, contingency)
+                      nanequal, bincount, valuecount, countnans, contingency,
+                      stats)
 except:
     pass
 

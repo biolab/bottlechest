@@ -26,6 +26,7 @@ from .bincount import bincount
 from .valuecount import valuecount
 from .countnans import countnans
 from .contingency import contingency
+from .stats import stats
 
 funcs = {}
 funcs['median'] = median
@@ -50,6 +51,7 @@ funcs['bincount'] = bincount
 funcs['valuecount'] = valuecount
 funcs['countnans'] = countnans
 funcs['contingency'] = contingency
+funcs['stats'] = stats
 
 
 header = """#cython: embedsignature=True
@@ -132,6 +134,7 @@ include "bincount.pyx"
 include "valuecount.pyx"
 include "countnans.pyx"
 include "contingency.pyx"
+include "stats.pyx"
 """
 
 def funcpyx(funcs=funcs, bits=None):
