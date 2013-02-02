@@ -281,9 +281,41 @@ def countnans(arr, weights=None, axis=None):
             return np.sum(np.isnan(arr), axis=axis)
 
 
+def stats_object(arr, weights=None):
+    pinf, minf = float("inf"), float("-inf")
+
+    if arr.ndim == 1:
+        if weights is None:
+            nones = sum(np.equal(arr, None))
+            return pinf, minf, 0, 0, nones, len(arr) - nones
+        else:
+            nones = sum(np.equal(arr, None) * weights)
+            return pinf, minf, 0, 0, nones, sum(weights) - nones
+
+    if sp.issparse(arr) and weights is not None:
+        raise NotImplementedError("counting of missing values for"
+            "weighted arrays of type 'object' is not implemented")
+
+    y = np.zeros((arr.shape[1], 6), float)
+    y[:, 0] = pinf
+    y[:, 1] = minf
+    if sp.issparse(arr):
+        y[:, 4] = np.bincount(arr.indices, minlength=arr.shape[1])
+    elif weights is None:
+        y[:, 4] = np.sum(np.equal(arr, None), axis=0)
+    else:
+        y[:, 4] = np.sum(np.equal(arr, None) * weights[:, np.newaxis], axis=0)
+    y[:, 5] = arr.shape[0] - y[:, 4]
+    return y
+
+
 def stats(arr, weights=None):
     if not 1 <= arr.ndim <= 2:
         raise ValueError("bottleneck.stats handles only 1-d and 2-d arrays")
+    if arr.dtype == object:
+        # can't compute min and max, but we can count 'nans'
+        return stats_object(arr, weights)
+
     if arr.ndim == 1:
         a_min, a_max = np.nanmin(arr), np.nanmax(arr)
         if weights is None:
