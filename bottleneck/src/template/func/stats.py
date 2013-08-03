@@ -1,5 +1,8 @@
 "stats template"
 
+# For computation of weighted variance, see
+# http://en.wikipedia.org/wiki/Weighted_sample_variance#Weighted_sample_variance
+
 from copy import deepcopy
 import bottleneck as bn
 
@@ -20,7 +23,8 @@ floats['top'] = """
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def NAME_NDIMd_DTYPE_axisAXIS(np.ndarray[np.DTYPE_t, ndim=NDIM] a,
-                              np.ndarray[np.float_t, ndim=1] w = None):
+                              np.ndarray[np.float_t, ndim=1] w = None,
+                              int compute_variance = False):
     '''Compute min, max, mean and #nans.
     '''
 """
@@ -34,8 +38,10 @@ loop[1] = """\
         np.DTYPE_t a_min = MAXDTYPE
         np.DTYPE_t a_max = MINDTYPE
         np.float_t mean = 0
+        np.float_t var = 0
         np.float_t non_nans = 0
         np.float_t nans = 0
+        np.float_t tot_wt2, d
     if w is None:
         for iINDEX0 in range(nINDEX0):
             ai = a[iINDEX0]
@@ -50,6 +56,12 @@ loop[1] = """\
         non_nans = nINDEX0 - nans
         if non_nans != 0:
             mean /= non_nans
+        if compute_variance and non_nans >= 2:
+            for iINDEX0 in range(nINDEX0):
+                ai = a[iINDEX0]
+                if ai == ai:
+                    var += (ai - mean) ** 2
+            var /= non_nans - 1
     else:
         if len(w) != n0:
             raise ValueError("invalid length of the weight vector ({} != {})".
@@ -69,7 +81,18 @@ loop[1] = """\
             mean += wt * ai
         if non_nans != 0:
             mean /= non_nans
-    return a_min, a_max, mean, 0, nans, non_nans
+            if compute_variance:
+                tot_wt2 = 0
+                for iINDEX0 in range(nINDEX0):
+                    ai = a[iINDEX0]
+                    if ai == ai:
+                        wt = w[iINDEX0]
+                        tot_wt2 += wt ** 2
+                        var += wt * (ai - mean) ** 2
+                d = non_nans ** 2 - tot_wt2
+                if d > 1e-6:
+                    var *= non_nans / d
+    return a_min, a_max, mean, var, nans, non_nans
 """
 
 loop[2] = """\
@@ -79,6 +102,10 @@ loop[2] = """\
        np.DTYPE_t ai
        np.float64_t mean
        np.float_t wt
+       np.float_t var
+       np.float_t tot_wt
+       np.ndarray[np.float64_t, ndim=1] tot_wt2 = PyArray_ZEROS(1, dims, NPY_float64, 0)
+       np.float_t d
 
     for iINDEX1 in range(nINDEX1):
        y[iINDEX1, 0] = MAXfloat64
@@ -99,6 +126,15 @@ loop[2] = """\
             y[iINDEX1, 5] = nINDEX0 - y[iINDEX1, 4]
             if y[iINDEX1, 5] > 0:
                 y[iINDEX1, 2] /= y[iINDEX1, 5]
+        if compute_variance:
+            for iINDEX0 in range(nINDEX0):
+                for iINDEX1 in range(nINDEX1):
+                    ai = a[INDEXALL]
+                    if ai == ai:
+                        y[iINDEX1, 3] += (ai - y[iINDEX1, 2]) ** 2
+            for iINDEX1 in range(nINDEX1):
+                if y[iINDEX1, 5] >= 2:
+                    y[iINDEX1, 3] /= y[iINDEX1, 5] - 1
     else:
         for iINDEX0 in range(nINDEX0):
             wt = w[iINDEX0]
@@ -116,6 +152,20 @@ loop[2] = """\
         for iINDEX1 in range(nINDEX1):
             if y[iINDEX1, 5] > 0:
                 y[iINDEX1, 2] /= y[iINDEX1, 5]
+        if compute_variance:
+            for iINDEX0 in range(nINDEX0):
+                wt = w[iINDEX0]
+                for iINDEX1 in range(nINDEX1):
+                    if y[iINDEX1, 5] >= 2:
+                        ai = a[INDEXALL]
+                        if ai == ai:
+                            tot_wt2[iINDEX1] += wt ** 2
+                            y[iINDEX1, 3] += wt * (ai - y[iINDEX1, 2]) ** 2
+            for iINDEX1 in range(nINDEX1):
+                tot_wt = y[iINDEX1, 5]
+                d = tot_wt ** 2 - tot_wt2[iINDEX1]
+                if d > 1e-6:
+                    y[iINDEX1, 3] *= tot_wt / d
     return y
 """
 
@@ -123,7 +173,8 @@ sparse = """
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def SPARSE(object a,
-           np.ndarray[np.float_t, ndim=1] w = None):
+           np.ndarray[np.float_t, ndim=1] w = None,
+           int compute_variance = False):
     '''Compute min, max, #nans, mean and variance.
     '''
 
@@ -141,10 +192,12 @@ def SPARSE(object a,
 
         np.npy_intp *dims = [n_cols, 6]
         np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] tot_wt2 = PyArray_ZEROS(1, dims, NPY_float64, 0)
 
         int ri, ci
         np.float_t wt
         np.float_t tot_w = 0
+        np.float_t d
         np.DTYPE_t ai
 
     for ci in range(n_cols):
@@ -175,6 +228,19 @@ def SPARSE(object a,
         y[ci, 4] = tot_w - y[ci, 5]
         if y[ci, 5] != 0:
             y[ci, 2] /= y[ci, 5]
+    if compute_variance:
+        for ri in range(a.shape[0]):
+            wt = 1 if w is None else w[ri]
+            for i in range(indptr[ri], indptr[ri + 1]):
+                ai = data[i]
+                if ai == ai:
+                    ci = indices[i]
+                    y[ci, 3] += wt * (ai - y[ci, 2]) ** 2
+                    tot_wt2[ci] += wt ** 2
+        for ci in range(n_cols):
+            d = y[ci, 5] ** 2 - tot_wt2[ci]
+            if d > 1e-6:
+                y[ci, 3] *= y[ci, 5] / d
     return y
 """
 
@@ -194,7 +260,8 @@ loop[1] = """\
         np.DTYPE_t a_min = MAXDTYPE
         np.DTYPE_t a_max = MINDTYPE
         np.float64_t mean = 0
-        np.float_t tot_w
+        np.float64_t var = 0
+        np.float_t tot_w, tot_w2, d
     if n0 == 0:
         return (a_min, a_max, 0, 0, 0, 0)
     if w is None:
@@ -207,6 +274,10 @@ loop[1] = """\
                 a_max = ai
             mean += ai
         mean /= n0
+        if compute_variance and n0 >= 2:
+            for iINDEX0 in range(nINDEX0):
+                var += (a[INDEXALL] - mean) ** 2
+            var /= n0 - 1
     else:
         tot_w = 0
         if len(w) != n0:
@@ -222,7 +293,15 @@ loop[1] = """\
             mean += wt * ai
         if tot_w != 0:
             mean /= tot_w
-    return a_min, a_max, mean, 0, 0, tot_w
+        if compute_variance:
+            tot_w2 = 0
+            for iINDEX0 in range(nINDEX0):
+                tot_w2 += w[iINDEX0] ** 2
+                var += w[iINDEX0] * (a[INDEXALL] - mean) ** 2
+            d = tot_w ** 2 - tot_w2
+            if d > 1e-6:
+                var *= tot_w / d
+    return a_min, a_max, mean, var, 0, tot_w
 """
 
 loop[2] = """\
@@ -232,7 +311,7 @@ loop[2] = """\
        np.DTYPE_t ai
        np.float64_t mean
        np.float_t wt
-       np.float_t tot_w = 0
+       np.float_t tot_w = 0, tot_w2 = 0
 
     if w is None:
        tot_w = nINDEX0
@@ -260,6 +339,12 @@ loop[2] = """\
         for iINDEX1 in range(nINDEX1):
             y[iINDEX1, 2] /= nINDEX0
             mean = y[iINDEX1, 2]
+        if compute_variance and nINDEX0 >= 2:
+            for iINDEX0 in range(nINDEX0):
+                for iINDEX1 in range(nINDEX1):
+                    y[iINDEX1, 3] += (a[INDEXALL] - y[iINDEX1, 2]) ** 2
+        for iINDEX1 in range(nINDEX1):
+            y[iINDEX1, 3] /= nINDEX0 - 1
     else:
         for iINDEX0 in range(nINDEX0):
             wt = w[iINDEX0]
@@ -273,6 +358,16 @@ loop[2] = """\
         for iINDEX1 in range(nINDEX1):
             y[iINDEX1, 2] /= tot_w
             mean = y[iINDEX1, 2]
+        if compute_variance:
+            for iINDEX0 in range(nINDEX0):
+                wt = w[iINDEX0]
+                tot_w2 += wt ** 2
+                for iINDEX1 in range(nINDEX1):
+                    y[iINDEX1, 3] += wt * (a[INDEXALL] - y[iINDEX1, 2]) ** 2
+            d = tot_w ** 2 - tot_w2
+            if d > 1e-6:
+                for iINDEX1 in range(nINDEX1):
+                    y[iINDEX1, 3] *= tot_w / d
     return y
 """
 
@@ -280,7 +375,8 @@ sparse = """
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def SPARSE(object a,
-           np.ndarray[np.float_t, ndim=1] w = None):
+           np.ndarray[np.float_t, ndim=1] w = None,
+           int compute_variance = False):
     '''Compute min, max, #nans, mean and variance.
     '''
 
@@ -298,6 +394,7 @@ def SPARSE(object a,
 
         np.npy_intp *dims = [n_cols, 6]
         np.ndarray[np.float64_t, ndim=2] y = PyArray_ZEROS(2, dims, NPY_float64, 0)
+        np.ndarray[np.float64_t, ndim=1] tot_w2 = PyArray_ZEROS(1, dims, NPY_float64, 0)
         np.float_t wt
         np.float_t tot_w = 0
         int ri, ci
@@ -330,6 +427,17 @@ def SPARSE(object a,
         y[ci, 4] = tot_w - y[ci, 5]
         if y[ci, 5] != 0:
             y[ci, 2] /= y[ci, 5]
+    if compute_variance:
+        for ri in range(a.shape[0]):
+            wt = 1 if w is None else w[ri]
+            for i in range(indptr[ri], indptr[ri + 1]):
+                ci = indices[i]
+                tot_w2[ci] += wt ** 2
+                y[ci, 3] += wt * (data[i] - y[ci, 2]) ** 2
+        for ci in range(n_cols):
+            d = y[ci, 5] ** 2 - tot_w2[ci]
+            if d > 1e-6:
+                y[ci, 3] *= y[ci, 5] / d
     return y
 """
 
@@ -360,17 +468,17 @@ stats['pyx_file'] = 'func/%sbit/stats.pyx'
 
 stats['main'] = '''"stats auto-generated from template"
 
-def stats(arr, weights=None):
+def stats(arr, weights=None, compute_variance=False):
     """
     Compute min, max, #nans, mean and variance.
 
-    Result is a tuple (min, max, mean, 0, #nans, #non-nans) or an
+    Result is a tuple (min, max, mean, variance, #nans, #non-nans) or an
     array of shape (len(arr), 6).
 
     The mean and the number of nans and non-nans are weighted.
 
-    The zero element can be filled-in by var if statvar function
-    is subsequently called with this data.
+    Computation of variance requires an additional pass and is not enabled
+    by default. Zeros are filled in instead of variance.
 
     Parameters
     ----------
@@ -378,6 +486,8 @@ def stats(arr, weights=None):
         Input array.
     weights : array_like, optional
         Weights, array of the same length as `x`.
+    compute_variance : bool, optional
+        If set to True, the function also computes variance.
 
     Returns
     -------
@@ -391,7 +501,7 @@ def stats(arr, weights=None):
         array
     """
     func, a, weights = stats_selector(arr, weights)
-    return func(a, weights)
+    return func(a, weights, compute_variance)
 
 
 
