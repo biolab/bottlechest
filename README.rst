@@ -5,7 +5,7 @@ Bottlechest
 Introduction
 ============
 
-Bottlechest is a fork of bottleneck (https://github.com/kwgoodman/bottleneck), specialized for use in Orange (https://bitbucket.org/biolab).
+Bottlechest is a fork of bottleneck (https://github.com/kwgoodman/bottleneck), specialized for use in Orange (https://github.com/biolab/orange3).
 
 Transition has not been completed yet, and the project mostly refers to itself as bottleneck, for now.
 
@@ -30,7 +30,7 @@ details.
 
 
 Install
-h=======
+=======
 
 Requirements:
 
