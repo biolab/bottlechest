@@ -44,25 +44,6 @@ loop[2] = """\
             y[INDEXPOP] = NAN
     return y
 """
-loop[3] = """\
-    if nINDEX2 == 0:
-        msg = "numpy.nanmin raises on a.shape[axis]==0; so Bottleneck does." 
-        raise ValueError(msg)
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            amin = MAXDTYPE
-            allnan = 1
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai <= amin:
-                    amin = ai
-                    allnan = 0
-            if allnan == 0:       
-                y[INDEXPOP] = amin
-            else:
-                y[INDEXPOP] = NAN
-    return y
-"""
 
 floats['loop'] = loop
 
@@ -103,23 +84,6 @@ loop[2] = """\
     else:
         return np.DTYPE(NAN)
 """
-loop[3] = """\
-    if nINDEX0 * nINDEX1 * nINDEX2 == 0:
-        m = "numpy.nanmin raises on a.size==0 and axis=None; Bottleneck too." 
-        raise ValueError(m)
-    amin = MAXDTYPE
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai <= amin:
-                    amin = ai
-                    allnan = 0
-    if allnan == 0:       
-        return np.DTYPE(amin)
-    else:
-        return np.DTYPE(NAN)
-"""
 
 floats_None['loop'] = loop
 
@@ -140,20 +104,6 @@ loop[2] = """\
             if ai <= amin:
                 amin = ai
         y[INDEXPOP] = amin
-    return y
-"""
-loop[3] = """\
-    if nINDEX2 == 0:
-        msg = "numpy.nanmin raises on a.shape[axis]==0; so Bottleneck does."
-        raise ValueError(msg)
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            amin = MAXDTYPE
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai <= amin:
-                    amin = ai
-            y[INDEXPOP] = amin
     return y
 """
 
@@ -186,19 +136,6 @@ loop[2] = """\
             ai = a[INDEXALL]
             if ai <= amin:
                 amin = ai
-    return np.DTYPE(amin)
-"""
-loop[3] = """\
-    if nINDEX0 * nINDEX1 * nINDEX2 == 0:
-        m = "numpy.nanmin raises on a.size==0 and axis=None; Bottleneck too."
-        raise ValueError(m)
-    amin = MAXDTYPE
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai <= amin:
-                    amin = ai
     return np.DTYPE(amin)
 """
 

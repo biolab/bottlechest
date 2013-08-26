@@ -67,20 +67,8 @@ def test_modification():
              bn.rankdata,
              bn.nanrankdata,
              bn.ss,
-             bn.partsort,
-             bn.argpartsort,
              bn.anynan,
              bn.allnan,
-             bn.move_sum,
-             bn.move_nansum,
-             bn.move_mean,
-             bn.move_median,
-             bn.move_nanmean,
-             bn.move_std,
-             bn.move_nanstd,
-             bn.move_min,
-             bn.move_max,
-             bn.move_nanmin,
-             bn.move_nanmax]
+            ]
     for func in funcs:
         yield unit_maker, func

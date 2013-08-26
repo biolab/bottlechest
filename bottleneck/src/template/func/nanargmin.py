@@ -62,26 +62,6 @@ loop[2] = """\
             raise ValueError(CANNOTCONVERT)
     return y
 """
-loop[3] = """\
-    if nINDEX2 == 0:
-        msg = "numpy.nanargmin raises on a.shape[axis]==0; Bottleneck too." 
-        raise ValueError(msg)
-    for iINDEX0 in range(nINDEX0 - 1, -1, -1):
-        for iINDEX1 in range(nINDEX1 - 1, -1, -1):
-            amin = MAXDTYPE
-            allnan = 1
-            for iINDEX2 in range(nINDEX2 - 1, -1, -1):
-                ai = a[INDEXALL]
-                if ai <= amin:
-                    amin = ai
-                    allnan = 0
-                    idx = iINDEX2
-            if allnan == 0:       
-                y[INDEXPOP] = idx
-            else:
-                raise ValueError(CANNOTCONVERT)
-    return y
-"""
 
 floats['loop'] = loop
 
@@ -115,21 +95,6 @@ loop[2] = """\
                 amin = ai
                 idx = iINDEX1
         y[INDEXPOP] = idx
-    return y
-"""
-loop[3] = """\
-    if nINDEX2 == 0:
-        msg = "numpy.nanmin raises on a.shape[axis]==0; so Bottleneck does."
-        raise ValueError(msg)
-    for iINDEX0 in range(nINDEX0 - 1, -1, -1):
-        for iINDEX1 in range(nINDEX1 - 1, -1, -1):
-            amin = MAXDTYPE
-            for iINDEX2 in range(nINDEX2 - 1, - 1, -1):
-                ai = a[INDEXALL]
-                if ai <= amin:
-                    amin = ai
-                    idx = iINDEX2
-            y[INDEXPOP] = idx
     return y
 """
 

@@ -41,22 +41,6 @@ loop[2] = """\
             y[INDEXPOP] = NAN
     return y
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            asum = 0
-            count = 0
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    asum += ai
-                    count += 1
-            if count > 0:       
-                y[INDEXPOP] = asum / count
-            else:
-                y[INDEXPOP] = NAN
-    return y
-"""
 floats['loop'] = loop
 
 # Float dtypes (axis=None) --------------------------------------------------
@@ -87,15 +71,6 @@ loop[2] = """\
                 asum += ai
                 count += 1
 """ + returns
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    asum += ai
-                    count += 1
-""" + returns
 floats_None['loop'] = loop
 
 # Int dtypes (not axis=None) ------------------------------------------------
@@ -124,18 +99,6 @@ loop[2] = """\
             y[INDEXPOP] = asum / nINDEX1
     return y
 """
-loop[3] = """\
-    if nINDEX2 == 0:
-        PyArray_FillWithScalar(y, NAN)
-    else:
-        for iINDEX0 in range(nINDEX0):
-            for iINDEX1 in range(nINDEX1):
-                asum = 0
-                for iINDEX2 in range(nINDEX2):
-                    asum += a[INDEXALL]
-                y[INDEXPOP] = asum / nINDEX2
-    return y
-"""
 ints['loop'] = loop
 
 # Int dtypes (axis=None) ----------------------------------------------------
@@ -159,17 +122,6 @@ loop[2] = """\
     for iINDEX0 in range(nINDEX0):
         for iINDEX1 in range(nINDEX1):
             asum += a[INDEXALL]
-    if size > 0:    
-        return np.float64(asum / size)
-    else:
-        return np.float64(NAN)
-"""
-loop[3] = """\
-    size = nINDEX0 * nINDEX1 * nINDEX2 
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                asum += a[INDEXALL]
     if size > 0:    
         return np.float64(asum / size)
     else:

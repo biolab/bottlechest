@@ -48,29 +48,6 @@ loop[2] = """\
             y[INDEXPOP] = NAN
     return y  
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            asum = 0
-            count = 0
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    asum += ai
-                    count += 1
-            if count > 0:
-                amean = asum / count
-                asum = 0
-                for iINDEX2 in range(nINDEX2):
-                    ai = a[INDEXALL]
-                    if ai == ai:
-                        ai -= amean
-                        asum += (ai * ai)
-                y[INDEXPOP] = sqrt(asum / (count - ddof))
-            else:
-                y[INDEXPOP] = NAN
-    return y  
-"""
 floats['loop'] = loop
 
 # Float dtypes (axis=None) --------------------------------------------------
@@ -117,25 +94,6 @@ loop[2] = """\
                     ai -= amean
                     asum += (ai * ai)
 """ + returns
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    asum += ai
-                    count += 1
-    if count > 0:
-        amean = asum / count
-        asum = 0
-        for iINDEX0 in range(nINDEX0):
-            for iINDEX1 in range(nINDEX1):
-                for iINDEX2 in range(nINDEX2):
-                    ai = a[INDEXALL]
-                    if ai == ai:
-                        ai -= amean
-                        asum += (ai * ai)
-""" + returns
 floats_None['loop'] = loop
 
 # Int dtypes (not axis=None) ------------------------------------------------
@@ -168,24 +126,6 @@ loop[2] = """\
                 ai -= amean
                 asum += (ai * ai)
             y[INDEXPOP] = sqrt(asum / (nINDEX1 - ddof))
-    return y 
-"""
-loop[3] = """\
-    if nINDEX2 == 0:
-        PyArray_FillWithScalar(y, NAN)
-    else:            
-        for iINDEX0 in range(nINDEX0):
-            for iINDEX1 in range(nINDEX1):
-                asum = 0
-                for iINDEX2 in range(nINDEX2):
-                    asum += a[INDEXALL]
-                amean = asum / nINDEX2
-                asum = 0
-                for iINDEX2 in range(nINDEX2):
-                    ai = a[INDEXALL]
-                    ai -= amean
-                    asum += (ai * ai)
-                y[INDEXPOP] = sqrt(asum / (nINDEX2 - ddof))
     return y 
 """
 ints['loop'] = loop
@@ -231,27 +171,6 @@ loop[2] = """\
             ai = a[INDEXALL]
             ai -= amean
             asum += (ai * ai)
-    if size > ddof:        
-        return np.float64(sqrt(asum / (size - ddof)))
-    else:
-        return np.float64(NAN)
-"""
-loop[3] = """\
-    size = nINDEX0 * nINDEX1 * nINDEX2
-    if size == 0:
-        return np.float64(NAN)
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                asum += a[INDEXALL]
-    amean = asum / size
-    asum = 0
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                ai -= amean
-                asum += (ai * ai)
     if size > ddof:        
         return np.float64(sqrt(asum / (size - ddof)))
     else:

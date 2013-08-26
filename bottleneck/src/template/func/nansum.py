@@ -42,22 +42,6 @@ loop[2] = """\
             y[INDEXPOP] = NAN
     return y
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            asum = 0
-            allnan = 1
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    asum += ai
-                    allnan = 0
-            if allnan == 0:   
-                y[INDEXPOP] = asum
-            else:
-                y[INDEXPOP] = NAN
-    return y
-"""
 floats['loop'] = loop
 
 # Float dtypes (axis=None) --------------------------------------------------
@@ -88,15 +72,6 @@ loop[2] = """\
                 asum += ai
                 allnan = 0
 """ + returns
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    asum += ai
-                    allnan = 0
-""" + returns
 floats_None['loop'] = loop
 
 # Int dtypes (not axis=None) ------------------------------------------------
@@ -121,15 +96,6 @@ loop[2] = """\
         y[INDEXPOP] = asum
     return y
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            asum = 0
-            for iINDEX2 in range(nINDEX2):
-                asum += a[INDEXALL]
-            y[INDEXPOP] = asum
-    return y
-"""
 ints['loop'] = loop
 
 # Int dtypes (axis=None) ----------------------------------------------------
@@ -150,14 +116,6 @@ loop[2] = """\
     for iINDEX0 in range(nINDEX0):
         for iINDEX1 in range(nINDEX1):
             asum += a[INDEXALL]
-    return np.DTYPE(asum)
-"""
-loop[3] = """\
-    size = nINDEX0 * nINDEX1 * nINDEX2 
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                asum += a[INDEXALL]
     return np.DTYPE(asum)
 """
 ints_None['loop'] = loop

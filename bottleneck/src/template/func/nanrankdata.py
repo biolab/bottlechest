@@ -80,46 +80,6 @@ loop[2] = """\
             y[INDEXREPLACE|idx|] = NAN
     return y
 """
-loop[3] = """\
-    if nINDEX2 == 0:
-        PyArray_FillWithScalar(y, NAN)
-        return y
-    for iINDEX0 in xrange(nINDEX0):
-        for iINDEX1 in xrange(nINDEX1):
-            idx = ivec[INDEXREPLACE|0|]
-            old = a[INDEXREPLACE|idx|]
-            sumranks = 0
-            dupcount = 0
-            for iINDEX2 in xrange(nINDEX2-1):
-                sumranks += iINDEX2
-                dupcount += 1
-                k = iINDEX2 + 1
-                idx = ivec[INDEXREPLACE|k|]
-                new = a[INDEXREPLACE|idx|]
-                if old != new:
-                    if old == old:
-                        averank = sumranks / dupcount + 1
-                        for j in xrange(k - dupcount, k):
-                            idx = ivec[INDEXREPLACE|j|]
-                            y[INDEXREPLACE|idx|] = averank
-                    else:
-                        idx = ivec[INDEXREPLACE|iINDEX2|]
-                        y[INDEXREPLACE|idx|] = NAN
-                    sumranks = 0
-                    dupcount = 0
-                old = new    
-            sumranks += (nINDEX2 - 1)
-            dupcount += 1
-            averank = sumranks / dupcount + 1
-            if old == old:
-                for j in xrange(nINDEX2 - dupcount, nINDEX2):
-                    idx = ivec[INDEXREPLACE|j|]
-                    y[INDEXREPLACE|idx|] = averank
-            else:
-                idx = ivec[INDEXREPLACE|nINDEX2 - 1|]
-                y[INDEXREPLACE|idx|] = NAN
-    return y
-"""
 
 # Float dtypes (not axis=None) ----------------------------------------------
 

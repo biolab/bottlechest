@@ -79,42 +79,6 @@ loop[2] = """\
             y[INDEXPOP] = CASTb[INDEXREPLACE|k|]         
     return y
 """
-loop[3] = """\
-    if nINDEX2 == 0:
-        PyArray_FillWithScalar(y, NAN)
-        return y
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            k = nAXIS >> 1
-            l = 0
-            r = nAXIS - 1
-            while l < r:
-                x = b[INDEXREPLACE|k|]
-                i = l
-                j = r
-                while 1:
-                    while b[INDEXREPLACE|i|] < x: i += 1
-                    while x < b[INDEXREPLACE|j|]: j -= 1
-                    if i <= j:
-                        tmp = b[INDEXREPLACE|i|]
-                        b[INDEXREPLACE|i|] = b[INDEXREPLACE|j|]
-                        b[INDEXREPLACE|j|] = tmp
-                        i += 1
-                        j -= 1
-                    if i > j: break
-                if j < k: l = i
-                if k < i: r = j
-            if nAXIS % 2 == 0:        
-                amax = MINDTYPE
-                for i in range(k):
-                    ai = b[INDEXREPLACE|i|]
-                    if ai >= amax:
-                        amax = ai
-                y[INDEXPOP] = 0.5 * (b[INDEXREPLACE|k|] + amax)
-            else:
-                y[INDEXPOP] = CASTb[INDEXREPLACE|k|]         
-    return y
-"""
 
 # Float dtypes (not axis=None) ----------------------------------------------
 
@@ -137,7 +101,6 @@ def NAME_NDIMd_DTYPE_axisAXIS(np.ndarray[np.DTYPE_t, ndim=NDIM] a):
 floats['loop'] = {}
 floats['loop'][1] = loop[1].replace('FLOAT', 'DTYPE')
 floats['loop'][2] = loop[2].replace('CAST', '')
-floats['loop'][3] = loop[3].replace('CAST', '')
 
 # Int dtypes (not axis=None) ------------------------------------------------
 
@@ -147,7 +110,6 @@ ints['force_output_dtype'] = 'float64'
 ints['loop'] = {}
 ints['loop'][1] = loop[1].replace('FLOAT', 'float64')
 ints['loop'][2] = loop[2].replace('CAST', '<np.float64_t> ')
-ints['loop'][3] = loop[3].replace('CAST', '<np.float64_t> ')
 
 # Slow, unaccelerated ndim/dtype --------------------------------------------
 

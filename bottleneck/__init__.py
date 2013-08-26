@@ -12,16 +12,8 @@ from . import slow
 try:
     from .func import (nansum, nanmax, nanmin, nanmean, nanstd, nanvar, median,
                       nanmedian, nanargmin, nanargmax, rankdata, nanrankdata,
-                      ss, nn, partsort, argpartsort, replace, anynan, allnan)
-except:
-    pass
-try:
-    from .move import (move_sum, move_nansum,
-                      move_mean, move_nanmean,
-                      move_std, move_nanstd,
-                      move_min, move_nanmin,
-                      move_max, move_nanmax,
-                      move_median)
+                      ss, nn, replace, anynan, allnan,
+                      nanequal)
 except:
     pass
 

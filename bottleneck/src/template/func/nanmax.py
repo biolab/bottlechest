@@ -44,25 +44,6 @@ loop[2] = """\
             y[INDEXPOP] = NAN
     return y
 """
-loop[3] = """\
-    if nINDEX2 == 0:
-        msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does." 
-        raise ValueError(msg)
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            amax = MINDTYPE
-            allnan = 1
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai >= amax:
-                    amax = ai
-                    allnan = 0
-            if allnan == 0:       
-                y[INDEXPOP] = amax
-            else:
-                y[INDEXPOP] = NAN
-    return y
-"""
 
 floats['loop'] = loop
 
@@ -103,23 +84,6 @@ loop[2] = """\
     else:
         return np.DTYPE(NAN)
 """
-loop[3] = """\
-    if nINDEX0 * nINDEX1 * nINDEX2 == 0:
-        m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too." 
-        raise ValueError(m)
-    amax = MINDTYPE
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai >= amax:
-                    amax = ai
-                    allnan = 0
-    if allnan == 0:       
-        return np.DTYPE(amax)
-    else:
-        return np.DTYPE(NAN)
-"""
 
 floats_None['loop'] = loop
 
@@ -140,20 +104,6 @@ loop[2] = """\
             if ai >= amax:
                 amax = ai
         y[INDEXPOP] = amax
-    return y
-"""
-loop[3] = """\
-    if nINDEX2 == 0:
-        msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
-        raise ValueError(msg)
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            amax = MINDTYPE
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai >= amax:
-                    amax = ai
-            y[INDEXPOP] = amax
     return y
 """
 
@@ -186,19 +136,6 @@ loop[2] = """\
             ai = a[INDEXALL]
             if ai >= amax:
                 amax = ai
-    return np.DTYPE(amax)
-"""
-loop[3] = """\
-    if nINDEX0 * nINDEX1 * nINDEX2 == 0:
-        m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
-        raise ValueError(m)
-    amax = MINDTYPE
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai >= amax:
-                    amax = ai
     return np.DTYPE(amax)
 """
 

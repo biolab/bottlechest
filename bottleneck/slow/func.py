@@ -198,6 +198,21 @@ def allnan(arr, axis=None):
     "Slow check for all Nans used for unaccelerated ndim/dtype combinations."
     return np.isnan(arr).all(axis)
 
+
+def nanequal(arr1, arr2, axis=None):
+    "Slow check for equality that ignores NaNs"
+    if axis is None:
+        nans = np.isnan(arr1) | np.isnan(arr2)
+        return np.array_equal(arr1[~nans], arr2[~nans])
+    if arr1.size == 0:
+        if axis < 0:
+            axis += arr1.ndim
+        return np.ones(arr1.shape[:axis]+arr1.shape[axis+1:], np.bool)
+    if arr1.size == 1:
+        return arr1 == arr2 or arr1 != arr1 or arr2 != arr2
+    return np.apply_along_axis(lambda x:nanequal(x["f0"], x["f1"]), axis,
+                               np.core.records.fromarrays([arr1, arr2]))
+
 # ---------------------------------------------------------------------------
 #
 # SciPy

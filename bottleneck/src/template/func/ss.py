@@ -35,16 +35,6 @@ loop[2] = """\
         y[INDEXPOP] = ssum
     return y
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            ssum = 0
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                ssum += ai * ai
-            y[INDEXPOP] = ssum
-    return y
-"""
 floats['loop'] = loop
 
 # Float dtypes (axis=None) --------------------------------------------------
@@ -64,14 +54,6 @@ loop[2] = """\
         for iINDEX1 in range(nINDEX1):
             ai = a[INDEXALL]
             ssum += ai * ai
-    return np.DTYPE(ssum)
-"""
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                ssum += ai * ai
     return np.DTYPE(ssum)
 """
 floats_None['loop'] = loop

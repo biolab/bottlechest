@@ -18,11 +18,10 @@ from .rankdata import rankdata
 from .nanrankdata import nanrankdata
 from .ss import ss
 from .nn import nn
-from .partsort import partsort
-from .argpartsort import argpartsort
 from .replace import replace
 from .anynan import anynan
 from .allnan import allnan
+from .nanequal import nanequal
 
 funcs = {}
 funcs['median'] = median
@@ -39,11 +38,10 @@ funcs['rankdata'] = rankdata
 funcs['nanrankdata'] = nanrankdata
 funcs['ss'] = ss
 funcs['nn'] = nn
-funcs['partsport'] = partsort
-funcs['argpartsort'] = argpartsort
 funcs['replace'] = replace
 funcs['anynan'] = anynan
 funcs['allnan'] = allnan
+funcs['nanequal'] = nanequal
 
 header = """#cython: embedsignature=True
 
@@ -111,11 +109,10 @@ include "rankdata.pyx"
 include "nanrankdata.pyx"
 include "ss.pyx"
 include "nn.pyx"
-include "partsort.pyx"
-include "argpartsort.pyx"
 include "replace.pyx"
 include "anynan.pyx"
 include "allnan.pyx"
+include "nanequal.pyx"
 """
 
 def funcpyx(funcs=funcs, bits=None):

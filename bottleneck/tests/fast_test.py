@@ -9,7 +9,6 @@ def arrayaxis(dtypes=bn.dtypes):
     ss = {}
     ss[1] = {'size':  4, 'shapes': [(4,)]}
     ss[2] = {'size':  6, 'shapes': [(2,3)]}
-    ss[3] = {'size': 24, 'shapes': [(2,3,4)]}
     for ndim in ss:
         size = ss[ndim]['size']
         shapes = ss[ndim]['shapes']
@@ -91,14 +90,6 @@ def test_ss_selector():
     "Test ss_selector."
     fast_checker(bn.func.ss_selector)
 
-def test_partsort_selector():
-    "Test partsort_selector."
-    fast_checker(bn.func.partsort_selector)
-
-def test_argpartsort_selector():
-    "Test argpartsort_selector."
-    fast_checker(bn.func.argpartsort_selector)
-
 def test_replace_selector():
     "Test replace_selector."
     fast_checker(bn.func.replace_selector, mode='replace')
@@ -107,48 +98,3 @@ def test_anynan_selector():
     "Test anynan_selector."
     fast_checker(bn.func.anynan_selector)
 
-# Moving functions ----------------------------------------------------------
-
-def test_move_sum_selector():
-    "Test move_sum_selector."
-    fast_checker(bn.move.move_sum_selector, mode='move')
-
-def test_move_nansum_selector():
-    "Test move_nansum_selector."
-    fast_checker(bn.move.move_nansum_selector, mode='move')
-
-def test_move_mean_selector():
-    "Test move_mean_selector."
-    fast_checker(bn.move.move_mean_selector, mode='move')
-
-def test_move_median_selector():
-    "Test move_median_selector."
-    fast_checker(bn.move.move_median_selector, mode='move')
-
-def test_move_nanmean_selector():
-    "Test move_nanmean_selector."
-    fast_checker(bn.move.move_nanmean_selector, mode='move')
-
-def test_move_std_selector():
-    "Test move_std_selector."
-    fast_checker(bn.move.move_std_selector, mode='move')
-
-def test_move_nanstd_selector():
-    "Test move_nanstd_selector."
-    fast_checker(bn.move.move_nanstd_selector, mode='move')
-
-def test_move_min_selector():
-    "Test move_min_selector."
-    fast_checker(bn.move.move_min_selector, mode='move')
-
-def test_move_max_selector():
-    "Test move_max_selector."
-    fast_checker(bn.move.move_max_selector, mode='move')
-
-def test_move_nanmin_selector():
-    "Test move_nanmin_selector."
-    fast_checker(bn.move.move_nanmin_selector, mode='move')
-
-def test_move_nanmixn_selector():
-    "Test move_nanmax_selector."
-    fast_checker(bn.move.move_nanmax_selector, mode='move')

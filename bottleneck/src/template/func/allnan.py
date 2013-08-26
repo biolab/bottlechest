@@ -39,20 +39,6 @@ loop[2] = """\
             y[INDEXPOP] = 1
     return y
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            f = 1
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    y[INDEXPOP] = 0
-                    f = 0
-                    break
-            if f == 1:
-                y[INDEXPOP] = 1
-    return y
-"""
 
 floats['loop'] = loop
 
@@ -77,15 +63,6 @@ loop[2] = """\
                 return np.bool_(False)
     return np.bool_(True)
 """
-loop[3] = """\
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            for iINDEX2 in range(nINDEX2):
-                ai = a[INDEXALL]
-                if ai == ai:
-                    return np.bool_(False)
-    return np.bool_(True)
-"""
 
 floats_None['loop'] = loop
 
@@ -102,16 +79,6 @@ loop[2] = """\
         f = 0
     for iINDEX0 in range(nINDEX0):
         y[INDEXPOP] = f
-    return y
-"""
-loop[3] = """\
-    if nINDEX2 == 0:
-        f = 1
-    else:
-        f = 0
-    for iINDEX0 in range(nINDEX0):
-        for iINDEX1 in range(nINDEX1):
-            y[INDEXPOP] = f
     return y
 """
 
@@ -131,12 +98,6 @@ loop[1] = """\
 """
 loop[2] = """\
     if n0* n1 == 0:
-        return np.bool_(True)
-    else:
-        return np.bool_(False)
-"""
-loop[3] = """\
-    if n0* n1 * n2 == 0:
         return np.bool_(True)
     else:
         return np.bool_(False)

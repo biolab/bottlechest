@@ -57,10 +57,9 @@ PACKAGES            = ["bottleneck",
                        "bottleneck/benchmark",
                        "bottleneck/src",
                        "bottleneck/src/func",
-                       "bottleneck/src/move",
                        "bottleneck/src/template",
-                       "bottleneck/src/template/func",
-                       "bottleneck/src/template/move"]
+                       "bottleneck/src/template/func"
+                      ]
 PACKAGE_DATA        = {'bottleneck': ['LICENSE']}
 REQUIRES            = ["numpy"]
 
@@ -92,8 +91,6 @@ setup(name=NAME,
       ext_package='bottleneck',
       ext_modules=[Extension("func",
                      sources=["bottleneck/src/func/%sbit/func.c" % bits],
-                     include_dirs=[np.get_include()]),           
-                   Extension("move",
-                     sources=["bottleneck/src/move/%sbit/move.c" % bits],
-                     include_dirs=[np.get_include()])]
-     )                
+                     include_dirs=[np.get_include()])
+                  ]
+     )
