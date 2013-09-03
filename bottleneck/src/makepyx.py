@@ -1,7 +1,7 @@
 "Generate all pyx files from templates"
 
-from bottleneck.src.template.func.func import funcpyx
+from bottleneck.src.template.package import funcpyx
 
 def makepyx():
-    funcpyx(bits=32)
-    funcpyx(bits=64)
+    funcpyx("func", bits=32)
+    funcpyx("func", bits=64)

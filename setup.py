@@ -72,6 +72,13 @@ elif np.int_ == np.int64:
 else:
     raise ValueError("Your OS does not appear to be 32 or 64 bits.")
 
+cfiles = [ a[:-2] for a in  os.listdir("bottleneck/src/func/%sbit/" % bits) \
+    if a.endswith(".c") ]
+
+extensions = [ Extension(cf,
+               sources=["bottleneck/src/func/%sbit/%s.c" % (bits, cf)],
+               include_dirs=[np.get_include()]) for cf in cfiles ]
+
 setup(name=NAME,
       maintainer=MAINTAINER,
       maintainer_email=MAINTAINER_EMAIL,
@@ -89,8 +96,5 @@ setup(name=NAME,
       package_data=PACKAGE_DATA,
       requires=REQUIRES,
       ext_package='bottleneck',
-      ext_modules=[Extension("func",
-                     sources=["bottleneck/src/func/%sbit/func.c" % bits],
-                     include_dirs=[np.get_include()])
-                  ]
-     )
+      ext_modules=extensions
+      )

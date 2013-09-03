@@ -22,8 +22,9 @@ pyx:
 	${PYTHON} -c "from bottleneck.src.makepyx import makepyx; makepyx()"
 
 cfiles:
-	cython ${srcdir}/func/32bit/func.pyx
-	cython ${srcdir}/func/64bit/func.pyx
+	cython ${srcdir}/func/32bit/*.pyx
+	cython ${srcdir}/func/64bit/*.pyx
+	
 
 build: funcs
 	

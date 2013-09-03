@@ -10,13 +10,31 @@ from . import slow
 # rebuild using the templates. So try to import the compiled Bottleneck
 # functions to the top level, but move on if not successful.
 try:
-    from .func import (nansum, nanmax, nanmin, nanmean, nanstd, nanvar, median,
-                      nanmedian, nanargmin, nanargmax, rankdata, nanrankdata,
-                      ss, nn, replace, anynan, allnan,
-                      nanequal, bincount, valuecount, countnans, contingency,
-                      stats)
-except:
+    from .allnan import allnan
+    from .nansum import nansum
+    from .nanmax import nanmax
+    from .nanmin import nanmin
+    from .nanmean import nanmean
+    from .nanstd import nanstd
+    from .nanvar import nanvar
+    from .median import (median, nanmedian)
+    from .nanargmin import nanargmin
+    from .nanargmax import nanargmax
+    from .rankdata import (rankdata, nanrankdata)
+    from .ss import ss
+    from .nn import nn
+    from .replace import replace
+    from .anynan import anynan
+    from .allnan import allnan
+    from .nanequal import nanequal
+    from .bincount import bincount
+    from .valuecount import valuecount
+    from .countnans import countnans
+    from .contingency import contingency
+    from .stats import stats
+except IOError:
     pass
+
 
 from bottleneck.version import __version__
 from bottleneck.benchmark.bench import bench

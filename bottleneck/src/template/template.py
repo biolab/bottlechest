@@ -2,44 +2,46 @@
 
 import os.path
 
-def template(func, bits):
+def template(funcs, bits, header):
     "Convert template dictionary `func` to a pyx file."
     codes = []
-    codes.append("# %s bit version\n" % str(bits))
-    codes.append(func['main'])
-    select = Selector(func['name'])
-    for key in func['templates']:
-        f = func['templates'][key]
-        code = subtemplate(name=func['name'],
-                           top=f['top'],
-                           loop=f['loop'],
-                           axisNone=f['axisNone'],
-                           dtypes=f['dtypes'],
-                           force_output_dtype=f['force_output_dtype'],
-                           reuse_non_nan_func=f['reuse_non_nan_func'],
-                           is_reducing_function=func['is_reducing_function'],
-                           cdef_output=func['cdef_output'],
-                           select=select,
-                           bits=bits)
-        codes.append(code)
-        if 'sparse' in f:
-            code = sparsetemplate(name=func['name'],
-                                  template=f['sparse'],
-                                  dtypes=f['dtypes'],
-                                  select=select)
+    for func in funcs: #supports multiple functions in a single file
+        codes.append("# %s bit version\n" % str(bits))
+        codes.append(func['main'])
+        select = Selector(func['name'])
+        for key in func['templates']:
+            f = func['templates'][key]
+            code = subtemplate(name=func['name'],
+                               top=f['top'],
+                               loop=f['loop'],
+                               axisNone=f['axisNone'],
+                               dtypes=f['dtypes'],
+                               force_output_dtype=f['force_output_dtype'],
+                               reuse_non_nan_func=f['reuse_non_nan_func'],
+                               is_reducing_function=func['is_reducing_function'],
+                               cdef_output=func['cdef_output'],
+                               select=select,
+                               bits=bits)
             codes.append(code)
-    codes.append('\n' + str(select))
-    if 'slow' in func:
-        if func['slow'] is not None:
-            slow = func['slow']
-            code1 = slow_selector(slow['name'])
-            code2 = slow_functions(slow['name'],
-                                   slow['signature'],
-                                   slow['func'])
-            codes.append(code2)
-            codes.append(code1)
+            if 'sparse' in f:
+                code = sparsetemplate(name=func['name'],
+                                      template=f['sparse'],
+                                      dtypes=f['dtypes'],
+                                      select=select)
+                codes.append(code)
+        codes.append('\n' + str(select))
+        if 'slow' in func:
+            if func['slow'] is not None:
+                slow = func['slow']
+                code1 = slow_selector(slow['name'])
+                code2 = slow_functions(slow['name'],
+                                       slow['signature'],
+                                       slow['func'])
+                codes.append(code2)
+                codes.append(code1)
     modpath = os.path.dirname(__file__)
     fid = open(os.path.join(modpath, '..', func['pyx_file']) % str(bits), 'w')
+    fid.write(header)
     fid.write(''.join(codes))
     fid.close()
 
