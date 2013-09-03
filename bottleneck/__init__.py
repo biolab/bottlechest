@@ -4,6 +4,7 @@ from __future__ import absolute_import
 dtypes = ['int8', 'int32', 'int64', 'float32', 'float64']
 
 from . import slow
+from . import func
 
 # If you bork the build (e.g. by messing around with the templates),
 # you still want to be able to import Bottleneck so that you can
@@ -32,6 +33,8 @@ try:
     from .countnans import countnans
     from .contingency import contingency
     from .stats import stats
+    from .partsort import partsort
+    from .argpartsort import argpartsort
 except IOError:
     pass
 
