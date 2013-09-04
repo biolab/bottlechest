@@ -4,13 +4,13 @@ from __future__ import absolute_import
 dtypes = ['int8', 'int32', 'int64', 'float32', 'float64']
 
 from . import slow
-from . import func
 
 # If you bork the build (e.g. by messing around with the templates),
 # you still want to be able to import Bottleneck so that you can
 # rebuild using the templates. So try to import the compiled Bottleneck
 # functions to the top level, but move on if not successful.
 try:
+    from . import func
     from .allnan import allnan
     from .nansum import nansum
     from .nanmax import nanmax
@@ -35,7 +35,7 @@ try:
     from .stats import stats
     from .partsort import partsort
     from .argpartsort import argpartsort
-except IOError:
+except ImportError:
     pass
 
 
