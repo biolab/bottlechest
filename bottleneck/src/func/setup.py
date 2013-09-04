@@ -1,24 +1,14 @@
 """
-Use to convert func.pyx to a C file.
+This file is only Used to build the .so files with "make build".
 
 This setup.py is NOT used to install the Bottleneck package. The Bottleneck
 setup.py file is bottleneck/setup.py
-
-The C files are distributed with Bottleneck, so this file is only useful if
-you modify nansum.pyx or nanstd.pyx or ...
-
-To convert from cython to C:
-
-$ cd bottleneck/bottleneck/src    
-$ python func/setup.py build_ext --inplace
-
 """
 
 import os
 import os.path
 from distutils.core import setup
 from distutils.extension import Extension
-from Cython.Distutils import build_ext
 import numpy as np
 
 # Is the default numpy int 32 or 64 bits?
@@ -29,15 +19,17 @@ elif np.int_ == np.int64:
 else:
     raise ValueError("Your OS does not appear to be 32 or 64 bits.")
 
-mod_dir = os.path.dirname(__file__)
-ext_modules = [Extension("func", [os.path.join(mod_dir, "%sbit/func.pyx") % bits],
-               include_dirs=[np.get_include()])]
+
+cfiles = [ a[:-2] for a in os.listdir("bottleneck/src/func/%sbit/" % bits) \
+    if a.endswith(".c") ]
+
+extensions = [ Extension(cf,
+               sources=["bottleneck/src/func/%sbit/%s.c" % (bits, cf)],
+               include_dirs=[np.get_include()]) for cf in cfiles ]
 
 setup(
   name = 'func',
-  cmdclass = {'build_ext': build_ext},
-  ext_modules = ext_modules
+  ext_package= "bottleneck",
+  ext_modules = extensions
 )
-
-os.rename("func.so", os.path.join(mod_dir, "../../func.so"))
 

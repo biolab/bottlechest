@@ -29,7 +29,7 @@ cfiles:
 build: funcs
 	
 funcs:
-	rm -rf ${srcdir}/../func.so
+	rm -rf ${srcdir}/../*.so
 	${PYTHON} ${srcdir}/func/setup.py build_ext --inplace
 	
 test:
