@@ -1,7 +1,20 @@
-"Generate all pyx files from templates"
+"""Generate pyx files from templates.
 
-from bottleneck.src.template.package import funcpyx
+To generate a single file, run this script with the argument.
+For example, use "python makepyx.py func.median"
+"""
 
-def makepyx():
-    funcpyx("func", bits=32)
-    funcpyx("func", bits=64)
+from bottleneck.src.template.package import (package, single)
+
+def makepyx(): #makes all pyxfiles
+    package("func", bits=32)
+    package("func", bits=64)
+
+def makepyxsingle(name):
+    single(name, bits=32)
+    single(name, bits=64)
+
+if __name__ == "__main__":
+    import sys
+    makepyxsingle(sys.argv[1])
+    

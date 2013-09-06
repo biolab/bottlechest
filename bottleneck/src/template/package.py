@@ -7,25 +7,7 @@ import os.path
 from collections import defaultdict
 import importlib
 
-def funcpyx(package, bits=None):
- 
-    pyfolder = os.path.join(os.path.dirname(tempmod.__file__), package)
-
-    pyfiles = set([ a[:-3] for a in os.listdir(pyfolder) if a.endswith(".py") \
-        and a != "func.py" and a != "__init__.py" ])
-
-    funcs = defaultdict(list)
-
-    for a in sorted(list(pyfiles)):
-        try:
-            b = importlib.import_module("bottleneck.src.template.%s.%s" % (package, a))
-            for f in b.__all__:
-                funcs[a].append(b.__dict__[f])
-        except ImportError:
-            pyfiles.remove(a)
-            print("Could not import", a + ". Skipping.")
-
-    header = """#cython: embedsignature=True
+HEADER = """#cython: embedsignature=True
 
 import numpy as np
 cimport numpy as np
@@ -84,5 +66,23 @@ cdef extern from "math.h":
 PARTSORT_ERR_MSG = "`n` (=%d) must be between 1 and %d, inclusive."
 
 """
-    for func in funcs:
-        template(funcs[func], bits, header)
+
+def single(templatepy, bits):
+    b = importlib.import_module("bottleneck.src.template.%s" % (templatepy))
+    funcs = []
+    for f in b.__all__:
+        funcs.append(b.__dict__[f])
+    template(funcs, bits, HEADER)
+
+def package(package, bits=None):
+ 
+    pyfolder = os.path.join(os.path.dirname(tempmod.__file__), package)
+
+    pyfiles = set([ a[:-3] for a in os.listdir(pyfolder) if a.endswith(".py") \
+        and a != "func.py" and a != "__init__.py" ])
+
+    for a in sorted(list(pyfiles)):
+        try:
+            single(package + "." + a, bits)
+        except ImportError:
+            print("Could not import", a + ". Skipping.")
