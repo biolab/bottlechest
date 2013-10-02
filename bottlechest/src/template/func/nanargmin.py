@@ -41,7 +41,7 @@ loop[1] = """\
     if allnan == 0:       
         return np.intp(idx)
     else:
-        return NAN
+        return np.intp(np.iinfo('intp').min)
 """
 loop[2] = """\
     if nINDEX1 == 0:
@@ -59,7 +59,7 @@ loop[2] = """\
         if allnan == 0:       
             y[INDEXPOP] = idx
         else:
-            raise ValueError(CANNOTCONVERT)
+            y[INDEXPOP] = np.iinfo('intp').min
     return y
 """
 
@@ -120,9 +120,6 @@ nanargmin['templates']['int'] = ints
 nanargmin['pyx_file'] = 'func/%sbit/nanargmin.pyx'
 
 nanargmin['main'] = '''"nanargmin auto-generated from template"
-
-CANNOTCONVERT = "Bottleneck copies NumPy bahavior: "
-CANNOTCONVERT += "'cannot convert float NaN to integer'"
 
 def nanargmin(arr, axis=None):
     """

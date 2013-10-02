@@ -1,4 +1,5 @@
 import math
+import warnings
 import numpy as np
 import scipy.sparse as sp
 
@@ -103,11 +104,15 @@ def nanmax(arr, axis=None):
 
 def nanargmin(arr, axis=None):
     "Slow nanargmin function used for unaccelerated ndim/dtype combinations."
-    return np.nanargmin(arr, axis=axis)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        return np.nanargmin(arr, axis=axis)
 
 def nanargmax(arr, axis=None):
     "Slow nanargmax function used for unaccelerated ndim/dtype combinations."
-    return np.nanargmax(arr, axis=axis)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        return np.nanargmax(arr, axis=axis)
 
 def rankdata(arr, axis=None):
     "Slow rankdata function used for unaccelerated ndim/dtype combinations."
