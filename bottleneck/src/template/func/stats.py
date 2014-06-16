@@ -450,8 +450,8 @@ ints['sparse'] = sparse
 
 slow = {}
 slow['name'] = "stats"
-slow['signature'] = "arr, weights"
-slow['func'] = "bn.slow.stats(arr, weights=None)"
+slow['signature'] = "arr, weights, compute_variance"
+slow['func'] = "bn.slow.stats(arr, weights=None, compute_variance=False)"
 
 # Template ------------------------------------------------------------------
 

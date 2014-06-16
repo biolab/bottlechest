@@ -309,7 +309,7 @@ def stats_object(arr, weights=None):
     return y
 
 
-def stats(arr, weights=None):
+def stats(arr, weights=None, compute_variance=False):
     if not 1 <= arr.ndim <= 2:
         raise ValueError("bottleneck.stats handles only 1-d and 2-d arrays")
     if arr.dtype == object:
@@ -322,12 +322,18 @@ def stats(arr, weights=None):
             nans = np.sum(np.isnan(arr))
             non_nans = len(arr) - nans
             mean = np.nansum(arr) / non_nans
+            var = np.nansum((arr - mean) ** 2) / (non_nans - 1)
         else:
             tot_w = np.sum(weights)
             nans = np.sum(np.isnan(arr) * weights)
             non_nans = tot_w - nans
             mean = np.nansum(arr * weights) / non_nans
-        return a_min, a_max, mean, 0, nans, non_nans
+            var = np.nansum(weights * (arr - mean) ** 2)
+            tot_w2 = np.sum((1 - np.isnan(arr)) * weights ** 2)
+            d = non_nans ** 2 - tot_w2
+            if d > 1e-6:
+                var *= non_nans / d
+        return a_min, a_max, mean, var, nans, non_nans
 
     if sp.issparse(arr):
         arr = arr.todense()
@@ -339,10 +345,16 @@ def stats(arr, weights=None):
         y[:, 4] = countnans(arr, weights, 0)
         y[:, 5] = tot_w - y[:, 4]
         y[:, 2] = nanmean(arr * weights, 0) / y[:, 4]
+        y[:, 3] = nansum(weights * (arr - y[:, 2]) ** 2, 0)
+        tot_w2 = np.sum((1 - np.isnan(arr)) * weights ** 2)
+        d = y[:, 5] ** 2 - tot_w2
+        if d > 1e-6:
+            y[:, 3] *= y[:, 5] / d
     else:
         y[:, 4] = countnans(arr, axis=0)
         y[:, 5] = arr.shape[0] - y[:, 4]
         y[:, 2] = nanmean(arr, 0) / y[:, 4]
+        y[:, 3] = nansum((arr - y[:, 2]) ** 2, 0) / (y[:, 4] - 1)
     y[:, 2][np.isinf(y[:, 2])] = 0
     return y
 
