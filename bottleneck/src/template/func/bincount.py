@@ -369,7 +369,7 @@ def bincount(arr, max_val, weights=None, mask=None):
 
     Returns
     -------
-    out : ndarray of ints, 1- or 2-dimensional
+    out : ndarray of float64, 1- or 2-dimensional
         The result of binning the input array.
     nans: the number of NaNs; a scalar or a 1-d vector of length x.shape[1]
 
