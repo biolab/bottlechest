@@ -7,8 +7,6 @@ Introduction
 
 Bottlechest is a fork of bottleneck (https://github.com/kwgoodman/bottleneck), specialized for use in Orange (https://github.com/biolab/orange3).
 
-Transition has not been completed yet, and the project mostly refers to itself as bottleneck, for now.
-
 Moving window functions, several other functions and all optimization of 3d arrays are removed to reduce the size of the library. New functions are added as needed.
 
 ===================== =======================================================
@@ -23,9 +21,9 @@ For other documentation, including a simple example and comprehensive set of ben
 License
 =======
 
-Bottlechest is distributed under a Simplified BSD license. Parts of NumPy,
+Bottlechest is distributed under a Simplified BSD license. Parts of Bottleneck, NumPy,
 Scipy, numpydoc and bottleneck, all of which have BSD licenses, are included in
-Bottleneck. See the LICENSE file, which is distributed with Bottlechest, for
+Bottlechest. See the LICENSE file, which is distributed with Bottlechest, for
 details.
 
 
