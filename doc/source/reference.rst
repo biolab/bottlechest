@@ -5,20 +5,20 @@ Function reference
 Bottleneck provides the following functions:
 
 ======================= =======================================================================================================================
-NumPy/SciPy             :meth:`median <bottleneck.median>`, :meth:`nanmedian <bottleneck.nanmedian>`, :meth:`rankdata <bottleneck.rankdata>`,
-                        :meth:`ss <bottleneck.ss>`, :meth:`nansum <bottleneck.nansum>`, :meth:`nanmin <bottleneck.nanmin>`,
-                        :meth:`nanmax <bottleneck.nanmax>`, :meth:`nanmean <bottleneck.nanmean>`, :meth:`nanstd <bottleneck.nanstd>`,
-                        :meth:`nanargmin <bottleneck.nanargmin>`, :meth:`nanargmax <bottleneck.nanargmax>` 
-Functions               :meth:`nanrankdata <bottleneck.nanrankdata>`, :meth:`nanvar <bottleneck.nanvar>`,
-                        :meth:`partsort <bottleneck.partsort>`, :meth:`argpartsort <bottleneck.argpartsort>`,
-                        :meth:`replace <bottleneck.replace>`, :meth:`nn <bottleneck.nn>`, :meth:`anynan <bottleneck.anynan>`,
-                        :meth:`allnan <bottleneck.allnan>`
-Moving window           :meth:`move_sum <bottleneck.move_sum>`, :meth:`move_nansum <bottleneck.move_nansum>`,
-                        :meth:`move_mean <bottleneck.move_mean>`, :meth:`move_nanmean <bottleneck.move_nanmean>`,
-                        :meth:`move_median <bottleneck.move_median>`,
-                        :meth:`move_std <bottleneck.move_std>`, :meth:`move_nanstd <bottleneck.move_nanstd>`,
-                        :meth:`move_min <bottleneck.move_min>`, :meth:`move_nanmin <bottleneck.move_nanmin>`,
-                        :meth:`move_max <bottleneck.move_max>`, :meth:`move_nanmax <bottleneck.move_nanmax>`
+NumPy/SciPy             :meth:`median <bottlechest.median>`, :meth:`nanmedian <bottlechest.nanmedian>`, :meth:`rankdata <bottlechest.rankdata>`,
+                        :meth:`ss <bottlechest.ss>`, :meth:`nansum <bottlechest.nansum>`, :meth:`nanmin <bottlechest.nanmin>`,
+                        :meth:`nanmax <bottlechest.nanmax>`, :meth:`nanmean <bottlechest.nanmean>`, :meth:`nanstd <bottlechest.nanstd>`,
+                        :meth:`nanargmin <bottlechest.nanargmin>`, :meth:`nanargmax <bottlechest.nanargmax>` 
+Functions               :meth:`nanrankdata <bottlechest.nanrankdata>`, :meth:`nanvar <bottlechest.nanvar>`,
+                        :meth:`partsort <bottlechest.partsort>`, :meth:`argpartsort <bottlechest.argpartsort>`,
+                        :meth:`replace <bottlechest.replace>`, :meth:`nn <bottlechest.nn>`, :meth:`anynan <bottlechest.anynan>`,
+                        :meth:`allnan <bottlechest.allnan>`
+Moving window           :meth:`move_sum <bottlechest.move_sum>`, :meth:`move_nansum <bottlechest.move_nansum>`,
+                        :meth:`move_mean <bottlechest.move_mean>`, :meth:`move_nanmean <bottlechest.move_nanmean>`,
+                        :meth:`move_median <bottlechest.move_median>`,
+                        :meth:`move_std <bottlechest.move_std>`, :meth:`move_nanstd <bottlechest.move_nanstd>`,
+                        :meth:`move_min <bottlechest.move_min>`, :meth:`move_nanmin <bottlechest.move_nanmin>`,
+                        :meth:`move_max <bottlechest.move_max>`, :meth:`move_nanmax <bottlechest.move_nanmax>`
 ======================= =======================================================================================================================
 
 
@@ -29,47 +29,47 @@ Fast replacements for NumPy and SciPy functions.
 
 ------------
 
-.. autofunction:: bottleneck.median
+.. autofunction:: bottlechest.median
 
 ------------
              
-.. autofunction:: bottleneck.nanmedian
+.. autofunction:: bottlechest.nanmedian
 
 ------------
 
-.. autofunction:: bottleneck.rankdata
+.. autofunction:: bottlechest.rankdata
 
 ------------
 
-.. autofunction:: bottleneck.ss
+.. autofunction:: bottlechest.ss
 
 ------------
 
-.. autofunction:: bottleneck.nansum
+.. autofunction:: bottlechest.nansum
 
 ------------
 
-.. autofunction:: bottleneck.nanmin
+.. autofunction:: bottlechest.nanmin
 
 ------------
 
-.. autofunction:: bottleneck.nanmax
+.. autofunction:: bottlechest.nanmax
 
 ------------
              
-.. autofunction:: bottleneck.nanmean
+.. autofunction:: bottlechest.nanmean
 
 ------------
 
-.. autofunction:: bottleneck.nanstd
+.. autofunction:: bottlechest.nanstd
 
 ------------
 
-.. autofunction:: bottleneck.nanargmin
+.. autofunction:: bottlechest.nanargmin
 
 ------------
 
-.. autofunction:: bottleneck.nanargmax
+.. autofunction:: bottlechest.nanargmax
 
 
 Functions
@@ -79,35 +79,35 @@ Miscellaneous functions.
 
 ------------
 
-.. autofunction:: bottleneck.nanrankdata
+.. autofunction:: bottlechest.nanrankdata
 
 ------------
 
-.. autofunction:: bottleneck.nanvar
+.. autofunction:: bottlechest.nanvar
 
 ------------
 
-.. autofunction:: bottleneck.partsort
+.. autofunction:: bottlechest.partsort
 
 ------------
 
-.. autofunction:: bottleneck.argpartsort
+.. autofunction:: bottlechest.argpartsort
 
 ------------
 
-.. autofunction:: bottleneck.replace
+.. autofunction:: bottlechest.replace
 
 ------------
 
-.. autofunction:: bottleneck.nn
+.. autofunction:: bottlechest.nn
 
 ------------
 
-.. autofunction:: bottleneck.anynan
+.. autofunction:: bottlechest.anynan
 
 ------------
 
-.. autofunction:: bottleneck.allnan
+.. autofunction:: bottlechest.allnan
 
 
 Moving window functions
@@ -117,44 +117,44 @@ Moving window functions with a 1d window.
 
 ------------
 
-.. autofunction:: bottleneck.move_sum
+.. autofunction:: bottlechest.move_sum
 
 ------------
 
-.. autofunction:: bottleneck.move_nansum
+.. autofunction:: bottlechest.move_nansum
 
 ------------
 
-.. autofunction:: bottleneck.move_mean
+.. autofunction:: bottlechest.move_mean
 
 ------------
 
-.. autofunction:: bottleneck.move_nanmean
+.. autofunction:: bottlechest.move_nanmean
 
 ------------
 
-.. autofunction:: bottleneck.move_median
+.. autofunction:: bottlechest.move_median
 
 ------------
 
-.. autofunction:: bottleneck.move_std
+.. autofunction:: bottlechest.move_std
 
 ------------
 
-.. autofunction:: bottleneck.move_nanstd
+.. autofunction:: bottlechest.move_nanstd
 
 ------------
 
-.. autofunction:: bottleneck.move_min
+.. autofunction:: bottlechest.move_min
 
 ------------
 
-.. autofunction:: bottleneck.move_nanmin
+.. autofunction:: bottlechest.move_nanmin
 
 ------------
 
-.. autofunction:: bottleneck.move_max
+.. autofunction:: bottlechest.move_max
 
 ------------
 
-.. autofunction:: bottleneck.move_nanmax
+.. autofunction:: bottlechest.move_nanmax

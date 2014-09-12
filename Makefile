@@ -2,7 +2,7 @@
 
 PYTHON=python
 
-srcdir := bottleneck/src
+srcdir := bottlechest/src
 
 help:
 	@echo "Available tasks:"
@@ -19,7 +19,7 @@ help:
 all: clean pyx cfiles build test
 
 pyx:
-	${PYTHON} -c "from bottleneck.src.makepyx import makepyx; makepyx()"
+	${PYTHON} -c "from bottlechest.src.makepyx import makepyx; makepyx()"
 
 cfiles:
 	cython ${srcdir}/func/32bit/*.pyx
@@ -33,10 +33,10 @@ funcs:
 	${PYTHON} ${srcdir}/func/setup.py build_ext --inplace
 	
 test:
-	${PYTHON} -c "import bottleneck;bottleneck.test()"
+	${PYTHON} -c "import bottlechest;bottlechest.test()"
 
 bench:
-	${PYTHON} -c "import bottleneck; bottleneck.bench()"
+	${PYTHON} -c "import bottlechest; bottlechest.bench()"
 
 sdist: pyx cfiles
 	rm -f MANIFEST

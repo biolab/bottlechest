@@ -2,11 +2,11 @@
 Use to convert *.pyx in the Bottleneck sandbox to a C file and compile it.
 
 This setup.py is NOT used to install the Bottleneck package. The Bottleneck
-setup.py file is bottleneck/setup.py
+setup.py file is bottlechest/setup.py
 
 To convert from cython to C:
 
-$ cd bottleneck/sandbox    
+$ cd bottlechest/sandbox    
 $ python setup.py build_ext --inplace
 """
 

@@ -41,8 +41,8 @@ master_doc = 'index'
 project = u'Bottleneck'
 copyright = u'2010, Archipel Asset Management AB'
 
-# Grab version from bottleneck/version.py
-ver_file = os.path.join('..', '..', 'bottleneck', 'version.py')
+# Grab version from bottlechest/version.py
+ver_file = os.path.join('..', '..', 'bottlechest', 'version.py')
 fid = file(ver_file, 'r')
 VER = fid.read()
 fid.close()
@@ -185,7 +185,7 @@ html_static_path = ['_static']
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'bottleneckdoc'
+htmlhelp_basename = 'bottlechestdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -199,7 +199,7 @@ htmlhelp_basename = 'bottleneckdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'bottleneck.tex', u'bottleneck Documentation',
+  ('index', 'bottlechest.tex', u'bottlechest Documentation',
    u'Keith Goodman', 'manual'),
 ]
 

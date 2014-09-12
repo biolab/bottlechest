@@ -1,0 +1,31 @@
+### Clone with pip, and build, install and test bottlechest
+
+pip install --no-install git+https://github.com/biolab/bottlechest#egg=bottlechest
+cd build/bottlechest
+make pyx cfiles
+python setup.py install
+
+pip install nose
+cd ../..
+make -f build/bottlechest/Makefile test
+
+### IMPORTANT
+
+Do not try to import bottlechest from the build directory since this
+imports the empty module from the subdirectory instead of the
+installed module!
+
+### To add a function my_func
+
+1. Write templates into file bottlechest/src/template/func/my_func.py
+2. Add the slow fallback implementation to bottlechest/slow/func.py
+2. In bottlechest/slow/func.py, add my_func to __all__
+3. In bottlechest/__init__.py, add the function to the import statemene
+4. In bottlechest/src/template/func/func.py, add (in appropriate places)
+   - from .my_func import myfunc
+   - funcs['my_func'] = myfunc
+   - include "my_func.pyx"
+
+### If you need a macro or a function from numpy API, which is not
+    included in bottlechest
+... add it in bottlechest/src/template/func/func.py, to 'header'
