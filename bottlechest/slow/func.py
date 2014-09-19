@@ -6,7 +6,8 @@ __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
            'nanmin', 'nanmax', 'nanargmin', 'nanargmax', 'rankdata',
            'nanrankdata', 'ss', 'nn', 'partsort', 'argpartsort', 'replace',
            'anynan', 'allnan',
-           'bincount', 'valuecount', 'countnans', 'stats']
+           'bincount', 'valuecount', 'countnans', 'stats',
+           'contingency', 'nanequal']
 
 def median(arr, axis=None):
     "Slow median function used for unaccelerated ndim/dtype combinations."
