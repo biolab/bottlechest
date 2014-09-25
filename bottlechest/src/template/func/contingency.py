@@ -71,6 +71,10 @@ loop[1] = """\
             y[bin, ain] += 1
     else:
         for iINDEX0 in range(nINDEX0):
+            bin = b[iINDEX0]
+            if bin > max_val2:
+                raise ValueError("value %i is greater than max_val2 (%i)" %
+                                 (bin, max_val2))
             wt = w[iINDEX0]
             ai = a[INDEXALL]
             if ai != ai:
@@ -81,10 +85,7 @@ loop[1] = """\
             ain = int(ai + 0.1)
             if not -1e-6 < ain - ai < 1e-6:
                 raise ValueError("%f is not an integer value" % ai)
-            bin = b[iINDEX0]
-            if bin > max_val2:
-                raise ValueError("value %i is greater than max_val2 (%i)" %
-                                 (bin, max_val2))
+
             y[bin, ain] += wt
     return y, nans
 """
