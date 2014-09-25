@@ -17,10 +17,14 @@ floats['force_output_dtype'] = 'bool'
 floats['reuse_non_nan_func'] = False
 
 floats['top'] = """
+cdef extern from "stdint.h":
+    ctypedef unsigned char uint8_t
+
+
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def NAME_NDIMd_DTYPE_axisAXIS(np.ndarray[np.DTYPE_t, ndim=NDIM] a,
-                              np.ndarray[np.int8_t, ndim=1] b,
+                              np.ndarray[np.uint8_t, ndim=1] b,
                               int max_val, int max_val2,
                               np.ndarray[np.float_t, ndim=1] w = None,
                               np.ndarray[np.int8_t, ndim=1] mask = None):
@@ -42,7 +46,7 @@ loop[1] = """\
         np.npy_intp *nandims = [max_val2 + 1]
         np.ndarray[np.float_t, ndim=1] nans = PyArray_ZEROS(1, nandims, NPY_float64, 0)
         int ain
-        char bin
+        uint8_t bin
         float ai, wt
     if mask is not None and not mask[0]:
         return y, nans
@@ -67,6 +71,10 @@ loop[1] = """\
             y[bin, ain] += 1
     else:
         for iINDEX0 in range(nINDEX0):
+            bin = b[iINDEX0]
+            if bin > max_val2:
+                raise ValueError("value %i is greater than max_val2 (%i)" %
+                                 (bin, max_val2))
             wt = w[iINDEX0]
             ai = a[INDEXALL]
             if ai != ai:
@@ -77,10 +85,7 @@ loop[1] = """\
             ain = int(ai + 0.1)
             if not -1e-6 < ain - ai < 1e-6:
                 raise ValueError("%f is not an integer value" % ai)
-            bin = b[iINDEX0]
-            if bin > max_val2:
-                raise ValueError("value %i is greater than max_val2 (%i)" %
-                                 (bin, max_val2))
+
             y[bin, ain] += wt
     return y, nans
 """
@@ -97,7 +102,7 @@ loop[2] = """\
        np.npy_intp *nandims = [n1, max_val2 + 1]
        np.ndarray[np.float_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
        int ain
-       char bin
+       uint8_t bin
        float ai, wt
     for iINDEX0 in range(nINDEX0):
         wt = 1 if w is None else w[iINDEX0]
@@ -127,7 +132,7 @@ sparse = """
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def SPARSE(object a,
-           np.ndarray[np.int8_t, ndim=1] b,
+           np.ndarray[np.uint8_t, ndim=1] b,
            int max_val, int max_val2,
            np.ndarray[np.float_t, ndim=1] w = None,
            np.ndarray[np.int8_t, ndim=1] mask = None):
@@ -156,7 +161,7 @@ def SPARSE(object a,
         int ri, i, ci
         np.DTYPE_t ai
         int ain
-        char bin
+        uint8_t bin
     for ri in range(a.shape[0]):
         wt = 1 if w is None else w[ri]
         bin = b[ri]
@@ -199,7 +204,7 @@ loop[1] = """\
         np.npy_intp *nandims = [max_val2 + 1]
         np.ndarray[np.float_t, ndim=1] nans = PyArray_ZEROS(1, nandims, NPY_float64, 0)
         int ai
-        char bin
+        uint8_t bin
     if mask is not None and not mask[0]:
         return y, nans
     if w is None:
@@ -241,7 +246,7 @@ loop[2] = """\
        np.npy_intp *nandims = [n1, max_val2+1]
        np.ndarray[np.float64_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
        int ai
-       char bin
+       uint8_t bin
        float wt
     for iINDEX0 in range(nINDEX0):
         bin = b[iINDEX0]
@@ -265,7 +270,7 @@ sparse = """
 @cython.boundscheck(False)
 @cython.wraparound(False)
 def SPARSE(object a,
-           np.ndarray[np.int8_t, ndim=1] b,
+           np.ndarray[np.uint8_t, ndim=1] b,
            int max_val, int max_val2,
            np.ndarray[np.float_t, ndim=1] w = None,
            np.ndarray[np.int8_t, ndim=1] mask = None):
@@ -285,7 +290,7 @@ def SPARSE(object a,
         np.npy_intp *nandims = [n_cols, max_val2+1]
         np.ndarray[np.float_t, ndim=2] nans = PyArray_ZEROS(2, nandims, NPY_float64, 0)
         float wt
-        char bin
+        uint8_t bin
 
         np.ndarray[np.DTYPE_t, ndim=1] data = a.data
         np.ndarray[int, ndim=1] indices = a.indices
@@ -353,7 +358,7 @@ def contingency(arr, b, max_val, max_val2, weights=None, mask=None):
     ----------
     x : array_like, 1 or 2 dimensions, nonnegative elements
         Input array.
-    b : array_like, 1 dimension, of type int8
+    b : array_like, 1 dimension, of type uint8
         The values of the second variable.
     max_val : int
         The maximal value in the array
@@ -403,10 +408,10 @@ def contingency_selector(arr, b, max_val, max_val2, weights, mask):
         key = (ndim, dtype, None)
 
     if type(b) is np.ndarray:
-        if b.dtype != np.int8:
-            b = b.astype(np.int8)
+        if b.dtype != np.uint8:
+            b = b.astype(np.uint8)
     else:
-        b = np.array(b, copy=False, dtype=np.int8)
+        b = np.array(b, copy=False, dtype=np.uint8)
     if weights is not None and (
             type(weights) is not np.ndarray or
             weights.dtype is not np.float):
