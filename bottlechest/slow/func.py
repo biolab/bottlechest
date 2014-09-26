@@ -636,6 +636,9 @@ def scipy_ss(a, axis=0):
 
     """
     a, axis = _chk_asarray(a, axis)
+
+    if 'int' in str(a.dtype):
+        a = a.astype('int64')
     return np.sum(a*a, axis)
 
 
