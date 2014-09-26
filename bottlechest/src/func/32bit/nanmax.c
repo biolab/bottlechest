@@ -475,7 +475,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":723
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":723
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -484,7 +484,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":724
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":724
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -493,7 +493,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":725
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":725
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -502,7 +502,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":726
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":726
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -511,7 +511,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":730
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":730
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -520,7 +520,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":731
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":731
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -529,7 +529,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":732
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":732
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -538,7 +538,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":733
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":733
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -547,7 +547,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":737
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":737
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -556,7 +556,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":738
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":738
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -565,7 +565,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":747
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":747
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -574,7 +574,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":748
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":748
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -583,7 +583,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":749
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":749
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -592,7 +592,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":751
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":751
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -601,7 +601,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":752
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":752
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -610,7 +610,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":753
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -619,7 +619,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":755
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":755
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -628,7 +628,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":756
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":756
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -637,7 +637,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":758
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -646,7 +646,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":759
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":759
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -655,7 +655,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":760
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":760
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -686,7 +686,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
 /*--- Type declarations ---*/
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":762
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":762
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -695,7 +695,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":763
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":763
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -704,7 +704,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":764
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":764
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -713,7 +713,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":766
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":766
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1104,13 +1104,13 @@ static __pyx_t_5numpy_float32_t __pyx_v_6nanmax_MAXfloat32;
 static __pyx_t_5numpy_float64_t __pyx_v_6nanmax_MAXfloat64;
 static PyObject *__pyx_v_6nanmax_nanmax_dict = 0;
 static PyObject *__pyx_v_6nanmax_nanmax_slow_dict = 0;
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float_t = { "float_t", NULL, sizeof(__pyx_t_5numpy_float_t), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t = { "float32_t", NULL, sizeof(__pyx_t_5numpy_float32_t), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t = { "float64_t", NULL, sizeof(__pyx_t_5numpy_float64_t), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int_t = { "int_t", NULL, sizeof(__pyx_t_5numpy_int_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t = { "int8_t", NULL, sizeof(__pyx_t_5numpy_int8_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int8_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int8_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t = { "int32_t", NULL, sizeof(__pyx_t_5numpy_int32_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int32_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int32_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t = { "int64_t", NULL, sizeof(__pyx_t_5numpy_int64_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int64_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int64_t), 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float_t = { "float_t", NULL, sizeof(__pyx_t_5numpy_float_t), { 0 }, 0, 'R', 0, 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t = { "float32_t", NULL, sizeof(__pyx_t_5numpy_float32_t), { 0 }, 0, 'R', 0, 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t = { "float64_t", NULL, sizeof(__pyx_t_5numpy_float64_t), { 0 }, 0, 'R', 0, 0 };
 #define __Pyx_MODULE_NAME "nanmax"
 int __pyx_module_is_main_nanmax = 0;
 
@@ -1122,34 +1122,34 @@ static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_pf_6nanmax_nanmax(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr, PyObject *__pyx_v_axis); /* proto */
 static PyObject *__pyx_pf_6nanmax_2nanmax_selector(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr, PyObject *__pyx_v_axis); /* proto */
-static PyObject *__pyx_pf_6nanmax_4nanmax_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_6nanmax_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_8nanmax_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_10nanmax_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_12nanmax_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_14nanmax_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_16nanmax_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_18nanmax_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_20nanmax_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_22nanmax_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_24nanmax_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_26nanmax_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_28nanmax_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_30nanmax_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_4nanmax_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_6nanmax_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_8nanmax_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_10nanmax_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_12nanmax_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_14nanmax_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_16nanmax_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_18nanmax_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_20nanmax_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_22nanmax_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_24nanmax_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_26nanmax_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_28nanmax_1d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_30nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_32nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_34nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_36nanmax_2d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_38nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_40nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_42nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_44nanmax_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_46nanmax_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_48nanmax_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_50nanmax_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a); /* proto */
 static PyObject *__pyx_pf_6nanmax_60nanmax_slow_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr); /* proto */
 static PyObject *__pyx_pf_6nanmax_62nanmax_slow_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr); /* proto */
 static PyObject *__pyx_pf_6nanmax_64nanmax_slow_axis2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr); /* proto */
@@ -1328,17 +1328,16 @@ static char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous
 static char __pyx_k_Maximum_values_along_specified[] = "\n    Maximum values along specified axis, ignoring NaNs.\n\n    Parameters\n    ----------\n    arr : array_like\n        Input array. If `arr` is not an array, a conversion is attempted.\n    axis : {int, None}, optional\n        Axis along which the maximum is computed. The default (axis=None) is\n        to compute the maximum of the flattened array.\n\n    Returns\n    -------\n    y : ndarray\n        An array with the same shape as `arr`, with the specified axis removed.\n        If `arr` is a 0-d array, or if axis is None, a scalar is returned.\n\n    See also\n    --------\n    bottlechest.nanmin: Minimum along specified axis, ignoring NaNs.\n    bottlechest.nanargmax: Indices of maximum values along axis, ignoring NaNs. \n    \n    Examples\n    --------\n    >>> bn.nanmax(1)\n    1\n    >>> bn.nanmax([1])\n    1\n    >>> bn.nanmax([1, np.nan])\n    1.0\n    >>> a = np.array([[1, 4], [1, np.nan]])\n    >>> bn.nanmax(a)\n    4.0\n    >>> bn.nanmax(a, axis=0)\n    array([ 1.,  4.])\n    \n    ";
 static char __pyx_k_Return_nanmax_function_and_arra[] = "\n    Return nanmax function and array that matches `arr` and `axis`.\n    \n    Under the hood Bottleneck uses a separate Cython function for each\n    combination of ndim, dtype, and axis. A lot of the overhead in bn.nanmax()\n    is in checking that `axis` is within range, converting `arr` into an\n    array (if it is not already an array), and selecting the function to use\n    to calculate the maximum.\n\n    You can get rid of the overhead by doing all this before you, for example,\n    enter an inner loop, by using the this function.\n\n    Parameters\n    ----------\n    arr : array_like\n        Input array. If `arr` is not an array, a conversion is attempted.\n    axis : {int, None}\n        Axis along which the maximum is to be computed.\n    \n    Returns\n    -------\n    func : function\n        The nanamx function that matches the number of dimensions and\n        dtype of the input array and the axis along which you wish to find\n        the maximum.\n    a : ndarray\n        If the input array `arr` is not a ndarray, then `a` will contain the\n        result of converting `arr` into a ndarray.\n\n    Examples\n    --------\n    Create a numpy array:\n\n    >>> arr = np.array([1.0, 2.0, 3.0])\n    \n    Obtain the function needed to determine the maximum of `arr` along\n    axis=0:\n\n    >>> func, a = bn.func.nanmax_selector(arr, axis=0)\n    >>> func\n    <function nanmax_1d_float64_axis0>\n    \n    Use the returned function and array to determine the maximum:\n    \n    >>> func(a)\n    3.0\n\n    ";
 static char __pyx_k_Unsupported_ndim_dtype_axis_s_s[] = "Unsupported ndim/dtype/axis (%s/%s/%s).";
+static char __pyx_k_Users_janezdemsar_Dropbox_bottl[] = "/Users/janezdemsar/Dropbox/bottlechest/bottlechest/src/func/32bit/nanmax.pyx";
 static char __pyx_k_n_d_must_be_between_1_and_d_inc[] = "`n` (=%d) must be between 1 and %d, inclusive.";
 static char __pyx_k_numpy_nanmax_raises_on_a_size_0[] = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too.";
 static char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
-static char __pyx_k_C_Users_Tomaz_bottlechest_bottle[] = "C:\\Users\\Tomaz\\bottlechest\\bottlechest\\src\\func\\32bit\\nanmax.pyx";
 static char __pyx_k_Expecting_default_NumPy_int_to_b[] = "Expecting default NumPy int to be 32 or 64 bit.";
 static char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
 static char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
 static char __pyx_k_numpy_nanmax_raises_on_a_shape_a[] = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does.";
 static char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
-static PyObject *__pyx_kp_s_C_Users_Tomaz_bottlechest_bottle;
 static PyObject *__pyx_kp_s_Expecting_default_NumPy_int_to_b;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;
@@ -1352,6 +1351,7 @@ static PyObject *__pyx_kp_u_Return_nanmax_function_and_arra;
 static PyObject *__pyx_n_s_RuntimeError;
 static PyObject *__pyx_n_s_TypeError;
 static PyObject *__pyx_kp_s_Unsupported_ndim_dtype_axis_s_s;
+static PyObject *__pyx_kp_s_Users_janezdemsar_Dropbox_bottl;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s__7;
 static PyObject *__pyx_n_s_a;
@@ -2459,4527 +2459,24 @@ static PyObject *__pyx_pf_6nanmax_2nanmax_selector(CYTHON_UNUSED PyObject *__pyx
 /* "nanmax.pyx":183
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_5nanmax_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_4nanmax_2d_int_axis0[] = "nanmax_2d_int_axis0(ndarray a)\nMaximum of 2d array with dtype=int along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_5nanmax_2d_int_axis0 = {"nanmax_2d_int_axis0", (PyCFunction)__pyx_pw_6nanmax_5nanmax_2d_int_axis0, METH_O, __pyx_doc_6nanmax_4nanmax_2d_int_axis0};
-static PyObject *__pyx_pw_6nanmax_5nanmax_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_4nanmax_2d_int_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_4nanmax_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int_t __pyx_v_amax;
-  __pyx_t_5numpy_int_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int_axis0", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":185
- * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":189
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":190
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":191
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":192
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n1;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":193
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int, 0)
- *     if n0 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":195
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int, 0)
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":196
- * 		NPY_int, 0)
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":197
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i1 in range(n1):
- *         amax = MINint
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":198
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i1 in range(n1):             # <<<<<<<<<<<<<<
- *         amax = MINint
- *         for i0 in range(n0):
- */
-  __pyx_t_6 = __pyx_v_n1;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i1 = __pyx_t_7;
-
-    /* "nanmax.pyx":199
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- *         amax = MINint             # <<<<<<<<<<<<<<
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint;
-
-    /* "nanmax.pyx":200
- *     for i1 in range(n1):
- *         amax = MINint
- *         for i0 in range(n0):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n0;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i0 = __pyx_t_9;
-
-      /* "nanmax.pyx":201
- *         amax = MINint
- *         for i0 in range(n0):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":202
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i1] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":203
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i1] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":204
- *             if ai >= amax:
- *                 amax = ai
- *         y[i1] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i1;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":205
- *                 amax = ai
- *         y[i1] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":183
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":209
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_7nanmax_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_6nanmax_2d_int_axis1[] = "nanmax_2d_int_axis1(ndarray a)\nMaximum of 2d array with dtype=int along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_7nanmax_2d_int_axis1 = {"nanmax_2d_int_axis1", (PyCFunction)__pyx_pw_6nanmax_7nanmax_2d_int_axis1, METH_O, __pyx_doc_6nanmax_6nanmax_2d_int_axis1};
-static PyObject *__pyx_pw_6nanmax_7nanmax_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_6nanmax_2d_int_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_6nanmax_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int_t __pyx_v_amax;
-  __pyx_t_5numpy_int_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int_axis1", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":211
- * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":215
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":216
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":217
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":218
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n0;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":219
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int, 0)
- *     if n1 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":221
- *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int, 0)
- *     if n1 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":222
- * 		NPY_int, 0)
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":223
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         amax = MINint
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 223; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 223; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 223; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":224
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         amax = MINint
- *         for i1 in range(n1):
- */
-  __pyx_t_6 = __pyx_v_n0;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i0 = __pyx_t_7;
-
-    /* "nanmax.pyx":225
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- *         amax = MINint             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint;
-
-    /* "nanmax.pyx":226
- *     for i0 in range(n0):
- *         amax = MINint
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n1;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i1 = __pyx_t_9;
-
-      /* "nanmax.pyx":227
- *         amax = MINint
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":228
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i0] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":229
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i0] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":230
- *             if ai >= amax:
- *                 amax = ai
- *         y[i0] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i0;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":231
- *                 amax = ai
- *         y[i0] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":209
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":235
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_9nanmax_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_8nanmax_2d_int8_axis0[] = "nanmax_2d_int8_axis0(ndarray a)\nMaximum of 2d array with dtype=int8 along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_9nanmax_2d_int8_axis0 = {"nanmax_2d_int8_axis0", (PyCFunction)__pyx_pw_6nanmax_9nanmax_2d_int8_axis0, METH_O, __pyx_doc_6nanmax_8nanmax_2d_int8_axis0};
-static PyObject *__pyx_pw_6nanmax_9nanmax_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 235; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_8nanmax_2d_int8_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_8nanmax_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int8_t __pyx_v_amax;
-  __pyx_t_5numpy_int8_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis0", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 235; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":237
- * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int8_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":241
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":242
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":243
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":244
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int8, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n1;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":245
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int8, 0)
- *     if n0 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT8, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":247
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int8, 0)
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":248
- * 		NPY_int8, 0)
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":249
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i1 in range(n1):
- *         amax = MINint8
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 249; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 249; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 249; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":250
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i1 in range(n1):             # <<<<<<<<<<<<<<
- *         amax = MINint8
- *         for i0 in range(n0):
- */
-  __pyx_t_6 = __pyx_v_n1;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i1 = __pyx_t_7;
-
-    /* "nanmax.pyx":251
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- *         amax = MINint8             # <<<<<<<<<<<<<<
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint8;
-
-    /* "nanmax.pyx":252
- *     for i1 in range(n1):
- *         amax = MINint8
- *         for i0 in range(n0):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n0;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i0 = __pyx_t_9;
-
-      /* "nanmax.pyx":253
- *         amax = MINint8
- *         for i0 in range(n0):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":254
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i1] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":255
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i1] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":256
- *             if ai >= amax:
- *                 amax = ai
- *         y[i1] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i1;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":257
- *                 amax = ai
- *         y[i1] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":235
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int8_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":261
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_11nanmax_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_10nanmax_2d_int8_axis1[] = "nanmax_2d_int8_axis1(ndarray a)\nMaximum of 2d array with dtype=int8 along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_11nanmax_2d_int8_axis1 = {"nanmax_2d_int8_axis1", (PyCFunction)__pyx_pw_6nanmax_11nanmax_2d_int8_axis1, METH_O, __pyx_doc_6nanmax_10nanmax_2d_int8_axis1};
-static PyObject *__pyx_pw_6nanmax_11nanmax_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 261; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_10nanmax_2d_int8_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_10nanmax_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int8_t __pyx_v_amax;
-  __pyx_t_5numpy_int8_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis1", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 261; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":263
- * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int8_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":267
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":268
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":269
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":270
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int8, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n0;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":271
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int8, 0)
- *     if n1 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT8, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":273
- *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int8, 0)
- *     if n1 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":274
- * 		NPY_int8, 0)
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":275
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         amax = MINint8
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 275; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 275; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 275; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":276
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         amax = MINint8
- *         for i1 in range(n1):
- */
-  __pyx_t_6 = __pyx_v_n0;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i0 = __pyx_t_7;
-
-    /* "nanmax.pyx":277
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- *         amax = MINint8             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint8;
-
-    /* "nanmax.pyx":278
- *     for i0 in range(n0):
- *         amax = MINint8
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n1;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i1 = __pyx_t_9;
-
-      /* "nanmax.pyx":279
- *         amax = MINint8
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":280
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i0] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":281
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i0] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":282
- *             if ai >= amax:
- *                 amax = ai
- *         y[i0] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i0;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":283
- *                 amax = ai
- *         y[i0] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":261
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int8_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":287
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_13nanmax_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_12nanmax_2d_int32_axis0[] = "nanmax_2d_int32_axis0(ndarray a)\nMaximum of 2d array with dtype=int32 along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_13nanmax_2d_int32_axis0 = {"nanmax_2d_int32_axis0", (PyCFunction)__pyx_pw_6nanmax_13nanmax_2d_int32_axis0, METH_O, __pyx_doc_6nanmax_12nanmax_2d_int32_axis0};
-static PyObject *__pyx_pw_6nanmax_13nanmax_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 287; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_12nanmax_2d_int32_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_12nanmax_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int32_t __pyx_v_amax;
-  __pyx_t_5numpy_int32_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis0", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 287; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":289
- * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int32_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":293
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":294
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":295
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":296
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int32, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n1;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":297
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int32, 0)
- *     if n0 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":299
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int32, 0)
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":300
- * 		NPY_int32, 0)
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":301
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i1 in range(n1):
- *         amax = MINint32
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 301; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 301; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 301; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":302
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i1 in range(n1):             # <<<<<<<<<<<<<<
- *         amax = MINint32
- *         for i0 in range(n0):
- */
-  __pyx_t_6 = __pyx_v_n1;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i1 = __pyx_t_7;
-
-    /* "nanmax.pyx":303
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- *         amax = MINint32             # <<<<<<<<<<<<<<
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint32;
-
-    /* "nanmax.pyx":304
- *     for i1 in range(n1):
- *         amax = MINint32
- *         for i0 in range(n0):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n0;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i0 = __pyx_t_9;
-
-      /* "nanmax.pyx":305
- *         amax = MINint32
- *         for i0 in range(n0):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":306
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i1] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":307
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i1] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":308
- *             if ai >= amax:
- *                 amax = ai
- *         y[i1] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i1;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":309
- *                 amax = ai
- *         y[i1] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":287
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":313
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_15nanmax_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_14nanmax_2d_int32_axis1[] = "nanmax_2d_int32_axis1(ndarray a)\nMaximum of 2d array with dtype=int32 along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_15nanmax_2d_int32_axis1 = {"nanmax_2d_int32_axis1", (PyCFunction)__pyx_pw_6nanmax_15nanmax_2d_int32_axis1, METH_O, __pyx_doc_6nanmax_14nanmax_2d_int32_axis1};
-static PyObject *__pyx_pw_6nanmax_15nanmax_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_14nanmax_2d_int32_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_14nanmax_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int32_t __pyx_v_amax;
-  __pyx_t_5numpy_int32_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis1", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":315
- * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int32_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":319
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":320
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":321
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":322
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int32, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n0;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":323
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int32, 0)
- *     if n1 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 323; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 323; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 323; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":325
- *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int32, 0)
- *     if n1 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":326
- * 		NPY_int32, 0)
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":327
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         amax = MINint32
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 327; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 327; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 327; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":328
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         amax = MINint32
- *         for i1 in range(n1):
- */
-  __pyx_t_6 = __pyx_v_n0;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i0 = __pyx_t_7;
-
-    /* "nanmax.pyx":329
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- *         amax = MINint32             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint32;
-
-    /* "nanmax.pyx":330
- *     for i0 in range(n0):
- *         amax = MINint32
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n1;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i1 = __pyx_t_9;
-
-      /* "nanmax.pyx":331
- *         amax = MINint32
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":332
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i0] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":333
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i0] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":334
- *             if ai >= amax:
- *                 amax = ai
- *         y[i0] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i0;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":335
- *                 amax = ai
- *         y[i0] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":313
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":339
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_17nanmax_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_16nanmax_2d_int64_axis0[] = "nanmax_2d_int64_axis0(ndarray a)\nMaximum of 2d array with dtype=int64 along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_17nanmax_2d_int64_axis0 = {"nanmax_2d_int64_axis0", (PyCFunction)__pyx_pw_6nanmax_17nanmax_2d_int64_axis0, METH_O, __pyx_doc_6nanmax_16nanmax_2d_int64_axis0};
-static PyObject *__pyx_pw_6nanmax_17nanmax_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_16nanmax_2d_int64_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_16nanmax_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int64_t __pyx_v_amax;
-  __pyx_t_5numpy_int64_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis0", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":341
- * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int64_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":345
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":346
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":347
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":348
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int64, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n1;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":349
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int64, 0)
- *     if n0 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":351
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int64, 0)
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":352
- * 		NPY_int64, 0)
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":353
- *     if n0 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i1 in range(n1):
- *         amax = MINint64
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 353; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 353; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 353; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":354
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i1 in range(n1):             # <<<<<<<<<<<<<<
- *         amax = MINint64
- *         for i0 in range(n0):
- */
-  __pyx_t_6 = __pyx_v_n1;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i1 = __pyx_t_7;
-
-    /* "nanmax.pyx":355
- *         raise ValueError(msg)
- *     for i1 in range(n1):
- *         amax = MINint64             # <<<<<<<<<<<<<<
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint64;
-
-    /* "nanmax.pyx":356
- *     for i1 in range(n1):
- *         amax = MINint64
- *         for i0 in range(n0):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n0;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i0 = __pyx_t_9;
-
-      /* "nanmax.pyx":357
- *         amax = MINint64
- *         for i0 in range(n0):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":358
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i1] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":359
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i1] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":360
- *             if ai >= amax:
- *                 amax = ai
- *         y[i1] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i1;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":361
- *                 amax = ai
- *         y[i1] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":339
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":365
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_19nanmax_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_18nanmax_2d_int64_axis1[] = "nanmax_2d_int64_axis1(ndarray a)\nMaximum of 2d array with dtype=int64 along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_19nanmax_2d_int64_axis1 = {"nanmax_2d_int64_axis1", (PyCFunction)__pyx_pw_6nanmax_19nanmax_2d_int64_axis1, METH_O, __pyx_doc_6nanmax_18nanmax_2d_int64_axis1};
-static PyObject *__pyx_pw_6nanmax_19nanmax_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 365; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_18nanmax_2d_int64_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_18nanmax_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_v_allnan;
-  __pyx_t_5numpy_int64_t __pyx_v_amax;
-  __pyx_t_5numpy_int64_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_msg = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis1", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 365; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":367
- * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.int64_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":371
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":372
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":373
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":374
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int64, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n0;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanmax.pyx":375
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_int64, 0)
- *     if n1 == 0:
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 375; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 375; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 375; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":377
- *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
- * 		NPY_int64, 0)
- *     if n1 == 0:             # <<<<<<<<<<<<<<
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- */
-  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
-  if (__pyx_t_4) {
-
-    /* "nanmax.pyx":378
- * 		NPY_int64, 0)
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
-    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
-
-    /* "nanmax.pyx":379
- *     if n1 == 0:
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         amax = MINint64
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 379; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_msg);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
-    __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 379; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 379; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":380
- *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
- *         raise ValueError(msg)
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         amax = MINint64
- *         for i1 in range(n1):
- */
-  __pyx_t_6 = __pyx_v_n0;
-  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-    __pyx_v_i0 = __pyx_t_7;
-
-    /* "nanmax.pyx":381
- *         raise ValueError(msg)
- *     for i0 in range(n0):
- *         amax = MINint64             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-    __pyx_v_amax = __pyx_v_6nanmax_MINint64;
-
-    /* "nanmax.pyx":382
- *     for i0 in range(n0):
- *         amax = MINint64
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_8 = __pyx_v_n1;
-    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
-      __pyx_v_i1 = __pyx_t_9;
-
-      /* "nanmax.pyx":383
- *         amax = MINint64
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":384
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *         y[i0] = amax
- */
-      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_4) {
-
-        /* "nanmax.pyx":385
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *         y[i0] = amax
- *     return y
- */
-        __pyx_v_amax = __pyx_v_ai;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-
-    /* "nanmax.pyx":386
- *             if ai >= amax:
- *                 amax = ai
- *         y[i0] = amax             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-    __pyx_t_8 = __pyx_v_i0;
-    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
-  }
-
-  /* "nanmax.pyx":387
- *                 amax = ai
- *         y[i0] = amax
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanmax.pyx":365
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_int64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_msg);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":391
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_21nanmax_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_20nanmax_1d_float_axisNone[] = "nanmax_1d_float_axisNone(ndarray a)\nMaximum of 1d array with dtype=float along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_21nanmax_1d_float_axisNone = {"nanmax_1d_float_axisNone", (PyCFunction)__pyx_pw_6nanmax_21nanmax_1d_float_axisNone, METH_O, __pyx_doc_6nanmax_20nanmax_1d_float_axisNone};
-static PyObject *__pyx_pw_6nanmax_21nanmax_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_1d_float_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_20nanmax_1d_float_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_20nanmax_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  int __pyx_v_allnan;
-  __pyx_t_5numpy_float_t __pyx_v_amax;
-  __pyx_t_5numpy_float_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  PyObject *__pyx_v_m = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  PyObject *__pyx_t_7 = NULL;
-  PyObject *__pyx_t_8 = NULL;
-  PyObject *__pyx_t_9 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_1d_float_axisNone", 0);
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
-
-  /* "nanmax.pyx":393
- * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):
- *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.float_t amax, ai
- *     cdef Py_ssize_t i0
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":397
- *     cdef Py_ssize_t i0
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":398
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":399
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- */
-  __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":400
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
- *         raise ValueError(m)
- *     amax = MINfloat
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
-    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
-
-    /* "nanmax.pyx":401
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)             # <<<<<<<<<<<<<<
- *     amax = MINfloat
- *     for i0 in range(n0):
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 401; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_m);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
-    __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 401; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 401; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":402
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- *     amax = MINfloat             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         ai = a[i0]
- */
-  __pyx_v_amax = __pyx_v_6nanmax_MINfloat;
-
-  /* "nanmax.pyx":403
- *         raise ValueError(m)
- *     amax = MINfloat
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         ai = a[i0]
- *         if ai >= amax:
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanmax.pyx":404
- *     amax = MINfloat
- *     for i0 in range(n0):
- *         ai = a[i0]             # <<<<<<<<<<<<<<
- *         if ai >= amax:
- *             amax = ai
- */
-    __pyx_t_6 = __pyx_v_i0;
-    __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
-
-    /* "nanmax.pyx":405
- *     for i0 in range(n0):
- *         ai = a[i0]
- *         if ai >= amax:             # <<<<<<<<<<<<<<
- *             amax = ai
- *             allnan = 0
- */
-    __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-    if (__pyx_t_1) {
-
-      /* "nanmax.pyx":406
- *         ai = a[i0]
- *         if ai >= amax:
- *             amax = ai             # <<<<<<<<<<<<<<
- *             allnan = 0
- *     if allnan == 0:
- */
-      __pyx_v_amax = __pyx_v_ai;
-
-      /* "nanmax.pyx":407
- *         if ai >= amax:
- *             amax = ai
- *             allnan = 0             # <<<<<<<<<<<<<<
- *     if allnan == 0:
- *         return np.float(amax)
- */
-      __pyx_v_allnan = 0;
-      goto __pyx_L6;
-    }
-    __pyx_L6:;
-  }
-
-  /* "nanmax.pyx":408
- *             amax = ai
- *             allnan = 0
- *     if allnan == 0:             # <<<<<<<<<<<<<<
- *         return np.float(amax)
- *     else:
- */
-  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":409
- *             allnan = 0
- *     if allnan == 0:
- *         return np.float(amax)             # <<<<<<<<<<<<<<
- *     else:
- *         return np.float(NAN)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_8 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
-      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
-      if (likely(__pyx_t_8)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
-        __Pyx_INCREF(__pyx_t_8);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_7, function);
-      }
-    }
-    if (!__pyx_t_8) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_9);
-      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_2);
-      __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-  /*else*/ {
-
-    /* "nanmax.pyx":411
- *         return np.float(amax)
- *     else:
- *         return np.float(NAN)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_float); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_9))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_9, function);
-      }
-    }
-    if (!__pyx_t_2) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_7); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_8);
-      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_8, 0+1, __pyx_t_7);
-      __Pyx_GIVEREF(__pyx_t_7);
-      __pyx_t_7 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-
-  /* "nanmax.pyx":391
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_XDECREF(__pyx_t_9);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_1d_float_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_m);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":415
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_23nanmax_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_22nanmax_1d_float32_axisNone[] = "nanmax_1d_float32_axisNone(ndarray a)\nMaximum of 1d array with dtype=float32 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_23nanmax_1d_float32_axisNone = {"nanmax_1d_float32_axisNone", (PyCFunction)__pyx_pw_6nanmax_23nanmax_1d_float32_axisNone, METH_O, __pyx_doc_6nanmax_22nanmax_1d_float32_axisNone};
-static PyObject *__pyx_pw_6nanmax_23nanmax_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_1d_float32_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 415; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_22nanmax_1d_float32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_22nanmax_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  int __pyx_v_allnan;
-  __pyx_t_5numpy_float32_t __pyx_v_amax;
-  __pyx_t_5numpy_float32_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  PyObject *__pyx_v_m = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  PyObject *__pyx_t_7 = NULL;
-  PyObject *__pyx_t_8 = NULL;
-  PyObject *__pyx_t_9 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_1d_float32_axisNone", 0);
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 415; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
-
-  /* "nanmax.pyx":417
- * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):
- *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.float32_t amax, ai
- *     cdef Py_ssize_t i0
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":421
- *     cdef Py_ssize_t i0
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":422
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":423
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- */
-  __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":424
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
- *         raise ValueError(m)
- *     amax = MINfloat32
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
-    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
-
-    /* "nanmax.pyx":425
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)             # <<<<<<<<<<<<<<
- *     amax = MINfloat32
- *     for i0 in range(n0):
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_m);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
-    __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":426
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- *     amax = MINfloat32             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         ai = a[i0]
- */
-  __pyx_v_amax = __pyx_v_6nanmax_MINfloat32;
-
-  /* "nanmax.pyx":427
- *         raise ValueError(m)
- *     amax = MINfloat32
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         ai = a[i0]
- *         if ai >= amax:
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanmax.pyx":428
- *     amax = MINfloat32
- *     for i0 in range(n0):
- *         ai = a[i0]             # <<<<<<<<<<<<<<
- *         if ai >= amax:
- *             amax = ai
- */
-    __pyx_t_6 = __pyx_v_i0;
-    __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
-
-    /* "nanmax.pyx":429
- *     for i0 in range(n0):
- *         ai = a[i0]
- *         if ai >= amax:             # <<<<<<<<<<<<<<
- *             amax = ai
- *             allnan = 0
- */
-    __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-    if (__pyx_t_1) {
-
-      /* "nanmax.pyx":430
- *         ai = a[i0]
- *         if ai >= amax:
- *             amax = ai             # <<<<<<<<<<<<<<
- *             allnan = 0
- *     if allnan == 0:
- */
-      __pyx_v_amax = __pyx_v_ai;
-
-      /* "nanmax.pyx":431
- *         if ai >= amax:
- *             amax = ai
- *             allnan = 0             # <<<<<<<<<<<<<<
- *     if allnan == 0:
- *         return np.float32(amax)
- */
-      __pyx_v_allnan = 0;
-      goto __pyx_L6;
-    }
-    __pyx_L6:;
-  }
-
-  /* "nanmax.pyx":432
- *             amax = ai
- *             allnan = 0
- *     if allnan == 0:             # <<<<<<<<<<<<<<
- *         return np.float32(amax)
- *     else:
- */
-  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":433
- *             allnan = 0
- *     if allnan == 0:
- *         return np.float32(amax)             # <<<<<<<<<<<<<<
- *     else:
- *         return np.float32(NAN)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float32); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_8 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
-      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
-      if (likely(__pyx_t_8)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
-        __Pyx_INCREF(__pyx_t_8);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_7, function);
-      }
-    }
-    if (!__pyx_t_8) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_9);
-      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_2);
-      __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-  /*else*/ {
-
-    /* "nanmax.pyx":435
- *         return np.float32(amax)
- *     else:
- *         return np.float32(NAN)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_float32); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_9))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_9, function);
-      }
-    }
-    if (!__pyx_t_2) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_7); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_8);
-      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_8, 0+1, __pyx_t_7);
-      __Pyx_GIVEREF(__pyx_t_7);
-      __pyx_t_7 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-
-  /* "nanmax.pyx":415
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_XDECREF(__pyx_t_9);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_1d_float32_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_m);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":439
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_25nanmax_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_24nanmax_1d_float64_axisNone[] = "nanmax_1d_float64_axisNone(ndarray a)\nMaximum of 1d array with dtype=float64 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_25nanmax_1d_float64_axisNone = {"nanmax_1d_float64_axisNone", (PyCFunction)__pyx_pw_6nanmax_25nanmax_1d_float64_axisNone, METH_O, __pyx_doc_6nanmax_24nanmax_1d_float64_axisNone};
-static PyObject *__pyx_pw_6nanmax_25nanmax_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_1d_float64_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 439; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_24nanmax_1d_float64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_24nanmax_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  int __pyx_v_allnan;
-  __pyx_t_5numpy_float64_t __pyx_v_amax;
-  __pyx_t_5numpy_float64_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  PyObject *__pyx_v_m = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  PyObject *__pyx_t_7 = NULL;
-  PyObject *__pyx_t_8 = NULL;
-  PyObject *__pyx_t_9 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_1d_float64_axisNone", 0);
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 439; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
-
-  /* "nanmax.pyx":441
- * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):
- *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.float64_t amax, ai
- *     cdef Py_ssize_t i0
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":445
- *     cdef Py_ssize_t i0
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":446
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":447
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:             # <<<<<<<<<<<<<<
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- */
-  __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":448
- *     cdef Py_ssize_t n0 = dim[0]
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
- *         raise ValueError(m)
- *     amax = MINfloat64
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
-    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
-
-    /* "nanmax.pyx":449
- *     if n0 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)             # <<<<<<<<<<<<<<
- *     amax = MINfloat64
- *     for i0 in range(n0):
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 449; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_m);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
-    __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 449; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 449; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":450
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- *     amax = MINfloat64             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         ai = a[i0]
- */
-  __pyx_v_amax = __pyx_v_6nanmax_MINfloat64;
-
-  /* "nanmax.pyx":451
- *         raise ValueError(m)
- *     amax = MINfloat64
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         ai = a[i0]
- *         if ai >= amax:
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanmax.pyx":452
- *     amax = MINfloat64
- *     for i0 in range(n0):
- *         ai = a[i0]             # <<<<<<<<<<<<<<
- *         if ai >= amax:
- *             amax = ai
- */
-    __pyx_t_6 = __pyx_v_i0;
-    __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
-
-    /* "nanmax.pyx":453
- *     for i0 in range(n0):
- *         ai = a[i0]
- *         if ai >= amax:             # <<<<<<<<<<<<<<
- *             amax = ai
- *             allnan = 0
- */
-    __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-    if (__pyx_t_1) {
-
-      /* "nanmax.pyx":454
- *         ai = a[i0]
- *         if ai >= amax:
- *             amax = ai             # <<<<<<<<<<<<<<
- *             allnan = 0
- *     if allnan == 0:
- */
-      __pyx_v_amax = __pyx_v_ai;
-
-      /* "nanmax.pyx":455
- *         if ai >= amax:
- *             amax = ai
- *             allnan = 0             # <<<<<<<<<<<<<<
- *     if allnan == 0:
- *         return np.float64(amax)
- */
-      __pyx_v_allnan = 0;
-      goto __pyx_L6;
-    }
-    __pyx_L6:;
-  }
-
-  /* "nanmax.pyx":456
- *             amax = ai
- *             allnan = 0
- *     if allnan == 0:             # <<<<<<<<<<<<<<
- *         return np.float64(amax)
- *     else:
- */
-  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":457
- *             allnan = 0
- *     if allnan == 0:
- *         return np.float64(amax)             # <<<<<<<<<<<<<<
- *     else:
- *         return np.float64(NAN)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 457; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 457; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 457; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_8 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
-      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
-      if (likely(__pyx_t_8)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
-        __Pyx_INCREF(__pyx_t_8);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_7, function);
-      }
-    }
-    if (!__pyx_t_8) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 457; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 457; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_9);
-      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_2);
-      __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 457; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-  /*else*/ {
-
-    /* "nanmax.pyx":459
- *         return np.float64(amax)
- *     else:
- *         return np.float64(NAN)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_float64); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_9))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_9, function);
-      }
-    }
-    if (!__pyx_t_2) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_7); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_8);
-      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_8, 0+1, __pyx_t_7);
-      __Pyx_GIVEREF(__pyx_t_7);
-      __pyx_t_7 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-
-  /* "nanmax.pyx":439
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_XDECREF(__pyx_t_9);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_1d_float64_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_m);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":463
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_27nanmax_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_26nanmax_2d_float_axisNone[] = "nanmax_2d_float_axisNone(ndarray a)\nMaximum of 2d array with dtype=float along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_27nanmax_2d_float_axisNone = {"nanmax_2d_float_axisNone", (PyCFunction)__pyx_pw_6nanmax_27nanmax_2d_float_axisNone, METH_O, __pyx_doc_6nanmax_26nanmax_2d_float_axisNone};
-static PyObject *__pyx_pw_6nanmax_27nanmax_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_float_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_26nanmax_2d_float_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_26nanmax_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  int __pyx_v_allnan;
-  __pyx_t_5numpy_float_t __pyx_v_amax;
-  __pyx_t_5numpy_float_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  PyObject *__pyx_v_m = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  PyObject *__pyx_t_10 = NULL;
-  PyObject *__pyx_t_11 = NULL;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_float_axisNone", 0);
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":465
- * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.float_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":469
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":470
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":471
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":472
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- */
-  __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":473
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
- *         raise ValueError(m)
- *     amax = MINfloat
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
-    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
-
-    /* "nanmax.pyx":474
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)             # <<<<<<<<<<<<<<
- *     amax = MINfloat
- *     for i0 in range(n0):
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 474; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_m);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
-    __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 474; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 474; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":475
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- *     amax = MINfloat             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         for i1 in range(n1):
- */
-  __pyx_v_amax = __pyx_v_6nanmax_MINfloat;
-
-  /* "nanmax.pyx":476
- *         raise ValueError(m)
- *     amax = MINfloat
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanmax.pyx":477
- *     amax = MINfloat
- *     for i0 in range(n0):
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_6 = __pyx_v_n1;
-    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-      __pyx_v_i1 = __pyx_t_7;
-
-      /* "nanmax.pyx":478
- *     for i0 in range(n0):
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_8 = __pyx_v_i0;
-      __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":479
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *                 allnan = 0
- */
-      __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_1) {
-
-        /* "nanmax.pyx":480
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *                 allnan = 0
- *     if allnan == 0:
- */
-        __pyx_v_amax = __pyx_v_ai;
-
-        /* "nanmax.pyx":481
- *             if ai >= amax:
- *                 amax = ai
- *                 allnan = 0             # <<<<<<<<<<<<<<
- *     if allnan == 0:
- *         return np.float(amax)
- */
-        __pyx_v_allnan = 0;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-  }
-
-  /* "nanmax.pyx":482
- *                 amax = ai
- *                 allnan = 0
- *     if allnan == 0:             # <<<<<<<<<<<<<<
- *         return np.float(amax)
- *     else:
- */
-  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":483
- *                 allnan = 0
- *     if allnan == 0:
- *         return np.float(amax)             # <<<<<<<<<<<<<<
- *     else:
- *         return np.float(NAN)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_11 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
-      __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_10);
-      if (likely(__pyx_t_11)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
-        __Pyx_INCREF(__pyx_t_11);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_10, function);
-      }
-    }
-    if (!__pyx_t_11) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_12);
-      PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_2);
-      __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-  /*else*/ {
-
-    /* "nanmax.pyx":485
- *         return np.float(amax)
- *     else:
- *         return np.float(NAN)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_12);
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_t_10 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_2 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_12))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_12);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_12, function);
-      }
-    }
-    if (!__pyx_t_2) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_12, __pyx_t_10); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_11 = PyTuple_New(1+1); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_11);
-      PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_11, 0+1, __pyx_t_10);
-      __Pyx_GIVEREF(__pyx_t_10);
-      __pyx_t_10 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_t_11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-
-  /* "nanmax.pyx":463
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_XDECREF(__pyx_t_12);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_float_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_m);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":489
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_29nanmax_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_28nanmax_2d_float32_axisNone[] = "nanmax_2d_float32_axisNone(ndarray a)\nMaximum of 2d array with dtype=float32 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_29nanmax_2d_float32_axisNone = {"nanmax_2d_float32_axisNone", (PyCFunction)__pyx_pw_6nanmax_29nanmax_2d_float32_axisNone, METH_O, __pyx_doc_6nanmax_28nanmax_2d_float32_axisNone};
-static PyObject *__pyx_pw_6nanmax_29nanmax_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_float32_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_28nanmax_2d_float32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_28nanmax_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  int __pyx_v_allnan;
-  __pyx_t_5numpy_float32_t __pyx_v_amax;
-  __pyx_t_5numpy_float32_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  PyObject *__pyx_v_m = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  PyObject *__pyx_t_10 = NULL;
-  PyObject *__pyx_t_11 = NULL;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_float32_axisNone", 0);
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":491
- * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.float32_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":495
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":496
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":497
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":498
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- */
-  __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":499
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
- *         raise ValueError(m)
- *     amax = MINfloat32
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
-    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
-
-    /* "nanmax.pyx":500
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)             # <<<<<<<<<<<<<<
- *     amax = MINfloat32
- *     for i0 in range(n0):
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 500; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_m);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
-    __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 500; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 500; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":501
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- *     amax = MINfloat32             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         for i1 in range(n1):
- */
-  __pyx_v_amax = __pyx_v_6nanmax_MINfloat32;
-
-  /* "nanmax.pyx":502
- *         raise ValueError(m)
- *     amax = MINfloat32
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanmax.pyx":503
- *     amax = MINfloat32
- *     for i0 in range(n0):
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_6 = __pyx_v_n1;
-    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-      __pyx_v_i1 = __pyx_t_7;
-
-      /* "nanmax.pyx":504
- *     for i0 in range(n0):
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_8 = __pyx_v_i0;
-      __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":505
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *                 allnan = 0
- */
-      __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_1) {
-
-        /* "nanmax.pyx":506
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *                 allnan = 0
- *     if allnan == 0:
- */
-        __pyx_v_amax = __pyx_v_ai;
-
-        /* "nanmax.pyx":507
- *             if ai >= amax:
- *                 amax = ai
- *                 allnan = 0             # <<<<<<<<<<<<<<
- *     if allnan == 0:
- *         return np.float32(amax)
- */
-        __pyx_v_allnan = 0;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-  }
-
-  /* "nanmax.pyx":508
- *                 amax = ai
- *                 allnan = 0
- *     if allnan == 0:             # <<<<<<<<<<<<<<
- *         return np.float32(amax)
- *     else:
- */
-  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":509
- *                 allnan = 0
- *     if allnan == 0:
- *         return np.float32(amax)             # <<<<<<<<<<<<<<
- *     else:
- *         return np.float32(NAN)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float32); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_11 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
-      __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_10);
-      if (likely(__pyx_t_11)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
-        __Pyx_INCREF(__pyx_t_11);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_10, function);
-      }
-    }
-    if (!__pyx_t_11) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_12);
-      PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_2);
-      __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-  /*else*/ {
-
-    /* "nanmax.pyx":511
- *         return np.float32(amax)
- *     else:
- *         return np.float32(NAN)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 511; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float32); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 511; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_12);
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_t_10 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 511; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_2 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_12))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_12);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_12, function);
-      }
-    }
-    if (!__pyx_t_2) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_12, __pyx_t_10); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 511; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_11 = PyTuple_New(1+1); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 511; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_11);
-      PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_11, 0+1, __pyx_t_10);
-      __Pyx_GIVEREF(__pyx_t_10);
-      __pyx_t_10 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_t_11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 511; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-
-  /* "nanmax.pyx":489
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_XDECREF(__pyx_t_12);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_float32_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_m);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":515
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_31nanmax_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_30nanmax_2d_float64_axisNone[] = "nanmax_2d_float64_axisNone(ndarray a)\nMaximum of 2d array with dtype=float64 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_31nanmax_2d_float64_axisNone = {"nanmax_2d_float64_axisNone", (PyCFunction)__pyx_pw_6nanmax_31nanmax_2d_float64_axisNone, METH_O, __pyx_doc_6nanmax_30nanmax_2d_float64_axisNone};
-static PyObject *__pyx_pw_6nanmax_31nanmax_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
-  CYTHON_UNUSED int __pyx_lineno = 0;
-  CYTHON_UNUSED const char *__pyx_filename = NULL;
-  CYTHON_UNUSED int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_2d_float64_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_30nanmax_2d_float64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_6nanmax_30nanmax_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
-  int __pyx_v_allnan;
-  __pyx_t_5numpy_float64_t __pyx_v_amax;
-  __pyx_t_5numpy_float64_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  PyObject *__pyx_v_m = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  PyObject *__pyx_t_10 = NULL;
-  PyObject *__pyx_t_11 = NULL;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanmax_2d_float64_axisNone", 0);
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-
-  /* "nanmax.pyx":517
- * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):
- *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1             # <<<<<<<<<<<<<<
- *     cdef np.float64_t amax, ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_allnan = 1;
-
-  /* "nanmax.pyx":521
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanmax.pyx":522
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanmax.pyx":523
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanmax.pyx":524
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- */
-  __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":525
- *     cdef Py_ssize_t n1 = dim[1]
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
- *         raise ValueError(m)
- *     amax = MINfloat64
- */
-    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
-    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
-
-    /* "nanmax.pyx":526
- *     if n0 * n1 == 0:
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)             # <<<<<<<<<<<<<<
- *     amax = MINfloat64
- *     for i0 in range(n0):
- */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 526; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx_v_m);
-    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
-    __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 526; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 526; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-
-  /* "nanmax.pyx":527
- *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
- *         raise ValueError(m)
- *     amax = MINfloat64             # <<<<<<<<<<<<<<
- *     for i0 in range(n0):
- *         for i1 in range(n1):
- */
-  __pyx_v_amax = __pyx_v_6nanmax_MINfloat64;
-
-  /* "nanmax.pyx":528
- *         raise ValueError(m)
- *     amax = MINfloat64
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanmax.pyx":529
- *     amax = MINfloat64
- *     for i0 in range(n0):
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             if ai >= amax:
- */
-    __pyx_t_6 = __pyx_v_n1;
-    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-      __pyx_v_i1 = __pyx_t_7;
-
-      /* "nanmax.pyx":530
- *     for i0 in range(n0):
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai >= amax:
- *                 amax = ai
- */
-      __pyx_t_8 = __pyx_v_i0;
-      __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanmax.pyx":531
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             if ai >= amax:             # <<<<<<<<<<<<<<
- *                 amax = ai
- *                 allnan = 0
- */
-      __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
-      if (__pyx_t_1) {
-
-        /* "nanmax.pyx":532
- *             ai = a[i0, i1]
- *             if ai >= amax:
- *                 amax = ai             # <<<<<<<<<<<<<<
- *                 allnan = 0
- *     if allnan == 0:
- */
-        __pyx_v_amax = __pyx_v_ai;
-
-        /* "nanmax.pyx":533
- *             if ai >= amax:
- *                 amax = ai
- *                 allnan = 0             # <<<<<<<<<<<<<<
- *     if allnan == 0:
- *         return np.float64(amax)
- */
-        __pyx_v_allnan = 0;
-        goto __pyx_L8;
-      }
-      __pyx_L8:;
-    }
-  }
-
-  /* "nanmax.pyx":534
- *                 amax = ai
- *                 allnan = 0
- *     if allnan == 0:             # <<<<<<<<<<<<<<
- *         return np.float64(amax)
- *     else:
- */
-  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
-  if (__pyx_t_1) {
-
-    /* "nanmax.pyx":535
- *                 allnan = 0
- *     if allnan == 0:
- *         return np.float64(amax)             # <<<<<<<<<<<<<<
- *     else:
- *         return np.float64(NAN)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_11 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
-      __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_10);
-      if (likely(__pyx_t_11)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
-        __Pyx_INCREF(__pyx_t_11);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_10, function);
-      }
-    }
-    if (!__pyx_t_11) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_12);
-      PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_2);
-      __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-  /*else*/ {
-
-    /* "nanmax.pyx":537
- *         return np.float64(amax)
- *     else:
- *         return np.float64(NAN)             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float64); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_12);
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_t_10 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_2 = NULL;
-    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_12))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_12);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_12, function);
-      }
-    }
-    if (!__pyx_t_2) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_12, __pyx_t_10); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __Pyx_GOTREF(__pyx_t_3);
-    } else {
-      __pyx_t_11 = PyTuple_New(1+1); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_11);
-      PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
-      PyTuple_SET_ITEM(__pyx_t_11, 0+1, __pyx_t_10);
-      __Pyx_GIVEREF(__pyx_t_10);
-      __pyx_t_10 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_t_11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-  }
-
-  /* "nanmax.pyx":515
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_XDECREF(__pyx_t_12);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanmax.nanmax_2d_float64_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_m);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanmax.pyx":541
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
  * def nanmax_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_33nanmax_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_32nanmax_2d_float_axis0[] = "nanmax_2d_float_axis0(ndarray a)\nMaximum of 2d array with dtype=float along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_33nanmax_2d_float_axis0 = {"nanmax_2d_float_axis0", (PyCFunction)__pyx_pw_6nanmax_33nanmax_2d_float_axis0, METH_O, __pyx_doc_6nanmax_32nanmax_2d_float_axis0};
-static PyObject *__pyx_pw_6nanmax_33nanmax_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_5nanmax_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_4nanmax_2d_float_axis0[] = "nanmax_2d_float_axis0(ndarray a)\nMaximum of 2d array with dtype=float along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_5nanmax_2d_float_axis0 = {"nanmax_2d_float_axis0", (PyCFunction)__pyx_pw_6nanmax_5nanmax_2d_float_axis0, METH_O, __pyx_doc_6nanmax_4nanmax_2d_float_axis0};
+static PyObject *__pyx_pw_6nanmax_5nanmax_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_float_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_32nanmax_2d_float_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_4nanmax_2d_float_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -6990,7 +2487,7 @@ static PyObject *__pyx_pw_6nanmax_33nanmax_2d_float_axis0(PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_4nanmax_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   int __pyx_v_allnan;
   __pyx_t_5numpy_float_t __pyx_v_amax;
   __pyx_t_5numpy_float_t __pyx_v_ai;
@@ -7033,11 +2530,11 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":543
+  /* "nanmax.pyx":185
  * def nanmax_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=float along axis=0 ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -7046,7 +2543,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":547
+  /* "nanmax.pyx":189
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -7055,7 +2552,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":548
+  /* "nanmax.pyx":190
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -7064,7 +2561,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":549
+  /* "nanmax.pyx":191
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -7073,7 +2570,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":550
+  /* "nanmax.pyx":192
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
@@ -7083,22 +2580,22 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   __pyx_t_1[0] = __pyx_v_n1;
   __pyx_v_dims = __pyx_t_1;
 
-  /* "nanmax.pyx":551
+  /* "nanmax.pyx":193
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n1]
  *     cdef np.ndarray[np.float_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
  * 		NPY_float, 0)
  *     if n0 == 0:
  */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 551; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 551; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 551; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -7106,7 +2603,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":553
+  /* "nanmax.pyx":195
  *     cdef np.ndarray[np.float_t, ndim=1] y = PyArray_EMPTY(1, dims,
  * 		NPY_float, 0)
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -7116,7 +2613,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "nanmax.pyx":554
+    /* "nanmax.pyx":196
  * 		NPY_float, 0)
  *     if n0 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
@@ -7126,27 +2623,27 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
     __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
 
-    /* "nanmax.pyx":555
+    /* "nanmax.pyx":197
  *     if n0 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)             # <<<<<<<<<<<<<<
  *     for i1 in range(n1):
  *         amax = MINfloat
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_msg);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
     __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_5, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":556
+  /* "nanmax.pyx":198
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)
  *     for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -7157,7 +2654,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_i1 = __pyx_t_7;
 
-    /* "nanmax.pyx":557
+    /* "nanmax.pyx":199
  *         raise ValueError(msg)
  *     for i1 in range(n1):
  *         amax = MINfloat             # <<<<<<<<<<<<<<
@@ -7166,7 +2663,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
     __pyx_v_amax = __pyx_v_6nanmax_MINfloat;
 
-    /* "nanmax.pyx":558
+    /* "nanmax.pyx":200
  *     for i1 in range(n1):
  *         amax = MINfloat
  *         allnan = 1             # <<<<<<<<<<<<<<
@@ -7175,7 +2672,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
     __pyx_v_allnan = 1;
 
-    /* "nanmax.pyx":559
+    /* "nanmax.pyx":201
  *         amax = MINfloat
  *         allnan = 1
  *         for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -7186,7 +2683,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_i0 = __pyx_t_9;
 
-      /* "nanmax.pyx":560
+      /* "nanmax.pyx":202
  *         allnan = 1
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -7197,7 +2694,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
       __pyx_t_11 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":561
+      /* "nanmax.pyx":203
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -7207,7 +2704,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
       __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_4) {
 
-        /* "nanmax.pyx":562
+        /* "nanmax.pyx":204
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -7216,7 +2713,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
         __pyx_v_amax = __pyx_v_ai;
 
-        /* "nanmax.pyx":563
+        /* "nanmax.pyx":205
  *             if ai >= amax:
  *                 amax = ai
  *                 allnan = 0             # <<<<<<<<<<<<<<
@@ -7229,7 +2726,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
       __pyx_L8:;
     }
 
-    /* "nanmax.pyx":564
+    /* "nanmax.pyx":206
  *                 amax = ai
  *                 allnan = 0
  *         if allnan == 0:             # <<<<<<<<<<<<<<
@@ -7239,7 +2736,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
     __pyx_t_4 = ((__pyx_v_allnan == 0) != 0);
     if (__pyx_t_4) {
 
-      /* "nanmax.pyx":565
+      /* "nanmax.pyx":207
  *                 allnan = 0
  *         if allnan == 0:
  *             y[i1] = amax             # <<<<<<<<<<<<<<
@@ -7252,7 +2749,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
     }
     /*else*/ {
 
-      /* "nanmax.pyx":567
+      /* "nanmax.pyx":209
  *             y[i1] = amax
  *         else:
  *             y[i1] = NAN             # <<<<<<<<<<<<<<
@@ -7265,7 +2762,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
     __pyx_L9:;
   }
 
-  /* "nanmax.pyx":568
+  /* "nanmax.pyx":210
  *         else:
  *             y[i1] = NAN
  *     return y             # <<<<<<<<<<<<<<
@@ -7277,7 +2774,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   __pyx_r = ((PyObject *)__pyx_v_y);
   goto __pyx_L0;
 
-  /* "nanmax.pyx":541
+  /* "nanmax.pyx":183
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -7308,7 +2805,7 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "nanmax.pyx":572
+/* "nanmax.pyx":214
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -7317,18 +2814,18 @@ static PyObject *__pyx_pf_6nanmax_32nanmax_2d_float_axis0(CYTHON_UNUSED PyObject
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_35nanmax_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_34nanmax_2d_float_axis1[] = "nanmax_2d_float_axis1(ndarray a)\nMaximum of 2d array with dtype=float along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_35nanmax_2d_float_axis1 = {"nanmax_2d_float_axis1", (PyCFunction)__pyx_pw_6nanmax_35nanmax_2d_float_axis1, METH_O, __pyx_doc_6nanmax_34nanmax_2d_float_axis1};
-static PyObject *__pyx_pw_6nanmax_35nanmax_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_7nanmax_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_6nanmax_2d_float_axis1[] = "nanmax_2d_float_axis1(ndarray a)\nMaximum of 2d array with dtype=float along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_7nanmax_2d_float_axis1 = {"nanmax_2d_float_axis1", (PyCFunction)__pyx_pw_6nanmax_7nanmax_2d_float_axis1, METH_O, __pyx_doc_6nanmax_6nanmax_2d_float_axis1};
+static PyObject *__pyx_pw_6nanmax_7nanmax_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_float_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 572; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_34nanmax_2d_float_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_6nanmax_2d_float_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -7339,7 +2836,7 @@ static PyObject *__pyx_pw_6nanmax_35nanmax_2d_float_axis1(PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_6nanmax_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   int __pyx_v_allnan;
   __pyx_t_5numpy_float_t __pyx_v_amax;
   __pyx_t_5numpy_float_t __pyx_v_ai;
@@ -7382,11 +2879,11 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 572; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":574
+  /* "nanmax.pyx":216
  * def nanmax_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=float along axis=1 ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -7395,7 +2892,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":578
+  /* "nanmax.pyx":220
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -7404,7 +2901,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":579
+  /* "nanmax.pyx":221
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -7413,7 +2910,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":580
+  /* "nanmax.pyx":222
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -7422,7 +2919,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":581
+  /* "nanmax.pyx":223
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
@@ -7432,22 +2929,22 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   __pyx_t_1[0] = __pyx_v_n0;
   __pyx_v_dims = __pyx_t_1;
 
-  /* "nanmax.pyx":582
+  /* "nanmax.pyx":224
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n0]
  *     cdef np.ndarray[np.float_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
  * 		NPY_float, 0)
  *     if n1 == 0:
  */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 582; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 582; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 582; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -7455,7 +2952,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":584
+  /* "nanmax.pyx":226
  *     cdef np.ndarray[np.float_t, ndim=1] y = PyArray_EMPTY(1, dims,
  * 		NPY_float, 0)
  *     if n1 == 0:             # <<<<<<<<<<<<<<
@@ -7465,7 +2962,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "nanmax.pyx":585
+    /* "nanmax.pyx":227
  * 		NPY_float, 0)
  *     if n1 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
@@ -7475,27 +2972,27 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
     __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
 
-    /* "nanmax.pyx":586
+    /* "nanmax.pyx":228
  *     if n1 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)             # <<<<<<<<<<<<<<
  *     for i0 in range(n0):
  *         amax = MINfloat
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 228; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_msg);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
     __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 228; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_5, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 228; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":587
+  /* "nanmax.pyx":229
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -7506,7 +3003,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_i0 = __pyx_t_7;
 
-    /* "nanmax.pyx":588
+    /* "nanmax.pyx":230
  *         raise ValueError(msg)
  *     for i0 in range(n0):
  *         amax = MINfloat             # <<<<<<<<<<<<<<
@@ -7515,7 +3012,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
     __pyx_v_amax = __pyx_v_6nanmax_MINfloat;
 
-    /* "nanmax.pyx":589
+    /* "nanmax.pyx":231
  *     for i0 in range(n0):
  *         amax = MINfloat
  *         allnan = 1             # <<<<<<<<<<<<<<
@@ -7524,7 +3021,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
     __pyx_v_allnan = 1;
 
-    /* "nanmax.pyx":590
+    /* "nanmax.pyx":232
  *         amax = MINfloat
  *         allnan = 1
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -7535,7 +3032,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_i1 = __pyx_t_9;
 
-      /* "nanmax.pyx":591
+      /* "nanmax.pyx":233
  *         allnan = 1
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -7546,7 +3043,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
       __pyx_t_11 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":592
+      /* "nanmax.pyx":234
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -7556,7 +3053,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
       __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_4) {
 
-        /* "nanmax.pyx":593
+        /* "nanmax.pyx":235
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -7565,7 +3062,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
         __pyx_v_amax = __pyx_v_ai;
 
-        /* "nanmax.pyx":594
+        /* "nanmax.pyx":236
  *             if ai >= amax:
  *                 amax = ai
  *                 allnan = 0             # <<<<<<<<<<<<<<
@@ -7578,7 +3075,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
       __pyx_L8:;
     }
 
-    /* "nanmax.pyx":595
+    /* "nanmax.pyx":237
  *                 amax = ai
  *                 allnan = 0
  *         if allnan == 0:             # <<<<<<<<<<<<<<
@@ -7588,7 +3085,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
     __pyx_t_4 = ((__pyx_v_allnan == 0) != 0);
     if (__pyx_t_4) {
 
-      /* "nanmax.pyx":596
+      /* "nanmax.pyx":238
  *                 allnan = 0
  *         if allnan == 0:
  *             y[i0] = amax             # <<<<<<<<<<<<<<
@@ -7601,7 +3098,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
     }
     /*else*/ {
 
-      /* "nanmax.pyx":598
+      /* "nanmax.pyx":240
  *             y[i0] = amax
  *         else:
  *             y[i0] = NAN             # <<<<<<<<<<<<<<
@@ -7614,7 +3111,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
     __pyx_L9:;
   }
 
-  /* "nanmax.pyx":599
+  /* "nanmax.pyx":241
  *         else:
  *             y[i0] = NAN
  *     return y             # <<<<<<<<<<<<<<
@@ -7626,7 +3123,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   __pyx_r = ((PyObject *)__pyx_v_y);
   goto __pyx_L0;
 
-  /* "nanmax.pyx":572
+  /* "nanmax.pyx":214
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -7657,7 +3154,7 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "nanmax.pyx":603
+/* "nanmax.pyx":245
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -7666,18 +3163,18 @@ static PyObject *__pyx_pf_6nanmax_34nanmax_2d_float_axis1(CYTHON_UNUSED PyObject
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_37nanmax_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_36nanmax_2d_float32_axis0[] = "nanmax_2d_float32_axis0(ndarray a)\nMaximum of 2d array with dtype=float32 along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_37nanmax_2d_float32_axis0 = {"nanmax_2d_float32_axis0", (PyCFunction)__pyx_pw_6nanmax_37nanmax_2d_float32_axis0, METH_O, __pyx_doc_6nanmax_36nanmax_2d_float32_axis0};
-static PyObject *__pyx_pw_6nanmax_37nanmax_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_9nanmax_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_8nanmax_2d_float32_axis0[] = "nanmax_2d_float32_axis0(ndarray a)\nMaximum of 2d array with dtype=float32 along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_9nanmax_2d_float32_axis0 = {"nanmax_2d_float32_axis0", (PyCFunction)__pyx_pw_6nanmax_9nanmax_2d_float32_axis0, METH_O, __pyx_doc_6nanmax_8nanmax_2d_float32_axis0};
+static PyObject *__pyx_pw_6nanmax_9nanmax_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_float32_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_36nanmax_2d_float32_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_8nanmax_2d_float32_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -7688,7 +3185,7 @@ static PyObject *__pyx_pw_6nanmax_37nanmax_2d_float32_axis0(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_8nanmax_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   int __pyx_v_allnan;
   __pyx_t_5numpy_float32_t __pyx_v_amax;
   __pyx_t_5numpy_float32_t __pyx_v_ai;
@@ -7731,11 +3228,11 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":605
+  /* "nanmax.pyx":247
  * def nanmax_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=float32 along axis=0 ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -7744,7 +3241,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":609
+  /* "nanmax.pyx":251
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -7753,7 +3250,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":610
+  /* "nanmax.pyx":252
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -7762,7 +3259,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":611
+  /* "nanmax.pyx":253
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -7771,7 +3268,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":612
+  /* "nanmax.pyx":254
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
@@ -7781,22 +3278,22 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   __pyx_t_1[0] = __pyx_v_n1;
   __pyx_v_dims = __pyx_t_1;
 
-  /* "nanmax.pyx":613
+  /* "nanmax.pyx":255
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n1]
  *     cdef np.ndarray[np.float32_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
  * 		NPY_float32, 0)
  *     if n0 == 0:
  */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 613; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 613; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 613; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -7804,7 +3301,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":615
+  /* "nanmax.pyx":257
  *     cdef np.ndarray[np.float32_t, ndim=1] y = PyArray_EMPTY(1, dims,
  * 		NPY_float32, 0)
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -7814,7 +3311,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "nanmax.pyx":616
+    /* "nanmax.pyx":258
  * 		NPY_float32, 0)
  *     if n0 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
@@ -7824,27 +3321,27 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
     __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
 
-    /* "nanmax.pyx":617
+    /* "nanmax.pyx":259
  *     if n0 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)             # <<<<<<<<<<<<<<
  *     for i1 in range(n1):
  *         amax = MINfloat32
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 259; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_msg);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
     __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 259; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_5, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 259; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":618
+  /* "nanmax.pyx":260
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)
  *     for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -7855,7 +3352,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_i1 = __pyx_t_7;
 
-    /* "nanmax.pyx":619
+    /* "nanmax.pyx":261
  *         raise ValueError(msg)
  *     for i1 in range(n1):
  *         amax = MINfloat32             # <<<<<<<<<<<<<<
@@ -7864,7 +3361,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
     __pyx_v_amax = __pyx_v_6nanmax_MINfloat32;
 
-    /* "nanmax.pyx":620
+    /* "nanmax.pyx":262
  *     for i1 in range(n1):
  *         amax = MINfloat32
  *         allnan = 1             # <<<<<<<<<<<<<<
@@ -7873,7 +3370,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
     __pyx_v_allnan = 1;
 
-    /* "nanmax.pyx":621
+    /* "nanmax.pyx":263
  *         amax = MINfloat32
  *         allnan = 1
  *         for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -7884,7 +3381,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_i0 = __pyx_t_9;
 
-      /* "nanmax.pyx":622
+      /* "nanmax.pyx":264
  *         allnan = 1
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -7895,7 +3392,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
       __pyx_t_11 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":623
+      /* "nanmax.pyx":265
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -7905,7 +3402,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
       __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_4) {
 
-        /* "nanmax.pyx":624
+        /* "nanmax.pyx":266
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -7914,7 +3411,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
         __pyx_v_amax = __pyx_v_ai;
 
-        /* "nanmax.pyx":625
+        /* "nanmax.pyx":267
  *             if ai >= amax:
  *                 amax = ai
  *                 allnan = 0             # <<<<<<<<<<<<<<
@@ -7927,7 +3424,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
       __pyx_L8:;
     }
 
-    /* "nanmax.pyx":626
+    /* "nanmax.pyx":268
  *                 amax = ai
  *                 allnan = 0
  *         if allnan == 0:             # <<<<<<<<<<<<<<
@@ -7937,7 +3434,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
     __pyx_t_4 = ((__pyx_v_allnan == 0) != 0);
     if (__pyx_t_4) {
 
-      /* "nanmax.pyx":627
+      /* "nanmax.pyx":269
  *                 allnan = 0
  *         if allnan == 0:
  *             y[i1] = amax             # <<<<<<<<<<<<<<
@@ -7950,7 +3447,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
     }
     /*else*/ {
 
-      /* "nanmax.pyx":629
+      /* "nanmax.pyx":271
  *             y[i1] = amax
  *         else:
  *             y[i1] = NAN             # <<<<<<<<<<<<<<
@@ -7963,7 +3460,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
     __pyx_L9:;
   }
 
-  /* "nanmax.pyx":630
+  /* "nanmax.pyx":272
  *         else:
  *             y[i1] = NAN
  *     return y             # <<<<<<<<<<<<<<
@@ -7975,7 +3472,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   __pyx_r = ((PyObject *)__pyx_v_y);
   goto __pyx_L0;
 
-  /* "nanmax.pyx":603
+  /* "nanmax.pyx":245
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -8006,7 +3503,7 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "nanmax.pyx":634
+/* "nanmax.pyx":276
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -8015,18 +3512,18 @@ static PyObject *__pyx_pf_6nanmax_36nanmax_2d_float32_axis0(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_39nanmax_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_38nanmax_2d_float32_axis1[] = "nanmax_2d_float32_axis1(ndarray a)\nMaximum of 2d array with dtype=float32 along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_39nanmax_2d_float32_axis1 = {"nanmax_2d_float32_axis1", (PyCFunction)__pyx_pw_6nanmax_39nanmax_2d_float32_axis1, METH_O, __pyx_doc_6nanmax_38nanmax_2d_float32_axis1};
-static PyObject *__pyx_pw_6nanmax_39nanmax_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_11nanmax_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_10nanmax_2d_float32_axis1[] = "nanmax_2d_float32_axis1(ndarray a)\nMaximum of 2d array with dtype=float32 along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_11nanmax_2d_float32_axis1 = {"nanmax_2d_float32_axis1", (PyCFunction)__pyx_pw_6nanmax_11nanmax_2d_float32_axis1, METH_O, __pyx_doc_6nanmax_10nanmax_2d_float32_axis1};
+static PyObject *__pyx_pw_6nanmax_11nanmax_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_float32_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 634; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_38nanmax_2d_float32_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_10nanmax_2d_float32_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -8037,7 +3534,7 @@ static PyObject *__pyx_pw_6nanmax_39nanmax_2d_float32_axis1(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_10nanmax_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   int __pyx_v_allnan;
   __pyx_t_5numpy_float32_t __pyx_v_amax;
   __pyx_t_5numpy_float32_t __pyx_v_ai;
@@ -8080,11 +3577,11 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 634; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":636
+  /* "nanmax.pyx":278
  * def nanmax_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=float32 along axis=1 ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -8093,7 +3590,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":640
+  /* "nanmax.pyx":282
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -8102,7 +3599,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":641
+  /* "nanmax.pyx":283
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -8111,7 +3608,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":642
+  /* "nanmax.pyx":284
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -8120,7 +3617,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":643
+  /* "nanmax.pyx":285
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
@@ -8130,22 +3627,22 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   __pyx_t_1[0] = __pyx_v_n0;
   __pyx_v_dims = __pyx_t_1;
 
-  /* "nanmax.pyx":644
+  /* "nanmax.pyx":286
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n0]
  *     cdef np.ndarray[np.float32_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
  * 		NPY_float32, 0)
  *     if n1 == 0:
  */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 644; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 644; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 644; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -8153,7 +3650,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":646
+  /* "nanmax.pyx":288
  *     cdef np.ndarray[np.float32_t, ndim=1] y = PyArray_EMPTY(1, dims,
  * 		NPY_float32, 0)
  *     if n1 == 0:             # <<<<<<<<<<<<<<
@@ -8163,7 +3660,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "nanmax.pyx":647
+    /* "nanmax.pyx":289
  * 		NPY_float32, 0)
  *     if n1 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
@@ -8173,27 +3670,27 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
     __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
 
-    /* "nanmax.pyx":648
+    /* "nanmax.pyx":290
  *     if n1 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)             # <<<<<<<<<<<<<<
  *     for i0 in range(n0):
  *         amax = MINfloat32
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 648; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 290; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_msg);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
     __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 648; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 290; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_5, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 648; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 290; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":649
+  /* "nanmax.pyx":291
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -8204,7 +3701,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_i0 = __pyx_t_7;
 
-    /* "nanmax.pyx":650
+    /* "nanmax.pyx":292
  *         raise ValueError(msg)
  *     for i0 in range(n0):
  *         amax = MINfloat32             # <<<<<<<<<<<<<<
@@ -8213,7 +3710,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
     __pyx_v_amax = __pyx_v_6nanmax_MINfloat32;
 
-    /* "nanmax.pyx":651
+    /* "nanmax.pyx":293
  *     for i0 in range(n0):
  *         amax = MINfloat32
  *         allnan = 1             # <<<<<<<<<<<<<<
@@ -8222,7 +3719,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
     __pyx_v_allnan = 1;
 
-    /* "nanmax.pyx":652
+    /* "nanmax.pyx":294
  *         amax = MINfloat32
  *         allnan = 1
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -8233,7 +3730,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_i1 = __pyx_t_9;
 
-      /* "nanmax.pyx":653
+      /* "nanmax.pyx":295
  *         allnan = 1
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -8244,7 +3741,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
       __pyx_t_11 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":654
+      /* "nanmax.pyx":296
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -8254,7 +3751,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
       __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_4) {
 
-        /* "nanmax.pyx":655
+        /* "nanmax.pyx":297
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -8263,7 +3760,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
         __pyx_v_amax = __pyx_v_ai;
 
-        /* "nanmax.pyx":656
+        /* "nanmax.pyx":298
  *             if ai >= amax:
  *                 amax = ai
  *                 allnan = 0             # <<<<<<<<<<<<<<
@@ -8276,7 +3773,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
       __pyx_L8:;
     }
 
-    /* "nanmax.pyx":657
+    /* "nanmax.pyx":299
  *                 amax = ai
  *                 allnan = 0
  *         if allnan == 0:             # <<<<<<<<<<<<<<
@@ -8286,7 +3783,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
     __pyx_t_4 = ((__pyx_v_allnan == 0) != 0);
     if (__pyx_t_4) {
 
-      /* "nanmax.pyx":658
+      /* "nanmax.pyx":300
  *                 allnan = 0
  *         if allnan == 0:
  *             y[i0] = amax             # <<<<<<<<<<<<<<
@@ -8299,7 +3796,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
     }
     /*else*/ {
 
-      /* "nanmax.pyx":660
+      /* "nanmax.pyx":302
  *             y[i0] = amax
  *         else:
  *             y[i0] = NAN             # <<<<<<<<<<<<<<
@@ -8312,7 +3809,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
     __pyx_L9:;
   }
 
-  /* "nanmax.pyx":661
+  /* "nanmax.pyx":303
  *         else:
  *             y[i0] = NAN
  *     return y             # <<<<<<<<<<<<<<
@@ -8324,7 +3821,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   __pyx_r = ((PyObject *)__pyx_v_y);
   goto __pyx_L0;
 
-  /* "nanmax.pyx":634
+  /* "nanmax.pyx":276
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -8355,7 +3852,7 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "nanmax.pyx":665
+/* "nanmax.pyx":307
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -8364,18 +3861,18 @@ static PyObject *__pyx_pf_6nanmax_38nanmax_2d_float32_axis1(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_41nanmax_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_40nanmax_2d_float64_axis0[] = "nanmax_2d_float64_axis0(ndarray a)\nMaximum of 2d array with dtype=float64 along axis=0 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_41nanmax_2d_float64_axis0 = {"nanmax_2d_float64_axis0", (PyCFunction)__pyx_pw_6nanmax_41nanmax_2d_float64_axis0, METH_O, __pyx_doc_6nanmax_40nanmax_2d_float64_axis0};
-static PyObject *__pyx_pw_6nanmax_41nanmax_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_13nanmax_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_12nanmax_2d_float64_axis0[] = "nanmax_2d_float64_axis0(ndarray a)\nMaximum of 2d array with dtype=float64 along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_13nanmax_2d_float64_axis0 = {"nanmax_2d_float64_axis0", (PyCFunction)__pyx_pw_6nanmax_13nanmax_2d_float64_axis0, METH_O, __pyx_doc_6nanmax_12nanmax_2d_float64_axis0};
+static PyObject *__pyx_pw_6nanmax_13nanmax_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_float64_axis0 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_40nanmax_2d_float64_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_12nanmax_2d_float64_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -8386,7 +3883,7 @@ static PyObject *__pyx_pw_6nanmax_41nanmax_2d_float64_axis0(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_12nanmax_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   int __pyx_v_allnan;
   __pyx_t_5numpy_float64_t __pyx_v_amax;
   __pyx_t_5numpy_float64_t __pyx_v_ai;
@@ -8429,11 +3926,11 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":667
+  /* "nanmax.pyx":309
  * def nanmax_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=float64 along axis=0 ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -8442,7 +3939,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":671
+  /* "nanmax.pyx":313
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -8451,7 +3948,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":672
+  /* "nanmax.pyx":314
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -8460,7 +3957,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":673
+  /* "nanmax.pyx":315
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -8469,7 +3966,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":674
+  /* "nanmax.pyx":316
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
@@ -8479,22 +3976,22 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   __pyx_t_1[0] = __pyx_v_n1;
   __pyx_v_dims = __pyx_t_1;
 
-  /* "nanmax.pyx":675
+  /* "nanmax.pyx":317
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n1]
  *     cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
  * 		NPY_float64, 0)
  *     if n0 == 0:
  */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 675; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 317; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 675; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 317; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 675; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 317; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -8502,7 +3999,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":677
+  /* "nanmax.pyx":319
  *     cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
  * 		NPY_float64, 0)
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -8512,7 +4009,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "nanmax.pyx":678
+    /* "nanmax.pyx":320
  * 		NPY_float64, 0)
  *     if n0 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
@@ -8522,27 +4019,27 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
     __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
 
-    /* "nanmax.pyx":679
+    /* "nanmax.pyx":321
  *     if n0 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)             # <<<<<<<<<<<<<<
  *     for i1 in range(n1):
  *         amax = MINfloat64
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 679; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_msg);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
     __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 679; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_5, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 679; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":680
+  /* "nanmax.pyx":322
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)
  *     for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -8553,7 +4050,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_i1 = __pyx_t_7;
 
-    /* "nanmax.pyx":681
+    /* "nanmax.pyx":323
  *         raise ValueError(msg)
  *     for i1 in range(n1):
  *         amax = MINfloat64             # <<<<<<<<<<<<<<
@@ -8562,7 +4059,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
     __pyx_v_amax = __pyx_v_6nanmax_MINfloat64;
 
-    /* "nanmax.pyx":682
+    /* "nanmax.pyx":324
  *     for i1 in range(n1):
  *         amax = MINfloat64
  *         allnan = 1             # <<<<<<<<<<<<<<
@@ -8571,7 +4068,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
     __pyx_v_allnan = 1;
 
-    /* "nanmax.pyx":683
+    /* "nanmax.pyx":325
  *         amax = MINfloat64
  *         allnan = 1
  *         for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -8582,7 +4079,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_i0 = __pyx_t_9;
 
-      /* "nanmax.pyx":684
+      /* "nanmax.pyx":326
  *         allnan = 1
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -8593,7 +4090,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
       __pyx_t_11 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":685
+      /* "nanmax.pyx":327
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -8603,7 +4100,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
       __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_4) {
 
-        /* "nanmax.pyx":686
+        /* "nanmax.pyx":328
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -8612,7 +4109,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
         __pyx_v_amax = __pyx_v_ai;
 
-        /* "nanmax.pyx":687
+        /* "nanmax.pyx":329
  *             if ai >= amax:
  *                 amax = ai
  *                 allnan = 0             # <<<<<<<<<<<<<<
@@ -8625,7 +4122,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
       __pyx_L8:;
     }
 
-    /* "nanmax.pyx":688
+    /* "nanmax.pyx":330
  *                 amax = ai
  *                 allnan = 0
  *         if allnan == 0:             # <<<<<<<<<<<<<<
@@ -8635,7 +4132,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
     __pyx_t_4 = ((__pyx_v_allnan == 0) != 0);
     if (__pyx_t_4) {
 
-      /* "nanmax.pyx":689
+      /* "nanmax.pyx":331
  *                 allnan = 0
  *         if allnan == 0:
  *             y[i1] = amax             # <<<<<<<<<<<<<<
@@ -8648,7 +4145,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
     }
     /*else*/ {
 
-      /* "nanmax.pyx":691
+      /* "nanmax.pyx":333
  *             y[i1] = amax
  *         else:
  *             y[i1] = NAN             # <<<<<<<<<<<<<<
@@ -8661,7 +4158,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
     __pyx_L9:;
   }
 
-  /* "nanmax.pyx":692
+  /* "nanmax.pyx":334
  *         else:
  *             y[i1] = NAN
  *     return y             # <<<<<<<<<<<<<<
@@ -8673,7 +4170,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   __pyx_r = ((PyObject *)__pyx_v_y);
   goto __pyx_L0;
 
-  /* "nanmax.pyx":665
+  /* "nanmax.pyx":307
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -8704,7 +4201,7 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "nanmax.pyx":696
+/* "nanmax.pyx":338
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -8713,18 +4210,18 @@ static PyObject *__pyx_pf_6nanmax_40nanmax_2d_float64_axis0(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_43nanmax_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_42nanmax_2d_float64_axis1[] = "nanmax_2d_float64_axis1(ndarray a)\nMaximum of 2d array with dtype=float64 along axis=1 ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_43nanmax_2d_float64_axis1 = {"nanmax_2d_float64_axis1", (PyCFunction)__pyx_pw_6nanmax_43nanmax_2d_float64_axis1, METH_O, __pyx_doc_6nanmax_42nanmax_2d_float64_axis1};
-static PyObject *__pyx_pw_6nanmax_43nanmax_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_15nanmax_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_14nanmax_2d_float64_axis1[] = "nanmax_2d_float64_axis1(ndarray a)\nMaximum of 2d array with dtype=float64 along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_15nanmax_2d_float64_axis1 = {"nanmax_2d_float64_axis1", (PyCFunction)__pyx_pw_6nanmax_15nanmax_2d_float64_axis1, METH_O, __pyx_doc_6nanmax_14nanmax_2d_float64_axis1};
+static PyObject *__pyx_pw_6nanmax_15nanmax_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_float64_axis1 (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 696; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_42nanmax_2d_float64_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_14nanmax_2d_float64_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -8735,7 +4232,7 @@ static PyObject *__pyx_pw_6nanmax_43nanmax_2d_float64_axis1(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_14nanmax_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   int __pyx_v_allnan;
   __pyx_t_5numpy_float64_t __pyx_v_amax;
   __pyx_t_5numpy_float64_t __pyx_v_ai;
@@ -8778,11 +4275,11 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 696; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":698
+  /* "nanmax.pyx":340
  * def nanmax_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=float64 along axis=1 ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -8791,7 +4288,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":702
+  /* "nanmax.pyx":344
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -8800,7 +4297,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":703
+  /* "nanmax.pyx":345
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -8809,7 +4306,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":704
+  /* "nanmax.pyx":346
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -8818,7 +4315,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":705
+  /* "nanmax.pyx":347
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
@@ -8828,22 +4325,22 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   __pyx_t_1[0] = __pyx_v_n0;
   __pyx_v_dims = __pyx_t_1;
 
-  /* "nanmax.pyx":706
+  /* "nanmax.pyx":348
  *     cdef Py_ssize_t n1 = dim[1]
  *     cdef np.npy_intp *dims = [n0]
  *     cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
  * 		NPY_float64, 0)
  *     if n1 == 0:
  */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 706; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_FLOAT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 706; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 706; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -8851,7 +4348,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":708
+  /* "nanmax.pyx":350
  *     cdef np.ndarray[np.float64_t, ndim=1] y = PyArray_EMPTY(1, dims,
  * 		NPY_float64, 0)
  *     if n1 == 0:             # <<<<<<<<<<<<<<
@@ -8861,7 +4358,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "nanmax.pyx":709
+    /* "nanmax.pyx":351
  * 		NPY_float64, 0)
  *     if n1 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
@@ -8871,27 +4368,27 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
     __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
 
-    /* "nanmax.pyx":710
+    /* "nanmax.pyx":352
  *     if n1 == 0:
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)             # <<<<<<<<<<<<<<
  *     for i0 in range(n0):
  *         amax = MINfloat64
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 710; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 352; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_msg);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
     __Pyx_GIVEREF(__pyx_v_msg);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 710; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 352; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_5, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 710; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 352; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":711
+  /* "nanmax.pyx":353
  *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
  *         raise ValueError(msg)
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -8902,7 +4399,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_i0 = __pyx_t_7;
 
-    /* "nanmax.pyx":712
+    /* "nanmax.pyx":354
  *         raise ValueError(msg)
  *     for i0 in range(n0):
  *         amax = MINfloat64             # <<<<<<<<<<<<<<
@@ -8911,7 +4408,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
     __pyx_v_amax = __pyx_v_6nanmax_MINfloat64;
 
-    /* "nanmax.pyx":713
+    /* "nanmax.pyx":355
  *     for i0 in range(n0):
  *         amax = MINfloat64
  *         allnan = 1             # <<<<<<<<<<<<<<
@@ -8920,7 +4417,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
     __pyx_v_allnan = 1;
 
-    /* "nanmax.pyx":714
+    /* "nanmax.pyx":356
  *         amax = MINfloat64
  *         allnan = 1
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -8931,7 +4428,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_i1 = __pyx_t_9;
 
-      /* "nanmax.pyx":715
+      /* "nanmax.pyx":357
  *         allnan = 1
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -8942,7 +4439,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
       __pyx_t_11 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":716
+      /* "nanmax.pyx":358
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -8952,7 +4449,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
       __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_4) {
 
-        /* "nanmax.pyx":717
+        /* "nanmax.pyx":359
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -8961,7 +4458,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
  */
         __pyx_v_amax = __pyx_v_ai;
 
-        /* "nanmax.pyx":718
+        /* "nanmax.pyx":360
  *             if ai >= amax:
  *                 amax = ai
  *                 allnan = 0             # <<<<<<<<<<<<<<
@@ -8974,7 +4471,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
       __pyx_L8:;
     }
 
-    /* "nanmax.pyx":719
+    /* "nanmax.pyx":361
  *                 amax = ai
  *                 allnan = 0
  *         if allnan == 0:             # <<<<<<<<<<<<<<
@@ -8984,7 +4481,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
     __pyx_t_4 = ((__pyx_v_allnan == 0) != 0);
     if (__pyx_t_4) {
 
-      /* "nanmax.pyx":720
+      /* "nanmax.pyx":362
  *                 allnan = 0
  *         if allnan == 0:
  *             y[i0] = amax             # <<<<<<<<<<<<<<
@@ -8997,7 +4494,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
     }
     /*else*/ {
 
-      /* "nanmax.pyx":722
+      /* "nanmax.pyx":364
  *             y[i0] = amax
  *         else:
  *             y[i0] = NAN             # <<<<<<<<<<<<<<
@@ -9010,7 +4507,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
     __pyx_L9:;
   }
 
-  /* "nanmax.pyx":723
+  /* "nanmax.pyx":365
  *         else:
  *             y[i0] = NAN
  *     return y             # <<<<<<<<<<<<<<
@@ -9022,7 +4519,7 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   __pyx_r = ((PyObject *)__pyx_v_y);
   goto __pyx_L0;
 
-  /* "nanmax.pyx":696
+  /* "nanmax.pyx":338
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -9053,27 +4550,27 @@ static PyObject *__pyx_pf_6nanmax_42nanmax_2d_float64_axis1(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "nanmax.pyx":727
+/* "nanmax.pyx":369
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanmax_1d_int_axisNone(np.ndarray[np.int_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=int along axis=None ignoring NaNs."
+ * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_45nanmax_1d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_44nanmax_1d_int_axisNone[] = "nanmax_1d_int_axisNone(ndarray a)\nMaximum of 1d array with dtype=int along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_45nanmax_1d_int_axisNone = {"nanmax_1d_int_axisNone", (PyCFunction)__pyx_pw_6nanmax_45nanmax_1d_int_axisNone, METH_O, __pyx_doc_6nanmax_44nanmax_1d_int_axisNone};
-static PyObject *__pyx_pw_6nanmax_45nanmax_1d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_17nanmax_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_16nanmax_1d_float_axisNone[] = "nanmax_1d_float_axisNone(ndarray a)\nMaximum of 1d array with dtype=float along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_17nanmax_1d_float_axisNone = {"nanmax_1d_float_axisNone", (PyCFunction)__pyx_pw_6nanmax_17nanmax_1d_float_axisNone, METH_O, __pyx_doc_6nanmax_16nanmax_1d_float_axisNone};
+static PyObject *__pyx_pw_6nanmax_17nanmax_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanmax_1d_int_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_44nanmax_1d_int_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  __Pyx_RefNannySetupContext("nanmax_1d_float_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 369; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_16nanmax_1d_float_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -9084,7 +4581,2062 @@ static PyObject *__pyx_pw_6nanmax_45nanmax_1d_int_axisNone(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_16nanmax_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  int __pyx_v_allnan;
+  __pyx_t_5numpy_float_t __pyx_v_amax;
+  __pyx_t_5numpy_float_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  PyObject *__pyx_v_m = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  PyObject *__pyx_t_7 = NULL;
+  PyObject *__pyx_t_8 = NULL;
+  PyObject *__pyx_t_9 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_1d_float_axisNone", 0);
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 369; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
+
+  /* "nanmax.pyx":371
+ * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):
+ *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.float_t amax, ai
+ *     cdef Py_ssize_t i0
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":375
+ *     cdef Py_ssize_t i0
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":376
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":377
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ */
+  __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":378
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
+ *         raise ValueError(m)
+ *     amax = MINfloat
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
+    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
+
+    /* "nanmax.pyx":379
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)             # <<<<<<<<<<<<<<
+ *     amax = MINfloat
+ *     for i0 in range(n0):
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 379; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_m);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
+    __Pyx_GIVEREF(__pyx_v_m);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 379; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 379; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":380
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ *     amax = MINfloat             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         ai = a[i0]
+ */
+  __pyx_v_amax = __pyx_v_6nanmax_MINfloat;
+
+  /* "nanmax.pyx":381
+ *         raise ValueError(m)
+ *     amax = MINfloat
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         ai = a[i0]
+ *         if ai >= amax:
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanmax.pyx":382
+ *     amax = MINfloat
+ *     for i0 in range(n0):
+ *         ai = a[i0]             # <<<<<<<<<<<<<<
+ *         if ai >= amax:
+ *             amax = ai
+ */
+    __pyx_t_6 = __pyx_v_i0;
+    __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
+
+    /* "nanmax.pyx":383
+ *     for i0 in range(n0):
+ *         ai = a[i0]
+ *         if ai >= amax:             # <<<<<<<<<<<<<<
+ *             amax = ai
+ *             allnan = 0
+ */
+    __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+    if (__pyx_t_1) {
+
+      /* "nanmax.pyx":384
+ *         ai = a[i0]
+ *         if ai >= amax:
+ *             amax = ai             # <<<<<<<<<<<<<<
+ *             allnan = 0
+ *     if allnan == 0:
+ */
+      __pyx_v_amax = __pyx_v_ai;
+
+      /* "nanmax.pyx":385
+ *         if ai >= amax:
+ *             amax = ai
+ *             allnan = 0             # <<<<<<<<<<<<<<
+ *     if allnan == 0:
+ *         return np.float(amax)
+ */
+      __pyx_v_allnan = 0;
+      goto __pyx_L6;
+    }
+    __pyx_L6:;
+  }
+
+  /* "nanmax.pyx":386
+ *             amax = ai
+ *             allnan = 0
+ *     if allnan == 0:             # <<<<<<<<<<<<<<
+ *         return np.float(amax)
+ *     else:
+ */
+  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":387
+ *             allnan = 0
+ *     if allnan == 0:
+ *         return np.float(amax)             # <<<<<<<<<<<<<<
+ *     else:
+ *         return np.float(NAN)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 387; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 387; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 387; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_8 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+      if (likely(__pyx_t_8)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+        __Pyx_INCREF(__pyx_t_8);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_7, function);
+      }
+    }
+    if (!__pyx_t_8) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 387; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 387; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_9);
+      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_2);
+      __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 387; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+  /*else*/ {
+
+    /* "nanmax.pyx":389
+ *         return np.float(amax)
+ *     else:
+ *         return np.float(NAN)             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_float); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_9);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_2 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_9))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_9, function);
+      }
+    }
+    if (!__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_7); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_8);
+      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_8, 0+1, __pyx_t_7);
+      __Pyx_GIVEREF(__pyx_t_7);
+      __pyx_t_7 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+
+  /* "nanmax.pyx":369
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_9);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_1d_float_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF(__pyx_v_m);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":393
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_19nanmax_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_18nanmax_1d_float32_axisNone[] = "nanmax_1d_float32_axisNone(ndarray a)\nMaximum of 1d array with dtype=float32 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_19nanmax_1d_float32_axisNone = {"nanmax_1d_float32_axisNone", (PyCFunction)__pyx_pw_6nanmax_19nanmax_1d_float32_axisNone, METH_O, __pyx_doc_6nanmax_18nanmax_1d_float32_axisNone};
+static PyObject *__pyx_pw_6nanmax_19nanmax_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_1d_float32_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 393; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_18nanmax_1d_float32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_18nanmax_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  int __pyx_v_allnan;
+  __pyx_t_5numpy_float32_t __pyx_v_amax;
+  __pyx_t_5numpy_float32_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  PyObject *__pyx_v_m = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  PyObject *__pyx_t_7 = NULL;
+  PyObject *__pyx_t_8 = NULL;
+  PyObject *__pyx_t_9 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_1d_float32_axisNone", 0);
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 393; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
+
+  /* "nanmax.pyx":395
+ * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):
+ *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.float32_t amax, ai
+ *     cdef Py_ssize_t i0
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":399
+ *     cdef Py_ssize_t i0
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":400
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":401
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ */
+  __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":402
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
+ *         raise ValueError(m)
+ *     amax = MINfloat32
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
+    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
+
+    /* "nanmax.pyx":403
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)             # <<<<<<<<<<<<<<
+ *     amax = MINfloat32
+ *     for i0 in range(n0):
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 403; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_m);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
+    __Pyx_GIVEREF(__pyx_v_m);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 403; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 403; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":404
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ *     amax = MINfloat32             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         ai = a[i0]
+ */
+  __pyx_v_amax = __pyx_v_6nanmax_MINfloat32;
+
+  /* "nanmax.pyx":405
+ *         raise ValueError(m)
+ *     amax = MINfloat32
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         ai = a[i0]
+ *         if ai >= amax:
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanmax.pyx":406
+ *     amax = MINfloat32
+ *     for i0 in range(n0):
+ *         ai = a[i0]             # <<<<<<<<<<<<<<
+ *         if ai >= amax:
+ *             amax = ai
+ */
+    __pyx_t_6 = __pyx_v_i0;
+    __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
+
+    /* "nanmax.pyx":407
+ *     for i0 in range(n0):
+ *         ai = a[i0]
+ *         if ai >= amax:             # <<<<<<<<<<<<<<
+ *             amax = ai
+ *             allnan = 0
+ */
+    __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+    if (__pyx_t_1) {
+
+      /* "nanmax.pyx":408
+ *         ai = a[i0]
+ *         if ai >= amax:
+ *             amax = ai             # <<<<<<<<<<<<<<
+ *             allnan = 0
+ *     if allnan == 0:
+ */
+      __pyx_v_amax = __pyx_v_ai;
+
+      /* "nanmax.pyx":409
+ *         if ai >= amax:
+ *             amax = ai
+ *             allnan = 0             # <<<<<<<<<<<<<<
+ *     if allnan == 0:
+ *         return np.float32(amax)
+ */
+      __pyx_v_allnan = 0;
+      goto __pyx_L6;
+    }
+    __pyx_L6:;
+  }
+
+  /* "nanmax.pyx":410
+ *             amax = ai
+ *             allnan = 0
+ *     if allnan == 0:             # <<<<<<<<<<<<<<
+ *         return np.float32(amax)
+ *     else:
+ */
+  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":411
+ *             allnan = 0
+ *     if allnan == 0:
+ *         return np.float32(amax)             # <<<<<<<<<<<<<<
+ *     else:
+ *         return np.float32(NAN)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float32); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_8 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+      if (likely(__pyx_t_8)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+        __Pyx_INCREF(__pyx_t_8);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_7, function);
+      }
+    }
+    if (!__pyx_t_8) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_9);
+      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_2);
+      __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 411; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+  /*else*/ {
+
+    /* "nanmax.pyx":413
+ *         return np.float32(amax)
+ *     else:
+ *         return np.float32(NAN)             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_float32); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_9);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_2 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_9))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_9, function);
+      }
+    }
+    if (!__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_7); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_8);
+      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_8, 0+1, __pyx_t_7);
+      __Pyx_GIVEREF(__pyx_t_7);
+      __pyx_t_7 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+
+  /* "nanmax.pyx":393
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_9);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_1d_float32_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF(__pyx_v_m);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":417
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_21nanmax_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_20nanmax_1d_float64_axisNone[] = "nanmax_1d_float64_axisNone(ndarray a)\nMaximum of 1d array with dtype=float64 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_21nanmax_1d_float64_axisNone = {"nanmax_1d_float64_axisNone", (PyCFunction)__pyx_pw_6nanmax_21nanmax_1d_float64_axisNone, METH_O, __pyx_doc_6nanmax_20nanmax_1d_float64_axisNone};
+static PyObject *__pyx_pw_6nanmax_21nanmax_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_1d_float64_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_20nanmax_1d_float64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_20nanmax_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  int __pyx_v_allnan;
+  __pyx_t_5numpy_float64_t __pyx_v_amax;
+  __pyx_t_5numpy_float64_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  PyObject *__pyx_v_m = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  PyObject *__pyx_t_7 = NULL;
+  PyObject *__pyx_t_8 = NULL;
+  PyObject *__pyx_t_9 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_1d_float64_axisNone", 0);
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
+
+  /* "nanmax.pyx":419
+ * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):
+ *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.float64_t amax, ai
+ *     cdef Py_ssize_t i0
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":423
+ *     cdef Py_ssize_t i0
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":424
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":425
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ */
+  __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":426
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
+ *         raise ValueError(m)
+ *     amax = MINfloat64
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
+    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
+
+    /* "nanmax.pyx":427
+ *     if n0 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)             # <<<<<<<<<<<<<<
+ *     amax = MINfloat64
+ *     for i0 in range(n0):
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_m);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
+    __Pyx_GIVEREF(__pyx_v_m);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":428
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ *     amax = MINfloat64             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         ai = a[i0]
+ */
+  __pyx_v_amax = __pyx_v_6nanmax_MINfloat64;
+
+  /* "nanmax.pyx":429
+ *         raise ValueError(m)
+ *     amax = MINfloat64
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         ai = a[i0]
+ *         if ai >= amax:
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanmax.pyx":430
+ *     amax = MINfloat64
+ *     for i0 in range(n0):
+ *         ai = a[i0]             # <<<<<<<<<<<<<<
+ *         if ai >= amax:
+ *             amax = ai
+ */
+    __pyx_t_6 = __pyx_v_i0;
+    __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
+
+    /* "nanmax.pyx":431
+ *     for i0 in range(n0):
+ *         ai = a[i0]
+ *         if ai >= amax:             # <<<<<<<<<<<<<<
+ *             amax = ai
+ *             allnan = 0
+ */
+    __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+    if (__pyx_t_1) {
+
+      /* "nanmax.pyx":432
+ *         ai = a[i0]
+ *         if ai >= amax:
+ *             amax = ai             # <<<<<<<<<<<<<<
+ *             allnan = 0
+ *     if allnan == 0:
+ */
+      __pyx_v_amax = __pyx_v_ai;
+
+      /* "nanmax.pyx":433
+ *         if ai >= amax:
+ *             amax = ai
+ *             allnan = 0             # <<<<<<<<<<<<<<
+ *     if allnan == 0:
+ *         return np.float64(amax)
+ */
+      __pyx_v_allnan = 0;
+      goto __pyx_L6;
+    }
+    __pyx_L6:;
+  }
+
+  /* "nanmax.pyx":434
+ *             amax = ai
+ *             allnan = 0
+ *     if allnan == 0:             # <<<<<<<<<<<<<<
+ *         return np.float64(amax)
+ *     else:
+ */
+  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":435
+ *             allnan = 0
+ *     if allnan == 0:
+ *         return np.float64(amax)             # <<<<<<<<<<<<<<
+ *     else:
+ *         return np.float64(NAN)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_8 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+      if (likely(__pyx_t_8)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+        __Pyx_INCREF(__pyx_t_8);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_7, function);
+      }
+    }
+    if (!__pyx_t_8) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_9);
+      PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_2);
+      __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+  /*else*/ {
+
+    /* "nanmax.pyx":437
+ *         return np.float64(amax)
+ *     else:
+ *         return np.float64(NAN)             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 437; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_float64); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 437; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_9);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 437; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_2 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_9))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_9, function);
+      }
+    }
+    if (!__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_7); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 437; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_8 = PyTuple_New(1+1); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 437; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_8);
+      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_8, 0+1, __pyx_t_7);
+      __Pyx_GIVEREF(__pyx_t_7);
+      __pyx_t_7 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 437; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+
+  /* "nanmax.pyx":417
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_9);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_1d_float64_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF(__pyx_v_m);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":441
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_23nanmax_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_22nanmax_2d_float_axisNone[] = "nanmax_2d_float_axisNone(ndarray a)\nMaximum of 2d array with dtype=float along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_23nanmax_2d_float_axisNone = {"nanmax_2d_float_axisNone", (PyCFunction)__pyx_pw_6nanmax_23nanmax_2d_float_axisNone, METH_O, __pyx_doc_6nanmax_22nanmax_2d_float_axisNone};
+static PyObject *__pyx_pw_6nanmax_23nanmax_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_float_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 441; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_22nanmax_2d_float_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_22nanmax_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  int __pyx_v_allnan;
+  __pyx_t_5numpy_float_t __pyx_v_amax;
+  __pyx_t_5numpy_float_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  PyObject *__pyx_v_m = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  PyObject *__pyx_t_10 = NULL;
+  PyObject *__pyx_t_11 = NULL;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_float_axisNone", 0);
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 441; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":443
+ * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.float_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":447
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":448
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":449
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":450
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ */
+  __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":451
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
+ *         raise ValueError(m)
+ *     amax = MINfloat
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
+    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
+
+    /* "nanmax.pyx":452
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)             # <<<<<<<<<<<<<<
+ *     amax = MINfloat
+ *     for i0 in range(n0):
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 452; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_m);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
+    __Pyx_GIVEREF(__pyx_v_m);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 452; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 452; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":453
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ *     amax = MINfloat             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):
+ */
+  __pyx_v_amax = __pyx_v_6nanmax_MINfloat;
+
+  /* "nanmax.pyx":454
+ *         raise ValueError(m)
+ *     amax = MINfloat
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanmax.pyx":455
+ *     amax = MINfloat
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_6 = __pyx_v_n1;
+    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+      __pyx_v_i1 = __pyx_t_7;
+
+      /* "nanmax.pyx":456
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_8 = __pyx_v_i0;
+      __pyx_t_9 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":457
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *                 allnan = 0
+ */
+      __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_1) {
+
+        /* "nanmax.pyx":458
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *                 allnan = 0
+ *     if allnan == 0:
+ */
+        __pyx_v_amax = __pyx_v_ai;
+
+        /* "nanmax.pyx":459
+ *             if ai >= amax:
+ *                 amax = ai
+ *                 allnan = 0             # <<<<<<<<<<<<<<
+ *     if allnan == 0:
+ *         return np.float(amax)
+ */
+        __pyx_v_allnan = 0;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+  }
+
+  /* "nanmax.pyx":460
+ *                 amax = ai
+ *                 allnan = 0
+ *     if allnan == 0:             # <<<<<<<<<<<<<<
+ *         return np.float(amax)
+ *     else:
+ */
+  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":461
+ *                 allnan = 0
+ *     if allnan == 0:
+ *         return np.float(amax)             # <<<<<<<<<<<<<<
+ *     else:
+ *         return np.float(NAN)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 461; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 461; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 461; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_11 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
+      __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_10);
+      if (likely(__pyx_t_11)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
+        __Pyx_INCREF(__pyx_t_11);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_10, function);
+      }
+    }
+    if (!__pyx_t_11) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 461; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 461; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_12);
+      PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_2);
+      __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 461; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+  /*else*/ {
+
+    /* "nanmax.pyx":463
+ *         return np.float(amax)
+ *     else:
+ *         return np.float(NAN)             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_12);
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __pyx_t_10 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_2 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_12))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_12);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_12, function);
+      }
+    }
+    if (!__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_12, __pyx_t_10); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_11 = PyTuple_New(1+1); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_11);
+      PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_11, 0+1, __pyx_t_10);
+      __Pyx_GIVEREF(__pyx_t_10);
+      __pyx_t_10 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_t_11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+
+  /* "nanmax.pyx":441
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_10);
+  __Pyx_XDECREF(__pyx_t_11);
+  __Pyx_XDECREF(__pyx_t_12);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_float_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF(__pyx_v_m);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":467
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_25nanmax_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_24nanmax_2d_float32_axisNone[] = "nanmax_2d_float32_axisNone(ndarray a)\nMaximum of 2d array with dtype=float32 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_25nanmax_2d_float32_axisNone = {"nanmax_2d_float32_axisNone", (PyCFunction)__pyx_pw_6nanmax_25nanmax_2d_float32_axisNone, METH_O, __pyx_doc_6nanmax_24nanmax_2d_float32_axisNone};
+static PyObject *__pyx_pw_6nanmax_25nanmax_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_float32_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_24nanmax_2d_float32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_24nanmax_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  int __pyx_v_allnan;
+  __pyx_t_5numpy_float32_t __pyx_v_amax;
+  __pyx_t_5numpy_float32_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  PyObject *__pyx_v_m = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  PyObject *__pyx_t_10 = NULL;
+  PyObject *__pyx_t_11 = NULL;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_float32_axisNone", 0);
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":469
+ * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.float32_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":473
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":474
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":475
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":476
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ */
+  __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":477
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
+ *         raise ValueError(m)
+ *     amax = MINfloat32
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
+    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
+
+    /* "nanmax.pyx":478
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)             # <<<<<<<<<<<<<<
+ *     amax = MINfloat32
+ *     for i0 in range(n0):
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 478; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_m);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
+    __Pyx_GIVEREF(__pyx_v_m);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 478; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 478; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":479
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ *     amax = MINfloat32             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):
+ */
+  __pyx_v_amax = __pyx_v_6nanmax_MINfloat32;
+
+  /* "nanmax.pyx":480
+ *         raise ValueError(m)
+ *     amax = MINfloat32
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanmax.pyx":481
+ *     amax = MINfloat32
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_6 = __pyx_v_n1;
+    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+      __pyx_v_i1 = __pyx_t_7;
+
+      /* "nanmax.pyx":482
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_8 = __pyx_v_i0;
+      __pyx_t_9 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":483
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *                 allnan = 0
+ */
+      __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_1) {
+
+        /* "nanmax.pyx":484
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *                 allnan = 0
+ *     if allnan == 0:
+ */
+        __pyx_v_amax = __pyx_v_ai;
+
+        /* "nanmax.pyx":485
+ *             if ai >= amax:
+ *                 amax = ai
+ *                 allnan = 0             # <<<<<<<<<<<<<<
+ *     if allnan == 0:
+ *         return np.float32(amax)
+ */
+        __pyx_v_allnan = 0;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+  }
+
+  /* "nanmax.pyx":486
+ *                 amax = ai
+ *                 allnan = 0
+ *     if allnan == 0:             # <<<<<<<<<<<<<<
+ *         return np.float32(amax)
+ *     else:
+ */
+  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":487
+ *                 allnan = 0
+ *     if allnan == 0:
+ *         return np.float32(amax)             # <<<<<<<<<<<<<<
+ *     else:
+ *         return np.float32(NAN)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float32); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_11 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
+      __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_10);
+      if (likely(__pyx_t_11)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
+        __Pyx_INCREF(__pyx_t_11);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_10, function);
+      }
+    }
+    if (!__pyx_t_11) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_12);
+      PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_2);
+      __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+  /*else*/ {
+
+    /* "nanmax.pyx":489
+ *         return np.float32(amax)
+ *     else:
+ *         return np.float32(NAN)             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float32); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_12);
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __pyx_t_10 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_2 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_12))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_12);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_12, function);
+      }
+    }
+    if (!__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_12, __pyx_t_10); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_11 = PyTuple_New(1+1); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_11);
+      PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_11, 0+1, __pyx_t_10);
+      __Pyx_GIVEREF(__pyx_t_10);
+      __pyx_t_10 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_t_11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+
+  /* "nanmax.pyx":467
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_10);
+  __Pyx_XDECREF(__pyx_t_11);
+  __Pyx_XDECREF(__pyx_t_12);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_float32_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF(__pyx_v_m);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":493
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_27nanmax_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_26nanmax_2d_float64_axisNone[] = "nanmax_2d_float64_axisNone(ndarray a)\nMaximum of 2d array with dtype=float64 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_27nanmax_2d_float64_axisNone = {"nanmax_2d_float64_axisNone", (PyCFunction)__pyx_pw_6nanmax_27nanmax_2d_float64_axisNone, METH_O, __pyx_doc_6nanmax_26nanmax_2d_float64_axisNone};
+static PyObject *__pyx_pw_6nanmax_27nanmax_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_float64_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 493; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_26nanmax_2d_float64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_26nanmax_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  int __pyx_v_allnan;
+  __pyx_t_5numpy_float64_t __pyx_v_amax;
+  __pyx_t_5numpy_float64_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  PyObject *__pyx_v_m = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  PyObject *__pyx_t_10 = NULL;
+  PyObject *__pyx_t_11 = NULL;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_float64_axisNone", 0);
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 493; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":495
+ * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.float64_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":499
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":500
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":501
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":502
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ */
+  __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":503
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
+ *         raise ValueError(m)
+ *     amax = MINfloat64
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
+    __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
+
+    /* "nanmax.pyx":504
+ *     if n0 * n1 == 0:
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)             # <<<<<<<<<<<<<<
+ *     amax = MINfloat64
+ *     for i0 in range(n0):
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 504; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_m);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
+    __Pyx_GIVEREF(__pyx_v_m);
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 504; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 504; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":505
+ *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
+ *         raise ValueError(m)
+ *     amax = MINfloat64             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):
+ */
+  __pyx_v_amax = __pyx_v_6nanmax_MINfloat64;
+
+  /* "nanmax.pyx":506
+ *         raise ValueError(m)
+ *     amax = MINfloat64
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanmax.pyx":507
+ *     amax = MINfloat64
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_6 = __pyx_v_n1;
+    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+      __pyx_v_i1 = __pyx_t_7;
+
+      /* "nanmax.pyx":508
+ *     for i0 in range(n0):
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_8 = __pyx_v_i0;
+      __pyx_t_9 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":509
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *                 allnan = 0
+ */
+      __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_1) {
+
+        /* "nanmax.pyx":510
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *                 allnan = 0
+ *     if allnan == 0:
+ */
+        __pyx_v_amax = __pyx_v_ai;
+
+        /* "nanmax.pyx":511
+ *             if ai >= amax:
+ *                 amax = ai
+ *                 allnan = 0             # <<<<<<<<<<<<<<
+ *     if allnan == 0:
+ *         return np.float64(amax)
+ */
+        __pyx_v_allnan = 0;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+  }
+
+  /* "nanmax.pyx":512
+ *                 amax = ai
+ *                 allnan = 0
+ *     if allnan == 0:             # <<<<<<<<<<<<<<
+ *         return np.float64(amax)
+ *     else:
+ */
+  __pyx_t_1 = ((__pyx_v_allnan == 0) != 0);
+  if (__pyx_t_1) {
+
+    /* "nanmax.pyx":513
+ *                 allnan = 0
+ *     if allnan == 0:
+ *         return np.float64(amax)             # <<<<<<<<<<<<<<
+ *     else:
+ *         return np.float64(NAN)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 513; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 513; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 513; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_11 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
+      __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_10);
+      if (likely(__pyx_t_11)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
+        __Pyx_INCREF(__pyx_t_11);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_10, function);
+      }
+    }
+    if (!__pyx_t_11) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 513; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 513; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_12);
+      PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_2);
+      __pyx_t_2 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 513; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+  /*else*/ {
+
+    /* "nanmax.pyx":515
+ *         return np.float64(amax)
+ *     else:
+ *         return np.float64(NAN)             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float64); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_12);
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __pyx_t_10 = PyFloat_FromDouble(__pyx_v_6nanmax_NAN); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_2 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_12))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_12);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_12, function);
+      }
+    }
+    if (!__pyx_t_2) {
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_12, __pyx_t_10); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else {
+      __pyx_t_11 = PyTuple_New(1+1); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_11);
+      PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2); __Pyx_GIVEREF(__pyx_t_2); __pyx_t_2 = NULL;
+      PyTuple_SET_ITEM(__pyx_t_11, 0+1, __pyx_t_10);
+      __Pyx_GIVEREF(__pyx_t_10);
+      __pyx_t_10 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_12, __pyx_t_11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+  }
+
+  /* "nanmax.pyx":493
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_10);
+  __Pyx_XDECREF(__pyx_t_11);
+  __Pyx_XDECREF(__pyx_t_12);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_float64_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF(__pyx_v_m);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":519
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_int_axisNone(np.ndarray[np.int_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=int along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_29nanmax_1d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_28nanmax_1d_int_axisNone[] = "nanmax_1d_int_axisNone(ndarray a)\nMaximum of 1d array with dtype=int along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_29nanmax_1d_int_axisNone = {"nanmax_1d_int_axisNone", (PyCFunction)__pyx_pw_6nanmax_29nanmax_1d_int_axisNone, METH_O, __pyx_doc_6nanmax_28nanmax_1d_int_axisNone};
+static PyObject *__pyx_pw_6nanmax_29nanmax_1d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_1d_int_axisNone (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_28nanmax_1d_int_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_28nanmax_1d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int_t __pyx_v_amax;
   __pyx_t_5numpy_int_t __pyx_v_ai;
@@ -9115,11 +6667,11 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
 
-  /* "nanmax.pyx":729
+  /* "nanmax.pyx":521
  * def nanmax_1d_int_axisNone(np.ndarray[np.int_t, ndim=1] a):
  *     "Maximum of 1d array with dtype=int along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -9128,7 +6680,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":733
+  /* "nanmax.pyx":525
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -9137,7 +6689,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":734
+  /* "nanmax.pyx":526
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -9146,7 +6698,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":735
+  /* "nanmax.pyx":527
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -9156,7 +6708,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
   __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":736
+    /* "nanmax.pyx":528
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -9166,27 +6718,27 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":737
+    /* "nanmax.pyx":529
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 737; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 529; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 737; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 529; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 737; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 529; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":738
+  /* "nanmax.pyx":530
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint             # <<<<<<<<<<<<<<
@@ -9195,7 +6747,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint;
 
-  /* "nanmax.pyx":739
+  /* "nanmax.pyx":531
  *         raise ValueError(m)
  *     amax = MINint
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -9206,7 +6758,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":740
+    /* "nanmax.pyx":532
  *     amax = MINint
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -9216,7 +6768,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
     __pyx_t_6 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanmax.pyx":741
+    /* "nanmax.pyx":533
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         if ai >= amax:             # <<<<<<<<<<<<<<
@@ -9226,7 +6778,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
     __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
     if (__pyx_t_1) {
 
-      /* "nanmax.pyx":742
+      /* "nanmax.pyx":534
  *         ai = a[i0]
  *         if ai >= amax:
  *             amax = ai             # <<<<<<<<<<<<<<
@@ -9239,7 +6791,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
     __pyx_L6:;
   }
 
-  /* "nanmax.pyx":743
+  /* "nanmax.pyx":535
  *         if ai >= amax:
  *             amax = ai
  *     return np.int(amax)             # <<<<<<<<<<<<<<
@@ -9247,12 +6799,12 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 743; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 743; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 743; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_8 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
@@ -9265,17 +6817,17 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
     }
   }
   if (!__pyx_t_8) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 743; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 743; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_9);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
     PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 743; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 535; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -9284,7 +6836,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":727
+  /* "nanmax.pyx":519
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int_axisNone(np.ndarray[np.int_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -9315,7 +6867,7 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
   return __pyx_r;
 }
 
-/* "nanmax.pyx":747
+/* "nanmax.pyx":539
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -9324,18 +6876,18 @@ static PyObject *__pyx_pf_6nanmax_44nanmax_1d_int_axisNone(CYTHON_UNUSED PyObjec
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_47nanmax_1d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_46nanmax_1d_int8_axisNone[] = "nanmax_1d_int8_axisNone(ndarray a)\nMaximum of 1d array with dtype=int8 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_47nanmax_1d_int8_axisNone = {"nanmax_1d_int8_axisNone", (PyCFunction)__pyx_pw_6nanmax_47nanmax_1d_int8_axisNone, METH_O, __pyx_doc_6nanmax_46nanmax_1d_int8_axisNone};
-static PyObject *__pyx_pw_6nanmax_47nanmax_1d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_31nanmax_1d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_30nanmax_1d_int8_axisNone[] = "nanmax_1d_int8_axisNone(ndarray a)\nMaximum of 1d array with dtype=int8 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_31nanmax_1d_int8_axisNone = {"nanmax_1d_int8_axisNone", (PyCFunction)__pyx_pw_6nanmax_31nanmax_1d_int8_axisNone, METH_O, __pyx_doc_6nanmax_30nanmax_1d_int8_axisNone};
+static PyObject *__pyx_pw_6nanmax_31nanmax_1d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_1d_int8_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 747; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 539; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_30nanmax_1d_int8_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -9346,7 +6898,7 @@ static PyObject *__pyx_pw_6nanmax_47nanmax_1d_int8_axisNone(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_30nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int8_t __pyx_v_amax;
   __pyx_t_5numpy_int8_t __pyx_v_ai;
@@ -9377,11 +6929,11 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 747; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 539; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
 
-  /* "nanmax.pyx":749
+  /* "nanmax.pyx":541
  * def nanmax_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):
  *     "Maximum of 1d array with dtype=int8 along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -9390,7 +6942,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":753
+  /* "nanmax.pyx":545
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -9399,7 +6951,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":754
+  /* "nanmax.pyx":546
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -9408,7 +6960,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":755
+  /* "nanmax.pyx":547
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -9418,7 +6970,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
   __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":756
+    /* "nanmax.pyx":548
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -9428,27 +6980,27 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":757
+    /* "nanmax.pyx":549
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint8
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 757; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 549; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 757; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 549; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 757; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 549; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":758
+  /* "nanmax.pyx":550
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint8             # <<<<<<<<<<<<<<
@@ -9457,7 +7009,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint8;
 
-  /* "nanmax.pyx":759
+  /* "nanmax.pyx":551
  *         raise ValueError(m)
  *     amax = MINint8
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -9468,7 +7020,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":760
+    /* "nanmax.pyx":552
  *     amax = MINint8
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -9478,7 +7030,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
     __pyx_t_6 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanmax.pyx":761
+    /* "nanmax.pyx":553
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         if ai >= amax:             # <<<<<<<<<<<<<<
@@ -9488,7 +7040,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
     __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
     if (__pyx_t_1) {
 
-      /* "nanmax.pyx":762
+      /* "nanmax.pyx":554
  *         ai = a[i0]
  *         if ai >= amax:
  *             amax = ai             # <<<<<<<<<<<<<<
@@ -9501,7 +7053,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
     __pyx_L6:;
   }
 
-  /* "nanmax.pyx":763
+  /* "nanmax.pyx":555
  *         if ai >= amax:
  *             amax = ai
  *     return np.int8(amax)             # <<<<<<<<<<<<<<
@@ -9509,12 +7061,12 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 763; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int8); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 763; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int8); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 763; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_8 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
@@ -9527,17 +7079,17 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
     }
   }
   if (!__pyx_t_8) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 763; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 763; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_9);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
     PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 763; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 555; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -9546,7 +7098,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":747
+  /* "nanmax.pyx":539
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -9577,7 +7129,7 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "nanmax.pyx":767
+/* "nanmax.pyx":559
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -9586,18 +7138,18 @@ static PyObject *__pyx_pf_6nanmax_46nanmax_1d_int8_axisNone(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_49nanmax_1d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_48nanmax_1d_int32_axisNone[] = "nanmax_1d_int32_axisNone(ndarray a)\nMaximum of 1d array with dtype=int32 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_49nanmax_1d_int32_axisNone = {"nanmax_1d_int32_axisNone", (PyCFunction)__pyx_pw_6nanmax_49nanmax_1d_int32_axisNone, METH_O, __pyx_doc_6nanmax_48nanmax_1d_int32_axisNone};
-static PyObject *__pyx_pw_6nanmax_49nanmax_1d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_33nanmax_1d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_32nanmax_1d_int32_axisNone[] = "nanmax_1d_int32_axisNone(ndarray a)\nMaximum of 1d array with dtype=int32 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_33nanmax_1d_int32_axisNone = {"nanmax_1d_int32_axisNone", (PyCFunction)__pyx_pw_6nanmax_33nanmax_1d_int32_axisNone, METH_O, __pyx_doc_6nanmax_32nanmax_1d_int32_axisNone};
+static PyObject *__pyx_pw_6nanmax_33nanmax_1d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_1d_int32_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 767; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 559; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_32nanmax_1d_int32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -9608,7 +7160,7 @@ static PyObject *__pyx_pw_6nanmax_49nanmax_1d_int32_axisNone(PyObject *__pyx_sel
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_32nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int32_t __pyx_v_amax;
   __pyx_t_5numpy_int32_t __pyx_v_ai;
@@ -9639,11 +7191,11 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 767; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 559; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
 
-  /* "nanmax.pyx":769
+  /* "nanmax.pyx":561
  * def nanmax_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):
  *     "Maximum of 1d array with dtype=int32 along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -9652,7 +7204,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":773
+  /* "nanmax.pyx":565
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -9661,7 +7213,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":774
+  /* "nanmax.pyx":566
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -9670,7 +7222,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":775
+  /* "nanmax.pyx":567
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -9680,7 +7232,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":776
+    /* "nanmax.pyx":568
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -9690,27 +7242,27 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":777
+    /* "nanmax.pyx":569
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint32
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 777; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 569; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 777; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 569; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 777; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 569; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":778
+  /* "nanmax.pyx":570
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint32             # <<<<<<<<<<<<<<
@@ -9719,7 +7271,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint32;
 
-  /* "nanmax.pyx":779
+  /* "nanmax.pyx":571
  *         raise ValueError(m)
  *     amax = MINint32
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -9730,7 +7282,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":780
+    /* "nanmax.pyx":572
  *     amax = MINint32
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -9740,7 +7292,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
     __pyx_t_6 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanmax.pyx":781
+    /* "nanmax.pyx":573
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         if ai >= amax:             # <<<<<<<<<<<<<<
@@ -9750,7 +7302,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
     __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
     if (__pyx_t_1) {
 
-      /* "nanmax.pyx":782
+      /* "nanmax.pyx":574
  *         ai = a[i0]
  *         if ai >= amax:
  *             amax = ai             # <<<<<<<<<<<<<<
@@ -9763,7 +7315,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
     __pyx_L6:;
   }
 
-  /* "nanmax.pyx":783
+  /* "nanmax.pyx":575
  *         if ai >= amax:
  *             amax = ai
  *     return np.int32(amax)             # <<<<<<<<<<<<<<
@@ -9771,12 +7323,12 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 783; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 783; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 783; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_8 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
@@ -9789,17 +7341,17 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
     }
   }
   if (!__pyx_t_8) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 783; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 783; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_9);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
     PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 783; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -9808,7 +7360,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":767
+  /* "nanmax.pyx":559
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -9839,7 +7391,7 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "nanmax.pyx":787
+/* "nanmax.pyx":579
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -9848,18 +7400,18 @@ static PyObject *__pyx_pf_6nanmax_48nanmax_1d_int32_axisNone(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_51nanmax_1d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_50nanmax_1d_int64_axisNone[] = "nanmax_1d_int64_axisNone(ndarray a)\nMaximum of 1d array with dtype=int64 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_51nanmax_1d_int64_axisNone = {"nanmax_1d_int64_axisNone", (PyCFunction)__pyx_pw_6nanmax_51nanmax_1d_int64_axisNone, METH_O, __pyx_doc_6nanmax_50nanmax_1d_int64_axisNone};
-static PyObject *__pyx_pw_6nanmax_51nanmax_1d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_35nanmax_1d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_34nanmax_1d_int64_axisNone[] = "nanmax_1d_int64_axisNone(ndarray a)\nMaximum of 1d array with dtype=int64 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_35nanmax_1d_int64_axisNone = {"nanmax_1d_int64_axisNone", (PyCFunction)__pyx_pw_6nanmax_35nanmax_1d_int64_axisNone, METH_O, __pyx_doc_6nanmax_34nanmax_1d_int64_axisNone};
+static PyObject *__pyx_pw_6nanmax_35nanmax_1d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_1d_int64_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_34nanmax_1d_int64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -9870,7 +7422,7 @@ static PyObject *__pyx_pw_6nanmax_51nanmax_1d_int64_axisNone(PyObject *__pyx_sel
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_34nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int64_t __pyx_v_amax;
   __pyx_t_5numpy_int64_t __pyx_v_ai;
@@ -9901,11 +7453,11 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
 
-  /* "nanmax.pyx":789
+  /* "nanmax.pyx":581
  * def nanmax_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):
  *     "Maximum of 1d array with dtype=int64 along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -9914,7 +7466,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":793
+  /* "nanmax.pyx":585
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -9923,7 +7475,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":794
+  /* "nanmax.pyx":586
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -9932,7 +7484,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":795
+  /* "nanmax.pyx":587
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:             # <<<<<<<<<<<<<<
@@ -9942,7 +7494,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_1 = ((__pyx_v_n0 == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":796
+    /* "nanmax.pyx":588
  *     cdef Py_ssize_t n0 = dim[0]
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -9952,27 +7504,27 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":797
+    /* "nanmax.pyx":589
  *     if n0 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint64
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 797; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 589; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 797; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 589; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 797; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 589; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":798
+  /* "nanmax.pyx":590
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint64             # <<<<<<<<<<<<<<
@@ -9981,7 +7533,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint64;
 
-  /* "nanmax.pyx":799
+  /* "nanmax.pyx":591
  *         raise ValueError(m)
  *     amax = MINint64
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -9992,7 +7544,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":800
+    /* "nanmax.pyx":592
  *     amax = MINint64
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -10002,7 +7554,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
     __pyx_t_6 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanmax.pyx":801
+    /* "nanmax.pyx":593
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         if ai >= amax:             # <<<<<<<<<<<<<<
@@ -10012,7 +7564,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
     __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
     if (__pyx_t_1) {
 
-      /* "nanmax.pyx":802
+      /* "nanmax.pyx":594
  *         ai = a[i0]
  *         if ai >= amax:
  *             amax = ai             # <<<<<<<<<<<<<<
@@ -10025,7 +7577,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
     __pyx_L6:;
   }
 
-  /* "nanmax.pyx":803
+  /* "nanmax.pyx":595
  *         if ai >= amax:
  *             amax = ai
  *     return np.int64(amax)             # <<<<<<<<<<<<<<
@@ -10033,12 +7585,12 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int64); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int64); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_8 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_7))) {
@@ -10051,17 +7603,17 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
     }
   }
   if (!__pyx_t_8) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_9 = PyTuple_New(1+1); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_9);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __Pyx_GIVEREF(__pyx_t_8); __pyx_t_8 = NULL;
     PyTuple_SET_ITEM(__pyx_t_9, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_9, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -10070,7 +7622,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":787
+  /* "nanmax.pyx":579
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):             # <<<<<<<<<<<<<<
@@ -10101,7 +7653,7 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "nanmax.pyx":807
+/* "nanmax.pyx":599
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int_axisNone(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10110,18 +7662,18 @@ static PyObject *__pyx_pf_6nanmax_50nanmax_1d_int64_axisNone(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_53nanmax_2d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_52nanmax_2d_int_axisNone[] = "nanmax_2d_int_axisNone(ndarray a)\nMaximum of 2d array with dtype=int along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_53nanmax_2d_int_axisNone = {"nanmax_2d_int_axisNone", (PyCFunction)__pyx_pw_6nanmax_53nanmax_2d_int_axisNone, METH_O, __pyx_doc_6nanmax_52nanmax_2d_int_axisNone};
-static PyObject *__pyx_pw_6nanmax_53nanmax_2d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_37nanmax_2d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_36nanmax_2d_int_axisNone[] = "nanmax_2d_int_axisNone(ndarray a)\nMaximum of 2d array with dtype=int along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_37nanmax_2d_int_axisNone = {"nanmax_2d_int_axisNone", (PyCFunction)__pyx_pw_6nanmax_37nanmax_2d_int_axisNone, METH_O, __pyx_doc_6nanmax_36nanmax_2d_int_axisNone};
+static PyObject *__pyx_pw_6nanmax_37nanmax_2d_int_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_int_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 807; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_52nanmax_2d_int_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 599; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_36nanmax_2d_int_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -10132,7 +7684,7 @@ static PyObject *__pyx_pw_6nanmax_53nanmax_2d_int_axisNone(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_36nanmax_2d_int_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int_t __pyx_v_amax;
   __pyx_t_5numpy_int_t __pyx_v_ai;
@@ -10168,11 +7720,11 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 807; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 599; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":809
+  /* "nanmax.pyx":601
  * def nanmax_2d_int_axisNone(np.ndarray[np.int_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=int along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -10181,7 +7733,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":813
+  /* "nanmax.pyx":605
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -10190,7 +7742,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":814
+  /* "nanmax.pyx":606
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -10199,7 +7751,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":815
+  /* "nanmax.pyx":607
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -10208,7 +7760,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":816
+  /* "nanmax.pyx":608
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
@@ -10218,7 +7770,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
   __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":817
+    /* "nanmax.pyx":609
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -10228,27 +7780,27 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":818
+    /* "nanmax.pyx":610
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 818; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 610; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 818; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 610; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 818; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 610; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":819
+  /* "nanmax.pyx":611
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint             # <<<<<<<<<<<<<<
@@ -10257,7 +7809,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint;
 
-  /* "nanmax.pyx":820
+  /* "nanmax.pyx":612
  *         raise ValueError(m)
  *     amax = MINint
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -10268,7 +7820,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":821
+    /* "nanmax.pyx":613
  *     amax = MINint
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -10279,7 +7831,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
     for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
       __pyx_v_i1 = __pyx_t_7;
 
-      /* "nanmax.pyx":822
+      /* "nanmax.pyx":614
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -10290,7 +7842,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
       __pyx_t_9 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":823
+      /* "nanmax.pyx":615
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -10300,7 +7852,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
       __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_1) {
 
-        /* "nanmax.pyx":824
+        /* "nanmax.pyx":616
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -10314,7 +7866,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
     }
   }
 
-  /* "nanmax.pyx":825
+  /* "nanmax.pyx":617
  *             if ai >= amax:
  *                 amax = ai
  *     return np.int(amax)             # <<<<<<<<<<<<<<
@@ -10322,12 +7874,12 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 825; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 825; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 825; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_11 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
@@ -10340,17 +7892,17 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
     }
   }
   if (!__pyx_t_11) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 825; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 825; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_12);
     PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
     PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 825; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 617; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
   }
@@ -10359,7 +7911,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":807
+  /* "nanmax.pyx":599
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int_axisNone(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10390,7 +7942,7 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
   return __pyx_r;
 }
 
-/* "nanmax.pyx":829
+/* "nanmax.pyx":621
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10399,18 +7951,18 @@ static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int_axisNone(CYTHON_UNUSED PyObjec
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_55nanmax_2d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_54nanmax_2d_int8_axisNone[] = "nanmax_2d_int8_axisNone(ndarray a)\nMaximum of 2d array with dtype=int8 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_55nanmax_2d_int8_axisNone = {"nanmax_2d_int8_axisNone", (PyCFunction)__pyx_pw_6nanmax_55nanmax_2d_int8_axisNone, METH_O, __pyx_doc_6nanmax_54nanmax_2d_int8_axisNone};
-static PyObject *__pyx_pw_6nanmax_55nanmax_2d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_39nanmax_2d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_38nanmax_2d_int8_axisNone[] = "nanmax_2d_int8_axisNone(ndarray a)\nMaximum of 2d array with dtype=int8 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_39nanmax_2d_int8_axisNone = {"nanmax_2d_int8_axisNone", (PyCFunction)__pyx_pw_6nanmax_39nanmax_2d_int8_axisNone, METH_O, __pyx_doc_6nanmax_38nanmax_2d_int8_axisNone};
+static PyObject *__pyx_pw_6nanmax_39nanmax_2d_int8_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_int8_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 829; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_38nanmax_2d_int8_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -10421,7 +7973,7 @@ static PyObject *__pyx_pw_6nanmax_55nanmax_2d_int8_axisNone(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_38nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int8_t __pyx_v_amax;
   __pyx_t_5numpy_int8_t __pyx_v_ai;
@@ -10457,11 +8009,11 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 829; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":831
+  /* "nanmax.pyx":623
  * def nanmax_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=int8 along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -10470,7 +8022,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":835
+  /* "nanmax.pyx":627
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -10479,7 +8031,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":836
+  /* "nanmax.pyx":628
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -10488,7 +8040,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":837
+  /* "nanmax.pyx":629
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -10497,7 +8049,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":838
+  /* "nanmax.pyx":630
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
@@ -10507,7 +8059,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
   __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":839
+    /* "nanmax.pyx":631
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -10517,27 +8069,27 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":840
+    /* "nanmax.pyx":632
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint8
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 840; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 632; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 840; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 632; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 840; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 632; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":841
+  /* "nanmax.pyx":633
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint8             # <<<<<<<<<<<<<<
@@ -10546,7 +8098,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint8;
 
-  /* "nanmax.pyx":842
+  /* "nanmax.pyx":634
  *         raise ValueError(m)
  *     amax = MINint8
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -10557,7 +8109,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":843
+    /* "nanmax.pyx":635
  *     amax = MINint8
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -10568,7 +8120,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
     for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
       __pyx_v_i1 = __pyx_t_7;
 
-      /* "nanmax.pyx":844
+      /* "nanmax.pyx":636
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -10579,7 +8131,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
       __pyx_t_9 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":845
+      /* "nanmax.pyx":637
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -10589,7 +8141,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
       __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_1) {
 
-        /* "nanmax.pyx":846
+        /* "nanmax.pyx":638
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -10603,7 +8155,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
     }
   }
 
-  /* "nanmax.pyx":847
+  /* "nanmax.pyx":639
  *             if ai >= amax:
  *                 amax = ai
  *     return np.int8(amax)             # <<<<<<<<<<<<<<
@@ -10611,12 +8163,12 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 847; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 639; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int8); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 847; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int8); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 639; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 847; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 639; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_11 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
@@ -10629,17 +8181,17 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
     }
   }
   if (!__pyx_t_11) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 847; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 639; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 847; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 639; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_12);
     PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
     PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 847; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 639; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
   }
@@ -10648,7 +8200,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":829
+  /* "nanmax.pyx":621
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10679,7 +8231,7 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "nanmax.pyx":851
+/* "nanmax.pyx":643
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int32_axisNone(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10688,18 +8240,18 @@ static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int8_axisNone(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_57nanmax_2d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_56nanmax_2d_int32_axisNone[] = "nanmax_2d_int32_axisNone(ndarray a)\nMaximum of 2d array with dtype=int32 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_57nanmax_2d_int32_axisNone = {"nanmax_2d_int32_axisNone", (PyCFunction)__pyx_pw_6nanmax_57nanmax_2d_int32_axisNone, METH_O, __pyx_doc_6nanmax_56nanmax_2d_int32_axisNone};
-static PyObject *__pyx_pw_6nanmax_57nanmax_2d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_41nanmax_2d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_40nanmax_2d_int32_axisNone[] = "nanmax_2d_int32_axisNone(ndarray a)\nMaximum of 2d array with dtype=int32 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_41nanmax_2d_int32_axisNone = {"nanmax_2d_int32_axisNone", (PyCFunction)__pyx_pw_6nanmax_41nanmax_2d_int32_axisNone, METH_O, __pyx_doc_6nanmax_40nanmax_2d_int32_axisNone};
+static PyObject *__pyx_pw_6nanmax_41nanmax_2d_int32_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_int32_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 643; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_40nanmax_2d_int32_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -10710,7 +8262,7 @@ static PyObject *__pyx_pw_6nanmax_57nanmax_2d_int32_axisNone(PyObject *__pyx_sel
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_40nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int32_t __pyx_v_amax;
   __pyx_t_5numpy_int32_t __pyx_v_ai;
@@ -10746,11 +8298,11 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 643; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":853
+  /* "nanmax.pyx":645
  * def nanmax_2d_int32_axisNone(np.ndarray[np.int32_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=int32 along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -10759,7 +8311,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":857
+  /* "nanmax.pyx":649
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -10768,7 +8320,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":858
+  /* "nanmax.pyx":650
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -10777,7 +8329,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":859
+  /* "nanmax.pyx":651
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -10786,7 +8338,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":860
+  /* "nanmax.pyx":652
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
@@ -10796,7 +8348,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":861
+    /* "nanmax.pyx":653
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -10806,27 +8358,27 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":862
+    /* "nanmax.pyx":654
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint32
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 862; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 654; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 862; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 654; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 862; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 654; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":863
+  /* "nanmax.pyx":655
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint32             # <<<<<<<<<<<<<<
@@ -10835,7 +8387,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint32;
 
-  /* "nanmax.pyx":864
+  /* "nanmax.pyx":656
  *         raise ValueError(m)
  *     amax = MINint32
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -10846,7 +8398,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":865
+    /* "nanmax.pyx":657
  *     amax = MINint32
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -10857,7 +8409,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
     for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
       __pyx_v_i1 = __pyx_t_7;
 
-      /* "nanmax.pyx":866
+      /* "nanmax.pyx":658
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -10868,7 +8420,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
       __pyx_t_9 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":867
+      /* "nanmax.pyx":659
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -10878,7 +8430,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
       __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_1) {
 
-        /* "nanmax.pyx":868
+        /* "nanmax.pyx":660
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -10892,7 +8444,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
     }
   }
 
-  /* "nanmax.pyx":869
+  /* "nanmax.pyx":661
  *             if ai >= amax:
  *                 amax = ai
  *     return np.int32(amax)             # <<<<<<<<<<<<<<
@@ -10900,12 +8452,12 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 661; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 661; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 661; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_11 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
@@ -10918,17 +8470,17 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
     }
   }
   if (!__pyx_t_11) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 661; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 661; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_12);
     PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
     PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 661; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
   }
@@ -10937,7 +8489,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":851
+  /* "nanmax.pyx":643
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int32_axisNone(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10968,7 +8520,7 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "nanmax.pyx":873
+/* "nanmax.pyx":665
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -10977,18 +8529,18 @@ static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int32_axisNone(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6nanmax_59nanmax_2d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
-static char __pyx_doc_6nanmax_58nanmax_2d_int64_axisNone[] = "nanmax_2d_int64_axisNone(ndarray a)\nMaximum of 2d array with dtype=int64 along axis=None ignoring NaNs.";
-static PyMethodDef __pyx_mdef_6nanmax_59nanmax_2d_int64_axisNone = {"nanmax_2d_int64_axisNone", (PyCFunction)__pyx_pw_6nanmax_59nanmax_2d_int64_axisNone, METH_O, __pyx_doc_6nanmax_58nanmax_2d_int64_axisNone};
-static PyObject *__pyx_pw_6nanmax_59nanmax_2d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pw_6nanmax_43nanmax_2d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_42nanmax_2d_int64_axisNone[] = "nanmax_2d_int64_axisNone(ndarray a)\nMaximum of 2d array with dtype=int64 along axis=None ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_43nanmax_2d_int64_axisNone = {"nanmax_2d_int64_axisNone", (PyCFunction)__pyx_pw_6nanmax_43nanmax_2d_int64_axisNone, METH_O, __pyx_doc_6nanmax_42nanmax_2d_int64_axisNone};
+static PyObject *__pyx_pw_6nanmax_43nanmax_2d_int64_axisNone(PyObject *__pyx_self, PyObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_lineno = 0;
   CYTHON_UNUSED const char *__pyx_filename = NULL;
   CYTHON_UNUSED int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("nanmax_2d_int64_axisNone (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 873; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_42nanmax_2d_int64_axisNone(__pyx_self, ((PyArrayObject *)__pyx_v_a));
 
   /* function exit code */
   goto __pyx_L0;
@@ -10999,7 +8551,7 @@ static PyObject *__pyx_pw_6nanmax_59nanmax_2d_int64_axisNone(PyObject *__pyx_sel
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+static PyObject *__pyx_pf_6nanmax_42nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
   CYTHON_UNUSED int __pyx_v_allnan;
   __pyx_t_5numpy_int64_t __pyx_v_amax;
   __pyx_t_5numpy_int64_t __pyx_v_ai;
@@ -11035,11 +8587,11 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
   __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 873; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
 
-  /* "nanmax.pyx":875
+  /* "nanmax.pyx":667
  * def nanmax_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):
  *     "Maximum of 2d array with dtype=int64 along axis=None ignoring NaNs."
  *     cdef int allnan = 1             # <<<<<<<<<<<<<<
@@ -11048,7 +8600,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_allnan = 1;
 
-  /* "nanmax.pyx":879
+  /* "nanmax.pyx":671
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -11057,7 +8609,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanmax.pyx":880
+  /* "nanmax.pyx":672
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -11066,7 +8618,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanmax.pyx":881
+  /* "nanmax.pyx":673
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -11075,7 +8627,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanmax.pyx":882
+  /* "nanmax.pyx":674
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:             # <<<<<<<<<<<<<<
@@ -11085,7 +8637,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_1 = (((__pyx_v_n0 * __pyx_v_n1) == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "nanmax.pyx":883
+    /* "nanmax.pyx":675
  *     cdef Py_ssize_t n1 = dim[1]
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."             # <<<<<<<<<<<<<<
@@ -11095,27 +8647,27 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_size_0);
     __pyx_v_m = __pyx_kp_s_numpy_nanmax_raises_on_a_size_0;
 
-    /* "nanmax.pyx":884
+    /* "nanmax.pyx":676
  *     if n0 * n1 == 0:
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)             # <<<<<<<<<<<<<<
  *     amax = MINint64
  *     for i0 in range(n0):
  */
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 884; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 676; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_m);
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_m);
     __Pyx_GIVEREF(__pyx_v_m);
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 884; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 676; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 884; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 676; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "nanmax.pyx":885
+  /* "nanmax.pyx":677
  *         m = "numpy.nanmax raises on a.size==0 and axis=None; Bottleneck too."
  *         raise ValueError(m)
  *     amax = MINint64             # <<<<<<<<<<<<<<
@@ -11124,7 +8676,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
  */
   __pyx_v_amax = __pyx_v_6nanmax_MINint64;
 
-  /* "nanmax.pyx":886
+  /* "nanmax.pyx":678
  *         raise ValueError(m)
  *     amax = MINint64
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -11135,7 +8687,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_i0 = __pyx_t_5;
 
-    /* "nanmax.pyx":887
+    /* "nanmax.pyx":679
  *     amax = MINint64
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -11146,7 +8698,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
     for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
       __pyx_v_i1 = __pyx_t_7;
 
-      /* "nanmax.pyx":888
+      /* "nanmax.pyx":680
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -11157,7 +8709,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
       __pyx_t_9 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanmax.pyx":889
+      /* "nanmax.pyx":681
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             if ai >= amax:             # <<<<<<<<<<<<<<
@@ -11167,7 +8719,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
       __pyx_t_1 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
       if (__pyx_t_1) {
 
-        /* "nanmax.pyx":890
+        /* "nanmax.pyx":682
  *             ai = a[i0, i1]
  *             if ai >= amax:
  *                 amax = ai             # <<<<<<<<<<<<<<
@@ -11181,20 +8733,20 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
     }
   }
 
-  /* "nanmax.pyx":891
+  /* "nanmax.pyx":683
  *             if ai >= amax:
  *                 amax = ai
  *     return np.int64(amax)             # <<<<<<<<<<<<<<
  * 
- * cdef dict nanmax_dict = {}
+ * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 891; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int64); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 891; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int64); if (unlikely(!__pyx_t_10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 891; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_amax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_11 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_10))) {
@@ -11207,17 +8759,17 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
     }
   }
   if (!__pyx_t_11) {
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 891; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_3);
   } else {
-    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 891; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_12 = PyTuple_New(1+1); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_12);
     PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_11); __Pyx_GIVEREF(__pyx_t_11); __pyx_t_11 = NULL;
     PyTuple_SET_ITEM(__pyx_t_12, 0+1, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 891; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
   }
@@ -11226,7 +8778,7 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "nanmax.pyx":873
+  /* "nanmax.pyx":665
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
@@ -11257,8 +8809,2456 @@ static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axisNone(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
+/* "nanmax.pyx":687
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_45nanmax_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_44nanmax_2d_int_axis0[] = "nanmax_2d_int_axis0(ndarray a)\nMaximum of 2d array with dtype=int along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_45nanmax_2d_int_axis0 = {"nanmax_2d_int_axis0", (PyCFunction)__pyx_pw_6nanmax_45nanmax_2d_int_axis0, METH_O, __pyx_doc_6nanmax_44nanmax_2d_int_axis0};
+static PyObject *__pyx_pw_6nanmax_45nanmax_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int_axis0 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_44nanmax_2d_int_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_44nanmax_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int_t __pyx_v_amax;
+  __pyx_t_5numpy_int_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int_axis0", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":689
+ * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":693
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":694
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":695
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":696
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n1;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":697
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int, 0)
+ *     if n0 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 697; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 697; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 697; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":699
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int, 0)
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":700
+ * 		NPY_int, 0)
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":701
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i1 in range(n1):
+ *         amax = MINint
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 701; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 701; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 701; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":702
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *         amax = MINint
+ *         for i0 in range(n0):
+ */
+  __pyx_t_6 = __pyx_v_n1;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i1 = __pyx_t_7;
+
+    /* "nanmax.pyx":703
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ *         amax = MINint             # <<<<<<<<<<<<<<
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint;
+
+    /* "nanmax.pyx":704
+ *     for i1 in range(n1):
+ *         amax = MINint
+ *         for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n0;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i0 = __pyx_t_9;
+
+      /* "nanmax.pyx":705
+ *         amax = MINint
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":706
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i1] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":707
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i1] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":708
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i1] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i1;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":709
+ *                 amax = ai
+ *         y[i1] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":687
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":713
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_47nanmax_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_46nanmax_2d_int_axis1[] = "nanmax_2d_int_axis1(ndarray a)\nMaximum of 2d array with dtype=int along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_47nanmax_2d_int_axis1 = {"nanmax_2d_int_axis1", (PyCFunction)__pyx_pw_6nanmax_47nanmax_2d_int_axis1, METH_O, __pyx_doc_6nanmax_46nanmax_2d_int_axis1};
+static PyObject *__pyx_pw_6nanmax_47nanmax_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int_axis1 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_46nanmax_2d_int_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_46nanmax_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int_t __pyx_v_amax;
+  __pyx_t_5numpy_int_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int_axis1", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":715
+ * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":719
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":720
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":721
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":722
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n0;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":723
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int, 0)
+ *     if n1 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":725
+ *     cdef np.ndarray[np.int_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int, 0)
+ *     if n1 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":726
+ * 		NPY_int, 0)
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":727
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         amax = MINint
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":728
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         amax = MINint
+ *         for i1 in range(n1):
+ */
+  __pyx_t_6 = __pyx_v_n0;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i0 = __pyx_t_7;
+
+    /* "nanmax.pyx":729
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ *         amax = MINint             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint;
+
+    /* "nanmax.pyx":730
+ *     for i0 in range(n0):
+ *         amax = MINint
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n1;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i1 = __pyx_t_9;
+
+      /* "nanmax.pyx":731
+ *         amax = MINint
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":732
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i0] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":733
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i0] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":734
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i0] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i0;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":735
+ *                 amax = ai
+ *         y[i0] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":713
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":739
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_49nanmax_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_48nanmax_2d_int8_axis0[] = "nanmax_2d_int8_axis0(ndarray a)\nMaximum of 2d array with dtype=int8 along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_49nanmax_2d_int8_axis0 = {"nanmax_2d_int8_axis0", (PyCFunction)__pyx_pw_6nanmax_49nanmax_2d_int8_axis0, METH_O, __pyx_doc_6nanmax_48nanmax_2d_int8_axis0};
+static PyObject *__pyx_pw_6nanmax_49nanmax_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis0 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 739; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_48nanmax_2d_int8_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_48nanmax_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int8_t __pyx_v_amax;
+  __pyx_t_5numpy_int8_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis0", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 739; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":741
+ * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int8_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":745
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":746
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":747
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":748
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int8, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n1;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":749
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int8, 0)
+ *     if n0 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT8, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 749; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 749; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 749; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":751
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int8, 0)
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":752
+ * 		NPY_int8, 0)
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":753
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i1 in range(n1):
+ *         amax = MINint8
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":754
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *         amax = MINint8
+ *         for i0 in range(n0):
+ */
+  __pyx_t_6 = __pyx_v_n1;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i1 = __pyx_t_7;
+
+    /* "nanmax.pyx":755
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ *         amax = MINint8             # <<<<<<<<<<<<<<
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint8;
+
+    /* "nanmax.pyx":756
+ *     for i1 in range(n1):
+ *         amax = MINint8
+ *         for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n0;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i0 = __pyx_t_9;
+
+      /* "nanmax.pyx":757
+ *         amax = MINint8
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":758
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i1] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":759
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i1] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":760
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i1] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i1;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":761
+ *                 amax = ai
+ *         y[i1] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":739
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int8_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":765
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_51nanmax_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_50nanmax_2d_int8_axis1[] = "nanmax_2d_int8_axis1(ndarray a)\nMaximum of 2d array with dtype=int8 along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_51nanmax_2d_int8_axis1 = {"nanmax_2d_int8_axis1", (PyCFunction)__pyx_pw_6nanmax_51nanmax_2d_int8_axis1, METH_O, __pyx_doc_6nanmax_50nanmax_2d_int8_axis1};
+static PyObject *__pyx_pw_6nanmax_51nanmax_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis1 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 765; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_50nanmax_2d_int8_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_50nanmax_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int8_t __pyx_v_amax;
+  __pyx_t_5numpy_int8_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int8_axis1", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 765; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":767
+ * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int8_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":771
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":772
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":773
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":774
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int8, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n0;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":775
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int8, 0)
+ *     if n1 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT8, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 775; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 775; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 775; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":777
+ *     cdef np.ndarray[np.int8_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int8, 0)
+ *     if n1 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":778
+ * 		NPY_int8, 0)
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":779
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         amax = MINint8
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 779; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 779; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 779; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":780
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         amax = MINint8
+ *         for i1 in range(n1):
+ */
+  __pyx_t_6 = __pyx_v_n0;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i0 = __pyx_t_7;
+
+    /* "nanmax.pyx":781
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ *         amax = MINint8             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint8;
+
+    /* "nanmax.pyx":782
+ *     for i0 in range(n0):
+ *         amax = MINint8
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n1;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i1 = __pyx_t_9;
+
+      /* "nanmax.pyx":783
+ *         amax = MINint8
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":784
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i0] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":785
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i0] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":786
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i0] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i0;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":787
+ *                 amax = ai
+ *         y[i0] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":765
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int8_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":791
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_53nanmax_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_52nanmax_2d_int32_axis0[] = "nanmax_2d_int32_axis0(ndarray a)\nMaximum of 2d array with dtype=int32 along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_53nanmax_2d_int32_axis0 = {"nanmax_2d_int32_axis0", (PyCFunction)__pyx_pw_6nanmax_53nanmax_2d_int32_axis0, METH_O, __pyx_doc_6nanmax_52nanmax_2d_int32_axis0};
+static PyObject *__pyx_pw_6nanmax_53nanmax_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis0 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_52nanmax_2d_int32_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_52nanmax_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int32_t __pyx_v_amax;
+  __pyx_t_5numpy_int32_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis0", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":793
+ * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int32_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":797
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":798
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":799
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":800
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int32, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n1;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":801
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int32, 0)
+ *     if n0 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 801; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 801; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 801; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":803
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int32, 0)
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":804
+ * 		NPY_int32, 0)
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":805
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i1 in range(n1):
+ *         amax = MINint32
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 805; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 805; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 805; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":806
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *         amax = MINint32
+ *         for i0 in range(n0):
+ */
+  __pyx_t_6 = __pyx_v_n1;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i1 = __pyx_t_7;
+
+    /* "nanmax.pyx":807
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ *         amax = MINint32             # <<<<<<<<<<<<<<
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint32;
+
+    /* "nanmax.pyx":808
+ *     for i1 in range(n1):
+ *         amax = MINint32
+ *         for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n0;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i0 = __pyx_t_9;
+
+      /* "nanmax.pyx":809
+ *         amax = MINint32
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":810
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i1] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":811
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i1] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":812
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i1] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i1;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":813
+ *                 amax = ai
+ *         y[i1] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":791
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":817
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_55nanmax_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_54nanmax_2d_int32_axis1[] = "nanmax_2d_int32_axis1(ndarray a)\nMaximum of 2d array with dtype=int32 along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_55nanmax_2d_int32_axis1 = {"nanmax_2d_int32_axis1", (PyCFunction)__pyx_pw_6nanmax_55nanmax_2d_int32_axis1, METH_O, __pyx_doc_6nanmax_54nanmax_2d_int32_axis1};
+static PyObject *__pyx_pw_6nanmax_55nanmax_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis1 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 817; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_54nanmax_2d_int32_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_54nanmax_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int32_t __pyx_v_amax;
+  __pyx_t_5numpy_int32_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int32_axis1", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 817; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":819
+ * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int32_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":823
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":824
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":825
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":826
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int32, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n0;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":827
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int32, 0)
+ *     if n1 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT32, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 827; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 827; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 827; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":829
+ *     cdef np.ndarray[np.int32_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int32, 0)
+ *     if n1 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":830
+ * 		NPY_int32, 0)
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":831
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         amax = MINint32
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 831; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 831; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 831; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":832
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         amax = MINint32
+ *         for i1 in range(n1):
+ */
+  __pyx_t_6 = __pyx_v_n0;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i0 = __pyx_t_7;
+
+    /* "nanmax.pyx":833
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ *         amax = MINint32             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint32;
+
+    /* "nanmax.pyx":834
+ *     for i0 in range(n0):
+ *         amax = MINint32
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n1;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i1 = __pyx_t_9;
+
+      /* "nanmax.pyx":835
+ *         amax = MINint32
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":836
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i0] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":837
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i0] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":838
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i0] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i0;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":839
+ *                 amax = ai
+ *         y[i0] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":817
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":843
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_57nanmax_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_56nanmax_2d_int64_axis0[] = "nanmax_2d_int64_axis0(ndarray a)\nMaximum of 2d array with dtype=int64 along axis=0 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_57nanmax_2d_int64_axis0 = {"nanmax_2d_int64_axis0", (PyCFunction)__pyx_pw_6nanmax_57nanmax_2d_int64_axis0, METH_O, __pyx_doc_6nanmax_56nanmax_2d_int64_axis0};
+static PyObject *__pyx_pw_6nanmax_57nanmax_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis0 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 843; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_56nanmax_2d_int64_axis0(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_56nanmax_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int64_t __pyx_v_amax;
+  __pyx_t_5numpy_int64_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis0", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 843; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":845
+ * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int64_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":849
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":850
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":851
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":852
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int64, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n1;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":853
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int64, 0)
+ *     if n0 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 853; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 853; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 853; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":855
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int64, 0)
+ *     if n0 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n0 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":856
+ * 		NPY_int64, 0)
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":857
+ *     if n0 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i1 in range(n1):
+ *         amax = MINint64
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 857; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 857; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 857; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":858
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *         amax = MINint64
+ *         for i0 in range(n0):
+ */
+  __pyx_t_6 = __pyx_v_n1;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i1 = __pyx_t_7;
+
+    /* "nanmax.pyx":859
+ *         raise ValueError(msg)
+ *     for i1 in range(n1):
+ *         amax = MINint64             # <<<<<<<<<<<<<<
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint64;
+
+    /* "nanmax.pyx":860
+ *     for i1 in range(n1):
+ *         amax = MINint64
+ *         for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n0;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i0 = __pyx_t_9;
+
+      /* "nanmax.pyx":861
+ *         amax = MINint64
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":862
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i1] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":863
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i1] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":864
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i1] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i1;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":865
+ *                 amax = ai
+ *         y[i1] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":843
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanmax.pyx":869
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_6nanmax_59nanmax_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a); /*proto*/
+static char __pyx_doc_6nanmax_58nanmax_2d_int64_axis1[] = "nanmax_2d_int64_axis1(ndarray a)\nMaximum of 2d array with dtype=int64 along axis=1 ignoring NaNs.";
+static PyMethodDef __pyx_mdef_6nanmax_59nanmax_2d_int64_axis1 = {"nanmax_2d_int64_axis1", (PyCFunction)__pyx_pw_6nanmax_59nanmax_2d_int64_axis1, METH_O, __pyx_doc_6nanmax_58nanmax_2d_int64_axis1};
+static PyObject *__pyx_pw_6nanmax_59nanmax_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_lineno = 0;
+  CYTHON_UNUSED const char *__pyx_filename = NULL;
+  CYTHON_UNUSED int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis1 (wrapper)", 0);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_6nanmax_58nanmax_2d_int64_axis1(__pyx_self, ((PyArrayObject *)__pyx_v_a));
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_6nanmax_58nanmax_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a) {
+  CYTHON_UNUSED int __pyx_v_allnan;
+  __pyx_t_5numpy_int64_t __pyx_v_amax;
+  __pyx_t_5numpy_int64_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_msg = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanmax_2d_int64_axis1", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+
+  /* "nanmax.pyx":871
+ * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):
+ *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int64_t amax, ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_allnan = 1;
+
+  /* "nanmax.pyx":875
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanmax.pyx":876
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanmax.pyx":877
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanmax.pyx":878
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int64, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n0;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanmax.pyx":879
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_int64, 0)
+ *     if n1 == 0:
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_INT64, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 879; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 879; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 879; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":881
+ *     cdef np.ndarray[np.int64_t, ndim=1] y = PyArray_EMPTY(1, dims,
+ * 		NPY_int64, 0)
+ *     if n1 == 0:             # <<<<<<<<<<<<<<
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ */
+  __pyx_t_4 = ((__pyx_v_n1 == 0) != 0);
+  if (__pyx_t_4) {
+
+    /* "nanmax.pyx":882
+ * 		NPY_int64, 0)
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."             # <<<<<<<<<<<<<<
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ */
+    __Pyx_INCREF(__pyx_kp_s_numpy_nanmax_raises_on_a_shape_a);
+    __pyx_v_msg = __pyx_kp_s_numpy_nanmax_raises_on_a_shape_a;
+
+    /* "nanmax.pyx":883
+ *     if n1 == 0:
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)             # <<<<<<<<<<<<<<
+ *     for i0 in range(n0):
+ *         amax = MINint64
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 883; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_msg);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_msg);
+    __Pyx_GIVEREF(__pyx_v_msg);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 883; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_5, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    {__pyx_filename = __pyx_f[0]; __pyx_lineno = 883; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+
+  /* "nanmax.pyx":884
+ *         msg = "numpy.nanmax raises on a.shape[axis]==0; so Bottleneck does."
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         amax = MINint64
+ *         for i1 in range(n1):
+ */
+  __pyx_t_6 = __pyx_v_n0;
+  for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+    __pyx_v_i0 = __pyx_t_7;
+
+    /* "nanmax.pyx":885
+ *         raise ValueError(msg)
+ *     for i0 in range(n0):
+ *         amax = MINint64             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_amax = __pyx_v_6nanmax_MINint64;
+
+    /* "nanmax.pyx":886
+ *     for i0 in range(n0):
+ *         amax = MINint64
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ */
+    __pyx_t_8 = __pyx_v_n1;
+    for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+      __pyx_v_i1 = __pyx_t_9;
+
+      /* "nanmax.pyx":887
+ *         amax = MINint64
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai >= amax:
+ *                 amax = ai
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanmax.pyx":888
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             if ai >= amax:             # <<<<<<<<<<<<<<
+ *                 amax = ai
+ *         y[i0] = amax
+ */
+      __pyx_t_4 = ((__pyx_v_ai >= __pyx_v_amax) != 0);
+      if (__pyx_t_4) {
+
+        /* "nanmax.pyx":889
+ *             ai = a[i0, i1]
+ *             if ai >= amax:
+ *                 amax = ai             # <<<<<<<<<<<<<<
+ *         y[i0] = amax
+ *     return y
+ */
+        __pyx_v_amax = __pyx_v_ai;
+        goto __pyx_L8;
+      }
+      __pyx_L8:;
+    }
+
+    /* "nanmax.pyx":890
+ *             if ai >= amax:
+ *                 amax = ai
+ *         y[i0] = amax             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+    __pyx_t_8 = __pyx_v_i0;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_y.diminfo[0].strides) = __pyx_v_amax;
+  }
+
+  /* "nanmax.pyx":891
+ *                 amax = ai
+ *         y[i0] = amax
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * cdef dict nanmax_dict = {}
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanmax.pyx":869
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanmax.nanmax_2d_int64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_msg);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
 /* "nanmax.pyx":930
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
  * 
  * def nanmax_slow_axis0(arr):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanmax along axis 0."
@@ -11326,7 +11326,7 @@ static PyObject *__pyx_pf_6nanmax_60nanmax_slow_axis0(CYTHON_UNUSED PyObject *__
   goto __pyx_L0;
 
   /* "nanmax.pyx":930
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
  * 
  * def nanmax_slow_axis0(arr):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanmax along axis 0."
@@ -14317,7 +14317,7 @@ static PyObject *__pyx_pf_6nanmax_126nanmax_slow_axisNone(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":194
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":194
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -14367,7 +14367,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":200
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":200
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -14380,7 +14380,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":203
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":203
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -14389,7 +14389,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":204
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":204
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -14398,7 +14398,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":206
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":206
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -14407,7 +14407,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":208
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":208
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -14417,7 +14417,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":209
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":209
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -14429,7 +14429,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":211
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":211
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -14440,7 +14440,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":213
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":213
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -14456,7 +14456,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L7_next_and:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":214
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":214
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -14468,7 +14468,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":215
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":215
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -14482,7 +14482,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     {__pyx_filename = __pyx_f[1]; __pyx_lineno = 215; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":217
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":217
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -14498,7 +14498,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L10_next_and:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":218
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":218
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -14510,7 +14510,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L9_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":219
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":219
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -14524,7 +14524,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     {__pyx_filename = __pyx_f[1]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":221
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":221
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -14533,7 +14533,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":222
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":222
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -14542,7 +14542,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":223
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":223
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -14552,7 +14552,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":226
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":226
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)             # <<<<<<<<<<<<<<
@@ -14561,7 +14561,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)malloc((((sizeof(Py_ssize_t)) * ((size_t)__pyx_v_ndim)) * 2)));
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":227
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":227
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -14570,7 +14570,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":228
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -14581,7 +14581,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":229
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":229
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -14590,7 +14590,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":230
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":230
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -14603,7 +14603,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":232
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":232
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -14612,7 +14612,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":233
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -14623,7 +14623,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":234
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":234
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -14632,7 +14632,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":235
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -14641,7 +14641,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":236
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":236
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -14650,7 +14650,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":239
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":239
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -14659,7 +14659,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":240
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":240
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -14671,7 +14671,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":244
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":244
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -14680,7 +14680,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":246
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":246
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -14700,7 +14700,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":248
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":248
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -14716,7 +14716,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":251
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":251
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -14731,7 +14731,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":253
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":253
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -14741,7 +14741,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":254
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":254
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -14751,7 +14751,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":255
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":255
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -14774,7 +14774,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":256
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":256
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -14794,7 +14794,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_L19_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":257
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":257
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -14808,7 +14808,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 257; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":274
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -14817,7 +14817,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     switch (__pyx_v_t) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":258
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -14828,7 +14828,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_b;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":259
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":259
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -14839,7 +14839,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_B;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":260
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":260
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -14850,7 +14850,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_h;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":261
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":261
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -14861,7 +14861,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_H;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":262
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":262
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -14872,7 +14872,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_i;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":263
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":263
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -14883,7 +14883,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_I;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":264
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":264
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -14894,7 +14894,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_l;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":265
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -14905,7 +14905,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_L;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":266
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":266
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -14916,7 +14916,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_q;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":267
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":267
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -14927,7 +14927,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Q;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":268
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":268
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -14938,7 +14938,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_f;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":269
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":269
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -14949,7 +14949,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_d;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":270
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -14960,7 +14960,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_g;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":271
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":271
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -14971,7 +14971,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zf;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":272
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -14982,7 +14982,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zd;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":273
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":273
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -14993,7 +14993,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zg;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":274
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -15005,7 +15005,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":276
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -15031,7 +15031,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":277
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":277
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -15040,7 +15040,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":278
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -15052,7 +15052,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":280
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *                 return
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -15061,7 +15061,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = ((char *)malloc(255));
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":281
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":281
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -15070,7 +15070,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":282
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -15079,7 +15079,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":283
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -15089,7 +15089,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 255), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == NULL)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __pyx_v_f = __pyx_t_7;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":286
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -15099,7 +15099,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":194
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":194
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -15131,7 +15131,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":288
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -15155,7 +15155,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":289
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":289
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -15165,7 +15165,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":290
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)             # <<<<<<<<<<<<<<
@@ -15177,7 +15177,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   }
   __pyx_L3:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":291
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -15187,7 +15187,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":292
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 stdlib.free(info.strides)             # <<<<<<<<<<<<<<
@@ -15199,7 +15199,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   }
   __pyx_L4:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":288
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -15211,7 +15211,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":768
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -15228,7 +15228,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":769
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":769
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -15242,7 +15242,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":768
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -15261,7 +15261,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":771
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -15278,7 +15278,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":772
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":772
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -15292,7 +15292,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":771
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -15311,7 +15311,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":774
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -15328,7 +15328,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":775
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -15342,7 +15342,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":774
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -15361,7 +15361,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":777
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -15378,7 +15378,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":778
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -15392,7 +15392,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":777
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -15411,7 +15411,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":780
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -15428,7 +15428,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":781
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":781
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -15442,7 +15442,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":780
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -15461,7 +15461,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":783
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -15493,7 +15493,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":790
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":790
  *     cdef int delta_offset
  *     cdef tuple i
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -15502,7 +15502,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":791
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     cdef tuple i
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -15511,7 +15511,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":794
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -15533,7 +15533,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":795
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -15546,7 +15546,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":796
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":796
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -15585,7 +15585,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":798
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":798
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -15602,7 +15602,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":799
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":799
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -15616,7 +15616,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 799; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":801
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":801
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -15639,7 +15639,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":802
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":802
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -15659,7 +15659,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_L7_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":803
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -15673,7 +15673,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":813
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":813
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -15689,7 +15689,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":814
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":814
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -15698,7 +15698,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 120;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":815
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":815
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -15707,7 +15707,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":816
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":816
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -15718,7 +15718,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":818
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -15728,7 +15728,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":820
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":820
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -15738,7 +15738,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":821
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -15750,7 +15750,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":822
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -15760,7 +15760,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":823
+        /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":823
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -15774,7 +15774,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         {__pyx_filename = __pyx_f[1]; __pyx_lineno = 823; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":826
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -15792,7 +15792,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":827
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -15810,7 +15810,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":828
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":828
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -15828,7 +15828,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":829
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":829
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -15846,7 +15846,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":830
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -15864,7 +15864,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":831
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":831
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -15882,7 +15882,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":832
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":832
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -15900,7 +15900,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":833
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -15918,7 +15918,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":834
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":834
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -15936,7 +15936,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":835
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":835
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -15954,7 +15954,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":836
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -15972,7 +15972,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":837
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":837
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -15990,7 +15990,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":838
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":838
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -16008,7 +16008,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":839
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":839
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -16028,7 +16028,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":840
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -16048,7 +16048,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":841
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":841
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -16068,7 +16068,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":842
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -16087,7 +16087,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       /*else*/ {
 
-        /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":844
+        /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -16110,7 +16110,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":845
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":845
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -16122,7 +16122,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     /*else*/ {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":849
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":849
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -16134,7 +16134,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":794
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -16144,7 +16144,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":850
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":850
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -16154,7 +16154,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":783
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -16179,7 +16179,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":966
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -16194,7 +16194,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":968
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":968
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -16205,7 +16205,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":969
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":969
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -16217,7 +16217,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":971
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":971
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -16226,7 +16226,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     Py_INCREF(__pyx_v_base);
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":972
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":972
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -16237,7 +16237,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":973
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":973
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -16246,7 +16246,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":974
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":974
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -16255,7 +16255,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":966
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -16267,7 +16267,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -16281,7 +16281,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":977
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":977
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -16291,7 +16291,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":978
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":978
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -16305,7 +16305,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":980
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":980
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -16316,7 +16316,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -16354,7 +16354,6 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
-  {&__pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_k_C_Users_Tomaz_bottlechest_bottle, sizeof(__pyx_k_C_Users_Tomaz_bottlechest_bottle), 0, 0, 1, 0},
   {&__pyx_kp_s_Expecting_default_NumPy_int_to_b, __pyx_k_Expecting_default_NumPy_int_to_b, sizeof(__pyx_k_Expecting_default_NumPy_int_to_b), 0, 0, 1, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor, __pyx_k_Format_string_allocated_too_shor, sizeof(__pyx_k_Format_string_allocated_too_shor), 0, 1, 0, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor_2, __pyx_k_Format_string_allocated_too_shor_2, sizeof(__pyx_k_Format_string_allocated_too_shor_2), 0, 1, 0, 0},
@@ -16368,6 +16367,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_RuntimeError, __pyx_k_RuntimeError, sizeof(__pyx_k_RuntimeError), 0, 0, 1, 1},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
   {&__pyx_kp_s_Unsupported_ndim_dtype_axis_s_s, __pyx_k_Unsupported_ndim_dtype_axis_s_s, sizeof(__pyx_k_Unsupported_ndim_dtype_axis_s_s), 0, 0, 1, 0},
+  {&__pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_k_Users_janezdemsar_Dropbox_bottl, sizeof(__pyx_k_Users_janezdemsar_Dropbox_bottl), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 0, 1, 1},
   {&__pyx_n_s_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 0, 1, 1},
@@ -16506,7 +16506,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":215
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":215
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -16517,7 +16517,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":219
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":219
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -16528,7 +16528,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":257
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":257
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -16539,7 +16539,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":799
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":799
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -16550,7 +16550,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":803
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -16561,7 +16561,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":823
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":823
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -16593,7 +16593,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__9 = PyTuple_Pack(3, __pyx_n_s_arr, __pyx_n_s_axis, __pyx_n_s_func); if (unlikely(!__pyx_tuple__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
-  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax, 68, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax, 68, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":109
  *     return func(arr)
@@ -16605,346 +16605,346 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__11 = PyTuple_Pack(8, __pyx_n_s_arr, __pyx_n_s_axis, __pyx_n_s_a, __pyx_n_s_ndim, __pyx_n_s_dtype, __pyx_n_s_key, __pyx_n_s_func, __pyx_n_s_tup); if (unlikely(!__pyx_tuple__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 109; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
-  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_selector, 109, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 109; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_selector, 109, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 109; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":183
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__13 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
-  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int_axis0, 183, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":209
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__15 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
-  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int_axis1, 209, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":235
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__17 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 235; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
-  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int8_axis0, 235, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 235; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":261
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__19 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 261; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int8_axis1, 261, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 261; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":287
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__21 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 287; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__21);
-  __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int32_axis0, 287, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 287; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":313
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__23 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__23);
-  __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int32_axis1, 313, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":339
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__25 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__25);
-  __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int64_axis0, 339, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":365
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__27 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 365; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__27);
-  __Pyx_GIVEREF(__pyx_tuple__27);
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int64_axis1, 365, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 365; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":391
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__29 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__29);
-  __Pyx_GIVEREF(__pyx_tuple__29);
-  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_float_axisNone, 391, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":415
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__31 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 415; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__31);
-  __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_float32_axisNone, 415, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 415; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":439
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__33 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 439; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__33);
-  __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_float64_axisNone, 439, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 439; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":463
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__35 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__35);
-  __Pyx_GIVEREF(__pyx_tuple__35);
-  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float_axisNone, 463, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":489
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__37 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__37);
-  __Pyx_GIVEREF(__pyx_tuple__37);
-  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float32_axisNone, 489, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":515
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_tuple__39 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__39);
-  __Pyx_GIVEREF(__pyx_tuple__39);
-  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float64_axisNone, 515, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanmax.pyx":541
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__41 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__41);
-  __Pyx_GIVEREF(__pyx_tuple__41);
-  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float_axis0, 541, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__13 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__13);
+  __Pyx_GIVEREF(__pyx_tuple__13);
+  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float_axis0, 183, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":572
+  /* "nanmax.pyx":214
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float along axis=1 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__43 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 572; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__43);
-  __Pyx_GIVEREF(__pyx_tuple__43);
-  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float_axis1, 572, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 572; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__15 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
+  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float_axis1, 214, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":603
+  /* "nanmax.pyx":245
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float32 along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__45 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__45);
-  __Pyx_GIVEREF(__pyx_tuple__45);
-  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float32_axis0, 603, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__17 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float32_axis0, 245, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":634
+  /* "nanmax.pyx":276
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float32 along axis=1 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__47 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 634; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__47);
-  __Pyx_GIVEREF(__pyx_tuple__47);
-  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float32_axis1, 634, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 634; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__19 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float32_axis1, 276, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":665
+  /* "nanmax.pyx":307
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float64 along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__49 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__49);
-  __Pyx_GIVEREF(__pyx_tuple__49);
-  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float64_axis0, 665, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__21 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float64_axis0, 307, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":696
+  /* "nanmax.pyx":338
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float64 along axis=1 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__51 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 696; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__51);
-  __Pyx_GIVEREF(__pyx_tuple__51);
-  __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_float64_axis1, 696, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 696; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__23 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float64_axis1, 338, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":727
+  /* "nanmax.pyx":369
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__25 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 369; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_float_axisNone, 369, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 369; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":393
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__27 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 393; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__27);
+  __Pyx_GIVEREF(__pyx_tuple__27);
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_float32_axisNone, 393, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 393; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":417
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__29 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__29);
+  __Pyx_GIVEREF(__pyx_tuple__29);
+  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_float64_axisNone, 417, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":441
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__31 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 441; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__31);
+  __Pyx_GIVEREF(__pyx_tuple__31);
+  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float_axisNone, 441, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 441; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":467
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__33 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__33);
+  __Pyx_GIVEREF(__pyx_tuple__33);
+  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float32_axisNone, 467, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":493
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__35 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 493; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__35);
+  __Pyx_GIVEREF(__pyx_tuple__35);
+  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_float64_axisNone, 493, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 493; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":519
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int_axisNone(np.ndarray[np.int_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__53 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__53);
-  __Pyx_GIVEREF(__pyx_tuple__53);
-  __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_int_axisNone, 727, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__37 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__37);
+  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_int_axisNone, 519, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":747
+  /* "nanmax.pyx":539
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int8 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__55 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 747; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__55);
-  __Pyx_GIVEREF(__pyx_tuple__55);
-  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_int8_axisNone, 747, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 747; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__39 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 539; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__39);
+  __Pyx_GIVEREF(__pyx_tuple__39);
+  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_int8_axisNone, 539, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 539; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":767
+  /* "nanmax.pyx":559
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int32 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__57 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 767; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__57);
-  __Pyx_GIVEREF(__pyx_tuple__57);
-  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_int32_axisNone, 767, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 767; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__41 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 559; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
+  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_int32_axisNone, 559, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 559; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":787
+  /* "nanmax.pyx":579
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int64 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__59 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__59);
-  __Pyx_GIVEREF(__pyx_tuple__59);
-  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_1d_int64_axisNone, 787, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__43 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_m); if (unlikely(!__pyx_tuple__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__43);
+  __Pyx_GIVEREF(__pyx_tuple__43);
+  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_1d_int64_axisNone, 579, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":807
+  /* "nanmax.pyx":599
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int_axisNone(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__61 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 807; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__61);
-  __Pyx_GIVEREF(__pyx_tuple__61);
-  __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int_axisNone, 807, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 807; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__45 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 599; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__45);
+  __Pyx_GIVEREF(__pyx_tuple__45);
+  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int_axisNone, 599, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 599; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":829
+  /* "nanmax.pyx":621
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int8 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__63 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 829; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__63);
-  __Pyx_GIVEREF(__pyx_tuple__63);
-  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int8_axisNone, 829, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 829; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__47 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__47);
+  __Pyx_GIVEREF(__pyx_tuple__47);
+  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int8_axisNone, 621, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":851
+  /* "nanmax.pyx":643
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int32_axisNone(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int32 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__65 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__65)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__65);
-  __Pyx_GIVEREF(__pyx_tuple__65);
-  __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int32_axisNone, 851, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__49 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 643; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__49);
+  __Pyx_GIVEREF(__pyx_tuple__49);
+  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int32_axisNone, 643, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 643; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanmax.pyx":873
+  /* "nanmax.pyx":665
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int64 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_tuple__67 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__67)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 873; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__51 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_m); if (unlikely(!__pyx_tuple__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__51);
+  __Pyx_GIVEREF(__pyx_tuple__51);
+  __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int64_axisNone, 665, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":687
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__53 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__53);
+  __Pyx_GIVEREF(__pyx_tuple__53);
+  __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int_axis0, 687, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":713
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__55 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__55);
+  __Pyx_GIVEREF(__pyx_tuple__55);
+  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int_axis1, 713, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":739
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__57 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 739; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__57);
+  __Pyx_GIVEREF(__pyx_tuple__57);
+  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int8_axis0, 739, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 739; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":765
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__59 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 765; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__59);
+  __Pyx_GIVEREF(__pyx_tuple__59);
+  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int8_axis1, 765, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 765; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":791
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__61 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__61);
+  __Pyx_GIVEREF(__pyx_tuple__61);
+  __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int32_axis0, 791, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":817
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__63 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 817; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__63);
+  __Pyx_GIVEREF(__pyx_tuple__63);
+  __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int32_axis1, 817, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 817; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":843
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__65 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__65)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 843; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__65);
+  __Pyx_GIVEREF(__pyx_tuple__65);
+  __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int64_axis0, 843, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 843; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanmax.pyx":869
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_tuple__67 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_allnan, __pyx_n_s_amax, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_msg); if (unlikely(!__pyx_tuple__67)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__67);
   __Pyx_GIVEREF(__pyx_tuple__67);
-  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_2d_int64_axisNone, 873, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 873; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_2d_int64_axis1, 869, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":930
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
  * 
  * def nanmax_slow_axis0(arr):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanmax along axis 0."
@@ -16953,7 +16953,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__69 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__69)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 930; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__69);
   __Pyx_GIVEREF(__pyx_tuple__69);
-  __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis0, 930, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 930; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__70 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__69, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis0, 930, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__70)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 930; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":934
  *     return bn.slow.nanmax(arr, axis=0)
@@ -16965,7 +16965,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__71 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__71)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 934; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__71);
   __Pyx_GIVEREF(__pyx_tuple__71);
-  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis1, 934, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 934; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__72 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__71, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis1, 934, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__72)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 934; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":938
  *     return bn.slow.nanmax(arr, axis=1)
@@ -16977,7 +16977,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__73 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__73)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 938; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__73);
   __Pyx_GIVEREF(__pyx_tuple__73);
-  __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis2, 938, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 938; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__74 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__73, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis2, 938, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__74)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 938; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":942
  *     return bn.slow.nanmax(arr, axis=2)
@@ -16989,7 +16989,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__75 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__75)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 942; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__75);
   __Pyx_GIVEREF(__pyx_tuple__75);
-  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis3, 942, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 942; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__76 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__75, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis3, 942, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__76)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 942; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":946
  *     return bn.slow.nanmax(arr, axis=3)
@@ -17001,7 +17001,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__77 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__77)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 946; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__77);
   __Pyx_GIVEREF(__pyx_tuple__77);
-  __pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__77, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis4, 946, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__78)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 946; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__78 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__77, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis4, 946, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__78)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 946; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":950
  *     return bn.slow.nanmax(arr, axis=4)
@@ -17013,7 +17013,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__79 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__79)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 950; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__79);
   __Pyx_GIVEREF(__pyx_tuple__79);
-  __pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__79, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis5, 950, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__80)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 950; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__80 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__79, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis5, 950, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__80)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 950; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":954
  *     return bn.slow.nanmax(arr, axis=5)
@@ -17025,7 +17025,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__81 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__81)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 954; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__81);
   __Pyx_GIVEREF(__pyx_tuple__81);
-  __pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__81, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis6, 954, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__82)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 954; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__81, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis6, 954, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__82)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 954; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":958
  *     return bn.slow.nanmax(arr, axis=6)
@@ -17037,7 +17037,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__83 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__83)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 958; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__83);
   __Pyx_GIVEREF(__pyx_tuple__83);
-  __pyx_codeobj__84 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__83, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis7, 958, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__84)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 958; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__84 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__83, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis7, 958, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__84)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 958; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":962
  *     return bn.slow.nanmax(arr, axis=7)
@@ -17049,7 +17049,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__85 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__85)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 962; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__85);
   __Pyx_GIVEREF(__pyx_tuple__85);
-  __pyx_codeobj__86 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__85, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis8, 962, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__86)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 962; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__86 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__85, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis8, 962, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__86)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 962; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":966
  *     return bn.slow.nanmax(arr, axis=8)
@@ -17061,7 +17061,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__87 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__87)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 966; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__87);
   __Pyx_GIVEREF(__pyx_tuple__87);
-  __pyx_codeobj__88 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__87, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis9, 966, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__88)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 966; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__88 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__87, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis9, 966, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__88)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 966; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":970
  *     return bn.slow.nanmax(arr, axis=9)
@@ -17073,7 +17073,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__89 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__89)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 970; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__89);
   __Pyx_GIVEREF(__pyx_tuple__89);
-  __pyx_codeobj__90 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__89, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis10, 970, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__90)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 970; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__90 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__89, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis10, 970, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__90)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 970; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":974
  *     return bn.slow.nanmax(arr, axis=10)
@@ -17085,7 +17085,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__91 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__91)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 974; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__91);
   __Pyx_GIVEREF(__pyx_tuple__91);
-  __pyx_codeobj__92 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__91, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis11, 974, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__92)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 974; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__92 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__91, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis11, 974, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__92)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 974; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":978
  *     return bn.slow.nanmax(arr, axis=11)
@@ -17097,7 +17097,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__93 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__93)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 978; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__93);
   __Pyx_GIVEREF(__pyx_tuple__93);
-  __pyx_codeobj__94 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__93, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis12, 978, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__94)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 978; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__94 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__93, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis12, 978, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__94)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 978; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":982
  *     return bn.slow.nanmax(arr, axis=12)
@@ -17109,7 +17109,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__95 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__95)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 982; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__95);
   __Pyx_GIVEREF(__pyx_tuple__95);
-  __pyx_codeobj__96 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__95, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis13, 982, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__96)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 982; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__96 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__95, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis13, 982, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__96)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 982; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":986
  *     return bn.slow.nanmax(arr, axis=13)
@@ -17121,7 +17121,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__97 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__97)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 986; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__97);
   __Pyx_GIVEREF(__pyx_tuple__97);
-  __pyx_codeobj__98 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__97, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis14, 986, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__98)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 986; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__98 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__97, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis14, 986, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__98)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 986; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":990
  *     return bn.slow.nanmax(arr, axis=14)
@@ -17133,7 +17133,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__99 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__99)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 990; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__99);
   __Pyx_GIVEREF(__pyx_tuple__99);
-  __pyx_codeobj__100 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__99, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis15, 990, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__100)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 990; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__100 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__99, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis15, 990, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__100)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 990; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":994
  *     return bn.slow.nanmax(arr, axis=15)
@@ -17145,7 +17145,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__101 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__101)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 994; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__101);
   __Pyx_GIVEREF(__pyx_tuple__101);
-  __pyx_codeobj__102 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__101, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis16, 994, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__102)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 994; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__102 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__101, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis16, 994, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__102)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 994; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":998
  *     return bn.slow.nanmax(arr, axis=16)
@@ -17157,7 +17157,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__103 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__103)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 998; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__103);
   __Pyx_GIVEREF(__pyx_tuple__103);
-  __pyx_codeobj__104 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__103, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis17, 998, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__104)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 998; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__104 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__103, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis17, 998, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__104)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 998; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1002
  *     return bn.slow.nanmax(arr, axis=17)
@@ -17169,7 +17169,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__105 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__105)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1002; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__105);
   __Pyx_GIVEREF(__pyx_tuple__105);
-  __pyx_codeobj__106 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__105, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis18, 1002, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__106)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1002; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__106 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__105, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis18, 1002, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__106)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1002; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1006
  *     return bn.slow.nanmax(arr, axis=18)
@@ -17181,7 +17181,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__107 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__107)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1006; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__107);
   __Pyx_GIVEREF(__pyx_tuple__107);
-  __pyx_codeobj__108 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__107, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis19, 1006, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__108)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1006; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__108 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__107, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis19, 1006, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__108)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1006; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1010
  *     return bn.slow.nanmax(arr, axis=19)
@@ -17193,7 +17193,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__109 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__109)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1010; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__109);
   __Pyx_GIVEREF(__pyx_tuple__109);
-  __pyx_codeobj__110 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__109, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis20, 1010, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__110)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1010; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__110 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__109, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis20, 1010, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__110)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1010; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1014
  *     return bn.slow.nanmax(arr, axis=20)
@@ -17205,7 +17205,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__111 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__111)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1014; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__111);
   __Pyx_GIVEREF(__pyx_tuple__111);
-  __pyx_codeobj__112 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__111, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis21, 1014, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__112)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1014; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__112 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__111, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis21, 1014, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__112)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1014; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1018
  *     return bn.slow.nanmax(arr, axis=21)
@@ -17217,7 +17217,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__113 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__113)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1018; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__113);
   __Pyx_GIVEREF(__pyx_tuple__113);
-  __pyx_codeobj__114 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__113, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis22, 1018, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__114)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1018; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__114 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__113, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis22, 1018, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__114)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1018; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1022
  *     return bn.slow.nanmax(arr, axis=22)
@@ -17229,7 +17229,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__115 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__115)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1022; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__115);
   __Pyx_GIVEREF(__pyx_tuple__115);
-  __pyx_codeobj__116 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__115, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis23, 1022, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__116)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1022; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__116 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__115, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis23, 1022, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__116)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1022; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1026
  *     return bn.slow.nanmax(arr, axis=23)
@@ -17241,7 +17241,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__117 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__117)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1026; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__117);
   __Pyx_GIVEREF(__pyx_tuple__117);
-  __pyx_codeobj__118 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__117, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis24, 1026, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__118)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1026; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__118 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__117, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis24, 1026, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__118)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1026; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1030
  *     return bn.slow.nanmax(arr, axis=24)
@@ -17253,7 +17253,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__119 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__119)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1030; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__119);
   __Pyx_GIVEREF(__pyx_tuple__119);
-  __pyx_codeobj__120 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__119, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis25, 1030, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__120)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1030; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__120 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__119, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis25, 1030, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__120)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1030; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1034
  *     return bn.slow.nanmax(arr, axis=25)
@@ -17265,7 +17265,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__121 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__121)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1034; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__121);
   __Pyx_GIVEREF(__pyx_tuple__121);
-  __pyx_codeobj__122 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__121, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis26, 1034, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__122)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1034; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__122 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__121, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis26, 1034, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__122)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1034; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1038
  *     return bn.slow.nanmax(arr, axis=26)
@@ -17277,7 +17277,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__123 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__123)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1038; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__123);
   __Pyx_GIVEREF(__pyx_tuple__123);
-  __pyx_codeobj__124 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__123, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis27, 1038, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__124)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1038; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__124 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__123, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis27, 1038, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__124)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1038; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1042
  *     return bn.slow.nanmax(arr, axis=27)
@@ -17289,7 +17289,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__125 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__125)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1042; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__125);
   __Pyx_GIVEREF(__pyx_tuple__125);
-  __pyx_codeobj__126 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__125, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis28, 1042, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__126)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1042; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__126 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__125, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis28, 1042, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__126)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1042; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1046
  *     return bn.slow.nanmax(arr, axis=28)
@@ -17301,7 +17301,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__127 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__127)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1046; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__127);
   __Pyx_GIVEREF(__pyx_tuple__127);
-  __pyx_codeobj__128 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis29, 1046, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__128)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1046; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__128 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__127, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis29, 1046, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__128)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1046; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1050
  *     return bn.slow.nanmax(arr, axis=29)
@@ -17313,7 +17313,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__129 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__129)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1050; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__129);
   __Pyx_GIVEREF(__pyx_tuple__129);
-  __pyx_codeobj__130 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__129, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis30, 1050, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__130)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1050; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__130 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__129, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis30, 1050, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__130)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1050; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1054
  *     return bn.slow.nanmax(arr, axis=30)
@@ -17325,7 +17325,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__131 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__131)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1054; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__131);
   __Pyx_GIVEREF(__pyx_tuple__131);
-  __pyx_codeobj__132 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__131, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis31, 1054, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__132)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1054; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__132 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__131, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis31, 1054, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__132)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1054; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1058
  *     return bn.slow.nanmax(arr, axis=31)
@@ -17337,7 +17337,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__133 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__133)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1058; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__133);
   __Pyx_GIVEREF(__pyx_tuple__133);
-  __pyx_codeobj__134 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__133, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axis32, 1058, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__134)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1058; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__134 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__133, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axis32, 1058, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__134)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1058; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanmax.pyx":1062
  *     return bn.slow.nanmax(arr, axis=32)
@@ -17349,7 +17349,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__135 = PyTuple_Pack(1, __pyx_n_s_arr); if (unlikely(!__pyx_tuple__135)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1062; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__135);
   __Pyx_GIVEREF(__pyx_tuple__135);
-  __pyx_codeobj__136 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__135, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanmax_slow_axisNone, 1062, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__136)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1062; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__136 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__135, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanmax_slow_axisNone, 1062, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__136)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1062; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -18315,345 +18315,345 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   /* "nanmax.pyx":183
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_5nanmax_2d_int_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":209
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_7nanmax_2d_int_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":235
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_9nanmax_2d_int8_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 235; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int8_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 235; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":261
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_11nanmax_2d_int8_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 261; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int8_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 261; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":287
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_13nanmax_2d_int32_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 287; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 287; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":313
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_15nanmax_2d_int32_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":339
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_17nanmax_2d_int64_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":365
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_19nanmax_2d_int64_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 365; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 365; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":391
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_21nanmax_1d_float_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":415
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_23nanmax_1d_float32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 415; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 415; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":439
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_25nanmax_1d_float64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 439; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 439; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":463
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_27nanmax_2d_float_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":489
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_29nanmax_2d_float32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":515
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
- *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
- *     cdef int allnan = 1
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_31nanmax_2d_float64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 515; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanmax.pyx":541
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
  * def nanmax_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_33nanmax_2d_float_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_5nanmax_2d_float_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 183; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":572
+  /* "nanmax.pyx":214
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float along axis=1 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_35nanmax_2d_float_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 572; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_7nanmax_2d_float_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 572; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":603
+  /* "nanmax.pyx":245
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float32 along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_37nanmax_2d_float32_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_9nanmax_2d_float32_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 245; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":634
+  /* "nanmax.pyx":276
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float32 along axis=1 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_39nanmax_2d_float32_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 634; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_11nanmax_2d_float32_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 634; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":665
+  /* "nanmax.pyx":307
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float64 along axis=0 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_41nanmax_2d_float64_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_13nanmax_2d_float64_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":696
+  /* "nanmax.pyx":338
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=float64 along axis=1 ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_43nanmax_2d_float64_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 696; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_15nanmax_2d_float64_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 696; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":727
+  /* "nanmax.pyx":369
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_17nanmax_1d_float_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 369; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 369; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":393
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_19nanmax_1d_float32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 393; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 393; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":417
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 1d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_21nanmax_1d_float64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":441
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_23nanmax_2d_float_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 441; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 441; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":467
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float32 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_25nanmax_2d_float32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":493
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=float64 along axis=None ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_27nanmax_2d_float64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 493; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 493; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":519
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int_axisNone(np.ndarray[np.int_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_45nanmax_1d_int_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_29nanmax_1d_int_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":747
+  /* "nanmax.pyx":539
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int8_axisNone(np.ndarray[np.int8_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int8 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_47nanmax_1d_int8_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 747; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_31nanmax_1d_int8_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 539; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int8_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 747; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int8_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 539; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":767
+  /* "nanmax.pyx":559
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int32_axisNone(np.ndarray[np.int32_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int32 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_49nanmax_1d_int32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 767; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_33nanmax_1d_int32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 559; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 767; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 559; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":787
+  /* "nanmax.pyx":579
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_1d_int64_axisNone(np.ndarray[np.int64_t, ndim=1] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 1d array with dtype=int64 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_51nanmax_1d_int64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_35nanmax_1d_int64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_1d_int64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":807
+  /* "nanmax.pyx":599
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int_axisNone(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_53nanmax_2d_int_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 807; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_37nanmax_2d_int_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 599; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 807; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 599; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":829
+  /* "nanmax.pyx":621
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int8_axisNone(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int8 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_55nanmax_2d_int8_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 829; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_39nanmax_2d_int8_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int8_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 829; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int8_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":851
+  /* "nanmax.pyx":643
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int32_axisNone(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int32 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_57nanmax_2d_int32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_41nanmax_2d_int32_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 643; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 643; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanmax.pyx":873
+  /* "nanmax.pyx":665
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanmax_2d_int64_axisNone(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
  *     "Maximum of 2d array with dtype=int64 along axis=None ignoring NaNs."
  *     cdef int allnan = 1
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_59nanmax_2d_int64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 873; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_43nanmax_2d_int64_axisNone, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 873; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 665; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":687
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_45nanmax_2d_int_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":713
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_47nanmax_2d_int_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":739
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_49nanmax_2d_int8_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 739; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int8_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 739; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":765
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int8 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_51nanmax_2d_int8_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 765; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int8_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 765; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":791
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_53nanmax_2d_int32_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":817
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int32 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_55nanmax_2d_int32_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 817; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 817; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":843
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=0 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_57nanmax_2d_int64_axis0, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 843; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 843; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanmax.pyx":869
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanmax_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a):             # <<<<<<<<<<<<<<
+ *     "Maximum of 2d array with dtype=int64 along axis=1 ignoring NaNs."
+ *     cdef int allnan = 1
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6nanmax_59nanmax_2d_int64_axis1, NULL, __pyx_n_s_nanmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanmax_2d_int64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 869; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":893
- *     return np.int64(amax)
+ *     return y
  * 
  * cdef dict nanmax_dict = {}             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
- * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
+ * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
+ * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
  */
   __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 893; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
@@ -18665,17 +18665,17 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   /* "nanmax.pyx":894
  * 
  * cdef dict nanmax_dict = {}
- * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
- * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
+ * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
+ * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 894; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 894; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 894; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 894; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 894; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 894; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -18694,18 +18694,18 @@ PyMODINIT_FUNC PyInit_nanmax(void)
 
   /* "nanmax.pyx":895
  * cdef dict nanmax_dict = {}
- * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
- * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
- * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
+ * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
+ * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
+ * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 895; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 895; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 895; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 895; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 895; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 895; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -18723,19 +18723,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":896
- * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
- * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
- * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
- * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
+ * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
+ * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
+ * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
+ * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int8_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 896; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 896; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 896; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 896; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 896; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 896; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -18753,19 +18753,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":897
- * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
- * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
- * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
- * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
+ * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
+ * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
+ * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
+ * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int8_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 897; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 897; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 897; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 897; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 897; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 897; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -18783,19 +18783,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":898
- * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
- * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
- * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
- * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
+ * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
+ * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
+ * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
+ * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 898; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 898; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 898; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 898; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 898; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 898; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -18813,19 +18813,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":899
- * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
- * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
- * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
- * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
+ * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
+ * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
+ * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
+ * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 899; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 899; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 899; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 899; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 899; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 899; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -18843,25 +18843,25 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":900
- * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
- * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
- * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
- * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
+ * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
+ * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
+ * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
+ * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 900; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 900; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 900; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 900; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 900; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 900; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_int_0);
@@ -18873,49 +18873,49 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":901
- * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
- * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
- * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
  * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
- * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
+ * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
+ * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 901; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":902
- * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
- * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
- * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
  * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
- * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
+ * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
+ * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 902; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 902; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 902; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 902; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 902; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 902; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -18933,19 +18933,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":903
- * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
- * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
- * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
  * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
- * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
+ * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
+ * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 903; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 903; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 903; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 903; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 903; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 903; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -18963,19 +18963,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":904
- * nanmax_dict[(1, NPY_float, 0)] = nanmax_1d_float_axisNone
- * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
- * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
  * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
- * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
+ * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
+ * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 904; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 904; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 904; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 904; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 904; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 904; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -18993,19 +18993,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":905
- * nanmax_dict[(1, NPY_float, None)] = nanmax_1d_float_axisNone
- * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
- * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
  * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
- * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
+ * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
+ * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 905; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 905; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 905; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 905; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 905; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 905; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19023,55 +19023,55 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":906
- * nanmax_dict[(1, NPY_float32, 0)] = nanmax_1d_float32_axisNone
- * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
- * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
  * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
- * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
+ * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
+ * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_0);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_0);
-  __Pyx_GIVEREF(__pyx_int_0);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 906; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":907
- * nanmax_dict[(1, NPY_float32, None)] = nanmax_1d_float32_axisNone
- * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
- * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
  * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
- * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
+ * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
+ * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 907; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 907; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 907; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 907; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 907; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 907; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(Py_None);
@@ -19083,19 +19083,19 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":908
- * nanmax_dict[(1, NPY_float64, 0)] = nanmax_1d_float64_axisNone
- * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
- * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
  * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
- * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
+ * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 908; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 908; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 908; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 908; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 908; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 908; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19113,55 +19113,55 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":909
- * nanmax_dict[(1, NPY_float64, None)] = nanmax_1d_float64_axisNone
- * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
- * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
  * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
- * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
+ * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_0);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_0);
+  __Pyx_GIVEREF(__pyx_int_0);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 909; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":910
- * nanmax_dict[(2, NPY_float, None)] = nanmax_2d_float_axisNone
- * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
- * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
- * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
+ * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
+ * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 910; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 910; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 910; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 910; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 910; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 910; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_INCREF(Py_None);
@@ -19173,25 +19173,25 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":911
- * nanmax_dict[(2, NPY_float32, None)] = nanmax_2d_float32_axisNone
- * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
- * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
- * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
+ * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 911; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int8_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 911; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 911; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 911; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 911; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 911; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_int_0);
@@ -19203,55 +19203,55 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":912
- * nanmax_dict[(2, NPY_float64, None)] = nanmax_2d_float64_axisNone
- * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
- * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
- * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
+ * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int8_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 912; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":913
- * nanmax_dict[(2, NPY_float, 0)] = nanmax_2d_float_axis0
- * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
- * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
- * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
+ * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 913; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 913; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 913; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 913; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 913; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 913; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_int_0);
@@ -19263,55 +19263,55 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":914
- * nanmax_dict[(2, NPY_float, 1)] = nanmax_2d_float_axis1
- * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
- * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
- * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
+ * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 914; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":915
- * nanmax_dict[(2, NPY_float32, 0)] = nanmax_2d_float32_axis0
- * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
- * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
- * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 915; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 915; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 915; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 915; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 915; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 915; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_int_0);
@@ -19323,43 +19323,43 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":916
- * nanmax_dict[(2, NPY_float32, 1)] = nanmax_2d_float32_axis1
- * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
- * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
- * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
+ * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
+ * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_float64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 916; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":917
- * nanmax_dict[(2, NPY_float64, 0)] = nanmax_2d_float64_axis0
- * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
- * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
- * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
+ * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 917; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 917; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -19369,39 +19369,39 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 917; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_0);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_0);
-  __Pyx_GIVEREF(__pyx_int_0);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 917; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":918
- * nanmax_dict[(2, NPY_float64, 1)] = nanmax_2d_float64_axis1
- * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
- * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
- * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
+ * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
+ * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
+ * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 918; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int8_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 918; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 918; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 918; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 918; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 918; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_INCREF(Py_None);
@@ -19413,55 +19413,55 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":919
- * nanmax_dict[(1, NPY_int, 0)] = nanmax_1d_int_axisNone
- * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
- * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
- * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
+ * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
+ * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int8_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_0);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_0);
-  __Pyx_GIVEREF(__pyx_int_0);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 919; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":920
- * nanmax_dict[(1, NPY_int, None)] = nanmax_1d_int_axisNone
- * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
- * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
- * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
+ * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
+ * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
+ * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
+ * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int8_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 920; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 920; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 920; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 920; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 920; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 920; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_INCREF(Py_None);
@@ -19473,25 +19473,25 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":921
- * nanmax_dict[(1, NPY_int8, 0)] = nanmax_1d_int8_axisNone
- * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
- * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
- * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
+ * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
+ * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 921; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 921; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 921; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 921; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 921; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 921; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_int_0);
@@ -19503,55 +19503,55 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":922
- * nanmax_dict[(1, NPY_int8, None)] = nanmax_1d_int8_axisNone
- * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
- * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
- * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
+ * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
+ * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
+ * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 922; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":923
- * nanmax_dict[(1, NPY_int32, 0)] = nanmax_1d_int32_axisNone
- * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
- * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
- * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
+ * nanmax_dict[(2, NPY_int, 0)] = nanmax_2d_int_axis0
+ * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
+ * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
+ * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 923; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int8_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 923; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 923; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 923; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 923; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 923; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_int_0);
@@ -19563,49 +19563,49 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":924
- * nanmax_dict[(1, NPY_int32, None)] = nanmax_1d_int32_axisNone
- * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
- * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
- * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
+ * nanmax_dict[(2, NPY_int, 1)] = nanmax_2d_int_axis1
+ * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
+ * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
+ * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_1d_int64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int8_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 924; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":925
- * nanmax_dict[(1, NPY_int64, 0)] = nanmax_1d_int64_axisNone
- * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
- * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
- * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
+ * nanmax_dict[(2, NPY_int8, 0)] = nanmax_2d_int8_axis0
+ * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
+ * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
+ * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19614,28 +19614,28 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_0);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_0);
+  __Pyx_GIVEREF(__pyx_int_0);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 925; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":926
- * nanmax_dict[(1, NPY_int64, None)] = nanmax_1d_int64_axisNone
- * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
- * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int8, 1)] = nanmax_2d_int8_axis1
+ * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
+ * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int8_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19644,28 +19644,28 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 926; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":927
- * nanmax_dict[(2, NPY_int, None)] = nanmax_2d_int_axisNone
- * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
- * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone             # <<<<<<<<<<<<<<
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int32, 0)] = nanmax_2d_int32_axis0
+ * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
+ * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
  * 
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19674,22 +19674,22 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_0);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_0);
+  __Pyx_GIVEREF(__pyx_int_0);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 927; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":928
- * nanmax_dict[(2, NPY_int8, None)] = nanmax_2d_int8_axisNone
- * nanmax_dict[(2, NPY_int32, None)] = nanmax_2d_int32_axisNone
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone             # <<<<<<<<<<<<<<
+ * nanmax_dict[(2, NPY_int32, 1)] = nanmax_2d_int32_axis1
+ * nanmax_dict[(2, NPY_int64, 0)] = nanmax_2d_int64_axis0
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1             # <<<<<<<<<<<<<<
  * 
  * def nanmax_slow_axis0(arr):
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 928; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanmax_2d_int64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 928; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_6nanmax_nanmax_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -19704,16 +19704,16 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_6nanmax_nanmax_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 928; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanmax.pyx":930
- * nanmax_dict[(2, NPY_int64, None)] = nanmax_2d_int64_axisNone
+ * nanmax_dict[(2, NPY_int64, 1)] = nanmax_2d_int64_axis1
  * 
  * def nanmax_slow_axis0(arr):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanmax along axis 0."
@@ -20687,7 +20687,7 @@ PyMODINIT_FUNC PyInit_nanmax(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<

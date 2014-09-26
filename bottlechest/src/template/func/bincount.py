@@ -381,6 +381,12 @@ def bincount(arr, max_val, weights=None, mask=None):
         length of the weight vector does not match the length of the array
 
     """
+    if mask is not None:
+        if arr.ndim == 2 and len(mask) != arr.shape[1] or \
+                arr.ndim == 1 and len(mask) != 1:
+            raise ValueError('length of mask does not match the matrix size')
+    if weights is not None and len(weights) != arr.shape[0]:
+        raise ValueError('length of weights does not match the matrix size')
     func, a, weights, mask = bincount_selector(arr, max_val, weights, mask)
     return func(a, max_val, weights, mask)
 

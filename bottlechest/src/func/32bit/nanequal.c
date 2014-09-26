@@ -475,7 +475,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":723
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":723
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -484,7 +484,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":724
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":724
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -493,7 +493,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":725
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":725
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -502,7 +502,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":726
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":726
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -511,7 +511,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":730
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":730
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -520,7 +520,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":731
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":731
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -529,7 +529,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":732
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":732
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -538,7 +538,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":733
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":733
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -547,7 +547,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":737
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":737
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -556,7 +556,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":738
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":738
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -565,7 +565,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":747
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":747
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -574,7 +574,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":748
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":748
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -583,7 +583,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":749
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":749
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -592,7 +592,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":751
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":751
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -601,7 +601,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":752
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":752
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -610,7 +610,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":753
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -619,7 +619,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":755
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":755
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -628,7 +628,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":756
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":756
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -637,7 +637,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":758
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -646,7 +646,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":759
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":759
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -655,7 +655,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":760
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":760
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -686,7 +686,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
 /*--- Type declarations ---*/
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":762
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":762
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -695,7 +695,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":763
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":763
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -704,7 +704,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":764
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":764
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -713,7 +713,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":766
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":766
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1104,14 +1104,14 @@ static __pyx_t_5numpy_float32_t __pyx_v_8nanequal_MAXfloat32;
 static __pyx_t_5numpy_float64_t __pyx_v_8nanequal_MAXfloat64;
 static PyObject *__pyx_v_8nanequal_nanequal_dict = 0;
 static PyObject *__pyx_v_8nanequal_nanequal_slow_dict = 0;
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int_t = { "int_t", NULL, sizeof(__pyx_t_5numpy_int_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int_t), 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float_t = { "float_t", NULL, sizeof(__pyx_t_5numpy_float_t), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t = { "uint8_t", NULL, sizeof(__pyx_t_5numpy_uint8_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_uint8_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_uint8_t), 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t = { "float32_t", NULL, sizeof(__pyx_t_5numpy_float32_t), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t = { "float64_t", NULL, sizeof(__pyx_t_5numpy_float64_t), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int_t = { "int_t", NULL, sizeof(__pyx_t_5numpy_int_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t = { "int8_t", NULL, sizeof(__pyx_t_5numpy_int8_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int8_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int8_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t = { "int32_t", NULL, sizeof(__pyx_t_5numpy_int32_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int32_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int32_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t = { "int64_t", NULL, sizeof(__pyx_t_5numpy_int64_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int64_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int64_t), 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float_t = { "float_t", NULL, sizeof(__pyx_t_5numpy_float_t), { 0 }, 0, 'R', 0, 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t = { "float32_t", NULL, sizeof(__pyx_t_5numpy_float32_t), { 0 }, 0, 'R', 0, 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t = { "float64_t", NULL, sizeof(__pyx_t_5numpy_float64_t), { 0 }, 0, 'R', 0, 0 };
 #define __Pyx_MODULE_NAME "nanequal"
 int __pyx_module_is_main_nanequal = 0;
 
@@ -1123,26 +1123,26 @@ static PyObject *__pyx_builtin_KeyError;
 static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_pf_8nanequal_nanequal(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr1, PyObject *__pyx_v_arr2, PyObject *__pyx_v_axis); /* proto */
 static PyObject *__pyx_pf_8nanequal_2nanequal_selector(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr1, PyObject *__pyx_v_arr2, PyObject *__pyx_v_axis); /* proto */
-static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_16nanequal_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_18nanequal_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
-static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_4nanequal_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_6nanequal_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_8nanequal_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_10nanequal_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_12nanequal_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_14nanequal_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_16nanequal_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_18nanequal_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_22nanequal_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_24nanequal_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_28nanequal_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_30nanequal_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_32nanequal_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_34nanequal_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_36nanequal_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_38nanequal_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_40nanequal_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_8nanequal_42nanequal_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b); /* proto */
 static PyObject *__pyx_pf_8nanequal_44nanequal_slow_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr1, PyObject *__pyx_v_arr2); /* proto */
 static PyObject *__pyx_pf_8nanequal_46nanequal_slow_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr1, PyObject *__pyx_v_arr2); /* proto */
 static PyObject *__pyx_pf_8nanequal_48nanequal_slow_axis2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_arr1, PyObject *__pyx_v_arr2); /* proto */
@@ -1317,16 +1317,15 @@ static char __pyx_k_nanequal_2d_float64_axisNone[] = "nanequal_2d_float64_axisNo
 static char __pyx_k_Return_nanequal_function_and_ar[] = "\n    Return nanequal function and array that matches `arr` and `axis`.\n    \n    Under the hood Bottleneck uses a separate Cython function for each\n    combination of ndim, dtype, and axis. A lot of the overhead in bn.nanequal()\n    is in checking that `axis` is within range, converting `arr` into an\n    array (if it is not already an array), and selecting the function to use.\n\n    You can get rid of the overhead by doing all this before you, for example,\n    enter an inner loop, by using the this function.\n\n    Parameters\n    ----------\n    arr1 : array_like\n        First input array. If `arr` is not an array, a conversion is attempted.\n    arr2 : array_like\n        Second input array\n    axis : {int, None}, optional\n        Axis along which arrays are compared. The default (`axis` = ``None``)\n        is to compare flattened arrays. `axis` may be\n        negative, in which case it counts from the last to the first axis.\n    \n    Returns\n    -------\n    func : function\n        The nanequal function that matches the number of dimensions and\n        dtype of the input array and the axis.\n    a1 : ndarray\n        If the input array `arr1` is not a ndarray, then `a1` will contain the\n        result of converting `arr1` into a ndarray.\n    a2 : ndarray\n        Equivalent for arr2.\n\n    Examples   TODO: PROVIDE EXAMPLES\n    --------\n    Create a numpy array:\n\n    >>> arr = np.array([1.0, 2.0, 3.0])\n    \n    Obtain the function needed to determine if there are any NaN in `arr`:\n\n    >>> func, a = bn.func.nanequal_selector(arr, axis=0)\n    >>> func\n    <function nanequal_1d_float64_axisNone>\n    \n    Use the returned function and array to determine if there are any\n    NaNs:\n    \n    >>> func(a)\n    False\n\n    ";
 static char __pyx_k_Test_whether_two_array_are_equa[] = "\n    Test whether two array are equal along a given axis, ignoring NaNs.\n\n    Returns single boolean unless `axis` is not ``None``.\n\n    Parameters\n    ----------\n    arr1 : array_like\n        First input array. If `arr` is not an array, a conversion is attempted.\n    arr2 : array_like\n        Second input array\n    axis : {int, None}, optional\n        Axis along which arrays are compared. The default (`axis` = ``None``)\n        is to compare flattened arrays. `axis` may be\n        negative, in which case it counts from the last to the first axis.\n\n    Returns\n    -------\n    y : bool or ndarray\n        A new boolean or `ndarray` is returned.\n\n    See also\n    --------\n    bottlechest.nancmp: Compare two arrays, ignoring NaNs\n\n    Examples -- TODO: PROVIDE EXAMPLES!\n    --------\n    >>> bn.nanequal(1)\n    False\n    >>> bn.nanequal(np.nan)\n    True\n    >>> bn.nanequal([1, np.nan])\n    True\n    >>> a = np.array([[1, 4], [1, np.nan]])\n    >>> bn.nanequal(a)\n    True\n    >>> bn.nanequal(a, axis=0)\n    array([False,  True], dtype=bool)    \n\n    ";
 static char __pyx_k_Unsupported_ndim_dtype_axis_s_s[] = "Unsupported ndim/dtype/axis (%s/%s/%s).";
+static char __pyx_k_Users_janezdemsar_Dropbox_bottl[] = "/Users/janezdemsar/Dropbox/bottlechest/bottlechest/src/func/32bit/nanequal.pyx";
 static char __pyx_k_n_d_must_be_between_1_and_d_inc[] = "`n` (=%d) must be between 1 and %d, inclusive.";
 static char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
-static char __pyx_k_C_Users_Tomaz_bottlechest_bottle[] = "C:\\Users\\Tomaz\\bottlechest\\bottlechest\\src\\func\\32bit\\nanequal.pyx";
 static char __pyx_k_Expecting_default_NumPy_int_to_b[] = "Expecting default NumPy int to be 32 or 64 bit.";
 static char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
 static char __pyx_k_arrays_have_different_dimensions[] = "arrays have different dimensions, %i != %i";
 static char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
 static char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
-static PyObject *__pyx_kp_s_C_Users_Tomaz_bottlechest_bottle;
 static PyObject *__pyx_kp_s_Expecting_default_NumPy_int_to_b;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;
@@ -1340,6 +1339,7 @@ static PyObject *__pyx_n_s_RuntimeError;
 static PyObject *__pyx_kp_u_Test_whether_two_array_are_equa;
 static PyObject *__pyx_n_s_TypeError;
 static PyObject *__pyx_kp_s_Unsupported_ndim_dtype_axis_s_s;
+static PyObject *__pyx_kp_s_Users_janezdemsar_Dropbox_bottl;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s__20;
 static PyObject *__pyx_n_s_a;
@@ -2685,16 +2685,16 @@ static PyObject *__pyx_pf_8nanequal_2nanequal_selector(CYTHON_UNUSED PyObject *_
 /* "nanequal.pyx":209
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ * def nanequal_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_5nanequal_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_4nanequal_2d_int_axis0[] = "nanequal_2d_int_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_5nanequal_2d_int_axis0 = {"nanequal_2d_int_axis0", (PyCFunction)__pyx_pw_8nanequal_5nanequal_2d_int_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_4nanequal_2d_int_axis0};
-static PyObject *__pyx_pw_8nanequal_5nanequal_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_5nanequal_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_4nanequal_2d_float_axis0[] = "nanequal_2d_float_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_5nanequal_2d_float_axis0 = {"nanequal_2d_float_axis0", (PyCFunction)__pyx_pw_8nanequal_5nanequal_2d_float_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_4nanequal_2d_float_axis0};
+static PyObject *__pyx_pw_8nanequal_5nanequal_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -2702,7 +2702,7 @@ static PyObject *__pyx_pw_8nanequal_5nanequal_2d_int_axis0(PyObject *__pyx_self,
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int_axis0 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float_axis0 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -2723,11 +2723,11 @@ static PyObject *__pyx_pw_8nanequal_5nanequal_2d_int_axis0(PyObject *__pyx_self,
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -2740,15 +2740,15 @@ static PyObject *__pyx_pw_8nanequal_5nanequal_2d_int_axis0(PyObject *__pyx_self,
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_4nanequal_2d_int_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_4nanequal_2d_float_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -2759,9 +2759,9 @@ static PyObject *__pyx_pw_8nanequal_5nanequal_2d_int_axis0(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_4nanequal_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_int_t __pyx_v_ai;
+  __pyx_t_5numpy_float_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -2789,13 +2789,14 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
+  int __pyx_t_12;
+  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int_axis0", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float_axis0", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -2810,20 +2811,20 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":212
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int_t ai
+ *     cdef np.float_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -2924,22 +2925,22 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":226
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_long((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -2947,30 +2948,50 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
       /* "nanequal.pyx":227
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 y[i1] = 0
  *                 f = 0
  */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      if (__pyx_t_14) {
+        goto __pyx_L9_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L9_next_and:;
+      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
+      if (__pyx_t_14) {
+        goto __pyx_L10_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L10_next_and:;
+      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __pyx_t_12 = __pyx_t_14;
+      __pyx_L8_bool_binop_done:;
+      if (__pyx_t_12) {
 
         /* "nanequal.pyx":228
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_14 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_15 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":229
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -2997,8 +3018,8 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
  *             y[i1] = 1
  *     return y
  */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
+    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_12) {
 
       /* "nanequal.pyx":232
  *                 break
@@ -3009,9 +3030,9 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
  */
       __pyx_t_6 = __pyx_v_i1;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
+      goto __pyx_L11;
     }
-    __pyx_L8:;
+    __pyx_L11:;
   }
 
   /* "nanequal.pyx":233
@@ -3029,22 +3050,22 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
   /* "nanequal.pyx":209
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ * def nanequal_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
+  __Pyx_XDECREF(__pyx_t_13);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3062,16 +3083,16 @@ static PyObject *__pyx_pf_8nanequal_4nanequal_2d_int_axis0(CYTHON_UNUSED PyObjec
 /* "nanequal.pyx":237
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ * def nanequal_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_7nanequal_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_6nanequal_2d_int_axis1[] = "nanequal_2d_int_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_7nanequal_2d_int_axis1 = {"nanequal_2d_int_axis1", (PyCFunction)__pyx_pw_8nanequal_7nanequal_2d_int_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_6nanequal_2d_int_axis1};
-static PyObject *__pyx_pw_8nanequal_7nanequal_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_7nanequal_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_6nanequal_2d_float_axis1[] = "nanequal_2d_float_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_7nanequal_2d_float_axis1 = {"nanequal_2d_float_axis1", (PyCFunction)__pyx_pw_8nanequal_7nanequal_2d_float_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_6nanequal_2d_float_axis1};
+static PyObject *__pyx_pw_8nanequal_7nanequal_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -3079,7 +3100,7 @@ static PyObject *__pyx_pw_8nanequal_7nanequal_2d_int_axis1(PyObject *__pyx_self,
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int_axis1 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float_axis1 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -3100,11 +3121,11 @@ static PyObject *__pyx_pw_8nanequal_7nanequal_2d_int_axis1(PyObject *__pyx_self,
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -3117,15 +3138,15 @@ static PyObject *__pyx_pw_8nanequal_7nanequal_2d_int_axis1(PyObject *__pyx_self,
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_6nanequal_2d_int_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_6nanequal_2d_float_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -3136,9 +3157,9 @@ static PyObject *__pyx_pw_8nanequal_7nanequal_2d_int_axis1(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_6nanequal_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_int_t __pyx_v_ai;
+  __pyx_t_5numpy_float_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -3166,13 +3187,14 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
+  int __pyx_t_12;
+  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int_axis1", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float_axis1", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -3187,20 +3209,20 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":240
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int_t ai
+ *     cdef np.float_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -3301,22 +3323,22 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":254
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_long((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -3324,30 +3346,50 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
       /* "nanequal.pyx":255
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 y[i0] = 0
  *                 f = 0
  */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      if (__pyx_t_14) {
+        goto __pyx_L9_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L9_next_and:;
+      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
+      if (__pyx_t_14) {
+        goto __pyx_L10_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L10_next_and:;
+      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __pyx_t_12 = __pyx_t_14;
+      __pyx_L8_bool_binop_done:;
+      if (__pyx_t_12) {
 
         /* "nanequal.pyx":256
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_14 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_15 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":257
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -3374,8 +3416,8 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
  *             y[i0] = 1
  *     return y
  */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
+    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_12) {
 
       /* "nanequal.pyx":260
  *                 break
@@ -3386,9 +3428,9 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
  */
       __pyx_t_6 = __pyx_v_i0;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
+      goto __pyx_L11;
     }
-    __pyx_L8:;
+    __pyx_L11:;
   }
 
   /* "nanequal.pyx":261
@@ -3406,22 +3448,22 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
   /* "nanequal.pyx":237
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ * def nanequal_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
+  __Pyx_XDECREF(__pyx_t_13);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3439,16 +3481,16 @@ static PyObject *__pyx_pf_8nanequal_6nanequal_2d_int_axis1(CYTHON_UNUSED PyObjec
 /* "nanequal.pyx":265
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+ * def nanequal_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_9nanequal_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_8nanequal_2d_int8_axis0[] = "nanequal_2d_int8_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_9nanequal_2d_int8_axis0 = {"nanequal_2d_int8_axis0", (PyCFunction)__pyx_pw_8nanequal_9nanequal_2d_int8_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_8nanequal_2d_int8_axis0};
-static PyObject *__pyx_pw_8nanequal_9nanequal_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_9nanequal_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_8nanequal_2d_float32_axis0[] = "nanequal_2d_float32_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_9nanequal_2d_float32_axis0 = {"nanequal_2d_float32_axis0", (PyCFunction)__pyx_pw_8nanequal_9nanequal_2d_float32_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_8nanequal_2d_float32_axis0};
+static PyObject *__pyx_pw_8nanequal_9nanequal_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -3456,7 +3498,7 @@ static PyObject *__pyx_pw_8nanequal_9nanequal_2d_int8_axis0(PyObject *__pyx_self
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis0 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis0 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -3477,11 +3519,11 @@ static PyObject *__pyx_pw_8nanequal_9nanequal_2d_int8_axis0(PyObject *__pyx_self
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int8_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float32_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -3494,15 +3536,15 @@ static PyObject *__pyx_pw_8nanequal_9nanequal_2d_int8_axis0(PyObject *__pyx_self
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 266; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_8nanequal_2d_int8_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_8nanequal_2d_float32_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -3513,9 +3555,9 @@ static PyObject *__pyx_pw_8nanequal_9nanequal_2d_int8_axis0(PyObject *__pyx_self
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_8nanequal_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_int8_t __pyx_v_ai;
+  __pyx_t_5numpy_float32_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -3543,13 +3585,14 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
+  int __pyx_t_12;
+  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis0", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis0", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -3564,20 +3607,20 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":268
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int8_t ai
+ *     cdef np.float32_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -3678,22 +3721,22 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":282
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int8((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -3701,30 +3744,50 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
       /* "nanequal.pyx":283
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 y[i1] = 0
  *                 f = 0
  */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      if (__pyx_t_14) {
+        goto __pyx_L9_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L9_next_and:;
+      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
+      if (__pyx_t_14) {
+        goto __pyx_L10_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L10_next_and:;
+      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __pyx_t_12 = __pyx_t_14;
+      __pyx_L8_bool_binop_done:;
+      if (__pyx_t_12) {
 
         /* "nanequal.pyx":284
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_14 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_15 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":285
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -3751,8 +3814,8 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
  *             y[i1] = 1
  *     return y
  */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
+    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_12) {
 
       /* "nanequal.pyx":288
  *                 break
@@ -3763,9 +3826,9 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
  */
       __pyx_t_6 = __pyx_v_i1;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
+      goto __pyx_L11;
     }
-    __pyx_L8:;
+    __pyx_L11:;
   }
 
   /* "nanequal.pyx":289
@@ -3783,22 +3846,22 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
   /* "nanequal.pyx":265
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+ * def nanequal_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
+  __Pyx_XDECREF(__pyx_t_13);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3816,16 +3879,16 @@ static PyObject *__pyx_pf_8nanequal_8nanequal_2d_int8_axis0(CYTHON_UNUSED PyObje
 /* "nanequal.pyx":293
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
+ * def nanequal_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_11nanequal_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_10nanequal_2d_int8_axis1[] = "nanequal_2d_int8_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_11nanequal_2d_int8_axis1 = {"nanequal_2d_int8_axis1", (PyCFunction)__pyx_pw_8nanequal_11nanequal_2d_int8_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_10nanequal_2d_int8_axis1};
-static PyObject *__pyx_pw_8nanequal_11nanequal_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_11nanequal_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_10nanequal_2d_float32_axis1[] = "nanequal_2d_float32_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_11nanequal_2d_float32_axis1 = {"nanequal_2d_float32_axis1", (PyCFunction)__pyx_pw_8nanequal_11nanequal_2d_float32_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_10nanequal_2d_float32_axis1};
+static PyObject *__pyx_pw_8nanequal_11nanequal_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -3833,7 +3896,7 @@ static PyObject *__pyx_pw_8nanequal_11nanequal_2d_int8_axis1(PyObject *__pyx_sel
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis1 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis1 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -3854,11 +3917,11 @@ static PyObject *__pyx_pw_8nanequal_11nanequal_2d_int8_axis1(PyObject *__pyx_sel
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int8_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float32_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -3871,15 +3934,15 @@ static PyObject *__pyx_pw_8nanequal_11nanequal_2d_int8_axis1(PyObject *__pyx_sel
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 294; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_10nanequal_2d_int8_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_10nanequal_2d_float32_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -3890,9 +3953,9 @@ static PyObject *__pyx_pw_8nanequal_11nanequal_2d_int8_axis1(PyObject *__pyx_sel
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_10nanequal_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_int8_t __pyx_v_ai;
+  __pyx_t_5numpy_float32_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -3920,13 +3983,14 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
+  int __pyx_t_12;
+  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis1", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis1", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -3941,20 +4005,20 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":296
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int8_t ai
+ *     cdef np.float32_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -4055,22 +4119,22 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":310
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int8((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 310; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 310; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -4078,30 +4142,50 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
       /* "nanequal.pyx":311
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 y[i0] = 0
  *                 f = 0
  */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      if (__pyx_t_14) {
+        goto __pyx_L9_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L9_next_and:;
+      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
+      if (__pyx_t_14) {
+        goto __pyx_L10_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L10_next_and:;
+      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __pyx_t_12 = __pyx_t_14;
+      __pyx_L8_bool_binop_done:;
+      if (__pyx_t_12) {
 
         /* "nanequal.pyx":312
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_14 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_15 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":313
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -4128,8 +4212,8 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
  *             y[i0] = 1
  *     return y
  */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
+    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_12) {
 
       /* "nanequal.pyx":316
  *                 break
@@ -4140,9 +4224,9 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
  */
       __pyx_t_6 = __pyx_v_i0;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
+      goto __pyx_L11;
     }
-    __pyx_L8:;
+    __pyx_L11:;
   }
 
   /* "nanequal.pyx":317
@@ -4160,22 +4244,22 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
   /* "nanequal.pyx":293
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
+ * def nanequal_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
+  __Pyx_XDECREF(__pyx_t_13);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -4193,16 +4277,16 @@ static PyObject *__pyx_pf_8nanequal_10nanequal_2d_int8_axis1(CYTHON_UNUSED PyObj
 /* "nanequal.pyx":321
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
+ * def nanequal_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_13nanequal_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_12nanequal_2d_int32_axis0[] = "nanequal_2d_int32_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_13nanequal_2d_int32_axis0 = {"nanequal_2d_int32_axis0", (PyCFunction)__pyx_pw_8nanequal_13nanequal_2d_int32_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_12nanequal_2d_int32_axis0};
-static PyObject *__pyx_pw_8nanequal_13nanequal_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_13nanequal_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_12nanequal_2d_float64_axis0[] = "nanequal_2d_float64_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_13nanequal_2d_float64_axis0 = {"nanequal_2d_float64_axis0", (PyCFunction)__pyx_pw_8nanequal_13nanequal_2d_float64_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_12nanequal_2d_float64_axis0};
+static PyObject *__pyx_pw_8nanequal_13nanequal_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -4210,7 +4294,7 @@ static PyObject *__pyx_pw_8nanequal_13nanequal_2d_int32_axis0(PyObject *__pyx_se
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis0 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis0 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -4231,11 +4315,11 @@ static PyObject *__pyx_pw_8nanequal_13nanequal_2d_int32_axis0(PyObject *__pyx_se
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int32_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float64_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -4248,15 +4332,15 @@ static PyObject *__pyx_pw_8nanequal_13nanequal_2d_int32_axis0(PyObject *__pyx_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 322; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_12nanequal_2d_int32_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_12nanequal_2d_float64_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -4267,9 +4351,9 @@ static PyObject *__pyx_pw_8nanequal_13nanequal_2d_int32_axis0(PyObject *__pyx_se
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_12nanequal_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_int32_t __pyx_v_ai;
+  __pyx_t_5numpy_float64_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -4297,13 +4381,14 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
+  int __pyx_t_12;
+  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis0", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis0", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -4318,20 +4403,20 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":324
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int32_t ai
+ *     cdef np.float64_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -4432,22 +4517,22 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":338
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int32((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 338; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -4455,30 +4540,50 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
       /* "nanequal.pyx":339
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 y[i1] = 0
  *                 f = 0
  */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      if (__pyx_t_14) {
+        goto __pyx_L9_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L9_next_and:;
+      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
+      if (__pyx_t_14) {
+        goto __pyx_L10_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L10_next_and:;
+      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __pyx_t_12 = __pyx_t_14;
+      __pyx_L8_bool_binop_done:;
+      if (__pyx_t_12) {
 
         /* "nanequal.pyx":340
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_14 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_15 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":341
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i1] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -4505,8 +4610,8 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
  *             y[i1] = 1
  *     return y
  */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
+    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_12) {
 
       /* "nanequal.pyx":344
  *                 break
@@ -4517,9 +4622,9 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
  */
       __pyx_t_6 = __pyx_v_i1;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
+      goto __pyx_L11;
     }
-    __pyx_L8:;
+    __pyx_L11:;
   }
 
   /* "nanequal.pyx":345
@@ -4537,22 +4642,22 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
   /* "nanequal.pyx":321
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
+ * def nanequal_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
+  __Pyx_XDECREF(__pyx_t_13);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -4570,16 +4675,16 @@ static PyObject *__pyx_pf_8nanequal_12nanequal_2d_int32_axis0(CYTHON_UNUSED PyOb
 /* "nanequal.pyx":349
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
+ * def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_15nanequal_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_14nanequal_2d_int32_axis1[] = "nanequal_2d_int32_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_15nanequal_2d_int32_axis1 = {"nanequal_2d_int32_axis1", (PyCFunction)__pyx_pw_8nanequal_15nanequal_2d_int32_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_14nanequal_2d_int32_axis1};
-static PyObject *__pyx_pw_8nanequal_15nanequal_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_15nanequal_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_14nanequal_2d_float64_axis1[] = "nanequal_2d_float64_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_15nanequal_2d_float64_axis1 = {"nanequal_2d_float64_axis1", (PyCFunction)__pyx_pw_8nanequal_15nanequal_2d_float64_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_14nanequal_2d_float64_axis1};
+static PyObject *__pyx_pw_8nanequal_15nanequal_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -4587,7 +4692,7 @@ static PyObject *__pyx_pw_8nanequal_15nanequal_2d_int32_axis1(PyObject *__pyx_se
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis1 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis1 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -4608,11 +4713,11 @@ static PyObject *__pyx_pw_8nanequal_15nanequal_2d_int32_axis1(PyObject *__pyx_se
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int32_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float64_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -4625,15 +4730,15 @@ static PyObject *__pyx_pw_8nanequal_15nanequal_2d_int32_axis1(PyObject *__pyx_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 350; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_14nanequal_2d_int32_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_14nanequal_2d_float64_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -4644,9 +4749,9 @@ static PyObject *__pyx_pw_8nanequal_15nanequal_2d_int32_axis1(PyObject *__pyx_se
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_14nanequal_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_int32_t __pyx_v_ai;
+  __pyx_t_5numpy_float64_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -4674,13 +4779,14 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
+  int __pyx_t_12;
+  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis1", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis1", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -4695,20 +4801,20 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":352
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int32_t ai
+ *     cdef np.float64_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -4809,22 +4915,22 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":366
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int32((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 366; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 366; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -4832,30 +4938,50 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
       /* "nanequal.pyx":367
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 y[i0] = 0
  *                 f = 0
  */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      if (__pyx_t_14) {
+        goto __pyx_L9_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L9_next_and:;
+      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
+      if (__pyx_t_14) {
+        goto __pyx_L10_next_and;
+      } else {
+        __pyx_t_12 = __pyx_t_14;
+        goto __pyx_L8_bool_binop_done;
+      }
+      __pyx_L10_next_and:;
+      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 367; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __pyx_t_12 = __pyx_t_14;
+      __pyx_L8_bool_binop_done:;
+      if (__pyx_t_12) {
 
         /* "nanequal.pyx":368
  *             bi = b[i0, i1]
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_14 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_15 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":369
- *             if ai != bi:
+ *             if ai != bi and ai == ai and bi == bi:
  *                 y[i0] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -4882,8 +5008,8 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
  *             y[i0] = 1
  *     return y
  */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
+    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_12) {
 
       /* "nanequal.pyx":372
  *                 break
@@ -4894,9 +5020,9 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
  */
       __pyx_t_6 = __pyx_v_i0;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
+      goto __pyx_L11;
     }
-    __pyx_L8:;
+    __pyx_L11:;
   }
 
   /* "nanequal.pyx":373
@@ -4914,22 +5040,22 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
   /* "nanequal.pyx":349
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
+ * def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
+  __Pyx_XDECREF(__pyx_t_13);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -4947,770 +5073,16 @@ static PyObject *__pyx_pf_8nanequal_14nanequal_2d_int32_axis1(CYTHON_UNUSED PyOb
 /* "nanequal.pyx":377
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_17nanequal_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_16nanequal_2d_int64_axis0[] = "nanequal_2d_int64_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_17nanequal_2d_int64_axis0 = {"nanequal_2d_int64_axis0", (PyCFunction)__pyx_pw_8nanequal_17nanequal_2d_int64_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_16nanequal_2d_int64_axis0};
-static PyObject *__pyx_pw_8nanequal_17nanequal_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyArrayObject *__pyx_v_a = 0;
-  PyArrayObject *__pyx_v_b = 0;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis0 (wrapper)", 0);
-  {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
-    PyObject* values[2] = {0,0};
-    if (unlikely(__pyx_kwds)) {
-      Py_ssize_t kw_args;
-      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
-      switch (pos_args) {
-        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      kw_args = PyDict_Size(__pyx_kwds);
-      switch (pos_args) {
-        case  0:
-        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_a)) != 0)) kw_args--;
-        else goto __pyx_L5_argtuple_error;
-        case  1:
-        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
-        else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-        }
-      }
-      if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int64_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-      }
-    } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-    }
-    __pyx_v_a = ((PyArrayObject *)values[0]);
-    __pyx_v_b = ((PyArrayObject *)values[1]);
-  }
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-  __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 378; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_16nanequal_2d_int64_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_8nanequal_16nanequal_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
-  int __pyx_v_f;
-  __pyx_t_5numpy_int64_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_bi = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_b;
-  __Pyx_Buffer __pyx_pybuffer_b;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis0", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  __pyx_pybuffer_b.pybuffer.buf = NULL;
-  __pyx_pybuffer_b.refcount = 0;
-  __pyx_pybuffernd_b.data = NULL;
-  __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
-
-  /* "nanequal.pyx":380
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
- *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int64_t ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_f = 1;
-
-  /* "nanequal.pyx":384
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanequal.pyx":385
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanequal.pyx":386
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanequal.pyx":387
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
- * 		NPY_BOOL, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n1;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanequal.pyx":388
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n1]
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_BOOL, 0)
- *     for i1 in range(n1):
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_BOOL, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 388; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 388; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 1, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 388; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":390
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
- * 		NPY_BOOL, 0)
- *     for i1 in range(n1):             # <<<<<<<<<<<<<<
- *         f = 1
- *         for i0 in range(n0):
- */
-  __pyx_t_4 = __pyx_v_n1;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i1 = __pyx_t_5;
-
-    /* "nanequal.pyx":391
- * 		NPY_BOOL, 0)
- *     for i1 in range(n1):
- *         f = 1             # <<<<<<<<<<<<<<
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- */
-    __pyx_v_f = 1;
-
-    /* "nanequal.pyx":392
- *     for i1 in range(n1):
- *         f = 1
- *         for i0 in range(n0):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             bi = b[i0, i1]
- */
-    __pyx_t_6 = __pyx_v_n0;
-    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-      __pyx_v_i0 = __pyx_t_7;
-
-      /* "nanequal.pyx":393
- *         f = 1
- *         for i0 in range(n0):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             bi = b[i0, i1]
- *             if ai != bi:
- */
-      __pyx_t_8 = __pyx_v_i0;
-      __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanequal.pyx":394
- *         for i0 in range(n0):
- *             ai = a[i0, i1]
- *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
- *                 y[i1] = 0
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int64((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 394; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
-      __pyx_t_2 = 0;
-
-      /* "nanequal.pyx":395
- *             ai = a[i0, i1]
- *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
- *                 y[i1] = 0
- *                 f = 0
- */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
-
-        /* "nanequal.pyx":396
- *             bi = b[i0, i1]
- *             if ai != bi:
- *                 y[i1] = 0             # <<<<<<<<<<<<<<
- *                 f = 0
- *                 break
- */
-        __pyx_t_14 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
-
-        /* "nanequal.pyx":397
- *             if ai != bi:
- *                 y[i1] = 0
- *                 f = 0             # <<<<<<<<<<<<<<
- *                 break
- *         if f == 1:
- */
-        __pyx_v_f = 0;
-
-        /* "nanequal.pyx":398
- *                 y[i1] = 0
- *                 f = 0
- *                 break             # <<<<<<<<<<<<<<
- *         if f == 1:
- *             y[i1] = 1
- */
-        goto __pyx_L6_break;
-      }
-    }
-    __pyx_L6_break:;
-
-    /* "nanequal.pyx":399
- *                 f = 0
- *                 break
- *         if f == 1:             # <<<<<<<<<<<<<<
- *             y[i1] = 1
- *     return y
- */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
-
-      /* "nanequal.pyx":400
- *                 break
- *         if f == 1:
- *             y[i1] = 1             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-      __pyx_t_6 = __pyx_v_i1;
-      *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
-    }
-    __pyx_L8:;
-  }
-
-  /* "nanequal.pyx":401
- *         if f == 1:
- *             y[i1] = 1
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanequal.pyx":377
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_bi);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanequal.pyx":405
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_19nanequal_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_18nanequal_2d_int64_axis1[] = "nanequal_2d_int64_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_19nanequal_2d_int64_axis1 = {"nanequal_2d_int64_axis1", (PyCFunction)__pyx_pw_8nanequal_19nanequal_2d_int64_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_18nanequal_2d_int64_axis1};
-static PyObject *__pyx_pw_8nanequal_19nanequal_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyArrayObject *__pyx_v_a = 0;
-  PyArrayObject *__pyx_v_b = 0;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis1 (wrapper)", 0);
-  {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
-    PyObject* values[2] = {0,0};
-    if (unlikely(__pyx_kwds)) {
-      Py_ssize_t kw_args;
-      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
-      switch (pos_args) {
-        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      kw_args = PyDict_Size(__pyx_kwds);
-      switch (pos_args) {
-        case  0:
-        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_a)) != 0)) kw_args--;
-        else goto __pyx_L5_argtuple_error;
-        case  1:
-        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
-        else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-        }
-      }
-      if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int64_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-      }
-    } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-    }
-    __pyx_v_a = ((PyArrayObject *)values[0]);
-    __pyx_v_b = ((PyArrayObject *)values[1]);
-  }
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-  __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 406; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_18nanequal_2d_int64_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_8nanequal_18nanequal_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
-  int __pyx_v_f;
-  __pyx_t_5numpy_int64_t __pyx_v_ai;
-  Py_ssize_t __pyx_v_i0;
-  Py_ssize_t __pyx_v_i1;
-  npy_intp *__pyx_v_dim;
-  Py_ssize_t __pyx_v_n0;
-  Py_ssize_t __pyx_v_n1;
-  npy_intp *__pyx_v_dims;
-  PyArrayObject *__pyx_v_y = 0;
-  PyObject *__pyx_v_bi = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
-  __Pyx_Buffer __pyx_pybuffer_a;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_b;
-  __Pyx_Buffer __pyx_pybuffer_b;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
-  __Pyx_Buffer __pyx_pybuffer_y;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  npy_intp __pyx_t_1[1];
-  PyObject *__pyx_t_2 = NULL;
-  PyArrayObject *__pyx_t_3 = NULL;
-  Py_ssize_t __pyx_t_4;
-  Py_ssize_t __pyx_t_5;
-  Py_ssize_t __pyx_t_6;
-  Py_ssize_t __pyx_t_7;
-  Py_ssize_t __pyx_t_8;
-  Py_ssize_t __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  PyObject *__pyx_t_12 = NULL;
-  int __pyx_t_13;
-  Py_ssize_t __pyx_t_14;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis1", 0);
-  __pyx_pybuffer_y.pybuffer.buf = NULL;
-  __pyx_pybuffer_y.refcount = 0;
-  __pyx_pybuffernd_y.data = NULL;
-  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
-  __pyx_pybuffer_a.pybuffer.buf = NULL;
-  __pyx_pybuffer_a.refcount = 0;
-  __pyx_pybuffernd_a.data = NULL;
-  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
-  __pyx_pybuffer_b.pybuffer.buf = NULL;
-  __pyx_pybuffer_b.refcount = 0;
-  __pyx_pybuffernd_b.data = NULL;
-  __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  }
-  __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
-
-  /* "nanequal.pyx":408
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
- *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.int64_t ai
- *     cdef Py_ssize_t i0, i1
- */
-  __pyx_v_f = 1;
-
-  /* "nanequal.pyx":412
- *     cdef Py_ssize_t i0, i1
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- */
-  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
-
-  /* "nanequal.pyx":413
- *     cdef np.npy_intp *dim
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- */
-  __pyx_v_n0 = (__pyx_v_dim[0]);
-
-  /* "nanequal.pyx":414
- *     dim = PyArray_DIMS(a)
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
- */
-  __pyx_v_n1 = (__pyx_v_dim[1]);
-
-  /* "nanequal.pyx":415
- *     cdef Py_ssize_t n0 = dim[0]
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
- * 		NPY_BOOL, 0)
- */
-  __pyx_t_1[0] = __pyx_v_n0;
-  __pyx_v_dims = __pyx_t_1;
-
-  /* "nanequal.pyx":416
- *     cdef Py_ssize_t n1 = dim[1]
- *     cdef np.npy_intp *dims = [n0]
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
- * 		NPY_BOOL, 0)
- *     for i0 in range(n0):
- */
-  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_BOOL, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 416; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 416; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
-  {
-    __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 1, __pyx_stack) == -1)) {
-      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
-      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 416; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
-    }
-  }
-  __pyx_t_3 = 0;
-  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
-  __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":418
- *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
- * 		NPY_BOOL, 0)
- *     for i0 in range(n0):             # <<<<<<<<<<<<<<
- *         f = 1
- *         for i1 in range(n1):
- */
-  __pyx_t_4 = __pyx_v_n0;
-  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
-    __pyx_v_i0 = __pyx_t_5;
-
-    /* "nanequal.pyx":419
- * 		NPY_BOOL, 0)
- *     for i0 in range(n0):
- *         f = 1             # <<<<<<<<<<<<<<
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- */
-    __pyx_v_f = 1;
-
-    /* "nanequal.pyx":420
- *     for i0 in range(n0):
- *         f = 1
- *         for i1 in range(n1):             # <<<<<<<<<<<<<<
- *             ai = a[i0, i1]
- *             bi = b[i0, i1]
- */
-    __pyx_t_6 = __pyx_v_n1;
-    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
-      __pyx_v_i1 = __pyx_t_7;
-
-      /* "nanequal.pyx":421
- *         f = 1
- *         for i1 in range(n1):
- *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
- *             bi = b[i0, i1]
- *             if ai != bi:
- */
-      __pyx_t_8 = __pyx_v_i0;
-      __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
-
-      /* "nanequal.pyx":422
- *         for i1 in range(n1):
- *             ai = a[i0, i1]
- *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi:
- *                 y[i0] = 0
- */
-      __pyx_t_10 = __pyx_v_i0;
-      __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int64((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 422; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
-      __pyx_t_2 = 0;
-
-      /* "nanequal.pyx":423
- *             ai = a[i0, i1]
- *             bi = b[i0, i1]
- *             if ai != bi:             # <<<<<<<<<<<<<<
- *                 y[i0] = 0
- *                 f = 0
- */
-      __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 423; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 423; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 423; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (__pyx_t_13) {
-
-        /* "nanequal.pyx":424
- *             bi = b[i0, i1]
- *             if ai != bi:
- *                 y[i0] = 0             # <<<<<<<<<<<<<<
- *                 f = 0
- *                 break
- */
-        __pyx_t_14 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
-
-        /* "nanequal.pyx":425
- *             if ai != bi:
- *                 y[i0] = 0
- *                 f = 0             # <<<<<<<<<<<<<<
- *                 break
- *         if f == 1:
- */
-        __pyx_v_f = 0;
-
-        /* "nanequal.pyx":426
- *                 y[i0] = 0
- *                 f = 0
- *                 break             # <<<<<<<<<<<<<<
- *         if f == 1:
- *             y[i0] = 1
- */
-        goto __pyx_L6_break;
-      }
-    }
-    __pyx_L6_break:;
-
-    /* "nanequal.pyx":427
- *                 f = 0
- *                 break
- *         if f == 1:             # <<<<<<<<<<<<<<
- *             y[i0] = 1
- *     return y
- */
-    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_13) {
-
-      /* "nanequal.pyx":428
- *                 break
- *         if f == 1:
- *             y[i0] = 1             # <<<<<<<<<<<<<<
- *     return y
- * 
- */
-      __pyx_t_6 = __pyx_v_i0;
-      *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L8;
-    }
-    __pyx_L8:;
-  }
-
-  /* "nanequal.pyx":429
- *         if f == 1:
- *             y[i0] = 1
- *     return y             # <<<<<<<<<<<<<<
- * 
- * @cython.boundscheck(False)
- */
-  __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(((PyObject *)__pyx_v_y));
-  __pyx_r = ((PyObject *)__pyx_v_y);
-  goto __pyx_L0;
-
-  /* "nanequal.pyx":405
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_12);
-  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
-    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  goto __pyx_L2;
-  __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
-  __pyx_L2:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_y);
-  __Pyx_XDECREF(__pyx_v_bi);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "nanequal.pyx":433
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
  * def nanequal_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float_t, ndim=1] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_20nanequal_1d_float_axisNone[] = "nanequal_1d_float_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None.";
-static PyMethodDef __pyx_mdef_8nanequal_21nanequal_1d_float_axisNone = {"nanequal_1d_float_axisNone", (PyCFunction)__pyx_pw_8nanequal_21nanequal_1d_float_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_20nanequal_1d_float_axisNone};
-static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_17nanequal_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_16nanequal_1d_float_axisNone[] = "nanequal_1d_float_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None.";
+static PyMethodDef __pyx_mdef_8nanequal_17nanequal_1d_float_axisNone = {"nanequal_1d_float_axisNone", (PyCFunction)__pyx_pw_8nanequal_17nanequal_1d_float_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_16nanequal_1d_float_axisNone};
+static PyObject *__pyx_pw_8nanequal_17nanequal_1d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -5739,11 +5111,11 @@ static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float_axisNone(PyObject *__pyx
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_1d_float_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_1d_float_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_1d_float_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_1d_float_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -5756,15 +5128,15 @@ static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float_axisNone(PyObject *__pyx
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_1d_float_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_1d_float_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("nanequal.nanequal_1d_float_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 434; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_20nanequal_1d_float_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 378; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_16nanequal_1d_float_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -5775,7 +5147,7 @@ static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float_axisNone(PyObject *__pyx
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_16nanequal_1d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   CYTHON_UNUSED int __pyx_v_f;
   __pyx_t_5numpy_float_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
@@ -5810,16 +5182,16 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0];
 
-  /* "nanequal.pyx":436
+  /* "nanequal.pyx":380
  *                               np.ndarray[np.float_t, ndim=1] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
@@ -5828,7 +5200,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_f = 1;
 
-  /* "nanequal.pyx":440
+  /* "nanequal.pyx":384
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -5837,7 +5209,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanequal.pyx":441
+  /* "nanequal.pyx":385
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -5846,7 +5218,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanequal.pyx":442
+  /* "nanequal.pyx":386
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -5857,7 +5229,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i0 = __pyx_t_2;
 
-    /* "nanequal.pyx":443
+    /* "nanequal.pyx":387
  *     cdef Py_ssize_t n0 = dim[0]
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -5867,7 +5239,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
     __pyx_t_3 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanequal.pyx":444
+    /* "nanequal.pyx":388
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         bi = b[i0]             # <<<<<<<<<<<<<<
@@ -5875,23 +5247,23 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  *             return np.bool_(False)
  */
     __pyx_t_4 = __pyx_v_i0;
-    __pyx_t_5 = PyFloat_FromDouble((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_b.diminfo[0].strides))); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 444; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = PyFloat_FromDouble((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_b.diminfo[0].strides))); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 388; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "nanequal.pyx":445
+    /* "nanequal.pyx":389
  *         ai = a[i0]
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *             return np.bool_(False)
  *     return np.bool_(True)
  */
-    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_7 = PyObject_RichCompare(__pyx_t_5, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_7 = PyObject_RichCompare(__pyx_t_5, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (__pyx_t_8) {
       goto __pyx_L7_next_and;
@@ -5908,14 +5280,14 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
       goto __pyx_L6_bool_binop_done;
     }
     __pyx_L8_next_and:;
-    __pyx_t_7 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_7 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 389; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = __pyx_t_8;
     __pyx_L6_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "nanequal.pyx":446
+      /* "nanequal.pyx":390
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)             # <<<<<<<<<<<<<<
@@ -5923,12 +5295,12 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  * 
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 390; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 390; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 390; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_7;
@@ -5937,7 +5309,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
     }
   }
 
-  /* "nanequal.pyx":447
+  /* "nanequal.pyx":391
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
@@ -5945,19 +5317,19 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_r = __pyx_t_7;
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "nanequal.pyx":433
+  /* "nanequal.pyx":377
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a,             # <<<<<<<<<<<<<<
@@ -5987,7 +5359,7 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "nanequal.pyx":451
+/* "nanequal.pyx":395
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a,             # <<<<<<<<<<<<<<
@@ -5996,10 +5368,10 @@ static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float_axisNone(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_23nanequal_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_22nanequal_1d_float32_axisNone[] = "nanequal_1d_float32_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None.";
-static PyMethodDef __pyx_mdef_8nanequal_23nanequal_1d_float32_axisNone = {"nanequal_1d_float32_axisNone", (PyCFunction)__pyx_pw_8nanequal_23nanequal_1d_float32_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_22nanequal_1d_float32_axisNone};
-static PyObject *__pyx_pw_8nanequal_23nanequal_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_19nanequal_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_18nanequal_1d_float32_axisNone[] = "nanequal_1d_float32_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None.";
+static PyMethodDef __pyx_mdef_8nanequal_19nanequal_1d_float32_axisNone = {"nanequal_1d_float32_axisNone", (PyCFunction)__pyx_pw_8nanequal_19nanequal_1d_float32_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_18nanequal_1d_float32_axisNone};
+static PyObject *__pyx_pw_8nanequal_19nanequal_1d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -6028,11 +5400,11 @@ static PyObject *__pyx_pw_8nanequal_23nanequal_1d_float32_axisNone(PyObject *__p
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_1d_float32_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_1d_float32_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_1d_float32_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_1d_float32_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -6045,15 +5417,15 @@ static PyObject *__pyx_pw_8nanequal_23nanequal_1d_float32_axisNone(PyObject *__p
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_1d_float32_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_1d_float32_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("nanequal.nanequal_1d_float32_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 452; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 396; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_18nanequal_1d_float32_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6064,7 +5436,7 @@ static PyObject *__pyx_pw_8nanequal_23nanequal_1d_float32_axisNone(PyObject *__p
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_18nanequal_1d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   CYTHON_UNUSED int __pyx_v_f;
   __pyx_t_5numpy_float32_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
@@ -6099,16 +5471,16 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0];
 
-  /* "nanequal.pyx":454
+  /* "nanequal.pyx":398
  *                               np.ndarray[np.float32_t, ndim=1] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
@@ -6117,7 +5489,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_f = 1;
 
-  /* "nanequal.pyx":458
+  /* "nanequal.pyx":402
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -6126,7 +5498,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanequal.pyx":459
+  /* "nanequal.pyx":403
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -6135,7 +5507,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanequal.pyx":460
+  /* "nanequal.pyx":404
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -6146,7 +5518,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i0 = __pyx_t_2;
 
-    /* "nanequal.pyx":461
+    /* "nanequal.pyx":405
  *     cdef Py_ssize_t n0 = dim[0]
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -6156,7 +5528,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
     __pyx_t_3 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanequal.pyx":462
+    /* "nanequal.pyx":406
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         bi = b[i0]             # <<<<<<<<<<<<<<
@@ -6164,23 +5536,23 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  *             return np.bool_(False)
  */
     __pyx_t_4 = __pyx_v_i0;
-    __pyx_t_5 = PyFloat_FromDouble((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_b.diminfo[0].strides))); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 462; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = PyFloat_FromDouble((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_b.diminfo[0].strides))); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 406; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "nanequal.pyx":463
+    /* "nanequal.pyx":407
  *         ai = a[i0]
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *             return np.bool_(False)
  *     return np.bool_(True)
  */
-    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 407; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_7 = PyObject_RichCompare(__pyx_t_5, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_7 = PyObject_RichCompare(__pyx_t_5, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 407; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 407; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (__pyx_t_8) {
       goto __pyx_L7_next_and;
@@ -6197,14 +5569,14 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
       goto __pyx_L6_bool_binop_done;
     }
     __pyx_L8_next_and:;
-    __pyx_t_7 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 463; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_7 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 407; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 407; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = __pyx_t_8;
     __pyx_L6_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "nanequal.pyx":464
+      /* "nanequal.pyx":408
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)             # <<<<<<<<<<<<<<
@@ -6212,12 +5584,12 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  * 
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 464; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 408; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 464; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 408; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 464; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 408; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_7;
@@ -6226,7 +5598,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
     }
   }
 
-  /* "nanequal.pyx":465
+  /* "nanequal.pyx":409
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
@@ -6234,19 +5606,19 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_r = __pyx_t_7;
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "nanequal.pyx":451
+  /* "nanequal.pyx":395
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a,             # <<<<<<<<<<<<<<
@@ -6276,7 +5648,7 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "nanequal.pyx":469
+/* "nanequal.pyx":413
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a,             # <<<<<<<<<<<<<<
@@ -6285,10 +5657,10 @@ static PyObject *__pyx_pf_8nanequal_22nanequal_1d_float32_axisNone(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_25nanequal_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_24nanequal_1d_float64_axisNone[] = "nanequal_1d_float64_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None.";
-static PyMethodDef __pyx_mdef_8nanequal_25nanequal_1d_float64_axisNone = {"nanequal_1d_float64_axisNone", (PyCFunction)__pyx_pw_8nanequal_25nanequal_1d_float64_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_24nanequal_1d_float64_axisNone};
-static PyObject *__pyx_pw_8nanequal_25nanequal_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_20nanequal_1d_float64_axisNone[] = "nanequal_1d_float64_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None.";
+static PyMethodDef __pyx_mdef_8nanequal_21nanequal_1d_float64_axisNone = {"nanequal_1d_float64_axisNone", (PyCFunction)__pyx_pw_8nanequal_21nanequal_1d_float64_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_20nanequal_1d_float64_axisNone};
+static PyObject *__pyx_pw_8nanequal_21nanequal_1d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -6317,11 +5689,11 @@ static PyObject *__pyx_pw_8nanequal_25nanequal_1d_float64_axisNone(PyObject *__p
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_1d_float64_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_1d_float64_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_1d_float64_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_1d_float64_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -6334,15 +5706,15 @@ static PyObject *__pyx_pw_8nanequal_25nanequal_1d_float64_axisNone(PyObject *__p
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_1d_float64_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_1d_float64_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("nanequal.nanequal_1d_float64_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 470; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 414; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_20nanequal_1d_float64_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6353,7 +5725,7 @@ static PyObject *__pyx_pw_8nanequal_25nanequal_1d_float64_axisNone(PyObject *__p
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_20nanequal_1d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   CYTHON_UNUSED int __pyx_v_f;
   __pyx_t_5numpy_float64_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
@@ -6388,16 +5760,16 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0];
 
-  /* "nanequal.pyx":472
+  /* "nanequal.pyx":416
  *                               np.ndarray[np.float64_t, ndim=1] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
@@ -6406,7 +5778,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_f = 1;
 
-  /* "nanequal.pyx":476
+  /* "nanequal.pyx":420
  *     cdef Py_ssize_t i0
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -6415,7 +5787,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanequal.pyx":477
+  /* "nanequal.pyx":421
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -6424,7 +5796,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanequal.pyx":478
+  /* "nanequal.pyx":422
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -6435,7 +5807,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i0 = __pyx_t_2;
 
-    /* "nanequal.pyx":479
+    /* "nanequal.pyx":423
  *     cdef Py_ssize_t n0 = dim[0]
  *     for i0 in range(n0):
  *         ai = a[i0]             # <<<<<<<<<<<<<<
@@ -6445,7 +5817,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
     __pyx_t_3 = __pyx_v_i0;
     __pyx_v_ai = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_a.diminfo[0].strides));
 
-    /* "nanequal.pyx":480
+    /* "nanequal.pyx":424
  *     for i0 in range(n0):
  *         ai = a[i0]
  *         bi = b[i0]             # <<<<<<<<<<<<<<
@@ -6453,23 +5825,23 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  *             return np.bool_(False)
  */
     __pyx_t_4 = __pyx_v_i0;
-    __pyx_t_5 = PyFloat_FromDouble((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_b.diminfo[0].strides))); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 480; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = PyFloat_FromDouble((*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_b.diminfo[0].strides))); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 424; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "nanequal.pyx":481
+    /* "nanequal.pyx":425
  *         ai = a[i0]
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *             return np.bool_(False)
  *     return np.bool_(True)
  */
-    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 481; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_7 = PyObject_RichCompare(__pyx_t_5, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 481; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_7 = PyObject_RichCompare(__pyx_t_5, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 481; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (__pyx_t_8) {
       goto __pyx_L7_next_and;
@@ -6486,14 +5858,14 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
       goto __pyx_L6_bool_binop_done;
     }
     __pyx_L8_next_and:;
-    __pyx_t_7 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 481; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 481; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_7 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_8 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 425; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = __pyx_t_8;
     __pyx_L6_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "nanequal.pyx":482
+      /* "nanequal.pyx":426
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)             # <<<<<<<<<<<<<<
@@ -6501,12 +5873,12 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  * 
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 482; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 426; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 482; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 426; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 482; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 426; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_7;
@@ -6515,7 +5887,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
     }
   }
 
-  /* "nanequal.pyx":483
+  /* "nanequal.pyx":427
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
@@ -6523,19 +5895,19 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_bool); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_r = __pyx_t_7;
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "nanequal.pyx":469
+  /* "nanequal.pyx":413
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a,             # <<<<<<<<<<<<<<
@@ -6565,7 +5937,7 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "nanequal.pyx":487
+/* "nanequal.pyx":431
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
@@ -6574,10 +5946,10 @@ static PyObject *__pyx_pf_8nanequal_24nanequal_1d_float64_axisNone(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_26nanequal_2d_float_axisNone[] = "nanequal_2d_float_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None.";
-static PyMethodDef __pyx_mdef_8nanequal_27nanequal_2d_float_axisNone = {"nanequal_2d_float_axisNone", (PyCFunction)__pyx_pw_8nanequal_27nanequal_2d_float_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_26nanequal_2d_float_axisNone};
-static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_23nanequal_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_22nanequal_2d_float_axisNone[] = "nanequal_2d_float_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None.";
+static PyMethodDef __pyx_mdef_8nanequal_23nanequal_2d_float_axisNone = {"nanequal_2d_float_axisNone", (PyCFunction)__pyx_pw_8nanequal_23nanequal_2d_float_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_22nanequal_2d_float_axisNone};
+static PyObject *__pyx_pw_8nanequal_23nanequal_2d_float_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -6606,11 +5978,11 @@ static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float_axisNone(PyObject *__pyx
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -6623,15 +5995,15 @@ static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float_axisNone(PyObject *__pyx
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("nanequal.nanequal_2d_float_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 488; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_26nanequal_2d_float_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 432; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_22nanequal_2d_float_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6642,7 +6014,7 @@ static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float_axisNone(PyObject *__pyx
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_22nanequal_2d_float_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   CYTHON_UNUSED int __pyx_v_f;
   __pyx_t_5numpy_float_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
@@ -6683,16 +6055,16 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
-  /* "nanequal.pyx":490
+  /* "nanequal.pyx":434
  *                               np.ndarray[np.float_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
@@ -6701,7 +6073,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_f = 1;
 
-  /* "nanequal.pyx":494
+  /* "nanequal.pyx":438
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -6710,7 +6082,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanequal.pyx":495
+  /* "nanequal.pyx":439
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -6719,7 +6091,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanequal.pyx":496
+  /* "nanequal.pyx":440
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -6728,7 +6100,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanequal.pyx":497
+  /* "nanequal.pyx":441
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -6739,7 +6111,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i0 = __pyx_t_2;
 
-    /* "nanequal.pyx":498
+    /* "nanequal.pyx":442
  *     cdef Py_ssize_t n1 = dim[1]
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -6750,7 +6122,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_i1 = __pyx_t_4;
 
-      /* "nanequal.pyx":499
+      /* "nanequal.pyx":443
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -6761,7 +6133,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
       __pyx_t_6 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanequal.pyx":500
+      /* "nanequal.pyx":444
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
@@ -6770,23 +6142,23 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  */
       __pyx_t_7 = __pyx_v_i0;
       __pyx_t_8 = __pyx_v_i1;
-      __pyx_t_9 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 500; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_9 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 444; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_9);
       __pyx_t_9 = 0;
 
-      /* "nanequal.pyx":501
+      /* "nanequal.pyx":445
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 return np.bool_(False)
  *     return np.bool_(True)
  */
-      __pyx_t_9 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 501; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_9 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_11 = PyObject_RichCompare(__pyx_t_9, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 501; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_11 = PyObject_RichCompare(__pyx_t_9, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 501; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       if (__pyx_t_12) {
         goto __pyx_L9_next_and;
@@ -6803,14 +6175,14 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
         goto __pyx_L8_bool_binop_done;
       }
       __pyx_L10_next_and:;
-      __pyx_t_11 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 501; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 501; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_11 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 445; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __pyx_t_10 = __pyx_t_12;
       __pyx_L8_bool_binop_done:;
       if (__pyx_t_10) {
 
-        /* "nanequal.pyx":502
+        /* "nanequal.pyx":446
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)             # <<<<<<<<<<<<<<
@@ -6818,12 +6190,12 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  * 
  */
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_r = __pyx_t_11;
@@ -6833,7 +6205,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
     }
   }
 
-  /* "nanequal.pyx":503
+  /* "nanequal.pyx":447
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
@@ -6841,19 +6213,19 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 503; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 503; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 503; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __pyx_r = __pyx_t_11;
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "nanequal.pyx":487
+  /* "nanequal.pyx":431
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
@@ -6883,7 +6255,7 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "nanequal.pyx":507
+/* "nanequal.pyx":451
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
@@ -6892,10 +6264,10 @@ static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float_axisNone(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_29nanequal_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_28nanequal_2d_float32_axisNone[] = "nanequal_2d_float32_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None.";
-static PyMethodDef __pyx_mdef_8nanequal_29nanequal_2d_float32_axisNone = {"nanequal_2d_float32_axisNone", (PyCFunction)__pyx_pw_8nanequal_29nanequal_2d_float32_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_28nanequal_2d_float32_axisNone};
-static PyObject *__pyx_pw_8nanequal_29nanequal_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_25nanequal_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_24nanequal_2d_float32_axisNone[] = "nanequal_2d_float32_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None.";
+static PyMethodDef __pyx_mdef_8nanequal_25nanequal_2d_float32_axisNone = {"nanequal_2d_float32_axisNone", (PyCFunction)__pyx_pw_8nanequal_25nanequal_2d_float32_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_24nanequal_2d_float32_axisNone};
+static PyObject *__pyx_pw_8nanequal_25nanequal_2d_float32_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -6924,11 +6296,11 @@ static PyObject *__pyx_pw_8nanequal_29nanequal_2d_float32_axisNone(PyObject *__p
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float32_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float32_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -6941,15 +6313,15 @@ static PyObject *__pyx_pw_8nanequal_29nanequal_2d_float32_axisNone(PyObject *__p
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 508; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 452; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_24nanequal_2d_float32_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6960,7 +6332,7 @@ static PyObject *__pyx_pw_8nanequal_29nanequal_2d_float32_axisNone(PyObject *__p
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_24nanequal_2d_float32_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   CYTHON_UNUSED int __pyx_v_f;
   __pyx_t_5numpy_float32_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
@@ -7001,16 +6373,16 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
-  /* "nanequal.pyx":510
+  /* "nanequal.pyx":454
  *                               np.ndarray[np.float32_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
@@ -7019,7 +6391,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_f = 1;
 
-  /* "nanequal.pyx":514
+  /* "nanequal.pyx":458
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -7028,7 +6400,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanequal.pyx":515
+  /* "nanequal.pyx":459
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -7037,7 +6409,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanequal.pyx":516
+  /* "nanequal.pyx":460
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -7046,7 +6418,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanequal.pyx":517
+  /* "nanequal.pyx":461
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -7057,7 +6429,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i0 = __pyx_t_2;
 
-    /* "nanequal.pyx":518
+    /* "nanequal.pyx":462
  *     cdef Py_ssize_t n1 = dim[1]
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -7068,7 +6440,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_i1 = __pyx_t_4;
 
-      /* "nanequal.pyx":519
+      /* "nanequal.pyx":463
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -7079,7 +6451,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
       __pyx_t_6 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanequal.pyx":520
+      /* "nanequal.pyx":464
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
@@ -7088,23 +6460,23 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  */
       __pyx_t_7 = __pyx_v_i0;
       __pyx_t_8 = __pyx_v_i1;
-      __pyx_t_9 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 520; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_9 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 464; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_9);
       __pyx_t_9 = 0;
 
-      /* "nanequal.pyx":521
+      /* "nanequal.pyx":465
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 return np.bool_(False)
  *     return np.bool_(True)
  */
-      __pyx_t_9 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 521; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_9 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_11 = PyObject_RichCompare(__pyx_t_9, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 521; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_11 = PyObject_RichCompare(__pyx_t_9, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 521; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       if (__pyx_t_12) {
         goto __pyx_L9_next_and;
@@ -7121,14 +6493,14 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
         goto __pyx_L8_bool_binop_done;
       }
       __pyx_L10_next_and:;
-      __pyx_t_11 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 521; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 521; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_11 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __pyx_t_10 = __pyx_t_12;
       __pyx_L8_bool_binop_done:;
       if (__pyx_t_10) {
 
-        /* "nanequal.pyx":522
+        /* "nanequal.pyx":466
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)             # <<<<<<<<<<<<<<
@@ -7136,12 +6508,12 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  * 
  */
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 522; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 466; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 522; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 466; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 522; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 466; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_r = __pyx_t_11;
@@ -7151,7 +6523,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
     }
   }
 
-  /* "nanequal.pyx":523
+  /* "nanequal.pyx":467
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
@@ -7159,19 +6531,19 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 523; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 523; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 523; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __pyx_r = __pyx_t_11;
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "nanequal.pyx":507
+  /* "nanequal.pyx":451
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
@@ -7201,7 +6573,7 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "nanequal.pyx":527
+/* "nanequal.pyx":471
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
@@ -7210,10 +6582,10 @@ static PyObject *__pyx_pf_8nanequal_28nanequal_2d_float32_axisNone(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_31nanequal_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_30nanequal_2d_float64_axisNone[] = "nanequal_2d_float64_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None.";
-static PyMethodDef __pyx_mdef_8nanequal_31nanequal_2d_float64_axisNone = {"nanequal_2d_float64_axisNone", (PyCFunction)__pyx_pw_8nanequal_31nanequal_2d_float64_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_30nanequal_2d_float64_axisNone};
-static PyObject *__pyx_pw_8nanequal_31nanequal_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_26nanequal_2d_float64_axisNone[] = "nanequal_2d_float64_axisNone(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None.";
+static PyMethodDef __pyx_mdef_8nanequal_27nanequal_2d_float64_axisNone = {"nanequal_2d_float64_axisNone", (PyCFunction)__pyx_pw_8nanequal_27nanequal_2d_float64_axisNone, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_26nanequal_2d_float64_axisNone};
+static PyObject *__pyx_pw_8nanequal_27nanequal_2d_float64_axisNone(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -7242,11 +6614,11 @@ static PyObject *__pyx_pw_8nanequal_31nanequal_2d_float64_axisNone(PyObject *__p
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axisNone", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float64_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float64_axisNone") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -7259,15 +6631,15 @@ static PyObject *__pyx_pw_8nanequal_31nanequal_2d_float64_axisNone(PyObject *__p
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axisNone", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axisNone", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 528; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 472; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_26nanequal_2d_float64_axisNone(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7278,7 +6650,7 @@ static PyObject *__pyx_pw_8nanequal_31nanequal_2d_float64_axisNone(PyObject *__p
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_26nanequal_2d_float64_axisNone(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   CYTHON_UNUSED int __pyx_v_f;
   __pyx_t_5numpy_float64_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
@@ -7319,16 +6691,16 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
-  /* "nanequal.pyx":530
+  /* "nanequal.pyx":474
  *                               np.ndarray[np.float64_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
@@ -7337,7 +6709,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_f = 1;
 
-  /* "nanequal.pyx":534
+  /* "nanequal.pyx":478
  *     cdef Py_ssize_t i0, i1
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
@@ -7346,7 +6718,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
 
-  /* "nanequal.pyx":535
+  /* "nanequal.pyx":479
  *     cdef np.npy_intp *dim
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
@@ -7355,7 +6727,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_n0 = (__pyx_v_dim[0]);
 
-  /* "nanequal.pyx":536
+  /* "nanequal.pyx":480
  *     dim = PyArray_DIMS(a)
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
@@ -7364,7 +6736,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  */
   __pyx_v_n1 = (__pyx_v_dim[1]);
 
-  /* "nanequal.pyx":537
+  /* "nanequal.pyx":481
  *     cdef Py_ssize_t n0 = dim[0]
  *     cdef Py_ssize_t n1 = dim[1]
  *     for i0 in range(n0):             # <<<<<<<<<<<<<<
@@ -7375,7 +6747,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i0 = __pyx_t_2;
 
-    /* "nanequal.pyx":538
+    /* "nanequal.pyx":482
  *     cdef Py_ssize_t n1 = dim[1]
  *     for i0 in range(n0):
  *         for i1 in range(n1):             # <<<<<<<<<<<<<<
@@ -7386,7 +6758,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_i1 = __pyx_t_4;
 
-      /* "nanequal.pyx":539
+      /* "nanequal.pyx":483
  *     for i0 in range(n0):
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
@@ -7397,7 +6769,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
       __pyx_t_6 = __pyx_v_i1;
       __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_6, __pyx_pybuffernd_a.diminfo[1].strides));
 
-      /* "nanequal.pyx":540
+      /* "nanequal.pyx":484
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
@@ -7406,23 +6778,23 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  */
       __pyx_t_7 = __pyx_v_i0;
       __pyx_t_8 = __pyx_v_i1;
-      __pyx_t_9 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 540; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_9 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_8, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 484; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_9);
       __pyx_t_9 = 0;
 
-      /* "nanequal.pyx":541
+      /* "nanequal.pyx":485
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
  *                 return np.bool_(False)
  *     return np.bool_(True)
  */
-      __pyx_t_9 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_9 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_11 = PyObject_RichCompare(__pyx_t_9, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_11 = PyObject_RichCompare(__pyx_t_9, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       if (__pyx_t_12) {
         goto __pyx_L9_next_and;
@@ -7439,14 +6811,14 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
         goto __pyx_L8_bool_binop_done;
       }
       __pyx_L10_next_and:;
-      __pyx_t_11 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_11 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_11); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely(__pyx_t_12 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 485; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __pyx_t_10 = __pyx_t_12;
       __pyx_L8_bool_binop_done:;
       if (__pyx_t_10) {
 
-        /* "nanequal.pyx":542
+        /* "nanequal.pyx":486
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)             # <<<<<<<<<<<<<<
@@ -7454,12 +6826,12 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  * 
  */
         __Pyx_XDECREF(__pyx_r);
-        __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 542; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 486; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 542; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 486; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 542; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+        __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 486; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_r = __pyx_t_11;
@@ -7469,7 +6841,7 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
     }
   }
 
-  /* "nanequal.pyx":543
+  /* "nanequal.pyx":487
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
@@ -7477,19 +6849,19 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
  * @cython.boundscheck(False)
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 543; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_11 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 543; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_bool); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 543; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __pyx_r = __pyx_t_11;
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "nanequal.pyx":527
+  /* "nanequal.pyx":471
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
@@ -7519,19 +6891,19 @@ static PyObject *__pyx_pf_8nanequal_30nanequal_2d_float64_axisNone(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "nanequal.pyx":547
+/* "nanequal.pyx":491
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
+ * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_33nanequal_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_32nanequal_2d_float_axis0[] = "nanequal_2d_float_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_33nanequal_2d_float_axis0 = {"nanequal_2d_float_axis0", (PyCFunction)__pyx_pw_8nanequal_33nanequal_2d_float_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_32nanequal_2d_float_axis0};
-static PyObject *__pyx_pw_8nanequal_33nanequal_2d_float_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_29nanequal_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_28nanequal_2d_int_axis0[] = "nanequal_2d_int_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_29nanequal_2d_int_axis0 = {"nanequal_2d_int_axis0", (PyCFunction)__pyx_pw_8nanequal_29nanequal_2d_int_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_28nanequal_2d_int_axis0};
+static PyObject *__pyx_pw_8nanequal_29nanequal_2d_int_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -7539,7 +6911,7 @@ static PyObject *__pyx_pw_8nanequal_33nanequal_2d_float_axis0(PyObject *__pyx_se
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_float_axis0 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int_axis0 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -7560,11 +6932,11 @@ static PyObject *__pyx_pw_8nanequal_33nanequal_2d_float_axis0(PyObject *__pyx_se
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -7577,15 +6949,15 @@ static PyObject *__pyx_pw_8nanequal_33nanequal_2d_float_axis0(PyObject *__pyx_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 548; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_32nanequal_2d_float_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 492; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_28nanequal_2d_int_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7596,9 +6968,9 @@ static PyObject *__pyx_pw_8nanequal_33nanequal_2d_float_axis0(PyObject *__pyx_se
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_28nanequal_2d_int_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_float_t __pyx_v_ai;
+  __pyx_t_5numpy_int_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -7626,14 +6998,13 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_float_axis0", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int_axis0", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -7648,20 +7019,774 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
+
+  /* "nanequal.pyx":494
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ *     cdef int f = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int_t ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_f = 1;
+
+  /* "nanequal.pyx":498
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanequal.pyx":499
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanequal.pyx":500
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanequal.pyx":501
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+ * 		NPY_BOOL, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n1;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanequal.pyx":502
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n1]
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_BOOL, 0)
+ *     for i1 in range(n1):
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_BOOL, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 1, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":504
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+ * 		NPY_BOOL, 0)
+ *     for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *         f = 1
+ *         for i0 in range(n0):
+ */
+  __pyx_t_4 = __pyx_v_n1;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i1 = __pyx_t_5;
+
+    /* "nanequal.pyx":505
+ * 		NPY_BOOL, 0)
+ *     for i1 in range(n1):
+ *         f = 1             # <<<<<<<<<<<<<<
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_f = 1;
+
+    /* "nanequal.pyx":506
+ *     for i1 in range(n1):
+ *         f = 1
+ *         for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             bi = b[i0, i1]
+ */
+    __pyx_t_6 = __pyx_v_n0;
+    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+      __pyx_v_i0 = __pyx_t_7;
+
+      /* "nanequal.pyx":507
+ *         f = 1
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             bi = b[i0, i1]
+ *             if ai != bi:
+ */
+      __pyx_t_8 = __pyx_v_i0;
+      __pyx_t_9 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanequal.pyx":508
+ *         for i0 in range(n0):
+ *             ai = a[i0, i1]
+ *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai != bi:
+ *                 y[i1] = 0
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_t_2 = __Pyx_PyInt_From_npy_long((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 508; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
+      __pyx_t_2 = 0;
+
+      /* "nanequal.pyx":509
+ *             ai = a[i0, i1]
+ *             bi = b[i0, i1]
+ *             if ai != bi:             # <<<<<<<<<<<<<<
+ *                 y[i1] = 0
+ *                 f = 0
+ */
+      __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 509; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
+
+        /* "nanequal.pyx":510
+ *             bi = b[i0, i1]
+ *             if ai != bi:
+ *                 y[i1] = 0             # <<<<<<<<<<<<<<
+ *                 f = 0
+ *                 break
+ */
+        __pyx_t_14 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+
+        /* "nanequal.pyx":511
+ *             if ai != bi:
+ *                 y[i1] = 0
+ *                 f = 0             # <<<<<<<<<<<<<<
+ *                 break
+ *         if f == 1:
+ */
+        __pyx_v_f = 0;
+
+        /* "nanequal.pyx":512
+ *                 y[i1] = 0
+ *                 f = 0
+ *                 break             # <<<<<<<<<<<<<<
+ *         if f == 1:
+ *             y[i1] = 1
+ */
+        goto __pyx_L6_break;
+      }
+    }
+    __pyx_L6_break:;
+
+    /* "nanequal.pyx":513
+ *                 f = 0
+ *                 break
+ *         if f == 1:             # <<<<<<<<<<<<<<
+ *             y[i1] = 1
+ *     return y
+ */
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
+
+      /* "nanequal.pyx":514
+ *                 break
+ *         if f == 1:
+ *             y[i1] = 1             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+      __pyx_t_6 = __pyx_v_i1;
+      *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
+      goto __pyx_L8;
+    }
+    __pyx_L8:;
+  }
+
+  /* "nanequal.pyx":515
+ *         if f == 1:
+ *             y[i1] = 1
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanequal.pyx":491
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_12);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_bi);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanequal.pyx":519
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_8nanequal_31nanequal_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_30nanequal_2d_int_axis1[] = "nanequal_2d_int_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_31nanequal_2d_int_axis1 = {"nanequal_2d_int_axis1", (PyCFunction)__pyx_pw_8nanequal_31nanequal_2d_int_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_30nanequal_2d_int_axis1};
+static PyObject *__pyx_pw_8nanequal_31nanequal_2d_int_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  PyArrayObject *__pyx_v_a = 0;
+  PyArrayObject *__pyx_v_b = 0;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanequal_2d_int_axis1 (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
+    PyObject* values[2] = {0,0};
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_a)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        case  1:
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+      }
+    } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+    }
+    __pyx_v_a = ((PyArrayObject *)values[0]);
+    __pyx_v_b = ((PyArrayObject *)values[1]);
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 520; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_30nanequal_2d_int_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_8nanequal_30nanequal_2d_int_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+  int __pyx_v_f;
+  __pyx_t_5numpy_int_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_bi = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_b;
+  __Pyx_Buffer __pyx_pybuffer_b;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanequal_2d_int_axis1", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  __pyx_pybuffer_b.pybuffer.buf = NULL;
+  __pyx_pybuffer_b.refcount = 0;
+  __pyx_pybuffernd_b.data = NULL;
+  __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
+
+  /* "nanequal.pyx":522
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ *     cdef int f = 1             # <<<<<<<<<<<<<<
+ *     cdef np.int_t ai
+ *     cdef Py_ssize_t i0, i1
+ */
+  __pyx_v_f = 1;
+
+  /* "nanequal.pyx":526
+ *     cdef Py_ssize_t i0, i1
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ */
+  __pyx_v_dim = PyArray_DIMS(((PyArrayObject *)__pyx_v_a));
+
+  /* "nanequal.pyx":527
+ *     cdef np.npy_intp *dim
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ */
+  __pyx_v_n0 = (__pyx_v_dim[0]);
+
+  /* "nanequal.pyx":528
+ *     dim = PyArray_DIMS(a)
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]             # <<<<<<<<<<<<<<
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+ */
+  __pyx_v_n1 = (__pyx_v_dim[1]);
+
+  /* "nanequal.pyx":529
+ *     cdef Py_ssize_t n0 = dim[0]
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]             # <<<<<<<<<<<<<<
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+ * 		NPY_BOOL, 0)
+ */
+  __pyx_t_1[0] = __pyx_v_n0;
+  __pyx_v_dims = __pyx_t_1;
+
+  /* "nanequal.pyx":530
+ *     cdef Py_ssize_t n1 = dim[1]
+ *     cdef np.npy_intp *dims = [n0]
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,             # <<<<<<<<<<<<<<
+ * 		NPY_BOOL, 0)
+ *     for i0 in range(n0):
+ */
+  __pyx_t_2 = PyArray_EMPTY(1, __pyx_v_dims, NPY_BOOL, 0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 530; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 530; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = ((PyArrayObject *)__pyx_t_2);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_y.rcbuffer->pybuffer, (PyObject*)__pyx_t_3, &__Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 1, __pyx_stack) == -1)) {
+      __pyx_v_y = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_y.rcbuffer->pybuffer.buf = NULL;
+      {__pyx_filename = __pyx_f[0]; __pyx_lineno = 530; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    } else {__pyx_pybuffernd_y.diminfo[0].strides = __pyx_pybuffernd_y.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_y.diminfo[0].shape = __pyx_pybuffernd_y.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_3 = 0;
+  __pyx_v_y = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":532
+ *     cdef np.ndarray[np.uint8_t, ndim=1, cast=True] y = PyArray_EMPTY(1, dims,
+ * 		NPY_BOOL, 0)
+ *     for i0 in range(n0):             # <<<<<<<<<<<<<<
+ *         f = 1
+ *         for i1 in range(n1):
+ */
+  __pyx_t_4 = __pyx_v_n0;
+  for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+    __pyx_v_i0 = __pyx_t_5;
+
+    /* "nanequal.pyx":533
+ * 		NPY_BOOL, 0)
+ *     for i0 in range(n0):
+ *         f = 1             # <<<<<<<<<<<<<<
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ */
+    __pyx_v_f = 1;
+
+    /* "nanequal.pyx":534
+ *     for i0 in range(n0):
+ *         f = 1
+ *         for i1 in range(n1):             # <<<<<<<<<<<<<<
+ *             ai = a[i0, i1]
+ *             bi = b[i0, i1]
+ */
+    __pyx_t_6 = __pyx_v_n1;
+    for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
+      __pyx_v_i1 = __pyx_t_7;
+
+      /* "nanequal.pyx":535
+ *         f = 1
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
+ *             bi = b[i0, i1]
+ *             if ai != bi:
+ */
+      __pyx_t_8 = __pyx_v_i0;
+      __pyx_t_9 = __pyx_v_i1;
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+
+      /* "nanequal.pyx":536
+ *         for i1 in range(n1):
+ *             ai = a[i0, i1]
+ *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
+ *             if ai != bi:
+ *                 y[i0] = 0
+ */
+      __pyx_t_10 = __pyx_v_i0;
+      __pyx_t_11 = __pyx_v_i1;
+      __pyx_t_2 = __Pyx_PyInt_From_npy_long((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 536; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
+      __pyx_t_2 = 0;
+
+      /* "nanequal.pyx":537
+ *             ai = a[i0, i1]
+ *             bi = b[i0, i1]
+ *             if ai != bi:             # <<<<<<<<<<<<<<
+ *                 y[i0] = 0
+ *                 f = 0
+ */
+      __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
+
+        /* "nanequal.pyx":538
+ *             bi = b[i0, i1]
+ *             if ai != bi:
+ *                 y[i0] = 0             # <<<<<<<<<<<<<<
+ *                 f = 0
+ *                 break
+ */
+        __pyx_t_14 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+
+        /* "nanequal.pyx":539
+ *             if ai != bi:
+ *                 y[i0] = 0
+ *                 f = 0             # <<<<<<<<<<<<<<
+ *                 break
+ *         if f == 1:
+ */
+        __pyx_v_f = 0;
+
+        /* "nanequal.pyx":540
+ *                 y[i0] = 0
+ *                 f = 0
+ *                 break             # <<<<<<<<<<<<<<
+ *         if f == 1:
+ *             y[i0] = 1
+ */
+        goto __pyx_L6_break;
+      }
+    }
+    __pyx_L6_break:;
+
+    /* "nanequal.pyx":541
+ *                 f = 0
+ *                 break
+ *         if f == 1:             # <<<<<<<<<<<<<<
+ *             y[i0] = 1
+ *     return y
+ */
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
+
+      /* "nanequal.pyx":542
+ *                 break
+ *         if f == 1:
+ *             y[i0] = 1             # <<<<<<<<<<<<<<
+ *     return y
+ * 
+ */
+      __pyx_t_6 = __pyx_v_i0;
+      *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
+      goto __pyx_L8;
+    }
+    __pyx_L8:;
+  }
+
+  /* "nanequal.pyx":543
+ *         if f == 1:
+ *             y[i0] = 1
+ *     return y             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_y));
+  __pyx_r = ((PyObject *)__pyx_v_y);
+  goto __pyx_L0;
+
+  /* "nanequal.pyx":519
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_12);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_y);
+  __Pyx_XDECREF(__pyx_v_bi);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "nanequal.pyx":547
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_8nanequal_33nanequal_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_32nanequal_2d_int8_axis0[] = "nanequal_2d_int8_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_33nanequal_2d_int8_axis0 = {"nanequal_2d_int8_axis0", (PyCFunction)__pyx_pw_8nanequal_33nanequal_2d_int8_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_32nanequal_2d_int8_axis0};
+static PyObject *__pyx_pw_8nanequal_33nanequal_2d_int8_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  PyArrayObject *__pyx_v_a = 0;
+  PyArrayObject *__pyx_v_b = 0;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis0 (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
+    PyObject* values[2] = {0,0};
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_a)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        case  1:
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int8_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+      }
+    } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+    }
+    __pyx_v_a = ((PyArrayObject *)values[0]);
+    __pyx_v_b = ((PyArrayObject *)values[1]);
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 548; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_r = __pyx_pf_8nanequal_32nanequal_2d_int8_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_8nanequal_32nanequal_2d_int8_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+  int __pyx_v_f;
+  __pyx_t_5numpy_int8_t __pyx_v_ai;
+  Py_ssize_t __pyx_v_i0;
+  Py_ssize_t __pyx_v_i1;
+  npy_intp *__pyx_v_dim;
+  Py_ssize_t __pyx_v_n0;
+  Py_ssize_t __pyx_v_n1;
+  npy_intp *__pyx_v_dims;
+  PyArrayObject *__pyx_v_y = 0;
+  PyObject *__pyx_v_bi = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_a;
+  __Pyx_Buffer __pyx_pybuffer_a;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_b;
+  __Pyx_Buffer __pyx_pybuffer_b;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_y;
+  __Pyx_Buffer __pyx_pybuffer_y;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  npy_intp __pyx_t_1[1];
+  PyObject *__pyx_t_2 = NULL;
+  PyArrayObject *__pyx_t_3 = NULL;
+  Py_ssize_t __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  Py_ssize_t __pyx_t_6;
+  Py_ssize_t __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis0", 0);
+  __pyx_pybuffer_y.pybuffer.buf = NULL;
+  __pyx_pybuffer_y.refcount = 0;
+  __pyx_pybuffernd_y.data = NULL;
+  __pyx_pybuffernd_y.rcbuffer = &__pyx_pybuffer_y;
+  __pyx_pybuffer_a.pybuffer.buf = NULL;
+  __pyx_pybuffer_a.refcount = 0;
+  __pyx_pybuffernd_a.data = NULL;
+  __pyx_pybuffernd_a.rcbuffer = &__pyx_pybuffer_a;
+  __pyx_pybuffer_b.pybuffer.buf = NULL;
+  __pyx_pybuffer_b.refcount = 0;
+  __pyx_pybuffernd_b.data = NULL;
+  __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":550
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.float_t ai
+ *     cdef np.int8_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -7762,22 +7887,22 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":564
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 564; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int8((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 564; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -7785,50 +7910,30 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
       /* "nanequal.pyx":565
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi:             # <<<<<<<<<<<<<<
  *                 y[i1] = 0
  *                 f = 0
  */
-      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      if (__pyx_t_14) {
-        goto __pyx_L9_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L9_next_and:;
-      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
-      if (__pyx_t_14) {
-        goto __pyx_L10_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L10_next_and:;
-      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      __pyx_t_12 = __pyx_t_14;
-      __pyx_L8_bool_binop_done:;
-      if (__pyx_t_12) {
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 565; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
 
         /* "nanequal.pyx":566
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_15 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_14 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":567
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -7855,8 +7960,8 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
  *             y[i1] = 1
  *     return y
  */
-    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_12) {
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
 
       /* "nanequal.pyx":570
  *                 break
@@ -7867,9 +7972,9 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
  */
       __pyx_t_6 = __pyx_v_i1;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L11;
+      goto __pyx_L8;
     }
-    __pyx_L11:;
+    __pyx_L8:;
   }
 
   /* "nanequal.pyx":571
@@ -7887,22 +7992,22 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
   /* "nanequal.pyx":547
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
+ * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_12);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -7920,16 +8025,16 @@ static PyObject *__pyx_pf_8nanequal_32nanequal_2d_float_axis0(CYTHON_UNUSED PyOb
 /* "nanequal.pyx":575
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
+ * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_35nanequal_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_34nanequal_2d_float_axis1[] = "nanequal_2d_float_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_35nanequal_2d_float_axis1 = {"nanequal_2d_float_axis1", (PyCFunction)__pyx_pw_8nanequal_35nanequal_2d_float_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_34nanequal_2d_float_axis1};
-static PyObject *__pyx_pw_8nanequal_35nanequal_2d_float_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_35nanequal_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_34nanequal_2d_int8_axis1[] = "nanequal_2d_int8_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_35nanequal_2d_int8_axis1 = {"nanequal_2d_int8_axis1", (PyCFunction)__pyx_pw_8nanequal_35nanequal_2d_int8_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_34nanequal_2d_int8_axis1};
+static PyObject *__pyx_pw_8nanequal_35nanequal_2d_int8_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -7937,7 +8042,7 @@ static PyObject *__pyx_pw_8nanequal_35nanequal_2d_float_axis1(PyObject *__pyx_se
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_float_axis1 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis1 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -7958,11 +8063,11 @@ static PyObject *__pyx_pw_8nanequal_35nanequal_2d_float_axis1(PyObject *__pyx_se
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int8_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -7975,15 +8080,15 @@ static PyObject *__pyx_pw_8nanequal_35nanequal_2d_float_axis1(PyObject *__pyx_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int8_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 576; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_34nanequal_2d_float_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_34nanequal_2d_int8_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7994,9 +8099,9 @@ static PyObject *__pyx_pw_8nanequal_35nanequal_2d_float_axis1(PyObject *__pyx_se
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_34nanequal_2d_int8_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_float_t __pyx_v_ai;
+  __pyx_t_5numpy_int8_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -8024,14 +8129,13 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_float_axis1", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int8_axis1", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -8046,20 +8150,20 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int8_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":578
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.float_t ai
+ *     cdef np.int8_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -8160,22 +8264,22 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":592
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 592; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int8((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int8_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 592; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -8183,50 +8287,30 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
       /* "nanequal.pyx":593
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi:             # <<<<<<<<<<<<<<
  *                 y[i0] = 0
  *                 f = 0
  */
-      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int8(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      if (__pyx_t_14) {
-        goto __pyx_L9_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L9_next_and:;
-      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
-      if (__pyx_t_14) {
-        goto __pyx_L10_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L10_next_and:;
-      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      __pyx_t_12 = __pyx_t_14;
-      __pyx_L8_bool_binop_done:;
-      if (__pyx_t_12) {
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 593; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
 
         /* "nanequal.pyx":594
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_15 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_14 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":595
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -8253,8 +8337,8 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
  *             y[i0] = 1
  *     return y
  */
-    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_12) {
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
 
       /* "nanequal.pyx":598
  *                 break
@@ -8265,9 +8349,9 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
  */
       __pyx_t_6 = __pyx_v_i0;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L11;
+      goto __pyx_L8;
     }
-    __pyx_L11:;
+    __pyx_L8:;
   }
 
   /* "nanequal.pyx":599
@@ -8285,22 +8369,22 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
   /* "nanequal.pyx":575
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
+ * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_12);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int8_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -8318,16 +8402,16 @@ static PyObject *__pyx_pf_8nanequal_34nanequal_2d_float_axis1(CYTHON_UNUSED PyOb
 /* "nanequal.pyx":603
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
+ * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_37nanequal_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_36nanequal_2d_float32_axis0[] = "nanequal_2d_float32_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_37nanequal_2d_float32_axis0 = {"nanequal_2d_float32_axis0", (PyCFunction)__pyx_pw_8nanequal_37nanequal_2d_float32_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_36nanequal_2d_float32_axis0};
-static PyObject *__pyx_pw_8nanequal_37nanequal_2d_float32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_37nanequal_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_36nanequal_2d_int32_axis0[] = "nanequal_2d_int32_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_37nanequal_2d_int32_axis0 = {"nanequal_2d_int32_axis0", (PyCFunction)__pyx_pw_8nanequal_37nanequal_2d_int32_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_36nanequal_2d_int32_axis0};
+static PyObject *__pyx_pw_8nanequal_37nanequal_2d_int32_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -8335,7 +8419,7 @@ static PyObject *__pyx_pw_8nanequal_37nanequal_2d_float32_axis0(PyObject *__pyx_
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis0 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis0 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -8356,11 +8440,11 @@ static PyObject *__pyx_pw_8nanequal_37nanequal_2d_float32_axis0(PyObject *__pyx_
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float32_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int32_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -8373,15 +8457,15 @@ static PyObject *__pyx_pw_8nanequal_37nanequal_2d_float32_axis0(PyObject *__pyx_
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 604; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_36nanequal_2d_float32_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_36nanequal_2d_int32_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -8392,9 +8476,9 @@ static PyObject *__pyx_pw_8nanequal_37nanequal_2d_float32_axis0(PyObject *__pyx_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_36nanequal_2d_int32_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_float32_t __pyx_v_ai;
+  __pyx_t_5numpy_int32_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -8422,14 +8506,13 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis0", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis0", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -8444,20 +8527,20 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":606
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.float32_t ai
+ *     cdef np.int32_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -8558,22 +8641,22 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":620
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int32((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -8581,50 +8664,30 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
       /* "nanequal.pyx":621
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi:             # <<<<<<<<<<<<<<
  *                 y[i1] = 0
  *                 f = 0
  */
-      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      if (__pyx_t_14) {
-        goto __pyx_L9_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L9_next_and:;
-      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
-      if (__pyx_t_14) {
-        goto __pyx_L10_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L10_next_and:;
-      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      __pyx_t_12 = __pyx_t_14;
-      __pyx_L8_bool_binop_done:;
-      if (__pyx_t_12) {
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 621; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
 
         /* "nanequal.pyx":622
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_15 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_14 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":623
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -8651,8 +8714,8 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
  *             y[i1] = 1
  *     return y
  */
-    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_12) {
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
 
       /* "nanequal.pyx":626
  *                 break
@@ -8663,9 +8726,9 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
  */
       __pyx_t_6 = __pyx_v_i1;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L11;
+      goto __pyx_L8;
     }
-    __pyx_L11:;
+    __pyx_L8:;
   }
 
   /* "nanequal.pyx":627
@@ -8683,22 +8746,22 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
   /* "nanequal.pyx":603
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
+ * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_12);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -8716,16 +8779,16 @@ static PyObject *__pyx_pf_8nanequal_36nanequal_2d_float32_axis0(CYTHON_UNUSED Py
 /* "nanequal.pyx":631
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
+ * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_39nanequal_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_38nanequal_2d_float32_axis1[] = "nanequal_2d_float32_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_39nanequal_2d_float32_axis1 = {"nanequal_2d_float32_axis1", (PyCFunction)__pyx_pw_8nanequal_39nanequal_2d_float32_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_38nanequal_2d_float32_axis1};
-static PyObject *__pyx_pw_8nanequal_39nanequal_2d_float32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_39nanequal_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_38nanequal_2d_int32_axis1[] = "nanequal_2d_int32_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_39nanequal_2d_int32_axis1 = {"nanequal_2d_int32_axis1", (PyCFunction)__pyx_pw_8nanequal_39nanequal_2d_int32_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_38nanequal_2d_int32_axis1};
+static PyObject *__pyx_pw_8nanequal_39nanequal_2d_int32_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -8733,7 +8796,7 @@ static PyObject *__pyx_pw_8nanequal_39nanequal_2d_float32_axis1(PyObject *__pyx_
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis1 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis1 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -8754,11 +8817,11 @@ static PyObject *__pyx_pw_8nanequal_39nanequal_2d_float32_axis1(PyObject *__pyx_
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float32_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int32_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -8771,15 +8834,15 @@ static PyObject *__pyx_pw_8nanequal_39nanequal_2d_float32_axis1(PyObject *__pyx_
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float32_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int32_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 632; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_38nanequal_2d_float32_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_38nanequal_2d_int32_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -8790,9 +8853,9 @@ static PyObject *__pyx_pw_8nanequal_39nanequal_2d_float32_axis1(PyObject *__pyx_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_38nanequal_2d_int32_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_float32_t __pyx_v_ai;
+  __pyx_t_5numpy_int32_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -8820,14 +8883,13 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_float32_axis1", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int32_axis1", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -8842,20 +8904,20 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int32_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":634
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.float32_t ai
+ *     cdef np.int32_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -8956,22 +9018,22 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":648
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 648; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int32((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int32_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 648; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -8979,50 +9041,30 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
       /* "nanequal.pyx":649
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi:             # <<<<<<<<<<<<<<
  *                 y[i0] = 0
  *                 f = 0
  */
-      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      if (__pyx_t_14) {
-        goto __pyx_L9_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L9_next_and:;
-      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
-      if (__pyx_t_14) {
-        goto __pyx_L10_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L10_next_and:;
-      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      __pyx_t_12 = __pyx_t_14;
-      __pyx_L8_bool_binop_done:;
-      if (__pyx_t_12) {
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
 
         /* "nanequal.pyx":650
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_15 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_14 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":651
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -9049,8 +9091,8 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
  *             y[i0] = 1
  *     return y
  */
-    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_12) {
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
 
       /* "nanequal.pyx":654
  *                 break
@@ -9061,9 +9103,9 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
  */
       __pyx_t_6 = __pyx_v_i0;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L11;
+      goto __pyx_L8;
     }
-    __pyx_L11:;
+    __pyx_L8:;
   }
 
   /* "nanequal.pyx":655
@@ -9081,22 +9123,22 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
   /* "nanequal.pyx":631
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
+ * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_12);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int32_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -9114,16 +9156,16 @@ static PyObject *__pyx_pf_8nanequal_38nanequal_2d_float32_axis1(CYTHON_UNUSED Py
 /* "nanequal.pyx":659
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
+ * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_41nanequal_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_40nanequal_2d_float64_axis0[] = "nanequal_2d_float64_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0.";
-static PyMethodDef __pyx_mdef_8nanequal_41nanequal_2d_float64_axis0 = {"nanequal_2d_float64_axis0", (PyCFunction)__pyx_pw_8nanequal_41nanequal_2d_float64_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_40nanequal_2d_float64_axis0};
-static PyObject *__pyx_pw_8nanequal_41nanequal_2d_float64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_41nanequal_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_40nanequal_2d_int64_axis0[] = "nanequal_2d_int64_axis0(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0.";
+static PyMethodDef __pyx_mdef_8nanequal_41nanequal_2d_int64_axis0 = {"nanequal_2d_int64_axis0", (PyCFunction)__pyx_pw_8nanequal_41nanequal_2d_int64_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_40nanequal_2d_int64_axis0};
+static PyObject *__pyx_pw_8nanequal_41nanequal_2d_int64_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -9131,7 +9173,7 @@ static PyObject *__pyx_pw_8nanequal_41nanequal_2d_float64_axis0(PyObject *__pyx_
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis0 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis0 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -9152,11 +9194,11 @@ static PyObject *__pyx_pw_8nanequal_41nanequal_2d_float64_axis0(PyObject *__pyx_
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis0", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float64_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int64_axis0") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -9169,15 +9211,15 @@ static PyObject *__pyx_pw_8nanequal_41nanequal_2d_float64_axis0(PyObject *__pyx_
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis0", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 660; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_40nanequal_2d_float64_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_40nanequal_2d_int64_axis0(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -9188,9 +9230,9 @@ static PyObject *__pyx_pw_8nanequal_41nanequal_2d_float64_axis0(PyObject *__pyx_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_40nanequal_2d_int64_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_float64_t __pyx_v_ai;
+  __pyx_t_5numpy_int64_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -9218,14 +9260,13 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis0", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis0", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -9240,20 +9281,20 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":662
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.float64_t ai
+ *     cdef np.int64_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -9354,22 +9395,22 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
  *         for i0 in range(n0):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":676
  *         for i0 in range(n0):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 676; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int64((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 676; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -9377,50 +9418,30 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
       /* "nanequal.pyx":677
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi:             # <<<<<<<<<<<<<<
  *                 y[i1] = 0
  *                 f = 0
  */
-      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      if (__pyx_t_14) {
-        goto __pyx_L9_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L9_next_and:;
-      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
-      if (__pyx_t_14) {
-        goto __pyx_L10_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L10_next_and:;
-      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      __pyx_t_12 = __pyx_t_14;
-      __pyx_L8_bool_binop_done:;
-      if (__pyx_t_12) {
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 677; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
 
         /* "nanequal.pyx":678
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_15 = __pyx_v_i1;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_14 = __pyx_v_i1;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":679
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i1] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -9447,8 +9468,8 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
  *             y[i1] = 1
  *     return y
  */
-    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_12) {
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
 
       /* "nanequal.pyx":682
  *                 break
@@ -9459,9 +9480,9 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
  */
       __pyx_t_6 = __pyx_v_i1;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L11;
+      goto __pyx_L8;
     }
-    __pyx_L11:;
+    __pyx_L8:;
   }
 
   /* "nanequal.pyx":683
@@ -9479,22 +9500,22 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
   /* "nanequal.pyx":659
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
+ * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_12);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -9512,16 +9533,16 @@ static PyObject *__pyx_pf_8nanequal_40nanequal_2d_float64_axis0(CYTHON_UNUSED Py
 /* "nanequal.pyx":687
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
+ * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8nanequal_43nanequal_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8nanequal_42nanequal_2d_float64_axis1[] = "nanequal_2d_float64_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1.";
-static PyMethodDef __pyx_mdef_8nanequal_43nanequal_2d_float64_axis1 = {"nanequal_2d_float64_axis1", (PyCFunction)__pyx_pw_8nanequal_43nanequal_2d_float64_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_42nanequal_2d_float64_axis1};
-static PyObject *__pyx_pw_8nanequal_43nanequal_2d_float64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8nanequal_43nanequal_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8nanequal_42nanequal_2d_int64_axis1[] = "nanequal_2d_int64_axis1(ndarray a, ndarray b)\nCheck whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1.";
+static PyMethodDef __pyx_mdef_8nanequal_43nanequal_2d_int64_axis1 = {"nanequal_2d_int64_axis1", (PyCFunction)__pyx_pw_8nanequal_43nanequal_2d_int64_axis1, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8nanequal_42nanequal_2d_int64_axis1};
+static PyObject *__pyx_pw_8nanequal_43nanequal_2d_int64_axis1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_a = 0;
   PyArrayObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -9529,7 +9550,7 @@ static PyObject *__pyx_pw_8nanequal_43nanequal_2d_float64_axis1(PyObject *__pyx_
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis1 (wrapper)", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis1 (wrapper)", 0);
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_a,&__pyx_n_s_b,0};
     PyObject* values[2] = {0,0};
@@ -9550,11 +9571,11 @@ static PyObject *__pyx_pw_8nanequal_43nanequal_2d_float64_axis1(PyObject *__pyx_
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_b)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+          __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis1", 1, 2, 2, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_float64_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "nanequal_2d_int64_axis1") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -9567,15 +9588,15 @@ static PyObject *__pyx_pw_8nanequal_43nanequal_2d_float64_axis1(PyObject *__pyx_
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("nanequal_2d_float64_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("nanequal_2d_int64_axis1", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_a), __pyx_ptype_5numpy_ndarray, 1, "a", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_b), __pyx_ptype_5numpy_ndarray, 1, "b", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 688; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_r = __pyx_pf_8nanequal_42nanequal_2d_float64_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_8nanequal_42nanequal_2d_int64_axis1(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   goto __pyx_L0;
@@ -9586,9 +9607,9 @@ static PyObject *__pyx_pw_8nanequal_43nanequal_2d_float64_axis1(PyObject *__pyx_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
+static PyObject *__pyx_pf_8nanequal_42nanequal_2d_int64_axis1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_a, PyArrayObject *__pyx_v_b) {
   int __pyx_v_f;
-  __pyx_t_5numpy_float64_t __pyx_v_ai;
+  __pyx_t_5numpy_int64_t __pyx_v_ai;
   Py_ssize_t __pyx_v_i0;
   Py_ssize_t __pyx_v_i1;
   npy_intp *__pyx_v_dim;
@@ -9616,14 +9637,13 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
-  int __pyx_t_12;
-  PyObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  Py_ssize_t __pyx_t_15;
+  PyObject *__pyx_t_12 = NULL;
+  int __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("nanequal_2d_float64_axis1", 0);
+  __Pyx_RefNannySetupContext("nanequal_2d_int64_axis1", 0);
   __pyx_pybuffer_y.pybuffer.buf = NULL;
   __pyx_pybuffer_y.refcount = 0;
   __pyx_pybuffernd_y.data = NULL;
@@ -9638,20 +9658,20 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
   __pyx_pybuffernd_b.rcbuffer = &__pyx_pybuffer_b;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_a.rcbuffer->pybuffer, (PyObject*)__pyx_v_a, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_a.diminfo[0].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_a.diminfo[0].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_a.diminfo[1].strides = __pyx_pybuffernd_a.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_a.diminfo[1].shape = __pyx_pybuffernd_a.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_b, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_pybuffernd_b.diminfo[0].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_b.diminfo[0].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_b.diminfo[1].strides = __pyx_pybuffernd_b.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_b.diminfo[1].shape = __pyx_pybuffernd_b.rcbuffer->pybuffer.shape[1];
 
   /* "nanequal.pyx":690
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
  *     cdef int f = 1             # <<<<<<<<<<<<<<
- *     cdef np.float64_t ai
+ *     cdef np.int64_t ai
  *     cdef Py_ssize_t i0, i1
  */
   __pyx_v_f = 1;
@@ -9752,22 +9772,22 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
  *         for i1 in range(n1):
  *             ai = a[i0, i1]             # <<<<<<<<<<<<<<
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  */
       __pyx_t_8 = __pyx_v_i0;
       __pyx_t_9 = __pyx_v_i1;
-      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
+      __pyx_v_ai = (*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_a.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_a.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_a.diminfo[1].strides));
 
       /* "nanequal.pyx":704
  *         for i1 in range(n1):
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]             # <<<<<<<<<<<<<<
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0
  */
       __pyx_t_10 = __pyx_v_i0;
       __pyx_t_11 = __pyx_v_i1;
-      __pyx_t_2 = PyFloat_FromDouble((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 704; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int64((*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_int64_t *, __pyx_pybuffernd_b.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_b.diminfo[0].strides, __pyx_t_11, __pyx_pybuffernd_b.diminfo[1].strides))); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 704; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_bi, __pyx_t_2);
       __pyx_t_2 = 0;
@@ -9775,50 +9795,30 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
       /* "nanequal.pyx":705
  *             ai = a[i0, i1]
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:             # <<<<<<<<<<<<<<
+ *             if ai != bi:             # <<<<<<<<<<<<<<
  *                 y[i0] = 0
  *                 f = 0
  */
-      __pyx_t_2 = PyFloat_FromDouble(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_2 = __Pyx_PyInt_From_npy_int64(__pyx_v_ai); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __pyx_t_12 = PyObject_RichCompare(__pyx_t_2, __pyx_v_bi, Py_NE); __Pyx_XGOTREF(__pyx_t_12); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      if (__pyx_t_14) {
-        goto __pyx_L9_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L9_next_and:;
-      __pyx_t_14 = ((__pyx_v_ai == __pyx_v_ai) != 0);
-      if (__pyx_t_14) {
-        goto __pyx_L10_next_and;
-      } else {
-        __pyx_t_12 = __pyx_t_14;
-        goto __pyx_L8_bool_binop_done;
-      }
-      __pyx_L10_next_and:;
-      __pyx_t_13 = PyObject_RichCompare(__pyx_v_bi, __pyx_v_bi, Py_EQ); __Pyx_XGOTREF(__pyx_t_13); if (unlikely(!__pyx_t_13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_13); if (unlikely(__pyx_t_14 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-      __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-      __pyx_t_12 = __pyx_t_14;
-      __pyx_L8_bool_binop_done:;
-      if (__pyx_t_12) {
+      __pyx_t_13 = __Pyx_PyObject_IsTrue(__pyx_t_12); if (unlikely(__pyx_t_13 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 705; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
+      if (__pyx_t_13) {
 
         /* "nanequal.pyx":706
  *             bi = b[i0, i1]
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0             # <<<<<<<<<<<<<<
  *                 f = 0
  *                 break
  */
-        __pyx_t_15 = __pyx_v_i0;
-        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
+        __pyx_t_14 = __pyx_v_i0;
+        *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_y.diminfo[0].strides) = 0;
 
         /* "nanequal.pyx":707
- *             if ai != bi and ai == ai and bi == bi:
+ *             if ai != bi:
  *                 y[i0] = 0
  *                 f = 0             # <<<<<<<<<<<<<<
  *                 break
@@ -9845,8 +9845,8 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
  *             y[i0] = 1
  *     return y
  */
-    __pyx_t_12 = ((__pyx_v_f == 1) != 0);
-    if (__pyx_t_12) {
+    __pyx_t_13 = ((__pyx_v_f == 1) != 0);
+    if (__pyx_t_13) {
 
       /* "nanequal.pyx":710
  *                 break
@@ -9857,9 +9857,9 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
  */
       __pyx_t_6 = __pyx_v_i0;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_uint8_t *, __pyx_pybuffernd_y.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_y.diminfo[0].strides) = 1;
-      goto __pyx_L11;
+      goto __pyx_L8;
     }
-    __pyx_L11:;
+    __pyx_L8:;
   }
 
   /* "nanequal.pyx":711
@@ -9877,22 +9877,22 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
   /* "nanequal.pyx":687
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
+ * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_12);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_a.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_y.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("nanequal.nanequal_2d_float64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("nanequal.nanequal_2d_int64_axis1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -9908,7 +9908,7 @@ static PyObject *__pyx_pf_8nanequal_42nanequal_2d_float64_axis1(CYTHON_UNUSED Py
 }
 
 /* "nanequal.pyx":738
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
  * 
  * def nanequal_slow_axis0(arr1, arr2):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanequal along axis 0."
@@ -10027,7 +10027,7 @@ static PyObject *__pyx_pf_8nanequal_44nanequal_slow_axis0(CYTHON_UNUSED PyObject
   goto __pyx_L0;
 
   /* "nanequal.pyx":738
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
  * 
  * def nanequal_slow_axis0(arr1, arr2):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanequal along axis 0."
@@ -14701,7 +14701,7 @@ static PyObject *__pyx_pf_8nanequal_110nanequal_slow_axisNone(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":194
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":194
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -14751,7 +14751,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":200
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":200
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -14764,7 +14764,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":203
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":203
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -14773,7 +14773,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":204
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":204
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -14782,7 +14782,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":206
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":206
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -14791,7 +14791,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":208
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":208
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -14801,7 +14801,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":209
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":209
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -14813,7 +14813,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":211
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":211
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -14824,7 +14824,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":213
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":213
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -14840,7 +14840,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L7_next_and:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":214
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":214
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -14852,7 +14852,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":215
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":215
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -14866,7 +14866,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     {__pyx_filename = __pyx_f[1]; __pyx_lineno = 215; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":217
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":217
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -14882,7 +14882,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L10_next_and:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":218
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":218
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -14894,7 +14894,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L9_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":219
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":219
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -14908,7 +14908,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     {__pyx_filename = __pyx_f[1]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":221
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":221
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -14917,7 +14917,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":222
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":222
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -14926,7 +14926,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":223
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":223
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -14936,7 +14936,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":226
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":226
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)             # <<<<<<<<<<<<<<
@@ -14945,7 +14945,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)malloc((((sizeof(Py_ssize_t)) * ((size_t)__pyx_v_ndim)) * 2)));
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":227
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":227
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -14954,7 +14954,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":228
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *                 info.strides = <Py_ssize_t*>stdlib.malloc(sizeof(Py_ssize_t) * <size_t>ndim * 2)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -14965,7 +14965,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":229
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":229
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -14974,7 +14974,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":230
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":230
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -14987,7 +14987,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":232
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":232
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -14996,7 +14996,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":233
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -15007,7 +15007,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":234
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":234
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -15016,7 +15016,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":235
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -15025,7 +15025,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":236
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":236
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -15034,7 +15034,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":239
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":239
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -15043,7 +15043,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":240
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":240
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -15055,7 +15055,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":244
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":244
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -15064,7 +15064,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":246
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":246
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -15084,7 +15084,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":248
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":248
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -15100,7 +15100,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":251
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":251
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -15115,7 +15115,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":253
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":253
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -15125,7 +15125,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":254
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":254
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -15135,7 +15135,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":255
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":255
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -15158,7 +15158,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":256
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":256
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -15178,7 +15178,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_L19_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":257
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":257
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -15192,7 +15192,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 257; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":274
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -15201,7 +15201,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     switch (__pyx_v_t) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":258
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -15212,7 +15212,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_b;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":259
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":259
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -15223,7 +15223,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_B;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":260
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":260
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -15234,7 +15234,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_h;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":261
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":261
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -15245,7 +15245,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_H;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":262
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":262
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -15256,7 +15256,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_i;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":263
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":263
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -15267,7 +15267,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_I;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":264
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":264
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -15278,7 +15278,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_l;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":265
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -15289,7 +15289,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_L;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":266
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":266
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -15300,7 +15300,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_q;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":267
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":267
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -15311,7 +15311,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Q;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":268
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":268
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -15322,7 +15322,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_f;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":269
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":269
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -15333,7 +15333,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_d;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":270
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -15344,7 +15344,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_g;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":271
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":271
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -15355,7 +15355,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zf;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":272
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -15366,7 +15366,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zd;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":273
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":273
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -15377,7 +15377,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = __pyx_k_Zg;
       break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":274
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -15389,7 +15389,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":276
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -15415,7 +15415,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":277
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":277
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -15424,7 +15424,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":278
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -15436,7 +15436,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":280
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *                 return
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -15445,7 +15445,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = ((char *)malloc(255));
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":281
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":281
  *             else:
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -15454,7 +15454,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":282
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 info.format = <char*>stdlib.malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -15463,7 +15463,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":283
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -15473,7 +15473,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 255), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == NULL)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __pyx_v_f = __pyx_t_7;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":286
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -15483,7 +15483,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":194
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":194
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -15515,7 +15515,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":288
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -15539,7 +15539,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":289
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":289
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -15549,7 +15549,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":290
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)             # <<<<<<<<<<<<<<
@@ -15561,7 +15561,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   }
   __pyx_L3:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":291
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -15571,7 +15571,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":292
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 stdlib.free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 stdlib.free(info.strides)             # <<<<<<<<<<<<<<
@@ -15583,7 +15583,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   }
   __pyx_L4:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":288
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -15595,7 +15595,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":768
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -15612,7 +15612,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":769
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":769
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -15626,7 +15626,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":768
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -15645,7 +15645,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":771
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -15662,7 +15662,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":772
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":772
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -15676,7 +15676,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":771
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":771
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -15695,7 +15695,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":774
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -15712,7 +15712,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":775
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -15726,7 +15726,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":774
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":774
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -15745,7 +15745,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":777
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -15762,7 +15762,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":778
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -15776,7 +15776,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":777
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":777
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -15795,7 +15795,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":780
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -15812,7 +15812,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":781
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":781
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -15826,7 +15826,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":780
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":780
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -15845,7 +15845,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":783
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -15877,7 +15877,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":790
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":790
  *     cdef int delta_offset
  *     cdef tuple i
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -15886,7 +15886,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":791
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     cdef tuple i
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -15895,7 +15895,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":794
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -15917,7 +15917,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":795
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -15930,7 +15930,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":796
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":796
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -15969,7 +15969,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":798
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":798
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -15986,7 +15986,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":799
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":799
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -16000,7 +16000,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 799; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":801
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":801
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -16023,7 +16023,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":802
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":802
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -16043,7 +16043,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_L7_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":803
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -16057,7 +16057,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       {__pyx_filename = __pyx_f[1]; __pyx_lineno = 803; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":813
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":813
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -16073,7 +16073,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":814
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":814
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -16082,7 +16082,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 120;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":815
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":815
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -16091,7 +16091,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":816
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":816
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -16102,7 +16102,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":818
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -16112,7 +16112,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":820
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":820
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -16122,7 +16122,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":821
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -16134,7 +16134,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":822
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -16144,7 +16144,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":823
+        /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":823
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -16158,7 +16158,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         {__pyx_filename = __pyx_f[1]; __pyx_lineno = 823; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":826
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -16176,7 +16176,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":827
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -16194,7 +16194,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":828
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":828
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -16212,7 +16212,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":829
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":829
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -16230,7 +16230,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":830
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -16248,7 +16248,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":831
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":831
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -16266,7 +16266,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":832
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":832
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -16284,7 +16284,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":833
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -16302,7 +16302,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":834
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":834
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -16320,7 +16320,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":835
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":835
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -16338,7 +16338,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":836
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -16356,7 +16356,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":837
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":837
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -16374,7 +16374,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":838
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":838
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -16392,7 +16392,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":839
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":839
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -16412,7 +16412,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":840
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -16432,7 +16432,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":841
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":841
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -16452,7 +16452,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":842
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -16471,7 +16471,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       /*else*/ {
 
-        /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":844
+        /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -16494,7 +16494,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":845
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":845
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -16506,7 +16506,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     /*else*/ {
 
-      /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":849
+      /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":849
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -16518,7 +16518,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":794
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -16528,7 +16528,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":850
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":850
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -16538,7 +16538,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":783
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":783
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -16563,7 +16563,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":966
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -16578,7 +16578,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":968
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":968
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -16589,7 +16589,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":969
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":969
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -16601,7 +16601,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":971
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":971
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -16610,7 +16610,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     Py_INCREF(__pyx_v_base);
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":972
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":972
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -16621,7 +16621,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":973
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":973
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -16630,7 +16630,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":974
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":974
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -16639,7 +16639,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":966
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -16651,7 +16651,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+/* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -16665,7 +16665,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":977
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":977
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -16675,7 +16675,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":978
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":978
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -16689,7 +16689,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   }
   /*else*/ {
 
-    /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":980
+    /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":980
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -16700,7 +16700,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -16738,7 +16738,6 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
-  {&__pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_k_C_Users_Tomaz_bottlechest_bottle, sizeof(__pyx_k_C_Users_Tomaz_bottlechest_bottle), 0, 0, 1, 0},
   {&__pyx_kp_s_Expecting_default_NumPy_int_to_b, __pyx_k_Expecting_default_NumPy_int_to_b, sizeof(__pyx_k_Expecting_default_NumPy_int_to_b), 0, 0, 1, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor, __pyx_k_Format_string_allocated_too_shor, sizeof(__pyx_k_Format_string_allocated_too_shor), 0, 1, 0, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor_2, __pyx_k_Format_string_allocated_too_shor_2, sizeof(__pyx_k_Format_string_allocated_too_shor_2), 0, 1, 0, 0},
@@ -16752,6 +16751,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_Test_whether_two_array_are_equa, __pyx_k_Test_whether_two_array_are_equa, sizeof(__pyx_k_Test_whether_two_array_are_equa), 0, 1, 0, 0},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
   {&__pyx_kp_s_Unsupported_ndim_dtype_axis_s_s, __pyx_k_Unsupported_ndim_dtype_axis_s_s, sizeof(__pyx_k_Unsupported_ndim_dtype_axis_s_s), 0, 0, 1, 0},
+  {&__pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_k_Users_janezdemsar_Dropbox_bottl, sizeof(__pyx_k_Users_janezdemsar_Dropbox_bottl), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s__20, __pyx_k__20, sizeof(__pyx_k__20), 0, 0, 1, 1},
   {&__pyx_n_s_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 0, 1, 1},
@@ -16899,139 +16899,139 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "nanequal.pyx":446
+  /* "nanequal.pyx":390
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)             # <<<<<<<<<<<<<<
  *     return np.bool_(True)
  * 
  */
-  __pyx_tuple__2 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__2 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 390; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "nanequal.pyx":447
+  /* "nanequal.pyx":391
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_tuple__3 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__3 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 391; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "nanequal.pyx":464
+  /* "nanequal.pyx":408
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)             # <<<<<<<<<<<<<<
  *     return np.bool_(True)
  * 
  */
-  __pyx_tuple__4 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 464; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__4 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 408; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "nanequal.pyx":465
+  /* "nanequal.pyx":409
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_tuple__5 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 465; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__5 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 409; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "nanequal.pyx":482
+  /* "nanequal.pyx":426
  *         bi = b[i0]
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)             # <<<<<<<<<<<<<<
  *     return np.bool_(True)
  * 
  */
-  __pyx_tuple__6 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 482; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__6 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 426; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "nanequal.pyx":483
+  /* "nanequal.pyx":427
  *         if ai != bi and ai == ai and bi == bi:
  *             return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__7 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "nanequal.pyx":502
+  /* "nanequal.pyx":446
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)             # <<<<<<<<<<<<<<
  *     return np.bool_(True)
  * 
  */
-  __pyx_tuple__8 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 502; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__8 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 446; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "nanequal.pyx":503
+  /* "nanequal.pyx":447
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 503; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__9 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 447; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "nanequal.pyx":522
+  /* "nanequal.pyx":466
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)             # <<<<<<<<<<<<<<
  *     return np.bool_(True)
  * 
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 522; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__10 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 466; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "nanequal.pyx":523
+  /* "nanequal.pyx":467
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 523; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__11 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 467; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "nanequal.pyx":542
+  /* "nanequal.pyx":486
  *             bi = b[i0, i1]
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)             # <<<<<<<<<<<<<<
  *     return np.bool_(True)
  * 
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 542; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__12 = PyTuple_Pack(1, Py_False); if (unlikely(!__pyx_tuple__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 486; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "nanequal.pyx":543
+  /* "nanequal.pyx":487
  *             if ai != bi and ai == ai and bi == bi:
  *                 return np.bool_(False)
  *     return np.bool_(True)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_tuple__13 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 543; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__13 = PyTuple_Pack(1, Py_True); if (unlikely(!__pyx_tuple__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":215
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":215
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -17042,7 +17042,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":219
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":219
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -17053,7 +17053,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":257
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":257
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -17064,7 +17064,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":799
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":799
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -17075,7 +17075,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":803
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -17086,7 +17086,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":823
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":823
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -17118,7 +17118,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__22 = PyTuple_Pack(4, __pyx_n_s_arr1, __pyx_n_s_arr2, __pyx_n_s_axis, __pyx_n_s_func); if (unlikely(!__pyx_tuple__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal, 68, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal, 68, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":112
  *     return func(arr1, arr2)
@@ -17130,250 +17130,250 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__24 = PyTuple_Pack(14, __pyx_n_s_arr1, __pyx_n_s_arr2, __pyx_n_s_axis, __pyx_n_s_a1, __pyx_n_s_a2, __pyx_n_s_ndim, __pyx_n_s_ndim2, __pyx_n_s_dtype, __pyx_n_s_dim1, __pyx_n_s_dim2, __pyx_n_s_i, __pyx_n_s_key, __pyx_n_s_func, __pyx_n_s_tup); if (unlikely(!__pyx_tuple__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 112; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(3, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_selector, 112, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 112; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(3, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_selector, 112, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 112; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":209
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
- */
-  __pyx_tuple__26 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__26);
-  __Pyx_GIVEREF(__pyx_tuple__26);
-  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int_axis0, 209, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":237
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
- */
-  __pyx_tuple__28 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__28)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__28);
-  __Pyx_GIVEREF(__pyx_tuple__28);
-  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int_axis1, 237, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":265
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
- */
-  __pyx_tuple__30 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int8_axis0, 265, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":293
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
- */
-  __pyx_tuple__32 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__32);
-  __Pyx_GIVEREF(__pyx_tuple__32);
-  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int8_axis1, 293, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":321
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
- */
-  __pyx_tuple__34 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__34);
-  __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int32_axis0, 321, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":349
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
- */
-  __pyx_tuple__36 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__36);
-  __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int32_axis1, 349, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":377
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
- */
-  __pyx_tuple__38 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__38);
-  __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int64_axis0, 377, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":405
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
- */
-  __pyx_tuple__40 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__40);
-  __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_int64_axis1, 405, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":433
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=1] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None."
- */
-  __pyx_tuple__42 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__42);
-  __Pyx_GIVEREF(__pyx_tuple__42);
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_1d_float_axisNone, 433, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":451
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=1] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None."
- */
-  __pyx_tuple__44 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__44);
-  __Pyx_GIVEREF(__pyx_tuple__44);
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_1d_float32_axisNone, 451, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":469
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=1] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None."
- */
-  __pyx_tuple__46 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__46);
-  __Pyx_GIVEREF(__pyx_tuple__46);
-  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_1d_float64_axisNone, 469, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":487
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None."
- */
-  __pyx_tuple__48 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__48);
-  __Pyx_GIVEREF(__pyx_tuple__48);
-  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float_axisNone, 487, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":507
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None."
- */
-  __pyx_tuple__50 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__50);
-  __Pyx_GIVEREF(__pyx_tuple__50);
-  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float32_axisNone, 507, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":527
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None."
- */
-  __pyx_tuple__52 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__52);
-  __Pyx_GIVEREF(__pyx_tuple__52);
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float64_axisNone, 527, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-
-  /* "nanequal.pyx":547
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
  */
-  __pyx_tuple__54 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__54);
-  __Pyx_GIVEREF(__pyx_tuple__54);
-  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float_axis0, 547, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__26 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__26);
+  __Pyx_GIVEREF(__pyx_tuple__26);
+  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float_axis0, 209, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanequal.pyx":575
+  /* "nanequal.pyx":237
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
  */
-  __pyx_tuple__56 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__56);
-  __Pyx_GIVEREF(__pyx_tuple__56);
-  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float_axis1, 575, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__28 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__28)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__28);
+  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float_axis1, 237, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanequal.pyx":603
+  /* "nanequal.pyx":265
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float32_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
  */
-  __pyx_tuple__58 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__58);
-  __Pyx_GIVEREF(__pyx_tuple__58);
-  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float32_axis0, 603, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__30 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__30);
+  __Pyx_GIVEREF(__pyx_tuple__30);
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float32_axis0, 265, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanequal.pyx":631
+  /* "nanequal.pyx":293
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float32_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
  */
-  __pyx_tuple__60 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__60);
-  __Pyx_GIVEREF(__pyx_tuple__60);
-  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float32_axis1, 631, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__32 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float32_axis1, 293, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanequal.pyx":659
+  /* "nanequal.pyx":321
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float64_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
  */
-  __pyx_tuple__62 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__62)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__62);
-  __Pyx_GIVEREF(__pyx_tuple__62);
-  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float64_axis0, 659, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__34 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float64_axis0, 321, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "nanequal.pyx":687
+  /* "nanequal.pyx":349
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float64_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
  */
+  __pyx_tuple__36 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__36);
+  __Pyx_GIVEREF(__pyx_tuple__36);
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float64_axis1, 349, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":377
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=1] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None."
+ */
+  __pyx_tuple__38 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__38);
+  __Pyx_GIVEREF(__pyx_tuple__38);
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_1d_float_axisNone, 377, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":395
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=1] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None."
+ */
+  __pyx_tuple__40 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__40);
+  __Pyx_GIVEREF(__pyx_tuple__40);
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_1d_float32_axisNone, 395, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":413
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=1] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None."
+ */
+  __pyx_tuple__42 = PyTuple_Pack(8, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__42);
+  __Pyx_GIVEREF(__pyx_tuple__42);
+  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_1d_float64_axisNone, 413, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":431
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None."
+ */
+  __pyx_tuple__44 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__44);
+  __Pyx_GIVEREF(__pyx_tuple__44);
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float_axisNone, 431, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":451
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None."
+ */
+  __pyx_tuple__46 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__46);
+  __Pyx_GIVEREF(__pyx_tuple__46);
+  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float32_axisNone, 451, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":471
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None."
+ */
+  __pyx_tuple__48 = PyTuple_Pack(10, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__48);
+  __Pyx_GIVEREF(__pyx_tuple__48);
+  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_float64_axisNone, 471, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":491
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ */
+  __pyx_tuple__50 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__50);
+  __Pyx_GIVEREF(__pyx_tuple__50);
+  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int_axis0, 491, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":519
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ */
+  __pyx_tuple__52 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__52);
+  __Pyx_GIVEREF(__pyx_tuple__52);
+  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int_axis1, 519, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":547
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+ */
+  __pyx_tuple__54 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__54);
+  __Pyx_GIVEREF(__pyx_tuple__54);
+  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int8_axis0, 547, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":575
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
+ */
+  __pyx_tuple__56 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__56);
+  __Pyx_GIVEREF(__pyx_tuple__56);
+  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int8_axis1, 575, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":603
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
+ */
+  __pyx_tuple__58 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__58);
+  __Pyx_GIVEREF(__pyx_tuple__58);
+  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int32_axis0, 603, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":631
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
+ */
+  __pyx_tuple__60 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__60);
+  __Pyx_GIVEREF(__pyx_tuple__60);
+  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int32_axis1, 631, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":659
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
+ */
+  __pyx_tuple__62 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__62)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_tuple__62);
+  __Pyx_GIVEREF(__pyx_tuple__62);
+  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int64_axis0, 659, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+
+  /* "nanequal.pyx":687
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
+ */
   __pyx_tuple__64 = PyTuple_Pack(12, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_f, __pyx_n_s_ai, __pyx_n_s_i0, __pyx_n_s_i1, __pyx_n_s_dim, __pyx_n_s_n0, __pyx_n_s_n1, __pyx_n_s_dims, __pyx_n_s_y, __pyx_n_s_bi); if (unlikely(!__pyx_tuple__64)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__64);
   __Pyx_GIVEREF(__pyx_tuple__64);
-  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_2d_float64_axis1, 687, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_2d_int64_axis1, 687, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":738
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
  * 
  * def nanequal_slow_axis0(arr1, arr2):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanequal along axis 0."
@@ -17382,7 +17382,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__66 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__66)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 738; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__66);
   __Pyx_GIVEREF(__pyx_tuple__66);
-  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis0, 738, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 738; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis0, 738, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 738; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":742
  *     return bn.slow.nanequal(arr1, arr2, axis=0)
@@ -17394,7 +17394,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__68 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__68)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 742; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__68);
   __Pyx_GIVEREF(__pyx_tuple__68);
-  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis1, 742, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 742; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis1, 742, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 742; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":746
  *     return bn.slow.nanequal(arr1, arr2, axis=1)
@@ -17406,7 +17406,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__70 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__70)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 746; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__70);
   __Pyx_GIVEREF(__pyx_tuple__70);
-  __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis2, 746, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 746; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis2, 746, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 746; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":750
  *     return bn.slow.nanequal(arr1, arr2, axis=2)
@@ -17418,7 +17418,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__72 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__72)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__72);
   __Pyx_GIVEREF(__pyx_tuple__72);
-  __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__72, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis3, 750, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__72, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis3, 750, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":754
  *     return bn.slow.nanequal(arr1, arr2, axis=3)
@@ -17430,7 +17430,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__74 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__74)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 754; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__74);
   __Pyx_GIVEREF(__pyx_tuple__74);
-  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis4, 754, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 754; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis4, 754, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 754; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":758
  *     return bn.slow.nanequal(arr1, arr2, axis=4)
@@ -17442,7 +17442,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__76 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__76)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 758; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__76);
   __Pyx_GIVEREF(__pyx_tuple__76);
-  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__76, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis5, 758, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 758; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__76, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis5, 758, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 758; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":762
  *     return bn.slow.nanequal(arr1, arr2, axis=5)
@@ -17454,7 +17454,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__78 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__78)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 762; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__78);
   __Pyx_GIVEREF(__pyx_tuple__78);
-  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis6, 762, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 762; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis6, 762, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 762; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":766
  *     return bn.slow.nanequal(arr1, arr2, axis=6)
@@ -17466,7 +17466,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__80 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__80)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 766; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__80);
   __Pyx_GIVEREF(__pyx_tuple__80);
-  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis7, 766, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 766; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis7, 766, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 766; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":770
  *     return bn.slow.nanequal(arr1, arr2, axis=7)
@@ -17478,7 +17478,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__82 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__82)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 770; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__82);
   __Pyx_GIVEREF(__pyx_tuple__82);
-  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis8, 770, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 770; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis8, 770, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 770; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":774
  *     return bn.slow.nanequal(arr1, arr2, axis=8)
@@ -17490,7 +17490,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__84 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__84)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 774; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__84);
   __Pyx_GIVEREF(__pyx_tuple__84);
-  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis9, 774, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 774; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis9, 774, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 774; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":778
  *     return bn.slow.nanequal(arr1, arr2, axis=9)
@@ -17502,7 +17502,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__86 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__86)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 778; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__86);
   __Pyx_GIVEREF(__pyx_tuple__86);
-  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis10, 778, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 778; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis10, 778, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 778; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":782
  *     return bn.slow.nanequal(arr1, arr2, axis=10)
@@ -17514,7 +17514,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__88 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__88)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 782; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__88);
   __Pyx_GIVEREF(__pyx_tuple__88);
-  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis11, 782, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 782; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis11, 782, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 782; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":786
  *     return bn.slow.nanequal(arr1, arr2, axis=11)
@@ -17526,7 +17526,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__90 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__90)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 786; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__90);
   __Pyx_GIVEREF(__pyx_tuple__90);
-  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__90, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis12, 786, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 786; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__90, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis12, 786, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 786; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":790
  *     return bn.slow.nanequal(arr1, arr2, axis=12)
@@ -17538,7 +17538,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__92 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__92)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 790; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__92);
   __Pyx_GIVEREF(__pyx_tuple__92);
-  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__92, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis13, 790, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 790; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__92, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis13, 790, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 790; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":794
  *     return bn.slow.nanequal(arr1, arr2, axis=13)
@@ -17550,7 +17550,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__94 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__94)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 794; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__94);
   __Pyx_GIVEREF(__pyx_tuple__94);
-  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis14, 794, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 794; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis14, 794, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 794; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":798
  *     return bn.slow.nanequal(arr1, arr2, axis=14)
@@ -17562,7 +17562,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__96 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__96)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 798; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__96);
   __Pyx_GIVEREF(__pyx_tuple__96);
-  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis15, 798, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 798; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis15, 798, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 798; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":802
  *     return bn.slow.nanequal(arr1, arr2, axis=15)
@@ -17574,7 +17574,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__98 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__98)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 802; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__98);
   __Pyx_GIVEREF(__pyx_tuple__98);
-  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis16, 802, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 802; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis16, 802, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 802; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":806
  *     return bn.slow.nanequal(arr1, arr2, axis=16)
@@ -17586,7 +17586,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__100 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__100)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 806; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__100);
   __Pyx_GIVEREF(__pyx_tuple__100);
-  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis17, 806, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 806; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis17, 806, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 806; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":810
  *     return bn.slow.nanequal(arr1, arr2, axis=17)
@@ -17598,7 +17598,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__102 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__102)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 810; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__102);
   __Pyx_GIVEREF(__pyx_tuple__102);
-  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis18, 810, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 810; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis18, 810, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 810; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":814
  *     return bn.slow.nanequal(arr1, arr2, axis=18)
@@ -17610,7 +17610,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__104 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__104)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 814; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__104);
   __Pyx_GIVEREF(__pyx_tuple__104);
-  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis19, 814, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 814; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis19, 814, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 814; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":818
  *     return bn.slow.nanequal(arr1, arr2, axis=19)
@@ -17622,7 +17622,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__106 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__106)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 818; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__106);
   __Pyx_GIVEREF(__pyx_tuple__106);
-  __pyx_codeobj__107 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__106, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis20, 818, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__107)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 818; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__107 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__106, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis20, 818, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__107)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 818; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":822
  *     return bn.slow.nanequal(arr1, arr2, axis=20)
@@ -17634,7 +17634,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__108 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__108)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 822; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__108);
   __Pyx_GIVEREF(__pyx_tuple__108);
-  __pyx_codeobj__109 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__108, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis21, 822, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__109)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 822; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__109 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__108, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis21, 822, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__109)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 822; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":826
  *     return bn.slow.nanequal(arr1, arr2, axis=21)
@@ -17646,7 +17646,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__110 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__110)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 826; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__110);
   __Pyx_GIVEREF(__pyx_tuple__110);
-  __pyx_codeobj__111 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__110, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis22, 826, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__111)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 826; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__111 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__110, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis22, 826, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__111)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 826; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":830
  *     return bn.slow.nanequal(arr1, arr2, axis=22)
@@ -17658,7 +17658,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__112 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__112)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 830; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__112);
   __Pyx_GIVEREF(__pyx_tuple__112);
-  __pyx_codeobj__113 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__112, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis23, 830, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__113)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 830; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__113 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__112, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis23, 830, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__113)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 830; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":834
  *     return bn.slow.nanequal(arr1, arr2, axis=23)
@@ -17670,7 +17670,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__114 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__114)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__114);
   __Pyx_GIVEREF(__pyx_tuple__114);
-  __pyx_codeobj__115 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__114, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis24, 834, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__115)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__115 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__114, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis24, 834, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__115)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":838
  *     return bn.slow.nanequal(arr1, arr2, axis=24)
@@ -17682,7 +17682,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__116 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__116)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 838; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__116);
   __Pyx_GIVEREF(__pyx_tuple__116);
-  __pyx_codeobj__117 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__116, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis25, 838, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__117)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 838; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__117 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__116, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis25, 838, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__117)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 838; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":842
  *     return bn.slow.nanequal(arr1, arr2, axis=25)
@@ -17694,7 +17694,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__118 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__118)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 842; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__118);
   __Pyx_GIVEREF(__pyx_tuple__118);
-  __pyx_codeobj__119 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__118, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis26, 842, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__119)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 842; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__119 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__118, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis26, 842, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__119)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 842; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":846
  *     return bn.slow.nanequal(arr1, arr2, axis=26)
@@ -17706,7 +17706,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__120 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__120)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 846; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__120);
   __Pyx_GIVEREF(__pyx_tuple__120);
-  __pyx_codeobj__121 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__120, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis27, 846, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__121)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 846; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__121 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__120, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis27, 846, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__121)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 846; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":850
  *     return bn.slow.nanequal(arr1, arr2, axis=27)
@@ -17718,7 +17718,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__122 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__122)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 850; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__122);
   __Pyx_GIVEREF(__pyx_tuple__122);
-  __pyx_codeobj__123 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis28, 850, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__123)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 850; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__123 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__122, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis28, 850, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__123)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 850; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":854
  *     return bn.slow.nanequal(arr1, arr2, axis=28)
@@ -17730,7 +17730,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__124 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__124)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 854; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__124);
   __Pyx_GIVEREF(__pyx_tuple__124);
-  __pyx_codeobj__125 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__124, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis29, 854, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__125)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 854; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__125 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__124, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis29, 854, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__125)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 854; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":858
  *     return bn.slow.nanequal(arr1, arr2, axis=29)
@@ -17742,7 +17742,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__126 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__126)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 858; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__126);
   __Pyx_GIVEREF(__pyx_tuple__126);
-  __pyx_codeobj__127 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__126, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis30, 858, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__127)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 858; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__127 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__126, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis30, 858, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__127)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 858; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":862
  *     return bn.slow.nanequal(arr1, arr2, axis=30)
@@ -17754,7 +17754,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__128 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__128)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 862; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__128);
   __Pyx_GIVEREF(__pyx_tuple__128);
-  __pyx_codeobj__129 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__128, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis31, 862, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__129)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 862; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__129 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__128, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis31, 862, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__129)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 862; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":866
  *     return bn.slow.nanequal(arr1, arr2, axis=31)
@@ -17766,7 +17766,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__130 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__130)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 866; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__130);
   __Pyx_GIVEREF(__pyx_tuple__130);
-  __pyx_codeobj__131 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axis32, 866, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__131)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 866; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__131 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__130, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axis32, 866, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__131)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 866; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "nanequal.pyx":870
  *     return bn.slow.nanequal(arr1, arr2, axis=32)
@@ -17778,7 +17778,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__132 = PyTuple_Pack(2, __pyx_n_s_arr1, __pyx_n_s_arr2); if (unlikely(!__pyx_tuple__132)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 870; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__132);
   __Pyx_GIVEREF(__pyx_tuple__132);
-  __pyx_codeobj__133 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__132, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_Tomaz_bottlechest_bottle, __pyx_n_s_nanequal_slow_axisNone, 870, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__133)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 870; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__133 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__132, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_janezdemsar_Dropbox_bottl, __pyx_n_s_nanequal_slow_axisNone, 870, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__133)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 870; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -18744,249 +18744,249 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   /* "nanequal.pyx":209
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_5nanequal_2d_int_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":237
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_7nanequal_2d_int_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":265
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_9nanequal_2d_int8_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int8_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":293
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int8_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_11nanequal_2d_int8_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int8_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":321
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_13nanequal_2d_int32_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":349
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_15nanequal_2d_int32_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":377
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_17nanequal_2d_int64_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":405
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.int64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_19nanequal_2d_int64_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 405; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":433
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=1] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_21nanequal_1d_float_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_1d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 433; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":451
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=1] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_23nanequal_1d_float32_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_1d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":469
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=1] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_25nanequal_1d_float64_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_1d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 469; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":487
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_27nanequal_2d_float_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":507
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float32_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_29nanequal_2d_float32_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 507; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":527
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
- * def nanequal_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
- *                               np.ndarray[np.float64_t, ndim=2] b):
- *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None."
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_31nanequal_2d_float64_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 527; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "nanequal.pyx":547
- * @cython.boundscheck(False)
- * @cython.wraparound(False)
  * def nanequal_2d_float_axis0(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=0."
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_33nanequal_2d_float_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_5nanequal_2d_float_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanequal.pyx":575
+  /* "nanequal.pyx":237
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float_axis1(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=1."
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_35nanequal_2d_float_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_7nanequal_2d_float_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanequal.pyx":603
+  /* "nanequal.pyx":265
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float32_axis0(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float32_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=0."
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_37nanequal_2d_float32_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_9nanequal_2d_float32_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanequal.pyx":631
+  /* "nanequal.pyx":293
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float32_axis1(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float32_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=1."
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_39nanequal_2d_float32_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_11nanequal_2d_float32_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanequal.pyx":659
+  /* "nanequal.pyx":321
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float64_axis0(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float64_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=0."
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_41nanequal_2d_float64_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_13nanequal_2d_float64_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 321; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "nanequal.pyx":687
+  /* "nanequal.pyx":349
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def nanequal_2d_float64_axis1(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
  *                               np.ndarray[np.float64_t, ndim=2] b):
  *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=1."
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_43nanequal_2d_float64_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_15nanequal_2d_float64_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 349; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":377
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_1d_float_axisNone(np.ndarray[np.float_t, ndim=1] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=1] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float along axis=None."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_17nanequal_1d_float_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_1d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 377; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":395
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_1d_float32_axisNone(np.ndarray[np.float32_t, ndim=1] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=1] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float32 along axis=None."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_19nanequal_1d_float32_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_1d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 395; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":413
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_1d_float64_axisNone(np.ndarray[np.float64_t, ndim=1] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=1] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 1d array with dtype=float64 along axis=None."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_21nanequal_1d_float64_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_1d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 413; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":431
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_float_axisNone(np.ndarray[np.float_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float along axis=None."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_23nanequal_2d_float_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 431; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":451
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_float32_axisNone(np.ndarray[np.float32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float32 along axis=None."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_25nanequal_2d_float32_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float32_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":471
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_float64_axisNone(np.ndarray[np.float64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.float64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=float64 along axis=None."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_27nanequal_2d_float64_axisNone, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_float64_axisNone, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 471; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":491
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis0(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=0."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_29nanequal_2d_int_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 491; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":519
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int_axis1(np.ndarray[np.int_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int along axis=1."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_31nanequal_2d_int_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 519; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":547
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int8_axis0(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=0."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_33nanequal_2d_int8_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int8_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 547; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":575
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int8_axis1(np.ndarray[np.int8_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int8_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int8 along axis=1."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_35nanequal_2d_int8_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int8_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":603
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int32_axis0(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=0."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_37nanequal_2d_int32_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int32_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 603; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":631
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int32_axis1(np.ndarray[np.int32_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int32_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int32 along axis=1."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_39nanequal_2d_int32_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int32_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 631; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":659
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int64_axis0(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=0."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_41nanequal_2d_int64_axis0, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int64_axis0, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 659; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "nanequal.pyx":687
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * def nanequal_2d_int64_axis1(np.ndarray[np.int64_t, ndim=2] a,             # <<<<<<<<<<<<<<
+ *                               np.ndarray[np.int64_t, ndim=2] b):
+ *     "Check whether two arrays are equal, ignoring NaNs, in 2d array with dtype=int64 along axis=1."
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8nanequal_43nanequal_2d_int64_axis1, NULL, __pyx_n_s_nanequal); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_nanequal_2d_int64_axis1, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 687; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":713
  *     return y
  * 
  * cdef dict nanequal_dict = {}             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
- * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
+ * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
+ * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
  */
   __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 713; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
@@ -18998,17 +18998,17 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   /* "nanequal.pyx":714
  * 
  * cdef dict nanequal_dict = {}
- * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
- * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
+ * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
+ * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 714; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 714; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 714; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 714; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 714; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 714; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19027,18 +19027,18 @@ PyMODINIT_FUNC PyInit_nanequal(void)
 
   /* "nanequal.pyx":715
  * cdef dict nanequal_dict = {}
- * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
- * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
- * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
+ * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
+ * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
+ * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 715; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 715; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 715; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 715; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 715; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 715; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19056,19 +19056,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":716
- * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
- * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
- * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
- * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
+ * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
+ * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
+ * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
+ * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int8_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 716; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 716; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 716; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 716; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 716; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 716; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19086,19 +19086,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":717
- * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
- * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
- * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
- * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
+ * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
+ * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
+ * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
+ * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int8_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 717; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 717; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 717; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 717; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 717; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 717; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19116,19 +19116,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":718
- * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
- * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
- * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
- * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
+ * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
+ * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
+ * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 718; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 718; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 718; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 718; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 718; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 718; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19146,19 +19146,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":719
- * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
- * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
- * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
- * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
+ * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
+ * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
+ * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
+ * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 719; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 719; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 719; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 719; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 719; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 719; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19176,25 +19176,25 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":720
- * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
- * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
- * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
- * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
+ * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
+ * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
+ * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 720; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 720; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 720; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 720; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 720; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 720; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_int_0);
@@ -19206,49 +19206,49 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":721
- * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
- * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
- * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
  * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
- * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
+ * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
+ * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_8nanequal_nanequal_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 721; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":722
- * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
- * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
- * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
  * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
- * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
+ * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
+ * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 722; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 722; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 722; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 722; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 722; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 722; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19266,19 +19266,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":723
- * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
- * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
- * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
  * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
- * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
+ * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
+ * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 723; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19296,19 +19296,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":724
- * nanequal_dict[(1, NPY_float, 0)] = nanequal_1d_float_axisNone
- * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
- * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
  * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
- * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
+ * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
+ * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 724; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 724; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 724; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 724; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 724; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 724; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19326,19 +19326,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":725
- * nanequal_dict[(1, NPY_float, None)] = nanequal_1d_float_axisNone
- * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
- * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
  * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
- * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
+ * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
+ * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 725; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 725; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 725; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 725; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 725; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 725; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19356,55 +19356,55 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":726
- * nanequal_dict[(1, NPY_float32, 0)] = nanequal_1d_float32_axisNone
- * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
- * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
  * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
- * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
+ * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
+ * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_0);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_0);
-  __Pyx_GIVEREF(__pyx_int_0);
+  __Pyx_INCREF(Py_None);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
+  __Pyx_GIVEREF(Py_None);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_8nanequal_nanequal_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 726; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":727
- * nanequal_dict[(1, NPY_float32, None)] = nanequal_1d_float32_axisNone
- * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
- * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
  * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
- * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
+ * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
+ * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_1d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 727; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_int_1);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_1);
-  __Pyx_GIVEREF(__pyx_int_1);
+  __Pyx_INCREF(__pyx_int_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_int_2);
+  __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
   __Pyx_INCREF(Py_None);
@@ -19416,19 +19416,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":728
- * nanequal_dict[(1, NPY_float64, 0)] = nanequal_1d_float64_axisNone
- * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
- * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
  * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
- * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
+ * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
+ * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 728; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 728; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 728; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 728; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 728; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 728; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19446,19 +19446,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":729
- * nanequal_dict[(1, NPY_float64, None)] = nanequal_1d_float64_axisNone
- * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
- * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
  * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
- * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
+ * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
+ * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float32_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19467,28 +19467,28 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_4);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_1, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_0);
+  PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_int_0);
+  __Pyx_GIVEREF(__pyx_int_0);
   __pyx_t_4 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_8nanequal_nanequal_dict, __pyx_t_1, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 729; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":730
- * nanequal_dict[(2, NPY_float, None)] = nanequal_2d_float_axisNone
- * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
- * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
- * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
+ * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
+ * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
+ * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
+ * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float64_axisNone); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19497,28 +19497,28 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_GIVEREF(__pyx_int_2);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(Py_None);
-  PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
-  __Pyx_GIVEREF(Py_None);
+  __Pyx_INCREF(__pyx_int_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_int_1);
+  __Pyx_GIVEREF(__pyx_int_1);
   __pyx_t_1 = 0;
   if (unlikely(PyDict_SetItem(__pyx_v_8nanequal_nanequal_dict, __pyx_t_4, __pyx_t_2) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 730; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":731
- * nanequal_dict[(2, NPY_float32, None)] = nanequal_2d_float32_axisNone
- * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
- * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
- * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
+ * nanequal_dict[(2, NPY_int, 0)] = nanequal_2d_int_axis0
+ * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
+ * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
+ * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 731; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int8_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 731; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 731; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 731; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 731; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 731; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19536,19 +19536,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":732
- * nanequal_dict[(2, NPY_float64, None)] = nanequal_2d_float64_axisNone
- * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
- * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
- * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
+ * nanequal_dict[(2, NPY_int, 1)] = nanequal_2d_int_axis1
+ * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
+ * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
+ * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 732; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int8_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 732; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 732; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 732; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT8); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 732; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 732; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19566,19 +19566,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":733
- * nanequal_dict[(2, NPY_float, 0)] = nanequal_2d_float_axis0
- * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
- * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
- * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
+ * nanequal_dict[(2, NPY_int8, 0)] = nanequal_2d_int8_axis0
+ * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
+ * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
+ * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 733; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int32_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 733; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 733; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 733; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 733; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 733; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19596,19 +19596,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":734
- * nanequal_dict[(2, NPY_float, 1)] = nanequal_2d_float_axis1
- * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
- * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(2, NPY_int8, 1)] = nanequal_2d_int8_axis1
+ * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
+ * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int32_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT32); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19626,19 +19626,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":735
- * nanequal_dict[(2, NPY_float32, 0)] = nanequal_2d_float32_axis0
- * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
- * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0             # <<<<<<<<<<<<<<
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(2, NPY_int32, 0)] = nanequal_2d_int32_axis0
+ * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
+ * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
  * 
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 735; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int64_axis0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 735; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 735; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_4 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 735; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 735; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 735; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -19656,19 +19656,19 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":736
- * nanequal_dict[(2, NPY_float32, 1)] = nanequal_2d_float32_axis1
- * nanequal_dict[(2, NPY_float64, 0)] = nanequal_2d_float64_axis0
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1             # <<<<<<<<<<<<<<
+ * nanequal_dict[(2, NPY_int32, 1)] = nanequal_2d_int32_axis1
+ * nanequal_dict[(2, NPY_int64, 0)] = nanequal_2d_int64_axis0
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1             # <<<<<<<<<<<<<<
  * 
  * def nanequal_slow_axis0(arr1, arr2):
  */
-  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_float64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 736; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_nanequal_2d_int64_axis1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 736; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (unlikely(__pyx_v_8nanequal_nanequal_dict == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     {__pyx_filename = __pyx_f[0]; __pyx_lineno = 736; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_1 = PyInt_FromLong(NPY_FLOAT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 736; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyInt_FromLong(NPY_INT64); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 736; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 736; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -19686,7 +19686,7 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "nanequal.pyx":738
- * nanequal_dict[(2, NPY_float64, 1)] = nanequal_2d_float64_axis1
+ * nanequal_dict[(2, NPY_int64, 1)] = nanequal_2d_int64_axis1
  * 
  * def nanequal_slow_axis0(arr1, arr2):             # <<<<<<<<<<<<<<
  *     "Unaccelerated (slow) nanequal along axis 0."
@@ -20660,7 +20660,7 @@ PyMODINIT_FUNC PyInit_nanequal(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "..\..\..\Python32\lib\site-packages\Cython\Includes\numpy\__init__.pxd":976
+  /* "../../env/orange3/lib/python3.4/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<

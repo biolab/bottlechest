@@ -210,7 +210,44 @@ class TestBinCount(unittest.TestCase):
         counts, nans = self.bincount(a, 3, np.array([1, 2, 3], dtype=float), mask=[1, 0, 1, 0])
         np.testing.assert_almost_equal(counts, [[0, 1, 2, 0], [0, 0, 0, 0], [0, 0, 1, 3], [0, 0, 0, 0]])
 
+    def test_wrong_mask_len_2d(self):
+        data = np.array([[0, 1, 1, 2, 1],
+                         [1, 1, 1, 0, 1],
+                         [0, 0, 3, 0, 0]], dtype=float)
 
-class TestBinCount_Slow(TestBinCount):
+        self.assertRaises(ValueError, self.bincount,
+                          data, 3, None, [])
+        self.assertRaises(ValueError, self.bincount,
+                          data, 3, None, [1, 2])
+        self.assertRaises(ValueError, self.bincount,
+                          data, 3, None, [1, 2, 3, 4, 5, 6])
+
+    def test_wrong_mask_len_1d(self):
+        data = np.array([0, 1, 1, 2, 1], dtype=float)
+        self.assertRaises(ValueError, self.bincount, data, 3, None, [])
+        self.assertRaises(ValueError, self.bincount, data, 3, None, [1, 2])
+
+    def test_wrong_weight_len_1d(self):
+        data = np.array([0, 1, 1, 2, 1], dtype=float)
+        self.assertRaises(ValueError, self.bincount, data, 3, [])
+        self.assertRaises(ValueError, self.bincount, data, 3, [1, 2])
+
+
+class TestBinCountSlow(TestBinCount):
+    # These tests are disabled. Tests of slow functions are implemented by
+    # circumventing the selector function -- and checking of mask and array
+    # dimensions are implemented in the circumvented code in the selector.
+    def test_wrong_mask_len_2d(self):
+        pass
+
+    def test_wrong_weights_len_2d(self):
+        pass
+
+    def test_wrong_mask_len_1d(self):
+        pass
+
+    def test_wrong_weight_len_1d(self):
+        pass
+
     def setUp(self):
         self.bincount = bottlechest.slow.bincount
