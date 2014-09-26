@@ -48,6 +48,6 @@ sdist: pyx cfiles
 
 .PHONY: clean
 clean:
-	rm -rf ${srcdir}/*~ ${srcdir}/*.so ${srcdir}/*.c ${srcdir}/*.o ${srcdir}/*.html ${srcdir}/build ${srcdir}/../*.so
+	rm -rf ${srcdir}/*~ ${srcdir}/*.so ${srcdir}/*.c ${srcdir}/*.o ${srcdir}/*.html ${srcdir}/build ${srcdir}/../*.so ${srcdir}/../*.pyd
 	rm -rf ${srcdir}/func/32bit/*.c ${srcdir}/func/64bit/*.c
 	rm -rf ${srcdir}/func/32bit/*.pyx  ${srcdir}/func/64bit/*.pyx
