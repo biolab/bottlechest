@@ -4,4 +4,4 @@ python:
 # command to install dependencies
 install: "source install.sh"
 # # command to run tests
-script: python -c "import bottlechest;bottlechest.test()"
+script: nosetests bottlechest/tests
