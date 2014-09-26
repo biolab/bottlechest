@@ -217,10 +217,9 @@ def bincount(arr, max_val, weights=None, mask=None):
         out = np.zeros((arr.shape[1], max_val+1), float)
         nans = np.zeros((arr.shape[1], ), float)
         for i in range(arr.shape[1]):
-            out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
-        mask = mask.astype(np.bool)
-        out = out[mask, :]
-        nans = nans[mask]
+            if mask is None or mask[i]:
+                out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
+
     else:
         raise ValueError("bincount expects 1- or 2-dimensional array")
     return out, nans
