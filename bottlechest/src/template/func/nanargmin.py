@@ -41,7 +41,7 @@ loop[1] = """\
     if allnan == 0:       
         return np.intp(idx)
     else:
-        return NAN
+        raise ValueError("All-NaN slice encountered")
 """
 loop[2] = """\
     if nINDEX1 == 0:
@@ -59,7 +59,7 @@ loop[2] = """\
         if allnan == 0:       
             y[INDEXPOP] = idx
         else:
-            raise ValueError(CANNOTCONVERT)
+            raise ValueError("All-NaN slice encountered")
     return y
 """
 
@@ -121,13 +121,17 @@ nanargmin['pyx_file'] = 'func/%sbit/nanargmin.pyx'
 
 nanargmin['main'] = '''"nanargmin auto-generated from template"
 
-CANNOTCONVERT = "Bottleneck copies NumPy bahavior: "
-CANNOTCONVERT += "'cannot convert float NaN to integer'"
-
 def nanargmin(arr, axis=None):
     """
     Indices of the minimum values along an axis, ignoring NaNs.
+<<<<<<< HEAD:bottlechest/src/template/func/nanargmin.py
     
+=======
+
+    For all-NaN slices ``ValueError`` is raised. Unlike NumPy, the results
+    can be trusted if a slice contains only NaNs and Infs.
+
+>>>>>>> 72f8ae2... ENH nanargmin and nanargmax now match numpy 1.8.0:bottleneck/src/template/func/nanargmin.py
     Parameters
     ----------
     a : array_like

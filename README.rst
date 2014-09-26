@@ -33,7 +33,7 @@ Install
 Requirements:
 
 ======================== ====================================================
-Bottlechest              Python 2.6, 2.7, 3.2; NumPy 1.5.1, 1.6.1, 1.6.2
+Bottlechest              Python 2.6, 2.7, 3.2; NumPy 1.8
 Unit tests               nose
 Compile                  gcc or MinGW
 Optional                 SciPy 0.8, 0.9, 0.10 (portions of benchmark)

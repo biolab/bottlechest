@@ -1,4 +1,5 @@
 import math
+import warnings
 import numpy as np
 import scipy.sparse as sp
 
@@ -6,7 +7,8 @@ __all__ = ['median', 'nanmedian', 'nansum', 'nanmean', 'nanvar', 'nanstd',
            'nanmin', 'nanmax', 'nanargmin', 'nanargmax', 'rankdata',
            'nanrankdata', 'ss', 'nn', 'partsort', 'argpartsort', 'replace',
            'anynan', 'allnan',
-           'bincount', 'valuecount', 'countnans', 'stats']
+           'bincount', 'valuecount', 'countnans', 'stats',
+           'contingency', 'nanequal']
 
 def median(arr, axis=None):
     "Slow median function used for unaccelerated ndim/dtype combinations."
@@ -46,43 +48,15 @@ def nanmedian(arr, axis=None):
 
 def nanmean(arr, axis=None):
     "Slow nanmean function used for unaccelerated ndim/dtype combinations."
-    arr = np.asarray(arr)
-    y = scipy_nanmean(arr, axis=axis)
-    if y.dtype != arr.dtype:
-        if issubclass(arr.dtype.type, np.inexact):
-            y = y.astype(arr.dtype)
-    return y
+    return np.nanmean(arr, axis=axis)
 
 def nanvar(arr, axis=None, ddof=0):
     "Slow nanvar function used for unaccelerated ndim/dtype combinations."
-    arr = np.asarray(arr)
-    y = nanstd(arr, axis=axis, ddof=ddof)
-    return y * y
+    return np.nanvar(arr, axis=axis, ddof=ddof)
 
 def nanstd(arr, axis=None, ddof=0):
     "Slow nanstd function used for unaccelerated ndim/dtype combinations."
-    arr = np.asarray(arr)
-    if ddof == 0:
-        bias = True
-    elif ddof == 1:
-        bias = False
-    else:
-        raise ValueError("With NaNs ddof must be 0 or 1.")
-    if axis != None:
-        # Older versions of scipy can't handle negative axis?
-        if axis < 0:
-            axis += arr.ndim
-        if (axis < 0) or (axis >= arr.ndim):
-            raise ValueError("axis(=%d) out of bounds" % axis)
-    else:
-        # Older versions of scipy choke on axis=None
-        arr = arr.ravel()
-        axis = 0
-    y = scipy_nanstd(arr, axis=axis, bias=bias)
-    if y.dtype != arr.dtype:
-        if issubclass(arr.dtype.type, np.inexact):
-            y = y.astype(arr.dtype)
-    return y
+    return np.nanstd(arr, axis=axis, ddof=ddof)
 
 def nanmin(arr, axis=None):
     "Slow nanmin function used for unaccelerated ndim/dtype combinations."
@@ -102,11 +76,15 @@ def nanmax(arr, axis=None):
 
 def nanargmin(arr, axis=None):
     "Slow nanargmin function used for unaccelerated ndim/dtype combinations."
-    return np.nanargmin(arr, axis=axis)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        return np.nanargmin(arr, axis=axis)
 
 def nanargmax(arr, axis=None):
     "Slow nanargmax function used for unaccelerated ndim/dtype combinations."
-    return np.nanargmax(arr, axis=axis)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        return np.nanargmax(arr, axis=axis)
 
 def rankdata(arr, axis=None):
     "Slow rankdata function used for unaccelerated ndim/dtype combinations."
@@ -658,6 +636,9 @@ def scipy_ss(a, axis=0):
 
     """
     a, axis = _chk_asarray(a, axis)
+
+    if 'int' in str(a.dtype):
+        a = a.astype('int64')
     return np.sum(a*a, axis)
 
 

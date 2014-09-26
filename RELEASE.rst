@@ -15,6 +15,12 @@ Bottleneck 0.7.0
 
 - #50 move_std, move_nanstd return inappropriate NaNs (sqrt of negative #)
 - #52 `make test` fails on some computers
+=======
+This version of Bottleneck requires NumPy 1.8.
+
+**Breaks from 0.7.0**
+- This version of Bottleneck requires NumPy 1.8
+- nanargmin and nanargmax behave like the corresponding functions in NumPy 1.8
 
 Older versions
 ==============
