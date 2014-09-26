@@ -194,29 +194,41 @@ def nanequal(arr1, arr2, axis=None):
                                np.core.records.fromarrays([arr1, arr2]))
 
 
-def bincount(arr, max_val, weights=None):
+def bincount(arr, max_val, weights=None, mask=None):
     "Slow bincount"
     if arr.ndim == 1:
         out = np.zeros((max_val+1, ), float)
         nans = 0.0
-        for i, ai in enumerate(arr):
-            if ai != ai:
-                nans += 1 if weights is None else weights[i]
-                continue
-            ain = int(ai+0.1)
-            if abs(ain - ai) > 1e-6:
-                raise ValueError("%f is not integer" % ain)
-            if ain < 0:
-                raise ValueError("negative value in bincount")
-            if ain > max_val:
-                raise ValueError("value %i is greater than max_val (%i)" %
-                                  (ain, max_val))
-            out[ain] += 1 if weights is None else weights[i]
+        if mask is None or mask[0]:
+            for i, ai in enumerate(arr):
+                if ai != ai:
+                    nans += 1 if weights is None else weights[i]
+                    continue
+                ain = int(ai+0.1)
+                if abs(ain - ai) > 1e-6:
+                    raise ValueError("%f is not integer" % ain)
+                if ain < 0:
+                    raise ValueError("negative value in bincount")
+                if ain > max_val:
+                    raise ValueError("value %i is greater than max_val (%i)" %
+                                      (ain, max_val))
+                out[ain] += 1 if weights is None else weights[i]
     elif arr.ndim == 2:
         out = np.zeros((arr.shape[1], max_val+1), float)
         nans = np.zeros((arr.shape[1], ), float)
-        for i in range(arr.shape[1]):
-            out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
+        if sp.issparse(arr):
+            indptr, indices, data = arr.indptr, arr.indices, arr.data
+            for ri in range(arr.shape[0]):
+                wt = 1 if weights is None else weights[ri]
+                for i in range(indptr[ri], indptr[ri + 1]):
+                    ci = indices[i]
+                    if mask is None or mask[ci]:
+                        out[ci, data[i]] += wt
+        else:
+            for i in range(arr.shape[1]):
+                if mask is None or mask[i]:
+                    out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
+
     else:
         raise ValueError("bincount expects 1- or 2-dimensional array")
     return out, nans
