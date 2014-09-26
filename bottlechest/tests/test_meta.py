@@ -23,8 +23,8 @@ def check_signature(name, signature):
 
     signature = [x.strip() for x in signature.split(',')]
     assert signature == func_signature, \
-        "Signature of the slow function (%s) differes from " \
-        "the signature in template (%s)" % (func_signature, signature)
+        "Signature of the slow function %s(%s) differes from " \
+        "the signature in template (%s)" % (name, func_signature, signature)
 
 
 if __name__ == "__main__":
