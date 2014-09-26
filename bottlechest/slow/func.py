@@ -216,9 +216,18 @@ def bincount(arr, max_val, weights=None, mask=None):
     elif arr.ndim == 2:
         out = np.zeros((arr.shape[1], max_val+1), float)
         nans = np.zeros((arr.shape[1], ), float)
-        for i in range(arr.shape[1]):
-            if mask is None or mask[i]:
-                out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
+        if sp.issparse(arr):
+            indptr, indices, data = arr.indptr, arr.indices, arr.data
+            for ri in range(arr.shape[0]):
+                wt = 1 if weights is None else weights[ri]
+                for i in range(indptr[ri], indptr[ri + 1]):
+                    ci = indices[i]
+                    if mask is None or mask[ci]:
+                        out[ci, data[i]] += wt
+        else:
+            for i in range(arr.shape[1]):
+                if mask is None or mask[i]:
+                    out[i, :], nans[i] = bincount(arr[:, i], max_val, weights)
 
     else:
         raise ValueError("bincount expects 1- or 2-dimensional array")
