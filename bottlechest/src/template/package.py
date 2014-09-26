@@ -13,9 +13,11 @@ import numpy as np
 cimport numpy as np
 import scipy.sparse as sp
 import cython
+from numpy cimport NPY_INT as NPY_int
 from numpy cimport NPY_INT8 as NPY_int8
 from numpy cimport NPY_INT32 as NPY_int32
 from numpy cimport NPY_INT64 as NPY_int64
+from numpy cimport NPY_FLOAT as NPY_float
 from numpy cimport NPY_FLOAT32 as NPY_float32
 from numpy cimport NPY_FLOAT64 as NPY_float64
 from numpy cimport (PyArray_EMPTY, PyArray_TYPE, PyArray_NDIM,
@@ -35,15 +37,19 @@ import bottlechest as bn
 
 cdef double NAN = <double> np.nan
 
+cdef np.int_t MINint = np.iinfo(np.int).min
 cdef np.int8_t MINint8 = np.iinfo(np.int8).min
 cdef np.int32_t MINint32 = np.iinfo(np.int32).min
 cdef np.int64_t MINint64 = np.iinfo(np.int64).min
+cdef np.float_t MINfloat = np.NINF
 cdef np.float32_t MINfloat32 = np.NINF
 cdef np.float64_t MINfloat64 = np.NINF
 
+cdef np.int_t MAXint = np.iinfo(np.int).max
 cdef np.int8_t MAXint8 = np.iinfo(np.int8).max
 cdef np.int32_t MAXint32 = np.iinfo(np.int32).max
 cdef np.int64_t MAXint64 = np.iinfo(np.int64).max
+cdef np.float_t MAXfloat = np.inf
 cdef np.float32_t MAXfloat32 = np.inf
 cdef np.float64_t MAXfloat64 = np.inf
 

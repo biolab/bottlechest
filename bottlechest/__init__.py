@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 
 # Supported dtypes
-dtypes = ['int8', 'int32', 'int64', 'float32', 'float64']
+dtypes = ['int', 'int8', 'int32', 'int64', 'float', 'float32', 'float64']
 
 from . import slow
 
